@@ -121,12 +121,12 @@ a {
     -ms-flex-align: center;
 }
 
-.flex-halign__left,
+.flex-align__left,
 .flex-horizontal-align__left {
-    align-items: left;
+    align-items: start;
 }
 
-.flex-halign__center,
+.flex-align__center,
 .flex-horizontal-align__center {
     align-items: center;
 }
@@ -346,7 +346,7 @@ a {
 }
 
 .button-screen-down {
-    width: 21;
+    width: 21px;
     height: 32px
 }
 
@@ -494,6 +494,31 @@ body.page-loaded .header-top {
     z-index: 999;
     transition: left 0.33s;
 }
+/*left nav categories*/
+
+
+
+
+
+
+#catalyst:hover {
+    color: #ff8000;
+}
+
+#impact:hover {
+    color: gold;
+}
+
+#embrace:hover{
+    color: green;
+}
+
+#courage:hover {
+    color: blue;
+}
+
+
+
 
 .header-left-nav.toggle {
     left: 96px;
@@ -510,8 +535,7 @@ body.page-loaded .header-top {
 .header-left-nav hr {
     height: 1px;
     border: none;
-    background: #B9B3AF;
-    background-image: linear-gradient(to right, #ccc, #B9B3AF, #ccc);
+    background: #B9B3AF linear-gradient(to right, #ccc, #B9B3AF, #ccc);
     /*border-bottom: 1px solid #B9B3AF;*/
 }
 
@@ -629,7 +653,7 @@ body.page-loaded .section-1__image-1 {
 }
 
 .section-1__text {
-    
+
 }
 
 /**.active:not(.complete) {
@@ -892,7 +916,7 @@ section.complete .button-next-slide-section-2 {
     right: 11%;
     width: 209px;
     height: auto;
-}  
+}
 
 .section-2a__text-wrapper {
     position: relative;
@@ -905,7 +929,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-2a__text__marjie-signature {
     margin-top: 2vh;
-}  
+}
 
 /*.section-2a__text-wrapper:after {*/
 /*.section-2a__text-shadow-before {
@@ -1182,18 +1206,21 @@ section.complete .button-next-slide-section-2 {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.section-4__title, 
+.section-4__title,
 .section-4__pretitle {
     position: relative;
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
     color: #fff;
+
     left: 30px; /* animation padding via positioning */
 }
 
 .section-4__pretitle {
     font-size: 34px;
-    line-height: 41px;
+    line-height: 1;
+    margin-bottom: 20px;
+
 }
 
 .section-4__title {
@@ -1210,7 +1237,7 @@ section.complete .button-next-slide-section-2 {
     width: 654px;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 18px;
-    line-height: 31px;
+    line-height: 1.7;
     color: #fff
 }
 
@@ -1268,7 +1295,7 @@ section.complete .button-next-slide-section-2 {
     font-size: 34px
 }
 
-.section-5__title, 
+.section-5__title,
 .section-5__pretitle {
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
