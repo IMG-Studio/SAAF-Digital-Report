@@ -19,47 +19,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-  <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-180x180.png">
+<!--  <link rel="apple-touch-icon" sizes="57x57" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-57x57.png">-->
+<!--  <link rel="apple-touch-icon" sizes="60x60" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-60x60.png">-->
+<!--  <link rel="apple-touch-icon" sizes="72x72" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-72x72.png">-->
+<!--  <link rel="apple-touch-icon" sizes="76x76" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-76x76.png">-->
+<!--  <link rel="apple-touch-icon" sizes="114x114" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-114x114.png">-->
+<!--  <link rel="apple-touch-icon" sizes="120x120" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-120x120.png">-->
+<!--  <link rel="apple-touch-icon" sizes="144x144" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-144x144.png">-->
+<!--  <link rel="apple-touch-icon" sizes="152x152" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-152x152.png">-->
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-180x180.png">-->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
-  <link rel="icon" type="image/png" sizes="228x228" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/coast-228x228.png">
+<!--  <link rel="icon" type="image/png" sizes="228x228" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/coast-228x228.png">-->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#fff">
   <meta name="application-name" content="ds-webpack-starter">
-  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/favicon-16x16.png">
-  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/favicon.ico">
+<!--  <link rel="icon" type="image/png" sizes="32x32" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon-32x32.png">-->
+<!--  <link rel="icon" type="image/png" sizes="16x16" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon-16x16.png">-->
+<!--  <link rel="shortcut icon" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon.ico">-->
   <meta name="msapplication-TileColor" content="#fff">
   <meta name="msapplication-TileImage" content="mstile-144x144.png">
   <meta name="msapplication-config" content="browserconfig.xml">
-  <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/apple-touch-icon-180x180.png">
+<!--  <link rel="apple-touch-icon" sizes="57x57" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-57x57.png">-->
+<!--  <link rel="apple-touch-icon" sizes="60x60" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-60x60.png">-->
+<!--  <link rel="apple-touch-icon" sizes="72x72" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-72x72.png">-->
+<!--  <link rel="apple-touch-icon" sizes="76x76" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-76x76.png">-->
+<!--  <link rel="apple-touch-icon" sizes="114x114" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-114x114.png">-->
+<!--  <link rel="apple-touch-icon" sizes="120x120" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-120x120.png">-->
+<!--  <link rel="apple-touch-icon" sizes="144x144" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-144x144.png">-->
+<!--  <link rel="apple-touch-icon" sizes="152x152" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-152x152.png">-->
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-180x180.png">-->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
-  <link rel="icon" type="image/png" sizes="228x228" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/coast-228x228.png">
+<!--  <link rel="icon" type="image/png" sizes="228x228" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/coast-228x228.png">-->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#fff">
   <meta name="application-name" content="ds-webpack-starter">
-  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/favicon-16x16.png">
-  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/favicon.ico">
+<!--  <link rel="icon" type="image/png" sizes="32x32" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon-32x32.png">-->
+<!--  <link rel="icon" type="image/png" sizes="16x16" href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon-16x16.png">-->
+  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/saaf-favicon.png">
   <meta name="msapplication-TileColor" content="#fff">
   <meta name="msapplication-TileImage" content="mstile-144x144.png">
   <meta name="msapplication-config" content="browserconfig.xml">
