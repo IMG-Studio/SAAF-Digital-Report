@@ -19,6 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
     <!--  <link rel="apple-touch-icon" sizes="57x57" href="-->
     <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-57x57.png">-->
     <!--  <link rel="apple-touch-icon" sizes="60x60" href="-->
@@ -206,7 +207,7 @@
             </div>
 
                     <button
-                      class="button button-mobile-menu button-mobile-menu-header-left" data-toggle=".header-left-nav" id="openNav" ><span></span><span></span><span></span>
+                      class="button button-mobile-menu button-mobile-menu-header-left "  data-toggle=".header-left-nav,header-left-nav-close" id="openNav" ><span></span><span></span><span></span>
                     </button>
 
 
@@ -229,7 +230,7 @@
     <div class="header-left-nav" id="mySidenav">
         <span data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</span>
         <br>
-        Turning Point: Merced Housing<br>
+        <span> Turning Point: Merced Housing</span><br>
         Turning Point: Bexar County Family Justice Center<br>
         Turning Point: SAMMinistries<br>
         <br><br>
@@ -247,10 +248,10 @@
         <br><br>
         <span data-offset="3800" id="courage">[ Have Courage. ] – Scholarships</span><br>
         Turning Point: A Little Help Goes a Long Way<br>
-        Thank You from our Student Scholarrs<br>
-        Donor Advised Funds<br>
-        Donor and Development Services<br>
+        Thank You from our Student Scholars<br>
         Turning Point: In Memoriam: Jack and Laura Richmond
+        Donor and Development Services<br>
+        Donor Advised Funds<br>
 
         <br><br>
 
@@ -449,11 +450,12 @@
                         a better
                         tomorrow for all who call our region home.</p>
                     <p>With gratitude,</p>
-                    <br><br>
-                    <p>Marjie French, CEO, San Antonio Area Foundation</p>
                     <img class="section-2a__text__marjie-signature"
                          src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/marjie-signature-web-gray.png"
                          alt="">
+
+                    <p>Marjie French, CEO, San Antonio Area Foundation</p>
+
                     <br><br><br>
                 </div>
                 <div class="section-2a__text-shadow-after"></div>
@@ -484,7 +486,7 @@
     <section class="section-3">
         <div class="section-3__background"></div>
         <div class="section-3__title-wrapper">
-            <div class="section-3__title"><span class="section-3__title-1">[ Be a </span>catalyst<span
+            <div class="section-3__title"><span class="section-3__title-1 .section-3__title">[ Be a </span>catalyst<span
                         class="section-3__title-2">. ]</span></div>
             <div class="section-3__subtitle">COVID-19 Response Fund</div>
         </div>
@@ -550,7 +552,7 @@
                     </svg>
                 </div>
             </button>
-            <span>merced housing texas</span>
+            <span id="merced" >merced housing texas</span>
         </div>
         <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span>bexar county family justice center</span>
             <button class="button button-arrow-red">
@@ -2157,7 +2159,6 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 </div>
 <!-- <script type="text/javascript" src="./js/main.js?6c27024468b2af243e6a"></script> -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
 </body>

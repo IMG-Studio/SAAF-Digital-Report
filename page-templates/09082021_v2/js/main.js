@@ -865,6 +865,10 @@ window.addEventListener("DOMContentLoaded", event =>
 						toggleElements[index].classList.remove(uniqueClasses); }, 500);
 		}
 
+
+
+
+
 	document.querySelectorAll("[data-toggle]").forEach(item => {
 
 	  item.addEventListener('click', event => {
@@ -891,7 +895,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	  	item.classList.add("clicked");
 
-	  	setTimeout(function() { item.classList.remove("clicked"); }, 167);
+	  	setTimeout(function() { item.classList.remove("clicked"); }, 1);
 
 	    var query = item.getAttribute("data-toggle");
 
@@ -961,16 +965,20 @@ window.addEventListener("DOMContentLoaded", event =>
 		return -c/2 * (t*(t-2) - 1) + b;
 	};
 
-function openNav () {
-	document.getElementById("mySidenav").style.visibility = "visible"
-}
 
-	function closeNav() {
-		document.getElementById("mySidenav").style.visibility = "hidden";
-		window.removeEventListener("click", closeNav);
-	}
+	// $(document).ready(function(){
+	// 	// Show hide popover
+	// 	$(".dropdown").click(function(){
+	// 		$(this).find(".dropdown-menu").slideToggle("fast");
+	// 	});
+	// });
+	// $(document).on("click", function(event){
+	// 	var $trigger = $(".dropdown");
+	// 	if($trigger !== event.target && !$trigger.has(event.target).length){
+	// 		$(".dropdown-menu").slideUp("fast");
+	// 	}
+	// });
 
-window.addEventListener("click", closeNav)
 
 
 });

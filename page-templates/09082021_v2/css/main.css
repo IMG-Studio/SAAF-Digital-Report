@@ -495,7 +495,10 @@ body.page-loaded .header-top {
     transition: left 0.33s;
 }
 /*left nav categories*/
+.header-left-nav-close {
 
+visibility: hidden;
+}
 
 
 
@@ -548,13 +551,14 @@ body.page-loaded .header-top {
 }
 
 .header-left-nav__note {
-    font-size: 14px;
+    font-size: 11px;
     line-height: 17px;
 }
 
 .header-left-nav__note-asterisk,
 .header-left-nav__note-text {
     float: left;
+
 }
 
 
@@ -772,7 +776,7 @@ body.page-loaded .button-arrow-red-section-1 {
 }
 
 .section-2__text-2 {
-    margin-top: 3.8%;
+    margin-top: .1em;
 }
 
 .section-2__text-2,
@@ -794,7 +798,7 @@ body.page-loaded .button-arrow-red-section-1 {
     line-height: 33px;
     position: relative;
     left: 36.1%;
-    margin-top: 5.3%;
+    margin-top: 4%;
     color: #4a413a;
 }
 
@@ -928,7 +932,7 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-2a__text__marjie-signature {
-    margin-top: 2vh;
+    margin-top: .5em;
 }
 
 /*.section-2a__text-wrapper:after {*/
@@ -962,6 +966,7 @@ section.complete .button-next-slide-section-2 {
     color: #707070;
     height: 100%;
     overflow: scroll;
+    padding: 2em;
 }
 
 .section-2a__text-overlay {
@@ -970,6 +975,7 @@ section.complete .button-next-slide-section-2 {
     left: 0;
     width: 100%;
     height: 100%;
+
 }
 
 .section-2a__text-overlay.hidden {
@@ -1218,9 +1224,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-4__pretitle {
     font-size: 34px;
-    line-height: 1;
-    margin-bottom: 20px;
-
+    line-height: 41px;
 }
 
 .section-4__title {
@@ -1237,7 +1241,7 @@ section.complete .button-next-slide-section-2 {
     width: 654px;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.8;
     color: #fff
 }
 
