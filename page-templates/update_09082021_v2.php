@@ -205,20 +205,10 @@
 
 
 
-            <button
-                      class="button button-mobile-menu button-mobile-menu-header-left "  data-toggle=".header-left-nav,header-left-nav-close" id="openNav" ><span></span><span></span><span></span>
+            <button class="button button-mobile-menu button-mobile-menu-header-left "
+                      data-toggle=".header-left-nav"><span></span><span></span><span></span>
                     </button>
             <div class="mobile-nav">
-
-
-
-                    <button class="button button-heart button-heart-header-left">
-            <div class="icon icon-heart icon-heart-red">
-                <svg>
-                    <use href="#icon-heart"></use>
-                </svg>
-            </div>
-            </button>
                 <div class="menu-btn" id="menu-btn">
                     <div></div>
                     <span></span>
@@ -237,6 +227,16 @@
                     </ul>
                 </div>
             </div>
+
+
+                    <button class="button button-heart button-heart-header-left">
+            <div class="icon icon-heart icon-heart-red">
+                <svg>
+                    <use href="#icon-heart"></use>
+                </svg>
+            </div>
+            </button>
+
             <button class="button button-screen-down button-screen-down-header-left">
                 <div class="icon icon-screen-down">
                     <svg>
