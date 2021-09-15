@@ -1492,10 +1492,10 @@ section.complete .button-next-slide-section-2 {
     bottom: 34%;
     right: calc(38.1%);
     transform: translateX(50%) translateY(50%);
-    width: 374px;
-    padding:  20px;
+    width: 320px;
+    padding:  40px;
     font-family: Whitman-Roman, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
 }
 
@@ -1538,7 +1538,7 @@ section.complete .button-next-slide-section-2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/section-6-background.jpg);
+    background-image: url(../images/saam-two-40b-bw.png);
     background-position: 50%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
