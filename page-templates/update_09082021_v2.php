@@ -76,15 +76,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
-    <!--  <link rel="icon" type="image/png" sizes="228x228" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/coast-228x228.png">-->
+
+
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#fff">
     <meta name="application-name" content="ds-webpack-starter">
-    <!--  <link rel="icon" type="image/png" sizes="32x32" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon-32x32.png">-->
-    <!--  <link rel="icon" type="image/png" sizes="16x16" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon-16x16.png">-->
+
     <link rel="shortcut icon"
           href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/favicon/saaf-favicon.png">
     <meta name="msapplication-TileColor" content="#fff">
