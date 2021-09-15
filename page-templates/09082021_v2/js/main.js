@@ -441,7 +441,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-19__pretitle", "margin-left", 50, 0, 1815, 1840);
 	new ElementAnimation("section-19__title", "opacity", 0.0, 1.0, 1820, 1845);
 	new ElementAnimation("section-19__title", "margin-left", 50, 0, 1820, 1845);
-	new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1860, 1870);
+	new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1850, 1855);
 	// new ElementAnimation("section-19__text", "margin-left", 50, 0, 1835, 1865);
 
 	new ElementAnimation("section-19", "opacity", 1.0, 0.0, 1865, 1900);

@@ -1141,7 +1141,7 @@
     <section class="section-20">
         <div class="section-20__background"></div>
         <div class="section-20__pretitle">while embracing</div>
-        <div class="section-20__title">what matters<br>most.</div>
+        <div class="section-20__title">what matters most.</div>
         <div class="section-20__text">
             Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to
             racial and social justice by implementing a strategic, data-driven approach to serving the community. This
