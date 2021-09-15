@@ -2912,7 +2912,7 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-19-background.jpg);
+    background-image: url(../images/section-19-revised-2.0.jpg);
     background-position: top;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -2928,15 +2928,15 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-19__pretitle {
-    top: 72px;
+    top: 166px;
     left: calc(50% - 417px);
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 34px;
-    font-weight: 800;
+    /*font-weight: 800;*/
 }
 
 .section-19__title {
-    top: 85px;
+    top: 172px;
     left: calc(50% - 460px);
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 80px;
@@ -2944,13 +2944,8 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-19__text {
-    color: white;
-    width: 316px;
-    top: 110px;
-    left: calc(50% - 420px);
-    font-size: 15px;
-    line-height: 25px;
-    font-family: Roboto-Regular, Arial, sans-serif;
+    margin-top: 77px;
+
 }
 
 .section-20 {
@@ -2979,7 +2974,7 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-20-background.jpg);
+    background-image: url(../images/section-20-rev.jpg);
     background-position: top;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -3006,7 +3001,7 @@ section.complete .button-next-slide-section-2 {
     color: white;
 }
 
-.section-20__text {
+.section-20__text,.section-19__text {
     width: 322px;
     position: relative;
     top: 112px;
