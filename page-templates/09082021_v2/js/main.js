@@ -982,18 +982,18 @@ window.addEventListener("DOMContentLoaded", event =>
 
 		// all custom jQuery will go here
 		jQuery(function($){
-
-			$( '.menu-btn' ).click(function(){
-				$('.responsive-menu').toggleClass('expand');
+// on right track adjust classes
+			$( '.button-mobile-menu-header-left' ).click(function(){
+				$('.button-mobile-menu').toggleClass('header-left-nav');
 			});
 
 			$(document).on("click", function(e){
 				if(
-					$(e.target).closest(".responsive-menu").length == 0 &&
-					$(".responsive-menu").hasClass("expand") &&
-					$(e.target).closest(".menu-btn").length == 0
+					$(e.target).closest(".header-left-nav").length === 0 &&
+					$(".button-mobile-menu").hasClass("header-left-nav") &&
+					$(e.target).closest(".button-mobile-menu-header-left").length === 0
 				){
-					$('.responsive-menu').toggleClass('expand');
+					$('.button-mobile-menu').toggleClass('header-left-nav');
 				}
 			});
 		});
