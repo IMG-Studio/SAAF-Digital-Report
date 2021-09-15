@@ -203,9 +203,13 @@
                 </a>
             </div>
 
-                    <button
+
+
+            <button
                       class="button button-mobile-menu button-mobile-menu-header-left "  data-toggle=".header-left-nav,header-left-nav-close" id="openNav" ><span></span><span></span><span></span>
                     </button>
+            <div class="mobile-nav">
+
 
 
                     <button class="button button-heart button-heart-header-left">
@@ -215,6 +219,24 @@
                 </svg>
             </div>
             </button>
+                <div class="menu-btn" id="menu-btn">
+                    <div></div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="responsive-menu">
+                    <ul>
+                        <li data-slide="2"><a href="">My Story</a></li>
+                        <li data-slide="3"><a href="">Businesses</a></li>
+                        <li data-slide="4"><a href="">History</a></li>
+                        <li data-slide="5"><a href="">Recognitions &amp; Awards</a></li>
+                        <li data-slide="6"><a href="">Philanthropy</a></li>
+                        <li data-slide="7"><a href="">Blog</a></li>
+                        <li data-slide="8"><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
             <button class="button button-screen-down button-screen-down-header-left">
                 <div class="icon icon-screen-down">
                     <svg>
@@ -224,7 +246,9 @@
             </button>
         </div>
     </div>
+
     <div class="header-left-nav" id="mySidenav">
+
         <span data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</span>
         <br>
         <span> Turning Point: Merced Housing</span><br>
@@ -2154,10 +2178,13 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         </div>
     </section>
 </div>
-<!-- <script type="text/javascript" src="./js/main.js?6c27024468b2af243e6a"></script> -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-<script type="text/javascript"
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<script type="text/javascript"1`
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
 </body>
 
 </html>
