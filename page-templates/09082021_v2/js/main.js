@@ -441,10 +441,11 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-19__pretitle", "margin-left", 50, 0, 1815, 1840);
 	new ElementAnimation("section-19__title", "opacity", 0.0, 1.0, 1820, 1845);
 	new ElementAnimation("section-19__title", "margin-left", 50, 0, 1820, 1845);
-	new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1840, 1865);
+	new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1850, 1855);
 	// new ElementAnimation("section-19__text", "margin-left", 50, 0, 1835, 1865);
 
 	new ElementAnimation("section-19", "opacity", 1.0, 0.0, 1865, 1900);
+
 
 
 	new ElementAnimation("section-20__background", "scale", 1.0, 1.05, 1865, 2000);
@@ -452,7 +453,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-20__pretitle", "margin-left", 50, 0, 1900, 1925);
 	new ElementAnimation("section-20__title", "opacity", 0.0, 1.0, 1905, 1930);
 	new ElementAnimation("section-20__title", "margin-left", 50, 0, 1905, 1930);
-	new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1930, 1955);
+	new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1860, 1870);
 
 	new ElementAnimation("section-20", "opacity", 1.0, 0.0, 1965, 2000);
 

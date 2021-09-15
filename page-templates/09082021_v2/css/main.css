@@ -1492,10 +1492,10 @@ section.complete .button-next-slide-section-2 {
     bottom: 34%;
     right: calc(38.1%);
     transform: translateX(50%) translateY(50%);
-    width: 374px;
-    padding:  20px;
+    width: 320px;
+    padding:  40px;
     font-family: Whitman-Roman, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
 }
 
@@ -1538,7 +1538,7 @@ section.complete .button-next-slide-section-2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/section-6-background.jpg);
+    background-image: url(../images/saam-two-40b-bw.png);
     background-position: 50%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1591,7 +1591,7 @@ section.complete .button-next-slide-section-2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/section-7-background.jpg);
+    background-image: url(../images/saam-two-40b-bw.png);
     background-position: 50%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1806,7 +1806,7 @@ section.complete .button-next-slide-section-2 {
     /*top: 174px;
     left: calc(50% - 144px);*/
     font-size: 34px;
-    line-height: 41px;
+    line-height: 12px;
 }
 
 .section-9__title {
@@ -1830,7 +1830,7 @@ section.complete .button-next-slide-section-2 {
     width: 521px;
     padding: 6px 15px;
     position: relative;
-    top: 19vh;
+    top: 20vh;
     left: 43%;
     background: rgba(249,240,236,0.55);
     background: radial-gradient(circle, rgba(249,240,236,0.55) 0%, rgba(249,240,236,0.55) 90%, rgba(249,240,236,0.0) 100%);
@@ -2005,30 +2005,35 @@ section.complete .button-next-slide-section-2 {
     color: #85261E;
 }
 
-.section-11__pretitle,
-.section-11__title {
-    top: 9vh;
-    left: 45%;
+
+
+.section-11__pretitle {
+    top: 15vh;
+    left: 4.2em;
 }
 
-.section-11__title {
-    left: 46%;
-}
 
 .section-11__title {
+    top: 7vh;
+    left: 5.8em;
     font-size: 80px;
     line-height: 87px;
+
 }
+
 
 .section-11__pretitle {
     font-size: 34px;
     line-height: 41px;
 }
+.section-11-title-total {
+    margin-top: 1em
+}
 
 .section-11__text {
     width: 309px;
-    top: 13vh;
-    left: 8%;
+    top: 10vh;
+    left: 23%;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 17px;
     line-height: 30px;
@@ -2094,7 +2099,7 @@ section.complete .button-next-slide-section-2 {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100%;
+    width: 80%;
     min-height: 100%;
     transform: translateY(-50%);
 }
@@ -2110,10 +2115,11 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-12__title {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: start;
     position: relative;
-    margin-top: 28vh;
-    left: 11.3%;
+    margin-top: 18vh;
+    left: -1em;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 80px;
     line-height: 70px;
@@ -2124,7 +2130,7 @@ section.complete .button-next-slide-section-2 {
     width: 370px;
     position: relative;
     margin-top: 9.1vh;
-    left: 25.9%;
+    left: 0em;
 }
 
 .section-12__text h3 {
@@ -2687,7 +2693,7 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-16__pretitle {
-    top: 168px;
+    top: 182px;
     left: calc(50% - 42px);
     width: 522px;
     font-size: 34px;
@@ -2906,7 +2912,7 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-19-background.jpg);
+    background-image: url(../images/section-19-revised-2.0.jpg);
     background-position: top;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -2922,16 +2928,16 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-19__pretitle {
-    top: 72px;
-    left: calc(50% - 417px);
+    top: 83px;
+    left: 7em;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 34px;
-    font-weight: 800;
+    /*font-weight: 800;*/
 }
 
 .section-19__title {
     top: 85px;
-    left: calc(50% - 460px);
+    left: 2em;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 80px;
     line-height: 70px;
@@ -2940,7 +2946,7 @@ section.complete .button-next-slide-section-2 {
 .section-19__text {
     color: white;
     width: 316px;
-    top: 110px;
+    top: 100px;
     left: calc(50% - 420px);
     font-size: 15px;
     line-height: 25px;
@@ -2973,7 +2979,7 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-20-background.jpg);
+    background-image: url(../images/section-20-rev.jpg);
     background-position: top;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -3003,6 +3009,16 @@ section.complete .button-next-slide-section-2 {
 .section-20__text {
     width: 322px;
     position: relative;
+    top: 105px;
+    left: 267px;
+    font-family: Roboto-Regular, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+}
+.section-19__text {
+    width: 322px;
+    position: relative;
     top: 112px;
     left: 267px;
     font-family: Roboto-Regular, Arial, sans-serif;
@@ -3024,7 +3040,10 @@ section.complete .button-next-slide-section-2 {
 .section-20 .button-next-slide-section-20 span {
     color: white;
 }
+.section-20-title {
+    color: blue!important;
 
+}
 .section-20a {
     z-index: 1;
     position: relative;
@@ -3083,11 +3102,12 @@ section.complete .button-next-slide-section-2 {
     font-family: Roboto-Black, Arial, sans-serif;
     font-size: 18px;
     line-height: 25px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: #3737ce;
 }
 
 .section-20a__text p {
-    font-family: Whitman-Roman, Arial, sans-serif;
+    font-family: Roboto-Regluar, Arial, sans-serif;
     font-size: 15px;
     line-height: 25px
 }
