@@ -465,7 +465,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-21__main-content", "opacity", 0.0, 1.0, 2015, 2025);
 	new ElementAnimation("section-21__main-content__image", "scale", 0.975, 1.0, 2015, 2040);
 	// new ElementAnimation("section-21__text", "scale", 0.9, 1.0, 2020, 2070);
-	new ElementAnimation("section-21__quoter", "opacity", 0.0, 1.0, 2020, 2045);gti
+	new ElementAnimation("section-21__quoter", "opacity", 0.0, 1.0, 2020, 2045);
 
 	new ElementAnimation("section-21", "opacity", 1.0, 0.0, 2110, 2115);
 
@@ -504,7 +504,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 
 	new ElementAnimation("section-25__background", "scale", 1.0, 1.05, 2265, 2500);
-	new ElementAnimation("section-25__text", "opacity", 0.0, 1.0, 2450, 2470);
+	new ElementAnimation("section-25__text", "opacity", 0.0, 1.0, 2400, 2410);
 
 	new ElementAnimation("section-25", "opacity", 1.0, 0.0, 2485, 2500);
 
