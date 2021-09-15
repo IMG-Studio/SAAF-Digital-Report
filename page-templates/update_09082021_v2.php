@@ -779,8 +779,10 @@
     <section class="section-11">
         <div class="section-11__background"></div>
         <div class="section-11__wrapper">
+            <div class="section-11-title-total">
             <div class="section-11__pretitle">Turning points require</div>
             <div class="section-11__title">bold leadership,</div>
+            </div>
             <div class="section-11__text">
                 We are proud to have been the bridge between those most able to give and those who most needed to
                 receive. With community input, research and strategic planning, the San Antonio Area Foundation focused
@@ -1128,7 +1130,7 @@
     <section class="section-19">
         <div class="section-19__background"></div>
         <div class="section-19__pretitle">Together we can</div>
-        <div class="section-19__title">face turning<br>points,</div>
+        <div class="section-19__title">face turning points,</div>
         <div class="section-19__text">
             Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to
             racial and social justice by implementing a strategic, data-driven approach to serving the community. This
@@ -2179,7 +2181,10 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
     </section>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
 <script type="text/javascript"1`
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>

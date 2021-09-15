@@ -1591,7 +1591,7 @@ section.complete .button-next-slide-section-2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/section-7-background.jpg);
+    background-image: url(../images/saam-two-40b-bw.png);
     background-position: 50%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1806,7 +1806,7 @@ section.complete .button-next-slide-section-2 {
     /*top: 174px;
     left: calc(50% - 144px);*/
     font-size: 34px;
-    line-height: 41px;
+    line-height: 12px;
 }
 
 .section-9__title {
@@ -1830,7 +1830,7 @@ section.complete .button-next-slide-section-2 {
     width: 521px;
     padding: 6px 15px;
     position: relative;
-    top: 19vh;
+    top: 20vh;
     left: 43%;
     background: rgba(249,240,236,0.55);
     background: radial-gradient(circle, rgba(249,240,236,0.55) 0%, rgba(249,240,236,0.55) 90%, rgba(249,240,236,0.0) 100%);
@@ -2005,30 +2005,35 @@ section.complete .button-next-slide-section-2 {
     color: #85261E;
 }
 
-.section-11__pretitle,
-.section-11__title {
-    top: 9vh;
-    left: 45%;
+
+
+.section-11__pretitle {
+    top: 15vh;
+    left: 4.2em;
 }
 
-.section-11__title {
-    left: 46%;
-}
 
 .section-11__title {
+    top: 7vh;
+    left: 5.8em;
     font-size: 80px;
     line-height: 87px;
+
 }
+
 
 .section-11__pretitle {
     font-size: 34px;
     line-height: 41px;
 }
+.section-11-title-total {
+    margin-top: 1em
+}
 
 .section-11__text {
     width: 309px;
-    top: 13vh;
-    left: 8%;
+    top: 10vh;
+    left: 23%;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 17px;
     line-height: 30px;
@@ -2094,7 +2099,7 @@ section.complete .button-next-slide-section-2 {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100%;
+    width: 80%;
     min-height: 100%;
     transform: translateY(-50%);
 }
@@ -2110,10 +2115,11 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-12__title {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: start;
     position: relative;
-    margin-top: 28vh;
-    left: 11.3%;
+    margin-top: 18vh;
+    left: -1em;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 80px;
     line-height: 70px;
@@ -2124,7 +2130,7 @@ section.complete .button-next-slide-section-2 {
     width: 370px;
     position: relative;
     margin-top: 9.1vh;
-    left: 25.9%;
+    left: 0em;
 }
 
 .section-12__text h3 {
@@ -2687,7 +2693,7 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-16__pretitle {
-    top: 168px;
+    top: 182px;
     left: calc(50% - 42px);
     width: 522px;
     font-size: 34px;
