@@ -3040,7 +3040,10 @@ section.complete .button-next-slide-section-2 {
 .section-20 .button-next-slide-section-20 span {
     color: white;
 }
+.section-20-title {
+    color: blue!important;
 
+}
 .section-20a {
     z-index: 1;
     position: relative;
@@ -3099,11 +3102,12 @@ section.complete .button-next-slide-section-2 {
     font-family: Roboto-Black, Arial, sans-serif;
     font-size: 18px;
     line-height: 25px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: #3737ce;
 }
 
 .section-20a__text p {
-    font-family: Whitman-Roman, Arial, sans-serif;
+    font-family: Roboto-Regluar, Arial, sans-serif;
     font-size: 15px;
     line-height: 25px
 }
