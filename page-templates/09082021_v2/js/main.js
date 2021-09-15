@@ -462,12 +462,12 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-21__pretitle", "margin-left", 50, 0, 2020, 2045);
 	new ElementAnimation("section-21__title", "opacity", 0.0, 1.0, 2015, 2040);
 	new ElementAnimation("section-21__title", "margin-left", 50, 0, 2015, 2045);
-	new ElementAnimation("section-21__main-content", "opacity", 0.0, 1.0, 2015, 2040);
+	new ElementAnimation("section-21__main-content", "opacity", 0.0, 1.0, 2015, 2025);
 	new ElementAnimation("section-21__main-content__image", "scale", 0.975, 1.0, 2015, 2040);
 	// new ElementAnimation("section-21__text", "scale", 0.9, 1.0, 2020, 2070);
-	new ElementAnimation("section-21__quoter", "opacity", 0.0, 1.0, 2020, 2045);
+	new ElementAnimation("section-21__quoter", "opacity", 0.0, 1.0, 2020, 2045);gti
 
-	new ElementAnimation("section-21", "opacity", 1.0, 0.0, 2065, 2100);
+	new ElementAnimation("section-21", "opacity", 1.0, 0.0, 2110, 2115);
 
 
 	// new ElementAnimation("section-22__pretitle", "opacity", 0.0, 1.0, 2115, 2165);
