@@ -1262,7 +1262,7 @@
     </section>
     <section class="section-21">
         <div class="section-21__pretitle">2020 demanded that we deepen our</div>
-        <div class="section-21__title">community<br>engagement</div>
+        <div class="section-21__title">community engagement</div>
         <div class="section-21__main-content">
             <div class="section-21__main-content-wrapper">
                 <img class="section-21__main-content__image"
@@ -1288,7 +1288,7 @@
     </section>
     <section class="section-22">
         <div class="section-22__pretitle">2020 demanded that we deepen our</div>
-        <div class="section-22__title">community<br>engagement</div>
+        <div class="section-22__title">community engagement</div>
         <div class="section-22__main-content">
             <div class="section-22__main-content-wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-22.jpg">
@@ -1311,7 +1311,7 @@
     </section>
     <section class="section-23">
         <div class="section-23__pretitle">2020 demanded that we deepen our</div>
-        <div class="section-23__title">community<br>engagement</div>
+        <div class="section-23__title">community engagement</div>
         <div class="section-23__sectors">
             <div class="section-23__sector sector-1">
                 <h3>Social justice fund</h3>
