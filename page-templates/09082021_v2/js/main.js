@@ -509,8 +509,8 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-25", "opacity", 1.0, 0.0, 2485, 2500);
 
 
-	new ElementAnimation("section-26__title", "margin-left", 150, 0, 2485, 2530);
-	new ElementAnimation("section-26__title", "opacity", 0.0, 1.0, 2485, 2530);
+	new ElementAnimation("section-26__title", "margin-left", 150, 50, 2485, 2530);
+	new ElementAnimation("section-26__title", "opacity", 0.0, 1.0, 2485, 2620);
 	new ElementAnimation("section-26__subtitle", "margin-left", 140, 0, 2490, 2535);
 	new ElementAnimation("section-26__subtitle", "opacity", 0.0, 1.0, 2485, 2530);
 	new ElementAnimation("section-26__icon", "opacity", 0.0, 1.0, 2485, 2530);
@@ -525,7 +525,8 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	new ElementAnimation("section-27__pretitle", "opacity", 0.0, 1.0, 2600, 2625);
 	new ElementAnimation("section-27__pretitle", "margin-left", 50, 0, 2600, 2625);
-	new ElementAnimation("section-27__title-1", "opacity", 0.0, 1.0, 2605, 2630);
+	new ElementAnimation("section-27__title-1", "opacity", 0.0, 1.0, 2550, 2600);
+	new ElementAnimation("section-27__title-1b", "opacity", 0.0, 1.0, 2605, 2630);
 	new ElementAnimation("section-27__title-1", "margin-left", 50, 0, 2605, 2630);
 	new ElementAnimation("section-27__title-2", "opacity", 0.0, 1.0, 2605, 2630);
 	new ElementAnimation("section-27__title-2", "margin-left", 50, 0, 2605, 2630);
@@ -547,7 +548,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 		if (sp >= ssto) { section27.style.pointerEvents = "none"; } else { section27.style.pointerEvents = "all"; }
 	});
-	new ElementAnimation("section-27-28__seize-create", "opacity", 1.0, 0.0, 2685, 2700);
+	new ElementAnimation("section-27-28__seize-create", "opacity", 1.0, 0.0, 2685, 2780);
 	new ElementAnimation("button-next-slide-section-27", "opacity", 1.0, 0.0, 2685, 2700);
 	new ElementAnimation("section-27__main-content", "opacity", 1.0, 0.0, 2685, 2700);
 
@@ -561,7 +562,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	//new ElementAnimation("section-28__title-2", "margin-left", 50, 0, 2705, 2730);
 	new ElementAnimation("section-27-28__seize-create", "opacity", 0.0, 1.0, 2690, 2740);
 	new ElementAnimation("button-next-slide-section-28", "opacity", 0.0, 1.0, 2710, 2740);
-	new ElementAnimation("section-28__main-content", "opacity", 0.0, 1.0, 2710, 2740);
+	new ElementAnimation("section-28__main-content", "opacity", 0.0, 1.0, 2700, 2740);
 
 	new ElementAnimation("section-27", "opacity", 1.0, 0.0, 2785, 2800);
 	new ElementAnimation("section-28", "opacity", 1.0, 0.0, 2785, 2800);
