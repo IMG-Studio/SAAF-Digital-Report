@@ -1429,6 +1429,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
             be more engaged, providing more leadership in the community.”
         </div>
     </section>
+<div class="container-courage">
     <section class="section-26">
         <div class="section-26__background"></div>
         <div class="section-26__title"><span class="section-26__title-1">[ Have </span>courage<span
@@ -1483,14 +1484,13 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
         <div class="section-27__background"></div>
 
 
-<div class="container ">
-    <div class="section-27-wrapper row ">
-    <div class="section-27__pretitle">Change comes when you have the</div>
-        <div class="section-27__title-1 col-10">courage  <span class="section-27__title-2">courage</span></div>
+    <div class="section-27-wrapper   ">
+    <div class="section-27__pretitle ">Change comes when you have the</div>
+        <div class="section-27__title-1 ">courage  <span class="section-27__title-1b ">to <span class="section-27-28__seize-create">seize</span></span></div>
 
 
-        <div class="section-27__title-2 col-10 "><span class="section-27-28__seize-create">seize</span> an opportunity.</div>
-        <div class="section-27__main-content  row justify-content-end">
+        <div class="section-27__title-2 col-10 "> an opportunity.</div>
+        <div class="section-27__main-content mt-5 row justify-content-around">
             <div class="section-27__main-content-wrapper col-9 ">
                 <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27.jpg">
                 <div class="section-27__text">
@@ -1505,6 +1505,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
             </div>
         </div>
     </div>
+</div>
 </div>
         <div class="button-next-slide button-next-slide-section-27" data-toggle=".section-27, .section-27a"><span>Eric Wilson’s full story</span>
             <button class="button button-arrow-blue">
@@ -1603,8 +1604,8 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
     </section>
     <section class="section-28">
         <div class="section-28__pretitle">Change comes when you have the</div>
-        <div class="section-28__title-1">courage to</div>
-        <div class="section-28__title-2">create an opportunity.</div>
+        <div class="section-28__title-1">courage to create</div>
+        <div class="section-28__title-2"> an opportunity.</div>
         <div class="section-28__main-content">
             <div class="section-28__main-content-wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-28.jpg">
