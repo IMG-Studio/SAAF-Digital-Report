@@ -1481,14 +1481,20 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
     </section>
     <section class="section-27">
         <div class="section-27__background"></div>
-        <div class="section-27__pretitle">Change comes when you have the</div>
-        <div class="section-27__title-1">courage to</div>
-        <div class="section-27__title-2"><span class="section-27-28__seize-create">seize</span> an opportunity.</div>
-        <div class="section-27__main-content">
-            <div class="section-27__main-content-wrapper">
+
+
+<div class="container ">
+    <div class="section-27-wrapper row ">
+    <div class="section-27__pretitle">Change comes when you have the</div>
+        <div class="section-27__title-1 col-10">courage  <span class="section-27__title-2">courage</span></div>
+
+
+        <div class="section-27__title-2 col-10 "><span class="section-27-28__seize-create">seize</span> an opportunity.</div>
+        <div class="section-27__main-content  row justify-content-end">
+            <div class="section-27__main-content-wrapper col-9 ">
                 <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27.jpg">
                 <div class="section-27__text">
-                    <h3>Former Scholarship Recipient Says Thanks and Pays It Forward</h3>
+                    <h3>Former Scholarship Recipient  Says Thanks and Pays It Forward</h3>
                     <br>
                     <p>
                         A conversation with a colleague about recognizing scholarship donors at our school caused me to
@@ -1498,6 +1504,8 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
                 </div>
             </div>
         </div>
+    </div>
+</div>
         <div class="button-next-slide button-next-slide-section-27" data-toggle=".section-27, .section-27a"><span>Eric Wilson’s full story</span>
             <button class="button button-arrow-blue">
                 <div class="button-ripple button-ripple-section-27"></div>
@@ -1693,10 +1701,10 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         <div class="section-29__pretitle">Our turning point has made us a</div>
         <div class="section-29__title">stronger catalyst<br>for change,</div>
         <div class="section-29__text">
-            Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to
-            racial and social justice by implementing a strategic, data-driven approach to serving the community. This
-            “equity-based decision-making” is the targeted investment of money and human capital to equip our most
-            under-served residents to realize a quality of life filled with hope, good health, and opportunity.
+<!--            Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to-->
+<!--            racial and social justice by implementing a strategic, data-driven approach to serving the community. This-->
+<!--            “equity-based decision-making” is the targeted investment of money and human capital to equip our most-->
+<!--            under-served residents to realize a quality of life filled with hope, good health, and opportunity.-->
         </div>
         <div class="button-next-slide button-next-slide-section-29" data-toggle=".section-29a"><span>the Legacy of Jack and Laura Richmond</span>
             <button class="button button-arrow-blue">
@@ -1711,7 +1719,8 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
     </section>
     <section class="section-29a">
         <div class="section-29a__maincontent">
-            <div class="section-29a__image"><img
+            <div class="section-29a__image">
+                <img class="section29a"
                         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-29a.jpg"
                         alt=""></div>
             <div class="section-29a__text-wrapper">
