@@ -93,7 +93,7 @@
           integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 
-<body class="index-page">
+<body class="index-page" id="top">
 <div class="scroll-dummy-overlay"></div>
 <div class="svg-sprive">
     <svg width="0" height="0">
@@ -202,39 +202,21 @@
                     </svg>
                 </a>
             </div>
-
-
-
-            <button class="button button-mobile-menu button-mobile-menu-header-left "
-                      data-toggle=".header-left-nav"><span></span><span></span><span></span>
-                    </button>
-            <div class="mobile-nav">
+            <div class="mobile-nav justify-contet-center">
                 <div class="menu-btn" id="menu-btn">
                     <div></div>
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                <div class="responsive-menu">
-                    <ul>
-                        <li data-slide="2"><a href="">My Story</a></li>
-                        <li data-slide="3"><a href="">Businesses</a></li>
-                        <li data-slide="4"><a href="">History</a></li>
-                        <li data-slide="5"><a href="">Recognitions &amp; Awards</a></li>
-                        <li data-slide="6"><a href="">Philanthropy</a></li>
-                        <li data-slide="7"><a href="">Blog</a></li>
-                        <li data-slide="8"><a href="">Contact</a></li>
-                    </ul>
+            </div>
+
+            <button class="button button-heart button-heart-header-left">
+                <div class="icon icon-heart icon-heart-red">
+                    <svg>
+                        <use href="#icon-heart"></use>
+                    </svg>
                 </div>
-            </div>
-
-
-                    <button class="button button-heart button-heart-header-left">
-            <div class="icon icon-heart icon-heart-red">
-                <svg>
-                    <use href="#icon-heart"></use>
-                </svg>
-            </div>
             </button>
 
             <button class="button button-screen-down button-screen-down-header-left">
@@ -247,37 +229,38 @@
         </div>
     </div>
 
-    <div class="header-left-nav" id="mySidenav">
+    <div class="header-left-nav">
 
-        <span data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</span>
-        <br>
-        <span> Turning Point: Merced Housing</span><br>
-        Turning Point: Bexar County Family Justice Center<br>
-        Turning Point: SAMMinistries<br>
-        <br><br>
-        <span data-offset="1050" id="impact">[ Make an Impact. ] – Grantmaking by the Numbers</span><br>
-        Impact Area: Cultural Vibrancy<br>
-        Impact Area: Livable and Resilient Communities<br>
-        Impact Area: Youth Success<br>
-        Impact Area: Successful Aging<br>
-        Turning Point: The Public<br>
-        <br><br>
-        <span data-offset="2590" id="embrace">[ Embrace Change. ] – Addressing Equity</span><br>
-        Turning Point: A Letter from<br>
-        Theodore Guidry II, San Antonio Area Foundation Past Chairman of the Board<br>
-        Turning Point: SAAAACF<br>
-        <br><br>
-        <span data-offset="3800" id="courage">[ Have Courage. ] – Scholarships</span><br>
-        Turning Point: A Little Help Goes a Long Way<br>
-        Thank You from our Student Scholars<br>
-        Turning Point: In Memoriam: Jack and Laura Richmond
-        Donor and Development Services<br>
-        Donor Advised Funds<br>
-
+        <a class="hideMenu" data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</a><br>
+            <a class="hideMenu submenu" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
+            <a class="hideMenu submenu" data-offset="65" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
+            <a class="hideMenu submenu" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
         <br><br>
 
+        <span class="hideMenu" data-offset="1050" id="impact">[ Make an Impact. ] – Grantmaking by the Numbers</span><br>
+            <a class="hideMenu submenu" data-offset="1705" >Impact Area: Cultural Vibrancy</a><br/>
+            <a class="hideMenu submenu" data-offset="1856" >Impact Area: Livable and Resilient Communities</a><br/>
+            <a class="hideMenu submenu" data-offset="1993" >Impact Area: Youth Success</a><br/>
+            <a class="hideMenu submenu" data-offset="2157" >Impact Area: Successful Aging</a><br/>
+            <a class="hideMenu submenu" data-offset="2472" >Turning Point: The Public</a><br/>
+        <br><br>
+
+
+        <span class="hideMenu" data-offset="2590" id="embrace">[ Embrace Change. ] – Addressing Equity</span><br>
+            <a class="hideMenu submenu" data-offset="2858" >Turning Point: A Letter from
+                Theodore Guidry II, <br> San Antonio Area Foundation Past Chairman of the Board</a><br>
+            <a class="hideMenu submenu" data-offset="3596" >Turning Point: SAAAACF</a><br/>
+        <br><br>
+
+
+        <span class="hideMenu" data-offset="3800" id="courage">[ Have Courage. ] – Scholarships</span>
+            <a class="hideMenu submenu" data-offset="3919" >Turning Point: A Little Help Goes a Long Way</a><br/>
+            <a class="hideMenu submenu" data-offset="4080" >Thank You from our Student Scholars</a><br/>
+            <a class="hideMenu submenu" data-offset="4206" >Turning Point: In Memoriam: Jack and Laura Richmond</a><br/>
+            <a class="hideMenu submenu" data-offset="4419" >Donor and Development Services</a><br/>
+            <a class="hideMenu submenu" data-offset="4419" >Donor Advised Funds</a><br/>
+        <br><br>
         <hr>
-
         <br>
 
         <div class="header-left-nav__links">
@@ -573,7 +556,7 @@
                     </svg>
                 </div>
             </button>
-            <span id="merced" >merced housing texas</span>
+            <span id="merced">merced housing texas</span>
         </div>
         <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span>bexar county family justice center</span>
             <button class="button button-arrow-red">
@@ -586,7 +569,7 @@
             </button>
         </div>
     </section>
-    <section class="section-5a">
+    <section class="section-5a" id="mercedSection" >
         <div class="section-5a__wrapper">
             <div class="section-5a__image"><img
                         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-5a.jpg">
@@ -667,7 +650,7 @@
             <div class="section-6__title">keep moving forward.</div>
         </div>
     </section>
-    <section class="section-7">
+    <section class="section-7" id="samm">
         <div class="section-7__background"></div>
         <div class="section-7__text">
             The people that SAMMinistries serves struggle during normal circumstances to maintain stability. The
@@ -780,8 +763,8 @@
         <div class="section-11__background"></div>
         <div class="section-11__wrapper">
             <div class="section-11-title-total">
-            <div class="section-11__pretitle">Turning points require</div>
-            <div class="section-11__title">bold leadership,</div>
+                <div class="section-11__pretitle">Turning points require</div>
+                <div class="section-11__title">bold leadership,</div>
             </div>
             <div class="section-11__text">
                 We are proud to have been the bridge between those most able to give and those who most needed to
@@ -919,7 +902,7 @@
             </button>
         </div>
     </section>
-    <section class="section-14">
+    <section class="section-14" id="section14">
         <div class="section-14__image">
             <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-14.jpg">
             <div class="section-14__imageshorttext">» Good Samaritan Center</div>
@@ -1429,766 +1412,769 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
             be more engaged, providing more leadership in the community.”
         </div>
     </section>
-<div class="container-courage">
-    <section class="section-26">
-        <div class="section-26__background"></div>
-        <div class="section-26__title"><span class="section-26__title-1">[ Have </span>courage<span
-                    class="section-26__title-2">. ]</span></div>
-        <div class="section-26__subtitle">Scholarships</div>
-        <div class="section-26__icon" data-toggle=".section-26, .section-26a"><span
-                    class="section-26__icon__asterisk">*</span> <span
-                    class="section-26__icon__read-poem">Read Poem</span></div>
-    </section>
-    <section class="section-26a">
-        <div class="section-26a__text-1">
-            <h3>Except this ONE: A free verse poem</h3>
-            <br>
-            <p>
-                I have no other fears<br>
-                Except for this one<br>
-                This strange, twisted thing<br>
-                Isn’t all so fun<br>
-                So I put it up high<br>
-                Up on a shelf<br>
-                The thing that I fear<br>
-                Is fear itself<br>
-                Why should we be scared <br>
-                when we can feel great?<br>
-                Was it something it did?<br>
-                Maybe something it ate?
-            </p>
-        </div>
-        <div class="section-26a__text-2">
-            <p>
-                But it doesn’t have eyes<br>
-                Nor a nose or a tongue<br>
-                No body, no ears,<br>
-                Certainly no lungs<br>
-                Well, after all,<br>
-                It doesn’t exist<br>
-                At least not for me,<br>
-                And it will not be missed<br>
+    <div class="container-courage">
+        <section class="section-26">
+            <div class="section-26__background"></div>
+            <div class="section-26__title"><span class="section-26__title-1">[ Have </span>courage<span
+                        class="section-26__title-2">. ]</span></div>
+            <div class="section-26__subtitle">Scholarships</div>
+            <div class="section-26__icon" data-toggle=".section-26, .section-26a"><span
+                        class="section-26__icon__asterisk">*</span> <span
+                        class="section-26__icon__read-poem">Read Poem</span></div>
+        </section>
+        <section class="section-26a">
+            <div class="section-26a__text-1">
+                <h3>Except this ONE: A free verse poem</h3>
                 <br>
-                <i>— Taylor B.</i>
-            </p>
-        </div>
-        <div class="section-26a__close" data-toggle=".section-26, .section-26a">
-            <div class="icon icon-close">
-                <svg>
-                    <use href="#icon-close-white"></use>
-                </svg>
+                <p>
+                    I have no other fears<br>
+                    Except for this one<br>
+                    This strange, twisted thing<br>
+                    Isn’t all so fun<br>
+                    So I put it up high<br>
+                    Up on a shelf<br>
+                    The thing that I fear<br>
+                    Is fear itself<br>
+                    Why should we be scared <br>
+                    when we can feel great?<br>
+                    Was it something it did?<br>
+                    Maybe something it ate?
+                </p>
             </div>
-        </div>
-    </section>
-    <section class="section-27">
-        <div class="section-27__background"></div>
-
-
-    <div class="section-27-wrapper   ">
-    <div class="section-27__pretitle ">Change comes when you have the</div>
-        <div class="section-27__title-1 ">courage  <span class="section-27__title-1b ">to <span class="section-27-28__seize-create">seize</span></span></div>
-
-
-        <div class="section-27__title-2 col-10 "> an opportunity.</div>
-        <div class="section-27__main-content mt-5 row justify-content-around">
-            <div class="section-27__main-content-wrapper col-9 ">
-                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27.jpg">
-                <div class="section-27__text">
-                    <h3>Former Scholarship Recipient  Says Thanks and Pays It Forward</h3>
+            <div class="section-26a__text-2">
+                <p>
+                    But it doesn’t have eyes<br>
+                    Nor a nose or a tongue<br>
+                    No body, no ears,<br>
+                    Certainly no lungs<br>
+                    Well, after all,<br>
+                    It doesn’t exist<br>
+                    At least not for me,<br>
+                    And it will not be missed<br>
                     <br>
-                    <p>
-                        A conversation with a colleague about recognizing scholarship donors at our school caused me to
-                        reflect on my own experience  —  first as a scholarship recipient 25 years ago and now as
-                        someone who funds scholarships.
-                    </p>
+                    <i>— Taylor B.</i>
+                </p>
+            </div>
+            <div class="section-26a__close" data-toggle=".section-26, .section-26a">
+                <div class="icon icon-close">
+                    <svg>
+                        <use href="#icon-close-white"></use>
+                    </svg>
                 </div>
+            </div>
+        </section>
+        <section class="section-27">
+            <div class="section-27__background"></div>
+
+
+            <div class="section-27-wrapper   ">
+                <div class="section-27__pretitle ">Change comes when you have the</div>
+                <div class="section-27__title-1 ">courage <span class="section-27__title-1b ">to <span
+                                class="section-27-28__seize-create">seize</span></span></div>
+
+
+                <div class="section-27__title-2 col-10 "> an opportunity.</div>
+                <div class="section-27__main-content mt-5 row justify-content-around">
+                    <div class="section-27__main-content-wrapper col-9 ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27.jpg">
+                        <div class="section-27__text">
+                            <h3>Former Scholarship Recipient Says Thanks and Pays It Forward</h3>
+                            <br>
+                            <p>
+                                A conversation with a colleague about recognizing scholarship donors at our school
+                                caused me to
+                                reflect on my own experience  —  first as a scholarship recipient 25 years ago and now
+                                as
+                                someone who funds scholarships.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="button-next-slide button-next-slide-section-27" data-toggle=".section-27, .section-27a"><span>Eric Wilson’s full story</span>
+    <button class="button button-arrow-blue">
+        <div class="button-ripple button-ripple-section-27"></div>
+        <div class="icon icon-arrow">
+            <svg>
+                <use href="#icon-arrow-right"></use>
+            </svg>
+        </div>
+    </button>
+</div>
+</section>
+<section class="section-27a">
+    <div class="section-27a__maincontent">
+        <div class="section-27a__image"><img
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27a.jpg"
+                    alt=""></div>
+        <div class="section-27a__text-wrapper">
+            <div class="section-27a__text">
+                <h3>Words from former chairman of the board</h3>
+                <br>
+                <p>
+                    A conversation with a colleague about recognizing scholarship donors at our school caused me to
+                    reflect on my own experience  —  first as a scholarship recipient 25 years ago and now as
+                    someone who funds scholarships.
+                </p>
+                <br>
+                <p>
+                    As scholarship donors, my husband and I could choose to bequeath gifts to help future students,
+                    or we could give now so that we have an opportunity to meet the people we’re helping. The
+                    conversation with my coworker along with my shared desire to meet our scholarship recipients
+                    made me think that I should reach out to those who helped me along my own academic journey.
+                </p>
+                <br>
+                <p>
+                    Much has transpired since graduating from Judson High School in 1995 and then attending Texas
+                    A&M University with the help of a scholarship from the San Antonio Area Foundation. I feel it’s
+                    important to send an updated note of thanks to the Foundation to express my sincere gratitude
+                    for the impact that their gift had on my life and career. The Foundation scholarship helped me
+                    achieve my initial goal of earning my bachelor’s degree in psychology in 1998. The Foundation
+                    grant helped me graduate from college without the need for loans.
+                </p>
+                <br>
+                <p>
+                    After graduation, I pursued a career in higher education, and I have enjoyed working for the
+                    Texas A&M University and Texas State University systems. The highlight of my career was having
+                    the opportunity to work in Qatar at Texas A&M University’s branch campus for eight and a half
+                    years. I was able to support the educational aspirations of Aggie engineers from over 20
+                    different countries and travel extensively in my free time.
+                </p>
+                <br>
+                <p>
+                    My experience of living, working, and traveling abroad has deepened my understanding for the
+                    need to embrace diversity and to include perspectives from underrepresented groups. My time
+                    abroad afforded me the opportunity to grow personally and professionally, preparing me for my
+                    current role as Assistant Dean for Accountability and Strategic Initiatives at Texas A&M’s
+                    School of Public Health.
+                </p>
+                <br>
+                <p>
+                    My professional success began with the Foundation’s early investment in me. In turn, my husband
+                    and I have been able to fund several scholarships for students at Texas A&M, providing financial
+                    assistance to the next generation of professionals. None of this would have been possible had it
+                    not been in part for the Area Foundation.
+                </p>
+                <br>
+                <p>
+                    Thank you again for the work you do to support future generations of students and thank you
+                    again for helping me pursue my dreams.
+                </p>
+                <br>
+                <p>
+                    Eric Wilson
+                </p>
+                <br>
+                <p>
+                    Assistant Dean for Accountability and Strategic Initiatives, Texas A&M School of Public Health
+                </p>
+                <br><br>
+            </div>
+            <div class="section-27a__text-shadow-after"></div>
+        </div>
+    </div>
+    <div class="section-27a__quoter">
+        <p>&#8220;Thank you again for the work you do to support future generations of students and thank you again
+            for helping me pursue my dreams.&#8221;</p><span>&mdash; Eric</span>
+    </div>
+    <button class="button button-arrow-blue button-prev-blue-section-27a" data-toggle=".section-27, .section-27a">
+        <div class="button-ripple button-ripple-section-27a"></div>
+        <div class="icon icon-arrow">
+            <svg>
+                <use href="#icon-arrow-left"></use>
+            </svg>
+        </div>
+    </button>
+</section>
+<section class="section-28">
+    <div class="section-28__pretitle">Change comes when you have the</div>
+    <div class="section-28__title-1">courage to create</div>
+    <div class="section-28__title-2"> an opportunity.</div>
+    <div class="section-28__main-content">
+        <div class="section-28__main-content-wrapper">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-28.jpg">
+            <div class="section-28__text">
+                <h3>Donor generosity</h3>
+                <br>
+                <p>
+                    Thanks to the generosity of our donors, the Area Foundation awarded <span>$4.6M</span> in
+                    support of <span>905 scholarship grants</span> in 2020. The Area Foundation hosts more than 100
+                    scholarship funds available for graduating high school students and current college students.
+                    Each fund has its own criteria based on the fund advisor’s interest. Some scholarships fund a
+                    specific area of study, a donor’s alma mater, or scholarships to students from a specific
+                    school.
+                </p>
             </div>
         </div>
     </div>
-</div>
-</div>
-        <div class="button-next-slide button-next-slide-section-27" data-toggle=".section-27, .section-27a"><span>Eric Wilson’s full story</span>
-            <button class="button button-arrow-blue">
-                <div class="button-ripple button-ripple-section-27"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-27a">
-        <div class="section-27a__maincontent">
-            <div class="section-27a__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27a.jpg"
-                        alt=""></div>
-            <div class="section-27a__text-wrapper">
-                <div class="section-27a__text">
-                    <h3>Words from former chairman of the board</h3>
-                    <br>
-                    <p>
-                        A conversation with a colleague about recognizing scholarship donors at our school caused me to
-                        reflect on my own experience  —  first as a scholarship recipient 25 years ago and now as
-                        someone who funds scholarships.
-                    </p>
-                    <br>
-                    <p>
-                        As scholarship donors, my husband and I could choose to bequeath gifts to help future students,
-                        or we could give now so that we have an opportunity to meet the people we’re helping. The
-                        conversation with my coworker along with my shared desire to meet our scholarship recipients
-                        made me think that I should reach out to those who helped me along my own academic journey.
-                    </p>
-                    <br>
-                    <p>
-                        Much has transpired since graduating from Judson High School in 1995 and then attending Texas
-                        A&M University with the help of a scholarship from the San Antonio Area Foundation. I feel it’s
-                        important to send an updated note of thanks to the Foundation to express my sincere gratitude
-                        for the impact that their gift had on my life and career. The Foundation scholarship helped me
-                        achieve my initial goal of earning my bachelor’s degree in psychology in 1998. The Foundation
-                        grant helped me graduate from college without the need for loans.
-                    </p>
-                    <br>
-                    <p>
-                        After graduation, I pursued a career in higher education, and I have enjoyed working for the
-                        Texas A&M University and Texas State University systems. The highlight of my career was having
-                        the opportunity to work in Qatar at Texas A&M University’s branch campus for eight and a half
-                        years. I was able to support the educational aspirations of Aggie engineers from over 20
-                        different countries and travel extensively in my free time.
-                    </p>
-                    <br>
-                    <p>
-                        My experience of living, working, and traveling abroad has deepened my understanding for the
-                        need to embrace diversity and to include perspectives from underrepresented groups. My time
-                        abroad afforded me the opportunity to grow personally and professionally, preparing me for my
-                        current role as Assistant Dean for Accountability and Strategic Initiatives at Texas A&M’s
-                        School of Public Health.
-                    </p>
-                    <br>
-                    <p>
-                        My professional success began with the Foundation’s early investment in me. In turn, my husband
-                        and I have been able to fund several scholarships for students at Texas A&M, providing financial
-                        assistance to the next generation of professionals. None of this would have been possible had it
-                        not been in part for the Area Foundation.
-                    </p>
-                    <br>
-                    <p>
-                        Thank you again for the work you do to support future generations of students and thank you
-                        again for helping me pursue my dreams.
-                    </p>
-                    <br>
-                    <p>
-                        Eric Wilson
-                    </p>
-                    <br>
-                    <p>
-                        Assistant Dean for Accountability and Strategic Initiatives, Texas A&M School of Public Health
-                    </p>
-                    <br><br>
-                </div>
-                <div class="section-27a__text-shadow-after"></div>
-            </div>
-        </div>
-        <div class="section-27a__quoter">
-            <p>&#8220;Thank you again for the work you do to support future generations of students and thank you again
-                for helping me pursue my dreams.&#8221;</p><span>&mdash; Eric</span>
-        </div>
-        <button class="button button-arrow-blue button-prev-blue-section-27a" data-toggle=".section-27, .section-27a">
-            <div class="button-ripple button-ripple-section-27a"></div>
+    <div class="button-next-slide button-next-slide-section-28" data-toggle=".section-28, .section-28a"><span>Thank you from our student scholars</span>
+        <button class="button button-arrow-blue">
+            <div class="button-ripple button-ripple-section-28"></div>
             <div class="icon icon-arrow">
                 <svg>
-                    <use href="#icon-arrow-left"></use>
+                    <use href="#icon-arrow-right"></use>
                 </svg>
             </div>
         </button>
-    </section>
-    <section class="section-28">
-        <div class="section-28__pretitle">Change comes when you have the</div>
-        <div class="section-28__title-1">courage to create</div>
-        <div class="section-28__title-2"> an opportunity.</div>
-        <div class="section-28__main-content">
-            <div class="section-28__main-content-wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-28.jpg">
-                <div class="section-28__text">
-                    <h3>Donor generosity</h3>
-                    <br>
-                    <p>
-                        Thanks to the generosity of our donors, the Area Foundation awarded <span>$4.6M</span> in
-                        support of <span>905 scholarship grants</span> in 2020. The Area Foundation hosts more than 100
-                        scholarship funds available for graduating high school students and current college students.
-                        Each fund has its own criteria based on the fund advisor’s interest. Some scholarships fund a
-                        specific area of study, a donor’s alma mater, or scholarships to students from a specific
-                        school.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="button-next-slide button-next-slide-section-28" data-toggle=".section-28, .section-28a"><span>Thank you from our student scholars</span>
-            <button class="button button-arrow-blue">
-                <div class="button-ripple button-ripple-section-28"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-28a">
-        <div class="section-28a__maincontent">
-            <div class="section-28a__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-28a.jpg"
-                        alt=""><span class="section-28a__imageshorttext">» Alexes Salazar
+    </div>
+</section>
+<section class="section-28a">
+    <div class="section-28a__maincontent">
+        <div class="section-28a__image"><img
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-28a.jpg"
+                    alt=""><span class="section-28a__imageshorttext">» Alexes Salazar
 Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
-            <div class="section-28a__text-wrapper">
-                <div class="section-28a__text">
-                    <h3>Thank You from Our Student Scholars</h3>
-                    <br>
-                    <p>
-                        “Thank you all so much for believing in me and giving me the opportunity to continue my pursuit
-                        in secondary education! I could not have done it without all of your help!”
-                    </p>
-                    <p><span><b>- Katelyn R. Gudenau</b></span></p>
-                    <p><span>Rapier Educational Foundation Scholarship</span></p>
-                    <br>
-                    <p>
-                        “Being a first-generation student is challenging and overwhelming, but as a recipient of the
-                        Whataburger Family Foundation Scholarship, you have given me the hope and confidence to continue
-                        to pursue my career in the healthcare field. More than anything, I am filled with gratitude.”
-                    </p>
-                    <p><span><b>- Diana Herrera</b></span></p>
-                    <p><span>Whataburger Family Foundation Scholarship</span></p>
-                    <br>
-                    <p>
-                        “The San Antonio Area Foundation has invested in me the same way I plan to invest in my
-                        community for the rest of my life. This scholarship for my education is just the first of many
-                        steps I’ll be taking to become a lawyer. I want to use my education for my people of San Antonio
-                        and my Latino community. I thank you the San Antonio Area Foundation for showing me that my
-                        future is worth investing in.”
-                    </p>
-                    <p><span><b>- Isabella Garcia</b></span></p>
-                    <p><span>John L. Santikos Charitable Foundation Scholarship</span></p>
-                    <br>
-                    <p>
-                        “The day I met the head of Women in Engineering at Notre Dame, my future was set. Thanks to the
-                        Brice and Theresa Moczygemba Scholarship, my dreams are now my reality!”
-                    </p>
-                    <p><span><b>- Eleanor Zinsmeister</b></span></p>
-                    <p><span>Brice & Teresa Moczygemba Engineering Scholarship Fund</span></p>
-                    <br>
-                    <p>
-                        “Thank you for allowing me to pursue my dream of being a nurse and a future nurse practitioner!
-                        Right now, I work on the front line of COVID-19, and I can’t wait to be able to do more to help
-                        people!”
-                    </p>
-                    <p><span><b>- Eloy Garcia</b></span></p>
-                    <p><span>Methodist Hospital Stone Oak Employee Scholarship Fund</span></p>
-                    <br><br>
-                </div>
-                <div class="section-28a__text-shadow-after"></div>
+        <div class="section-28a__text-wrapper">
+            <div class="section-28a__text">
+                <h3>Thank You from Our Student Scholars</h3>
+                <br>
+                <p>
+                    “Thank you all so much for believing in me and giving me the opportunity to continue my pursuit
+                    in secondary education! I could not have done it without all of your help!”
+                </p>
+                <p><span><b>- Katelyn R. Gudenau</b></span></p>
+                <p><span>Rapier Educational Foundation Scholarship</span></p>
+                <br>
+                <p>
+                    “Being a first-generation student is challenging and overwhelming, but as a recipient of the
+                    Whataburger Family Foundation Scholarship, you have given me the hope and confidence to continue
+                    to pursue my career in the healthcare field. More than anything, I am filled with gratitude.”
+                </p>
+                <p><span><b>- Diana Herrera</b></span></p>
+                <p><span>Whataburger Family Foundation Scholarship</span></p>
+                <br>
+                <p>
+                    “The San Antonio Area Foundation has invested in me the same way I plan to invest in my
+                    community for the rest of my life. This scholarship for my education is just the first of many
+                    steps I’ll be taking to become a lawyer. I want to use my education for my people of San Antonio
+                    and my Latino community. I thank you the San Antonio Area Foundation for showing me that my
+                    future is worth investing in.”
+                </p>
+                <p><span><b>- Isabella Garcia</b></span></p>
+                <p><span>John L. Santikos Charitable Foundation Scholarship</span></p>
+                <br>
+                <p>
+                    “The day I met the head of Women in Engineering at Notre Dame, my future was set. Thanks to the
+                    Brice and Theresa Moczygemba Scholarship, my dreams are now my reality!”
+                </p>
+                <p><span><b>- Eleanor Zinsmeister</b></span></p>
+                <p><span>Brice & Teresa Moczygemba Engineering Scholarship Fund</span></p>
+                <br>
+                <p>
+                    “Thank you for allowing me to pursue my dream of being a nurse and a future nurse practitioner!
+                    Right now, I work on the front line of COVID-19, and I can’t wait to be able to do more to help
+                    people!”
+                </p>
+                <p><span><b>- Eloy Garcia</b></span></p>
+                <p><span>Methodist Hospital Stone Oak Employee Scholarship Fund</span></p>
+                <br><br>
             </div>
+            <div class="section-28a__text-shadow-after"></div>
         </div>
-        <button class="button button-arrow-blue button-prev-blue-section-28a" data-toggle=".section-28, .section-28a">
-            <div class="button-ripple button-ripple-section-28a"></div>
+    </div>
+    <button class="button button-arrow-blue button-prev-blue-section-28a" data-toggle=".section-28, .section-28a">
+        <div class="button-ripple button-ripple-section-28a"></div>
+        <div class="icon icon-arrow">
+            <svg>
+                <use href="#icon-arrow-left"></use>
+            </svg>
+        </div>
+    </button>
+</section>
+<section class="section-29">
+    <div class="section-29__background"></div>
+    <div class="section-29__pretitle">Our turning point has made us a</div>
+    <div class="section-29__title">stronger catalyst<br>for change,</div>
+    <div class="section-29__text">
+        <!--            Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to-->
+        <!--            racial and social justice by implementing a strategic, data-driven approach to serving the community. This-->
+        <!--            “equity-based decision-making” is the targeted investment of money and human capital to equip our most-->
+        <!--            under-served residents to realize a quality of life filled with hope, good health, and opportunity.-->
+    </div>
+    <div class="button-next-slide button-next-slide-section-29" data-toggle=".section-29a"><span>the Legacy of Jack and Laura Richmond</span>
+        <button class="button button-arrow-blue">
+            <div class="button-ripple button-ripple-section-29"></div>
             <div class="icon icon-arrow">
                 <svg>
-                    <use href="#icon-arrow-left"></use>
+                    <use href="#icon-arrow-right"></use>
                 </svg>
             </div>
         </button>
-    </section>
-    <section class="section-29">
-        <div class="section-29__background"></div>
-        <div class="section-29__pretitle">Our turning point has made us a</div>
-        <div class="section-29__title">stronger catalyst<br>for change,</div>
-        <div class="section-29__text">
-<!--            Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to-->
-<!--            racial and social justice by implementing a strategic, data-driven approach to serving the community. This-->
-<!--            “equity-based decision-making” is the targeted investment of money and human capital to equip our most-->
-<!--            under-served residents to realize a quality of life filled with hope, good health, and opportunity.-->
+    </div>
+</section>
+<section class="section-29a">
+    <div class="section-29a__maincontent">
+        <div class="section-29a__image">
+            <img class="section29a"
+                 src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-29a.jpg"
+                 alt=""></div>
+        <div class="section-29a__text-wrapper">
+            <div class="section-29a__text">
+                <h3>A Match Made in Heaven: Remembering and Honoring the Legacy of Jack and Laura Richmond</h3>
+                <br>
+                <p>
+                    Those lines shape the long-standing philosophy of a cherished local couple who may now be gone
+                    from our lives but whose legacy will live on for years to come through the dedicated work of
+                    their charitable fund.
+                </p>
+                <br>
+                <p>
+                    Jack and Laura Richmond may not have been born and raised in San Antonio, but how lucky are we
+                    that they ended up settling here as their longtime adopted home? Certainly, those working in
+                    philanthropic circles are all the better to have had the honor of seeing many wonderful
+                    nonprofits benefiting from The Richmond Family Foundation.
+                </p>
+                <br>
+                <p>
+                    “My father was always very proud of how generous this city is as a whole,” said their youngest
+                    son, Clay Richmond. “He wanted to contribute. He just wanted to help people and create
+                    opportunities to see them grow.”
+                </p>
+                <br>
+                <p>
+                    The Richmonds were originally from Kansas, where Laura worked as an elementary school teacher
+                    while Jack rose as a manager for the phone company. Despite being business entrepreneurs, it was
+                    never about the bottom line for Jack and Laura. Far from it. The couple was always about giving
+                    back to their community, first by contributing to various causes and nonprofits and then
+                    starting their own philanthropic fund in 1998 at the Area Foundation.
+                </p>
+                <br>
+                <p>
+                    “I think he wanted to more succinctly direct his giving where he thought organizations could
+                    have a positive influence on those they were serving,” Clay Richmond explained. “And the
+                    matching grants could be a launching pad for those organizations.”
+                </p>
+                <br>
+                <p>
+                    Indeed, the matching aspect of The Richmond Family Foundation grants are what makes it unique.
+                    One nonprofit each year is selected to be eligible to receive $100,000 — as long as they raise
+                    the same amount or more on their own. The incentive has proven more than fruitful, given that on
+                    average participating nonprofits raise $180,000. In all, the Richmonds thus far have contributed
+                    $1.4 million to 14 San Antonio nonprofits. 2020’s recipient was Jewish Family Service of San
+                    Antonio. Talk about going beyond the minimum requirement — the agency raised $200,000 on its
+                    own, making the combined $300,000 infusion as the largest fundraiser in its history.
+                </p>
+                <br>
+                <p>
+                    “It was a lifesaver as it allowed us to continue our services right as the pandemic hit, as well
+                    as start offering teletherapy for our counseling clients and provide home essentials for our
+                    homebound senior clients,” said Talli Dolge, CEO of Jewish Family Service.
+                </p>
+                <br>
+                <p>
+                    Jack and Laura represent the type of quiet, no-nonsense philanthropy that is quintessentially
+                    altruistic — giving with no expected or assumed reciprocity. “They’re humble, not flashy. They
+                    are not in it for themselves. It’s not about them, but about the nonprofits they support,” Board
+                    Member and family friend Brad Parman offered. “It’s truly inspiring to watch.”
+                </p>
+                <br><br>
+            </div>
+            <div class="section-29a__text-shadow-after"></div>
         </div>
-        <div class="button-next-slide button-next-slide-section-29" data-toggle=".section-29a"><span>the Legacy of Jack and Laura Richmond</span>
-            <button class="button button-arrow-blue">
-                <div class="button-ripple button-ripple-section-29"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
+    </div>
+    <div class="section-29a__quoter">
+        <p>We should love each other — that means caring for our neighbors.
+            Where those in mourning are comforted. Where the hungry are fed.
+            Where the poor hear good news.
+        </p>
+    </div>
+    <button class="button button-arrow-blue button-prev-blue-section-29a" data-toggle=".section-29a">
+        <div class="button-ripple button-ripple-section-29a"></div>
+        <div class="icon icon-arrow">
+            <svg>
+                <use href="#icon-arrow-left"></use>
+            </svg>
         </div>
-    </section>
-    <section class="section-29a">
-        <div class="section-29a__maincontent">
-            <div class="section-29a__image">
-                <img class="section29a"
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-29a.jpg"
-                        alt=""></div>
-            <div class="section-29a__text-wrapper">
-                <div class="section-29a__text">
-                    <h3>A Match Made in Heaven: Remembering and Honoring the Legacy of Jack and Laura Richmond</h3>
-                    <br>
-                    <p>
-                        Those lines shape the long-standing philosophy of a cherished local couple who may now be gone
-                        from our lives but whose legacy will live on for years to come through the dedicated work of
-                        their charitable fund.
-                    </p>
-                    <br>
-                    <p>
-                        Jack and Laura Richmond may not have been born and raised in San Antonio, but how lucky are we
-                        that they ended up settling here as their longtime adopted home? Certainly, those working in
-                        philanthropic circles are all the better to have had the honor of seeing many wonderful
-                        nonprofits benefiting from The Richmond Family Foundation.
-                    </p>
-                    <br>
-                    <p>
-                        “My father was always very proud of how generous this city is as a whole,” said their youngest
-                        son, Clay Richmond. “He wanted to contribute. He just wanted to help people and create
-                        opportunities to see them grow.”
-                    </p>
-                    <br>
-                    <p>
-                        The Richmonds were originally from Kansas, where Laura worked as an elementary school teacher
-                        while Jack rose as a manager for the phone company. Despite being business entrepreneurs, it was
-                        never about the bottom line for Jack and Laura. Far from it. The couple was always about giving
-                        back to their community, first by contributing to various causes and nonprofits and then
-                        starting their own philanthropic fund in 1998 at the Area Foundation.
-                    </p>
-                    <br>
-                    <p>
-                        “I think he wanted to more succinctly direct his giving where he thought organizations could
-                        have a positive influence on those they were serving,” Clay Richmond explained. “And the
-                        matching grants could be a launching pad for those organizations.”
-                    </p>
-                    <br>
-                    <p>
-                        Indeed, the matching aspect of The Richmond Family Foundation grants are what makes it unique.
-                        One nonprofit each year is selected to be eligible to receive $100,000 — as long as they raise
-                        the same amount or more on their own. The incentive has proven more than fruitful, given that on
-                        average participating nonprofits raise $180,000. In all, the Richmonds thus far have contributed
-                        $1.4 million to 14 San Antonio nonprofits. 2020’s recipient was Jewish Family Service of San
-                        Antonio. Talk about going beyond the minimum requirement — the agency raised $200,000 on its
-                        own, making the combined $300,000 infusion as the largest fundraiser in its history.
-                    </p>
-                    <br>
-                    <p>
-                        “It was a lifesaver as it allowed us to continue our services right as the pandemic hit, as well
-                        as start offering teletherapy for our counseling clients and provide home essentials for our
-                        homebound senior clients,” said Talli Dolge, CEO of Jewish Family Service.
-                    </p>
-                    <br>
-                    <p>
-                        Jack and Laura represent the type of quiet, no-nonsense philanthropy that is quintessentially
-                        altruistic — giving with no expected or assumed reciprocity. “They’re humble, not flashy. They
-                        are not in it for themselves. It’s not about them, but about the nonprofits they support,” Board
-                        Member and family friend Brad Parman offered. “It’s truly inspiring to watch.”
-                    </p>
-                    <br><br>
-                </div>
-                <div class="section-29a__text-shadow-after"></div>
+    </button>
+</section>
+<section class="section-30">
+    <div class="section-30__background"></div>
+    <div class="section-30__pretitle">bringing all of our resources to bear as we</div>
+    <div class="section-30__title">create a path toward</div>
+    <div class="section-30__link-1" data-toggle=".section-30a">[ Connecting the dots: donor and development services
+        team ]
+    </div>
+    <div class="section-30__link-2" data-toggle=".section-30b">[ Your compassion, amplified: donor advised funds ]
+    </div>
+    <div class="section-30__note">
+        » Conjunto Hall of Famer Bene Medina teaches accordion with Conjunto Heritage Taller
+    </div>
+</section>
+<section class="section-30a">
+    <div class="section-30a__main-content">
+        <div class="section-30a__close" data-toggle=".section-30a">
+            <div class="icon icon-close">
+                <svg>
+                    <use href="#icon-close-gray"></use>
+                </svg>
             </div>
         </div>
-        <div class="section-29a__quoter">
-            <p>We should love each other — that means caring for our neighbors.
-                Where those in mourning are comforted. Where the hungry are fed.
-                Where the poor hear good news.
+        <div class="section-30a__text">
+            <h3>Connecting the Dots</h3>
+            <br>
+            <p>
+                The Donor and Development Services team equips each donor with the tools they need to make informed
+                decisions about where, how, and when to give. The San Antonio Area Foundation accepts a wide variety
+                of assets and can facilitate even the most complex forms of giving. We partner with professional
+                advisors to create highly effective approaches to charitable giving. We offer the maximum tax
+                advantage for most gifts under state and federal law.
+            </p>
+            <br>
+            <p>
+                The Center for Corporate Philanthropy at the San Antonio Area Foundation, launched in 2020, hosted a
+                virtual townhall for fundholders and key business leaders featuring Darryl Walker, President of the
+                Ford Foundation. Mr. Walker provided keen insights on how corporate citizens could help lead a
+                robust and equitable rebound for the nonprofit sector during and after the pandemic, as well as
+                challenging the lack of diversity on corporate boards.
             </p>
         </div>
-        <button class="button button-arrow-blue button-prev-blue-section-29a" data-toggle=".section-29a">
-            <div class="button-ripple button-ripple-section-29a"></div>
+        <div class="section-30a__quoter">
+            <p>“The San Antonio Area Foundation’s role is to connect the dots. It’s to be able to see people who
+                have resources and where their wishes are and then connect those wishes of making our world a better
+                place with the right non-profit.”</p><span>—Janie Barrera</span>
+        </div>
+        <div class="clear-fix"></div>
+    </div>
+</section>
+<section class="section-30b">
+    <div class="section-30b__main-content">
+        <div class="section-30b__close" data-toggle=".section-30b">
+            <div class="icon icon-close">
+                <svg>
+                    <use href="#icon-close-gray"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="section-30b__text">
+            <h3>Your compassion, amplified.</h3>
+            <br>
+            <p>
+                Donor Advised Funds (DAFs) are donor-directed charitable funds administered by the Area Foundation,
+                which provided an additional $7 million in grants made directly to nonprofits impacted by COVID-19,
+                while also contributing $1.2 million to the COVID-19 Response Fund. Additionally, Donor Advised Fund
+                grants directly supporting nonprofit organizations totaled $42.3 million for 2020.
+            </p>
+            <br>
+            <p>
+                DAF grantmaking grew 33% in the first and second quarters of 2020 compared to the same time in 2019,
+                with 95% of all giving in response to COVID-19 staying in Bexar County. This sharp increase is
+                directly attributable to independent donors’ urgent concern for nonprofits working on the front
+                lines of the crisis.
+            </p>
+        </div>
+        <div class="section-30b__quoter">
+            <p>“One of the major assets of the Foundation is that what we care about is cared for forever.”</p>
+            <span>—Aaronetta Pierce</span>
+        </div>
+        <div class="clear-fix"></div>
+    </div>
+</section>
+<section class="section-31">
+    <div class="section-31__background"></div>
+    <div class="section-31__title-1">a new, better</div>
+    <div class="section-31__title-2">San Antonio for all.</div>
+</section>
+<section class="section-32 last-section">
+    <div class="section-32__title">Will you take that<br>journey with us?</div>
+    <div class="section-32__text">
+        Then, when the next turning point<br>
+        comes, we can face it with confidence<br>
+        and hope.<br>
+        <br>
+        Together.
+    </div>
+    <div class="section-32__donate">
+        <button>
+            <div class="icon icon-heart icon-heart-white">
+                <svg>
+                    <use href="#icon-heart"></use>
+                </svg>
+            </div>
+            Donate Now
+        </button>
+    </div>
+    <div class="section-32__links">
+        <div class="section-32__link-1" data-toggle=".section-32a">2020 board members
             <div class="icon icon-arrow">
                 <svg>
-                    <use href="#icon-arrow-left"></use>
+                    <use href="#icon-arrow-right"></use>
                 </svg>
             </div>
-        </button>
-    </section>
-    <section class="section-30">
-        <div class="section-30__background"></div>
-        <div class="section-30__pretitle">bringing all of our resources to bear as we</div>
-        <div class="section-30__title">create a path toward</div>
-        <div class="section-30__link-1" data-toggle=".section-30a">[ Connecting the dots: donor and development services
-            team ]
         </div>
-        <div class="section-30__link-2" data-toggle=".section-30b">[ Your compassion, amplified: donor advised funds ]
-        </div>
-        <div class="section-30__note">
-            » Conjunto Hall of Famer Bene Medina teaches accordion with Conjunto Heritage Taller
-        </div>
-    </section>
-    <section class="section-30a">
-        <div class="section-30a__main-content">
-            <div class="section-30a__close" data-toggle=".section-30a">
-                <div class="icon icon-close">
-                    <svg>
-                        <use href="#icon-close-gray"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="section-30a__text">
-                <h3>Connecting the Dots</h3>
-                <br>
-                <p>
-                    The Donor and Development Services team equips each donor with the tools they need to make informed
-                    decisions about where, how, and when to give. The San Antonio Area Foundation accepts a wide variety
-                    of assets and can facilitate even the most complex forms of giving. We partner with professional
-                    advisors to create highly effective approaches to charitable giving. We offer the maximum tax
-                    advantage for most gifts under state and federal law.
-                </p>
-                <br>
-                <p>
-                    The Center for Corporate Philanthropy at the San Antonio Area Foundation, launched in 2020, hosted a
-                    virtual townhall for fundholders and key business leaders featuring Darryl Walker, President of the
-                    Ford Foundation. Mr. Walker provided keen insights on how corporate citizens could help lead a
-                    robust and equitable rebound for the nonprofit sector during and after the pandemic, as well as
-                    challenging the lack of diversity on corporate boards.
-                </p>
-            </div>
-            <div class="section-30a__quoter">
-                <p>“The San Antonio Area Foundation’s role is to connect the dots. It’s to be able to see people who
-                    have resources and where their wishes are and then connect those wishes of making our world a better
-                    place with the right non-profit.”</p><span>—Janie Barrera</span>
-            </div>
-            <div class="clear-fix"></div>
-        </div>
-    </section>
-    <section class="section-30b">
-        <div class="section-30b__main-content">
-            <div class="section-30b__close" data-toggle=".section-30b">
-                <div class="icon icon-close">
-                    <svg>
-                        <use href="#icon-close-gray"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="section-30b__text">
-                <h3>Your compassion, amplified.</h3>
-                <br>
-                <p>
-                    Donor Advised Funds (DAFs) are donor-directed charitable funds administered by the Area Foundation,
-                    which provided an additional $7 million in grants made directly to nonprofits impacted by COVID-19,
-                    while also contributing $1.2 million to the COVID-19 Response Fund. Additionally, Donor Advised Fund
-                    grants directly supporting nonprofit organizations totaled $42.3 million for 2020.
-                </p>
-                <br>
-                <p>
-                    DAF grantmaking grew 33% in the first and second quarters of 2020 compared to the same time in 2019,
-                    with 95% of all giving in response to COVID-19 staying in Bexar County. This sharp increase is
-                    directly attributable to independent donors’ urgent concern for nonprofits working on the front
-                    lines of the crisis.
-                </p>
-            </div>
-            <div class="section-30b__quoter">
-                <p>“One of the major assets of the Foundation is that what we care about is cared for forever.”</p>
-                <span>—Aaronetta Pierce</span>
-            </div>
-            <div class="clear-fix"></div>
-        </div>
-    </section>
-    <section class="section-31">
-        <div class="section-31__background"></div>
-        <div class="section-31__title-1">a new, better</div>
-        <div class="section-31__title-2">San Antonio for all.</div>
-    </section>
-    <section class="section-32 last-section">
-        <div class="section-32__title">Will you take that<br>journey with us?</div>
-        <div class="section-32__text">
-            Then, when the next turning point<br>
-            comes, we can face it with confidence<br>
-            and hope.<br>
-            <br>
-            Together.
-        </div>
-        <div class="section-32__donate">
-            <button>
-                <div class="icon icon-heart icon-heart-white">
-                    <svg>
-                        <use href="#icon-heart"></use>
-                    </svg>
-                </div>
-                Donate Now
-            </button>
-        </div>
-        <div class="section-32__links">
-            <div class="section-32__link-1" data-toggle=".section-32a">2020 board members
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="section-32__link-2" data-toggle=".section-32b">VISIONARY CIRCLE LEGACY SOCIETY
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="clear-fix"></div>
-        </div>
-    </section>
-    <section class="section-32a">
-        <div class="section-32a__close" data-toggle=".section-32a">
-            <div class="icon icon-close">
+        <div class="section-32__link-2" data-toggle=".section-32b">VISIONARY CIRCLE LEGACY SOCIETY
+            <div class="icon icon-arrow">
                 <svg>
-                    <use href="#icon-close-white"></use>
+                    <use href="#icon-arrow-right"></use>
                 </svg>
             </div>
         </div>
-        <h3 class="section-32a__title">2020 BOARD MEMBERS</h3>
-        <br>
-        <div class="section-32a__text">
-            <p>
-                Theo Guidry, Board Chair<br>
-                Gen. James T. (Tom) Hill, 2021 Chair Elect<br>
-                Michelle R. Scarver, CPA/PFS, Treasurer<br>
-                Alex Perez, Secretary<br>
-                James D. (Darryl) Byrd<br>
-                Luis de la Garza<br>
-                Laura Ehrenberg-Chesler<br>
-                Lorenzo Gomez, III<br>
-                Sarah Harte, Past Board Chair<br>
-                Blake Hastings<br>
-                John Hayes, Past Board Chair<br>
-                David Komet<br>
-                Adena Williams Loston, Ph.D.<br>
-                Brad Parman<br>
-                Jane Phipps<br>
-                Marie Smith, Past Board Chair<br>
-                R. Bruce Tilley<br>
-                Harry W. Wolff, Jr.<br>
-                <br><br>
-                <i>The San Antonio Area Foundation would like to thank outgoing directors for their outstanding service
-                    on our board through 2020:</i>
-                <br><br>
-                Laura Ehrenberg-Chesler<br>
-                Luis de la Garza<br>
-                Theo Guidry<br>
-                John Hayes<br>
-                Jane Phipps<br>
-                Marie Smith<br>
-            </p>
+        <div class="clear-fix"></div>
+    </div>
+</section>
+<section class="section-32a">
+    <div class="section-32a__close" data-toggle=".section-32a">
+        <div class="icon icon-close">
+            <svg>
+                <use href="#icon-close-white"></use>
+            </svg>
         </div>
-    </section>
-    <section class="section-32b">
-        <div class="section-32b__close" data-toggle=".section-32b">
-            <div class="icon icon-close">
-                <svg>
-                    <use href="#icon-close-white"></use>
-                </svg>
-            </div>
+    </div>
+    <h3 class="section-32a__title">2020 BOARD MEMBERS</h3>
+    <br>
+    <div class="section-32a__text">
+        <p>
+            Theo Guidry, Board Chair<br>
+            Gen. James T. (Tom) Hill, 2021 Chair Elect<br>
+            Michelle R. Scarver, CPA/PFS, Treasurer<br>
+            Alex Perez, Secretary<br>
+            James D. (Darryl) Byrd<br>
+            Luis de la Garza<br>
+            Laura Ehrenberg-Chesler<br>
+            Lorenzo Gomez, III<br>
+            Sarah Harte, Past Board Chair<br>
+            Blake Hastings<br>
+            John Hayes, Past Board Chair<br>
+            David Komet<br>
+            Adena Williams Loston, Ph.D.<br>
+            Brad Parman<br>
+            Jane Phipps<br>
+            Marie Smith, Past Board Chair<br>
+            R. Bruce Tilley<br>
+            Harry W. Wolff, Jr.<br>
+            <br><br>
+            <i>The San Antonio Area Foundation would like to thank outgoing directors for their outstanding service
+                on our board through 2020:</i>
+            <br><br>
+            Laura Ehrenberg-Chesler<br>
+            Luis de la Garza<br>
+            Theo Guidry<br>
+            John Hayes<br>
+            Jane Phipps<br>
+            Marie Smith<br>
+        </p>
+    </div>
+</section>
+<section class="section-32b">
+    <div class="section-32b__close" data-toggle=".section-32b">
+        <div class="icon icon-close">
+            <svg>
+                <use href="#icon-close-white"></use>
+            </svg>
         </div>
-        <h3 class="section-32b__title">2020 BOARD MEMBERS</h3>
+    </div>
+    <h3 class="section-32b__title">2020 BOARD MEMBERS</h3>
+    <br>
+    <div class="section-32b__text">
+        <p>
+            The Visionary Circle Legacy Society recognizes those who, through their estate or financial plans,
+            ensure that the causes they care about today will have support in the future. While we honor these
+            individuals in our Visionary Circle who are listed below, we also appreciate the gifts of those who wish
+            to remain anonymous.
+        </p>
         <br>
-        <div class="section-32b__text">
-            <p>
-                The Visionary Circle Legacy Society recognizes those who, through their estate or financial plans,
-                ensure that the causes they care about today will have support in the future. While we honor these
-                individuals in our Visionary Circle who are listed below, we also appreciate the gifts of those who wish
-                to remain anonymous.
-            </p>
+        <div class="section-32b__names">
+            Bill Asher and Molly Asher<br>
             <br>
-            <div class="section-32b__names">
-                Bill Asher and Molly Asher<br>
-                <br>
-                James Ardoin, Jr. and Priscilla Hill-Ardoin<br>
-                <br>
-                Isabelle Badouh<br>
-                <br>
-                Elsa G. Barshop<br>
-                <br>
-                Jamie L. Barshop<br>
-                <br>
-                Arthur H. Bayern<br>
-                <br>
-                Glenn Bernard and Gisele Bernard<br>
-                <br>
-                Dr. Charles Brady, III and Teresa Llanas<br>
-                <br>
-                Lila R. Brehm Charitable Lead Trust<br>
-                <br>
-                Dee Ann Bridges<br>
-                <br>
-                Dr. Willis Brown, Jr. and Elizabeth A. Brown<br>
-                <br>
-                Calvin Buchholtz, Jr.<br>
-                <br>
-                Lee Cabibi and Christine Schmid Cabibi<br>
-                <br>
-                Sue Caldwell<br>
-                <br>
-                Barbara Candler<br>
-                <br>
-                Gary and Pam Chambers<br>
-                <br>
-                Lee Childress and Cecilia Childress<br>
-                <br>
-                Tom Christal and Lyn Christal<br>
-                <br>
-                Dr. Pamela Christian<br>
-                <br>
-                Dr. Elizabeth D. Conklyn<br>
-                <br>
-                Phyllis Conrad<br>
-                <br>
-                Evelyn Cooper<br>
-                <br>
-                Rose Marie Cutting<br>
-                <br>
-                Albert DeLauro and Claire DeLauro<br>
-                <br>
-                John Demsey<br>
-                <br>
-                Heather C. Diehl and J. F. Bierlein<br>
-                <br>
-                Sue Dodson<br>
-                <br>
-                Seymour Dreyfus and Jane Dreyfus<br>
-                <br>
-                Randell L. Drum<br>
-                <br>
-                Francis Bowie Duncan, II and Helen Duncan<br>
-                <br>
-                Carl I. Duncan<br>
-                <br>
-                Howard D. Engleman and Dr. Lorna L. Engleman<br>
-                <br>
-                Dr. Robert M. Esterl, Jr.<br>
-                <br>
-                Dr. Sylvia P. Fernandez and Raul Fernandez<br>
-                <br>
-                Colonel Stephen R. Fischer, Ph.D., USAF (Ret.)<br>
-                <br>
-                Bertie Frank<br>
-                <br>
-                Pauline S. Freberg<br>
-                <br>
-                T. Paul Furukawa, Ph.D<br>
-                <br>
-                Alicia Z. Galvan<br>
-                <br>
-                Richard and Antonia Goldsmith<br>
-                <br>
-                John S. Gutzler and Sarah Harte<br>
-                <br>
-                Raymond Hannigan and Patricia Hannigan<br>
-                <br>
-                Jack Hansen<br>
-                <br>
-                Dr. Dwight Henderson<br>
-                <br>
-                John Hill and Caroline Hill<br>
-                <br>
-                Dr. Linda J. Holley and Lon Taylor<br>
-                <br>
-                David Holmes and Rebecca Holmes<br>
-                <br>
-                Sterlin Holmesly<br>
-                <br>
-                Dr. Penn Jackson and Dr. Carlayne Jackson<br>
-                <br>
-                Dr. Norman L. Jacobson<br>
-                <br>
-                Rosemary Jasso<br>
-                <br>
-                Roquey and Anna Jobes<br>
-                <br>
-                Curtis R. Johnson<br>
-                <br>
-                Concha Jones<br>
-                <br>
-                Wister H. Kampmann<br>
-                <br>
-                Xonia Kargl<br>
-                <br>
-                William Kromer<br>
-                <br>
-                Anne C. Larme<br>
-                <br>
-                James Lazarus, Ph.D. and Dr. Susan L. Gershenhorn<br>
-                <br>
-                James Letchworth and Kirk Swanson<br>
-                <br>
-                Dr. Ruth Lofgren<br>
-                <br>
-                Colonel Lawrence Luken (Ret.) and Margaret Luken <br>
-                <br>
-                Meredith McGuire, Ph.D.<br>
-                <br>
-                Dr. Laura McKieran<br>
-                <br>
-                Marlene Merritt<br>
-                <br>
-                Brice Moczygemba and Teresa Moczygemba<br>
-                <br>
-                Dr. John V. Mumma and Judy Jay Mumma<br>
-                <br>
-                Henry R. Muñoz, III<br>
-                <br>
-                Keith Orme and Pat Orme<br>
-                <br>
-                Sean Oslin<br>
-                <br>
-                Major General Susan L. Pamerleau, USAF (Ret.)<br>
-                <br>
-                David W. Pasley and Elizabeth G. Pasley<br>
-                <br>
-                Donna Parker<br>
-                <br>
-                Brad J. Parman <br>
-                <br>
-                Philip Peacock and Sallie Steves Peacock<br>
-                <br>
-                Fred Pfeiffer and Ann Maria Pfeiffer<br>
-                <br>
-                Robert Phipps and Jane Phipps<br>
-                <br>
-                Claire Pronovost<br>
-                <br>
-                Charles Puls and Jenny Puls<br>
-                <br>
-                Mary Quandt<br>
-                <br>
-                Edwin P. Riley, Jr.<br>
-                <br>
-                Noel Robin<br>
-                <br>
-                Leonel Rodriguez and Gerry Frost<br>
-                <br>
-                Chickie Rose<br>
-                <br>
-                Larry W. Rosenberger, Jr. and Diana Rosenberger<br>
-                <br>
-                Nancy Russell<br>
-                <br>
-                Dr. Deanna Schupbach<br>
-                <br>
-                Patricia S. Scott<br>
-                <br>
-                Donald Schmidt and Susan Kent <br>
-                <br>
-                Joseph A. Soane<br>
-                <br>
-                Doris Barshop Spector<br>
-                <br>
-                Sue Spellman<br>
-                <br>
-                Kevin Steingart and Karen Steingart<br>
-                <br>
-                John T. Suggs, Jr. and Karen Suggs<br>
-                <br>
-                Kathy Toyoda<br>
-                <br>
-                Denise Trujillo<br>
-                <br>
-                Robert Watson and Suzanne Watson<br>
-                <br>
-                Dorothy R. Wilson<br>
-                <br>
-                Juanita Wittmer
-            </div>
+            James Ardoin, Jr. and Priscilla Hill-Ardoin<br>
+            <br>
+            Isabelle Badouh<br>
+            <br>
+            Elsa G. Barshop<br>
+            <br>
+            Jamie L. Barshop<br>
+            <br>
+            Arthur H. Bayern<br>
+            <br>
+            Glenn Bernard and Gisele Bernard<br>
+            <br>
+            Dr. Charles Brady, III and Teresa Llanas<br>
+            <br>
+            Lila R. Brehm Charitable Lead Trust<br>
+            <br>
+            Dee Ann Bridges<br>
+            <br>
+            Dr. Willis Brown, Jr. and Elizabeth A. Brown<br>
+            <br>
+            Calvin Buchholtz, Jr.<br>
+            <br>
+            Lee Cabibi and Christine Schmid Cabibi<br>
+            <br>
+            Sue Caldwell<br>
+            <br>
+            Barbara Candler<br>
+            <br>
+            Gary and Pam Chambers<br>
+            <br>
+            Lee Childress and Cecilia Childress<br>
+            <br>
+            Tom Christal and Lyn Christal<br>
+            <br>
+            Dr. Pamela Christian<br>
+            <br>
+            Dr. Elizabeth D. Conklyn<br>
+            <br>
+            Phyllis Conrad<br>
+            <br>
+            Evelyn Cooper<br>
+            <br>
+            Rose Marie Cutting<br>
+            <br>
+            Albert DeLauro and Claire DeLauro<br>
+            <br>
+            John Demsey<br>
+            <br>
+            Heather C. Diehl and J. F. Bierlein<br>
+            <br>
+            Sue Dodson<br>
+            <br>
+            Seymour Dreyfus and Jane Dreyfus<br>
+            <br>
+            Randell L. Drum<br>
+            <br>
+            Francis Bowie Duncan, II and Helen Duncan<br>
+            <br>
+            Carl I. Duncan<br>
+            <br>
+            Howard D. Engleman and Dr. Lorna L. Engleman<br>
+            <br>
+            Dr. Robert M. Esterl, Jr.<br>
+            <br>
+            Dr. Sylvia P. Fernandez and Raul Fernandez<br>
+            <br>
+            Colonel Stephen R. Fischer, Ph.D., USAF (Ret.)<br>
+            <br>
+            Bertie Frank<br>
+            <br>
+            Pauline S. Freberg<br>
+            <br>
+            T. Paul Furukawa, Ph.D<br>
+            <br>
+            Alicia Z. Galvan<br>
+            <br>
+            Richard and Antonia Goldsmith<br>
+            <br>
+            John S. Gutzler and Sarah Harte<br>
+            <br>
+            Raymond Hannigan and Patricia Hannigan<br>
+            <br>
+            Jack Hansen<br>
+            <br>
+            Dr. Dwight Henderson<br>
+            <br>
+            John Hill and Caroline Hill<br>
+            <br>
+            Dr. Linda J. Holley and Lon Taylor<br>
+            <br>
+            David Holmes and Rebecca Holmes<br>
+            <br>
+            Sterlin Holmesly<br>
+            <br>
+            Dr. Penn Jackson and Dr. Carlayne Jackson<br>
+            <br>
+            Dr. Norman L. Jacobson<br>
+            <br>
+            Rosemary Jasso<br>
+            <br>
+            Roquey and Anna Jobes<br>
+            <br>
+            Curtis R. Johnson<br>
+            <br>
+            Concha Jones<br>
+            <br>
+            Wister H. Kampmann<br>
+            <br>
+            Xonia Kargl<br>
+            <br>
+            William Kromer<br>
+            <br>
+            Anne C. Larme<br>
+            <br>
+            James Lazarus, Ph.D. and Dr. Susan L. Gershenhorn<br>
+            <br>
+            James Letchworth and Kirk Swanson<br>
+            <br>
+            Dr. Ruth Lofgren<br>
+            <br>
+            Colonel Lawrence Luken (Ret.) and Margaret Luken <br>
+            <br>
+            Meredith McGuire, Ph.D.<br>
+            <br>
+            Dr. Laura McKieran<br>
+            <br>
+            Marlene Merritt<br>
+            <br>
+            Brice Moczygemba and Teresa Moczygemba<br>
+            <br>
+            Dr. John V. Mumma and Judy Jay Mumma<br>
+            <br>
+            Henry R. Muñoz, III<br>
+            <br>
+            Keith Orme and Pat Orme<br>
+            <br>
+            Sean Oslin<br>
+            <br>
+            Major General Susan L. Pamerleau, USAF (Ret.)<br>
+            <br>
+            David W. Pasley and Elizabeth G. Pasley<br>
+            <br>
+            Donna Parker<br>
+            <br>
+            Brad J. Parman <br>
+            <br>
+            Philip Peacock and Sallie Steves Peacock<br>
+            <br>
+            Fred Pfeiffer and Ann Maria Pfeiffer<br>
+            <br>
+            Robert Phipps and Jane Phipps<br>
+            <br>
+            Claire Pronovost<br>
+            <br>
+            Charles Puls and Jenny Puls<br>
+            <br>
+            Mary Quandt<br>
+            <br>
+            Edwin P. Riley, Jr.<br>
+            <br>
+            Noel Robin<br>
+            <br>
+            Leonel Rodriguez and Gerry Frost<br>
+            <br>
+            Chickie Rose<br>
+            <br>
+            Larry W. Rosenberger, Jr. and Diana Rosenberger<br>
+            <br>
+            Nancy Russell<br>
+            <br>
+            Dr. Deanna Schupbach<br>
+            <br>
+            Patricia S. Scott<br>
+            <br>
+            Donald Schmidt and Susan Kent <br>
+            <br>
+            Joseph A. Soane<br>
+            <br>
+            Doris Barshop Spector<br>
+            <br>
+            Sue Spellman<br>
+            <br>
+            Kevin Steingart and Karen Steingart<br>
+            <br>
+            John T. Suggs, Jr. and Karen Suggs<br>
+            <br>
+            Kathy Toyoda<br>
+            <br>
+            Denise Trujillo<br>
+            <br>
+            Robert Watson and Suzanne Watson<br>
+            <br>
+            Dorothy R. Wilson<br>
+            <br>
+            Juanita Wittmer
         </div>
-    </section>
+    </div>
+</section>
 </div>
 
 <script
@@ -2196,9 +2182,10 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
-<script type="text/javascript"1`
+<script type="text/javascript" 1`
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
 </body>
 
