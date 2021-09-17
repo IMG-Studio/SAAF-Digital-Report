@@ -3848,6 +3848,12 @@ section.complete .button-next-slide-section-2 {
     color: #3A6D88;
 }
 
+.section27a-signature{
+    font-family: Roboto-Bold;
+}
+.section27a-signature-title{
+    font-family: Roboto-Regluar;
+}
 .section-27a {
     z-index: -6;
     position: relative;
@@ -4142,7 +4148,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-29__pretitle {
     position: relative;
-    top: 70px;
+    top: 78px;
     left: 300px;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 34px;
@@ -4317,7 +4323,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-30__pretitle {
     position: relative;
-    top: 10vh;
+    top: 11.5vh;
     left: 43%;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 34px;

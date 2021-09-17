@@ -1491,8 +1491,6 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
                     </div>
                 </div>
             </div>
-    </div>
-</div>
 <div class="button-next-slide button-next-slide-section-27" data-toggle=".section-27, .section-27a"><span>Eric Wilson’s full story</span>
     <button class="button button-arrow-blue">
         <div class="button-ripple button-ripple-section-27"></div>
@@ -1503,6 +1501,8 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
         </div>
     </button>
 </div>
+    </div>
+</div>
 </section>
 <section class="section-27a">
     <div class="section-27a__maincontent">
@@ -1511,7 +1511,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
                     alt=""></div>
         <div class="section-27a__text-wrapper">
             <div class="section-27a__text">
-                <h3>Words from former chairman of the board</h3>
+<!--                <h3>Words from former chairman of the board</h3>-->
                 <br>
                 <p>
                     A conversation with a colleague about recognizing scholarship donors at our school caused me to
@@ -1563,13 +1563,13 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
                     again for helping me pursue my dreams.
                 </p>
                 <br>
-                <p>
+                <h5 class="section27a-signature">
                     Eric Wilson
-                </p>
+                </h5>
                 <br>
-                <p>
+                <h5 class="section27a-signature-title">
                     Assistant Dean for Accountability and Strategic Initiatives, Texas A&M School of Public Health
-                </p>
+                </h5>
                 <br><br>
             </div>
             <div class="section-27a__text-shadow-after"></div>
@@ -1688,10 +1688,10 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
     <div class="section-29__pretitle">Our turning point has made us a</div>
     <div class="section-29__title">stronger catalyst<br>for change,</div>
     <div class="section-29__text">
-        <!--            Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to-->
-        <!--            racial and social justice by implementing a strategic, data-driven approach to serving the community. This-->
-        <!--            “equity-based decision-making” is the targeted investment of money and human capital to equip our most-->
-        <!--            under-served residents to realize a quality of life filled with hope, good health, and opportunity.-->
+<!--                    Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to-->
+<!--                    racial and social justice by implementing a strategic, data-driven approach to serving the community. This-->
+<!--                    “equity-based decision-making” is the targeted investment of money and human capital to equip our most-->
+<!--                    under-served residents to realize a quality of life filled with hope, good health, and opportunity.-->
     </div>
     <div class="button-next-slide button-next-slide-section-29" data-toggle=".section-29a"><span>the Legacy of Jack and Laura Richmond</span>
         <button class="button button-arrow-blue">
