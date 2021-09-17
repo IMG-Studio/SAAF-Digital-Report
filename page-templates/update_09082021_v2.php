@@ -253,7 +253,7 @@
         <br><br>
 
 
-        <span class="hideMenu" data-offset="3800" id="courage">[ Have Courage. ] – Scholarships</span>
+        <span class="hideMenu" data-offset="3800" id="courage">[ Have Courage. ] – Scholarships</span><br>
             <a class="hideMenu submenu" data-offset="3919" >Turning Point: A Little Help Goes a Long Way</a><br/>
             <a class="hideMenu submenu" data-offset="4080" >Thank You from our Student Scholars</a><br/>
             <a class="hideMenu submenu" data-offset="4206" >Turning Point: In Memoriam: Jack and Laura Richmond</a><br/>
