@@ -811,7 +811,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	/*
 		Comma seperated list of class names. or a single class name
 	*/
-
+	//
 	var toggleTimeouts = [];
 
 	function toggle (query, uniqueClasses = undefined) {
@@ -984,21 +984,39 @@ window.addEventListener("DOMContentLoaded", event =>
 
 		// all custom jQuery will go here
 		jQuery(function($){
-// on right track adjust classes
-			$( '.button-mobile-menu-header-left' ).click(function(){
-				$('.button-mobile-menu').toggleClass('header-left-nav');
+
+			$( '.menu-btn' ).click(function(){
+				$('.header-left-nav').toggleClass('nav-toggled');
 			});
 
 			$(document).on("click", function(e){
 				if(
-					$(e.target).closest(".header-left-nav").length === 0 &&
-					$(".button-mobile-menu").hasClass("header-left-nav") &&
-					$(e.target).closest(".button-mobile-menu-header-left").length === 0
+					$(e.target).closest(".menu-btn").length === 0 &&
+					$(".nav-toggled").hasClass("nav-toggled") &&
+					$(e.target).closest(".nav-toggled").length === 0 ||
+					$(e.target).hasClass("hideMenu")
+
 				){
-					$('.button-mobile-menu').toggleClass('header-left-nav');
+					console.log("toggle")
+					$('.header-left-nav').toggleClass('nav-toggled');
+
 				}
+
+
+
 			});
 		});
+
+
+
+	// window.addEventListener('mouseup', function(event){
+	// 	const box = document.getElementsByClassName('button-mobile-menu-header-left');
+	// 	if (event.target != box && event.target.parentNode != box){
+	// 		box.style.display = 'none';
+	// 		console.log("hide")
+	// 	}
+	// });
+
 
 
 
