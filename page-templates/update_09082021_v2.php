@@ -20,24 +20,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="jquery-3.5.1.min.js"></script>
-    <!--  <link rel="apple-touch-icon" sizes="57x57" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-57x57.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="60x60" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-60x60.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="72x72" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-72x72.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="76x76" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-76x76.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="114x114" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-114x114.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="120x120" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-120x120.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="144x144" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-144x144.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="152x152" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-152x152.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="180x180" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-180x180.png">-->
+
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
@@ -46,33 +29,11 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#fff">
     <meta name="application-name" content="ds-webpack-starter">
-    <!--  <link rel="icon" type="image/png" sizes="32x32" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon-32x32.png">-->
-    <!--  <link rel="icon" type="image/png" sizes="16x16" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon-16x16.png">-->
-    <!--  <link rel="shortcut icon" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/favicon.ico">-->
+
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="msapplication-config" content="browserconfig.xml">
-    <!--  <link rel="apple-touch-icon" sizes="57x57" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-57x57.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="60x60" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-60x60.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="72x72" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-72x72.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="76x76" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-76x76.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="114x114" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-114x114.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="120x120" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-120x120.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="144x144" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-144x144.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="152x152" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-152x152.png">-->
-    <!--  <link rel="apple-touch-icon" sizes="180x180" href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09082021_v2/favicon/apple-touch-icon-180x180.png">-->
+
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
@@ -202,12 +163,6 @@
                     </svg>
                 </a>
             </div>
-            <style>
-                .nav-toggled {
-
-                    left: 96px;
-                }
-            </style>
             <div class="mobile-nav" >
 
                 <div class="menu-btn" id="menu1" onclick="myClick()">
@@ -220,31 +175,18 @@
 
             <script>
                 function myClick() {
-                    var element = document.getElementById("nav1");
+                    const element = document.getElementById("nav1");
                     element.classList.toggle("nav-toggled");
-
-                    window.addEventListener("mouseup", function (e){
-                        const menu = document.getElementById("menu1");
-                        const menu2 = document.getElementById("nav1");
-                       if (e.target.id != menu &&  e.target.id != menu2 ) {
-                           element.classList.toggle("nav-toggled")
-                           console.log("toggle")
-                       }
-                    })
-
+                    console.log("slide")
                 }
 
-
-                //    js example for above
-
-                //    window.addEventListener('mouseup', function(e){
-                //    var sideNav = document.getElementById("sideNav");
-                //    var menu = document.getElementById("menu")
-                //    if (e.target.id != 'moreDrop') {
-                //        sideNav.classList.add('hide');
-                //    }
-                //});
-
+                document.onclick = function(e){
+                    const element = document.getElementById("nav1");
+                    if(e.target.id !== 'nav1' && e.target.id !== 'menu1' )
+                    {
+                        element.classList.remove('nav-toggled');
+                    }
+                }
             </script>
 
 
@@ -2219,8 +2161,8 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-<script type="text/javascript" 1`
+
+<script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">

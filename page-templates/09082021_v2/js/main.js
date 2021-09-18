@@ -968,56 +968,31 @@ window.addEventListener("DOMContentLoaded", event =>
 	};
 
 
-
-	// function myClick() {
-	// 	var element = document.getElementById("nav1");
-	// 	element.classList.toggle("nav-toggled");
-	//
-	// }
-	//
-	//
-
-
 		// all custom jQuery will go here
 		// jQuery(function($){
 		//
 		// 	$( '.menu-btn' ).click(function(){
 		// 		$('.header-left-nav').toggleClass('nav-toggled');
 		// 	});
-
-			// $(document).on("click", function(e){
-			// 	if(
-			// 		$(e.target).closest(".menu-btn").length === 0 &&
-			// 		$(".nav-toggled").hasClass("nav-toggled") &&
-			// 		$(e.target).closest(".nav-toggled").length === 0 ||
-			// 		$(e.target).hasClass("hideMenu")
-			//
-			// 	){
-			// 		console.log("toggle")
-			// 		$('.header-left-nav').toggleClass('nav-toggled');
-			//
-			// 	}
-			//
-			//
-			//
-			// });
+		//
+		// 	$(document).on("click", function(e){
+		// 		if(
+		// 			$(e.target).closest(".menu-btn").length === 0 &&
+		// 			$(".nav-toggled").hasClass("nav-toggled") &&
+		// 			$(e.target).closest(".nav-toggled").length === 0 ||
+		// 			$(e.target).hasClass("hideMenu")
+		//
+		// 		){
+		// 			console.log("toggle")
+		// 			$('.header-left-nav').toggleClass('nav-toggled');
+		//
+		// 		}
+		//
+		//
+		//
+		// 	});
 		// });
 
-
-
-
-
-
-
-
-
-	// window.addEventListener('mouseup', function(event){
-	// 	const box = document.getElementsByClassName('button-mobile-menu-header-left');
-	// 	if (event.target != box && event.target.parentNode != box){
-	// 		box.style.display = 'none';
-	// 		console.log("hide")
-	// 	}
-	// });
 
 
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SAAF-Digital-Report" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SAAF-Digital-Report" vcs="" />
+    <mapping directory="$PROJECT_DIR$/saaf-covid-booklet" vcs="" />
   </component>
 </project>
