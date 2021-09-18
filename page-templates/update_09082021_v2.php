@@ -202,8 +202,15 @@
                     </svg>
                 </a>
             </div>
-            <div class="mobile-nav justify-contet-center">
-                <div class="menu-btn" id="menu-btn">
+            <style>
+                .nav-toggled {
+
+                    left: 96px;
+                }
+            </style>
+            <div class="mobile-nav" >
+
+                <div class="menu-btn" id="menu1" onclick="myClick()">
                     <div></div>
                     <span></span>
                     <span></span>
@@ -211,7 +218,37 @@
                 </div>
             </div>
 
-            <button class="button button-heart button-heart-header-left">
+            <script>
+                function myClick() {
+                    var element = document.getElementById("nav1");
+                    element.classList.toggle("nav-toggled");
+
+                    window.addEventListener("mouseup", function (e){
+                        const menu = document.getElementById("menu1");
+                        const menu2 = document.getElementById("nav1");
+                       if (e.target.id != menu &&  e.target.id != menu2 ) {
+                           element.classList.toggle("nav-toggled")
+                           console.log("toggle")
+                       }
+                    })
+
+                }
+
+
+                //    js example for above
+
+                //    window.addEventListener('mouseup', function(e){
+                //    var sideNav = document.getElementById("sideNav");
+                //    var menu = document.getElementById("menu")
+                //    if (e.target.id != 'moreDrop') {
+                //        sideNav.classList.add('hide');
+                //    }
+                //});
+
+            </script>
+
+
+            <button class="button button-heart button-heart-header-left" >
                 <div class="icon icon-heart icon-heart-red">
                     <svg>
                         <use href="#icon-heart"></use>
@@ -229,7 +266,7 @@
         </div>
     </div>
 
-    <div class="header-left-nav">
+    <div class="header-left-nav" id="nav1">
 
         <a class="hideMenu" data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</a><br>
             <a class="hideMenu submenu" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
@@ -307,6 +344,7 @@
     </section>
     <section class="section-2">
         <div class="section-2__text">
+             <img src="<?php the_field('page-1_background'); ?>" />
             <div class="section-2__text-1">Turning points often appear as obstacles, unbidden,</div>
             <div class="section-2__text-2">forcing you to</div>
             <div class="section-2__text-3">choose a new path.</div>
