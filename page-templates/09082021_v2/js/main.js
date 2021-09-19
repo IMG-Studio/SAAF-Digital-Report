@@ -135,6 +135,17 @@ window.addEventListener("DOMContentLoaded", event =>
 	}
 	*/
 
+	//navbar functionality
+	const element = document.getElementById("nav1");
+	const clicker = document.getElementById("menu1")
+	// open nav
+	clicker.onclick = function(){ element.classList.toggle("nav-toggled"); console.log("working") }
+	//close nav if outside or on link
+	document.onclick = function (e){ if(e.target.id !== 'nav1' && e.target.id !== 'menu1' )
+	{
+		element.classList.remove('nav-toggled');
+	}
+	}
 
 	// Page scroll animations
 
@@ -992,7 +1003,6 @@ window.addEventListener("DOMContentLoaded", event =>
 		//
 		// 	});
 		// });
-
 
 
 

@@ -54,6 +54,7 @@
           integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 
+
 <body class="index-page" id="top">
 <div class="scroll-dummy-overlay"></div>
 <div class="svg-sprive">
@@ -165,7 +166,7 @@
             </div>
             <div class="mobile-nav" >
 
-                <div class="menu-btn" id="menu1" onclick="myClick()">
+                <div class="menu-btn" id="menu1" ">
                     <div></div>
                     <span></span>
                     <span></span>
@@ -173,21 +174,7 @@
                 </div>
             </div>
 
-            <script>
-                function myClick() {
-                    const element = document.getElementById("nav1");
-                    element.classList.toggle("nav-toggled");
-                    console.log("slide")
-                }
 
-                document.onclick = function(e){
-                    const element = document.getElementById("nav1");
-                    if(e.target.id !== 'nav1' && e.target.id !== 'menu1' )
-                    {
-                        element.classList.remove('nav-toggled');
-                    }
-                }
-            </script>
 
 
             <button class="button button-heart button-heart-header-left" >
@@ -207,6 +194,7 @@
             </button>
         </div>
     </div>
+
 
     <div class="header-left-nav" id="nav1">
 
