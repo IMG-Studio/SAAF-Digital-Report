@@ -1,5 +1,5 @@
 /*!
-Theme Name: SAAF
+Theme Name: SAAF Local
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -536,9 +536,9 @@ a {
 	color: #4169e1;
 }
 
-a:visited {
-	color: #800080;
-}
+/*a:visited {*/
+/*	color: #800080;*/
+/*}*/
 
 a:hover,
 a:focus,

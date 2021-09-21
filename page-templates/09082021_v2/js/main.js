@@ -980,7 +980,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 
 		// all custom jQuery will go here
-		jQuery(function($){
+		jQuery(document).ready(function($){
 
 
 
