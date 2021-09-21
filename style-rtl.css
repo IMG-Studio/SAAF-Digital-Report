@@ -536,9 +536,9 @@ a {
 	color: #4169e1;
 }
 
-a:visited {
-	color: #800080;
-}
+/*a:visited {*/
+/*	color: #de0000;*/
+/*}*/
 
 a:hover,
 a:focus,

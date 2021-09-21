@@ -1,4 +1,7 @@
 
+/*.nav-toggled {*/
+/*    left: 96px;*/
+/*}*/
 
 
 
@@ -450,6 +453,7 @@ body.page-loaded .header-top {
     padding-bottom: 12px
 }
 
+
 .nav-main__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -475,7 +479,7 @@ body.page-loaded .header-top {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 1000;S
     height: 100%;
     opacity: 0.0;
     background-color: #fbfbfb;
@@ -545,16 +549,6 @@ body.page-loaded .header-top {
     transition: left 0.33s;
 }
 
-.nav-toggled {
-
-    left: 96px;
-
-}
-/*left nav categories*/
-.header-left-nav-close {
-
-visibility: hidden;
-}
 
 
 
