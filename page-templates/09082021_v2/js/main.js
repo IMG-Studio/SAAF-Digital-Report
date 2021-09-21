@@ -226,9 +226,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("button-next-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
 	// new ElementAnimation("button-ripple-section-5", "scale", 1.0, 5, 420, 440);
 	// new ElementAnimation("button-ripple-section-5", "scale", 5, 1.0, 450, 470);
-	// new ElementAnimation("button-ripple-section-5l", "opacity", 0.0, 1.0, 410, 415);
-	// new ElementAnimation("button-ripple-section-5l", "scale", 1.0, 1.75, 410, 420);
-	// new ElementAnimation("button-ripple-section-5l", "scale", 1.75, 1.5, 420, 430);
+// new ElementAnimation("button-ripple-section-5l", "scale", 1.75, 1.5, 420, 430);
 	// new ElementAnimation("button-ripple-section-5l", "opacity", 1.0, 0.0, 415, 430);
 	// new ElementAnimation("button-ripple-section-5l", "scale", 1.5, 1.75, 470, 480);
 	// new ElementAnimation("button-ripple-section-5l", "opacity", 0.0, 1.0, 470, 480);
@@ -242,7 +240,9 @@ window.addEventListener("DOMContentLoaded", event =>
 	// new ElementAnimation("button-ripple-section-5r", "scale", 1.5, 1.75, 470, 480);
 	// new ElementAnimation("button-ripple-section-5r", "opacity", 0.0, 1.0, 470, 480);
 	// new ElementAnimation("button-ripple-section-5r", "scale", 1.75, 1.5, 480, 490);
-	// new ElementAnimation("button-ripple-section-5r", "opacity", 1.0, 0.0, 480, 490);
+	// new ElementAnimation("button-ripple-section-5r", "opacity", 1.0, 0.0, 480, 490);	// new ElementAnimation("button-ripple-section-5l", "opacity", 0.0, 1.0, 410, 415);
+	// new ElementAnimation("button-ripple-section-5l", "scale", 1.0, 1.75, 410, 420);
+
 
 	new ElementAnimation("section-5", "opacity", 1.0, 0.0, 470, 485);
 
@@ -980,6 +980,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 
 		// all custom jQuery will go here
+
 		jQuery(document).ready(function($){
 
 
@@ -1007,10 +1008,6 @@ window.addEventListener("DOMContentLoaded", event =>
 
 			});
 		});
-
-
-
-
 
 
 });
