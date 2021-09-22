@@ -135,6 +135,17 @@ window.addEventListener("DOMContentLoaded", event =>
 	}
 	*/
 
+	//navbar functionality
+	// const element = document.getElementById("nav1");
+	// const clicker = document.getElementById("menu1")
+	// // open nav
+	// clicker.onclick = function(){ element.classList.toggle("nav-toggled"); console.log("working") }
+	// //close nav if outside or on link
+	// document.onclick = function (e){ if(e.target.id !== 'nav1' && e.target.id !== 'menu1' )
+	// {
+	// 	element.classList.remove('nav-toggled');
+	// }
+	// }
 
 	// Page scroll animations
 
@@ -969,29 +980,31 @@ window.addEventListener("DOMContentLoaded", event =>
 
 
 		// all custom jQuery will go here
-		// jQuery(function($){
-		//
-		// 	$( '.menu-btn' ).click(function(){
-		// 		$('.header-left-nav').toggleClass('nav-toggled');
-		// 	});
-		//
-		// 	$(document).on("click", function(e){
-		// 		if(
-		// 			$(e.target).closest(".menu-btn").length === 0 &&
-		// 			$(".nav-toggled").hasClass("nav-toggled") &&
-		// 			$(e.target).closest(".nav-toggled").length === 0 ||
-		// 			$(e.target).hasClass("hideMenu")
-		//
-		// 		){
-		// 			console.log("toggle")
-		// 			$('.header-left-nav').toggleClass('nav-toggled');
-		//
-		// 		}
-		//
-		//
-		//
-		// 	});
-		// });
+		jQuery(document).ready(function($){
+ console.log("working jquery")
+			$( '.menu-btn' ).click(function(){
+				$('.header-left-nav').toggleClass('toggle');
+				$('.menu-btn').toggleClass('active');
+				console.log("jquery")
+			});
+
+			$(document).on("click", function(e){
+				e.stopPropagation()
+				if(
+					$(e.target).closest(".menu-btn").length === 0 &&
+					$(".header-left-nav").hasClass("toggle") &&
+					$(e.target).closest(".toggle").length === 0 ||
+					$(e.target).hasClass("hideMenu")
+
+				){
+					console.log("toggle")
+					$('.header-left-nav').toggleClass('toggle');
+
+				}
+
+			});
+		});
+
 
 
 

@@ -1,5 +1,4 @@
-<?php
-
+<?php wp_head();
 /*
 
  * Template Name: Home

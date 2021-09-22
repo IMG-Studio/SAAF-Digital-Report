@@ -12,6 +12,7 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'saaf' ) ); ?>">
 				<?php
