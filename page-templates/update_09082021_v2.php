@@ -24,7 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-
+    <script src="https://kit.fontawesome.com/3ed99841ff.js" crossorigin="anonymous"></script>
 
 
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -186,15 +186,20 @@
             <button class="button button-heart button-heart-header-left" >
                 <div class="icon icon-heart icon-heart-red">
                     <svg>
+                        <a href="https://saafdn.fcsuite.com/erp/donate/">
                         <use href="#icon-heart"></use>
+
+                        </a>
                     </svg>
                 </div>
             </button>
 
             <button class="button button-screen-down button-screen-down-header-left">
-                <div class="icon icon-screen-down">
-                    <svg>
+                <div class="icon-screen-down">
+                    <svg class="icon-screen-down">
+                        <a href="https://www.dropbox.com/s/6u1jq57v2716lfp/WireO-Mockup.pdf?dl=0">
                         <use href="#icon-screen-down"></use>
+                        </a>
                     </svg>
                 </div>
             </button>

@@ -205,8 +205,10 @@ a {
 }
 
 .icon-screen-down {
+    position: relative;
+    top:10px;
     width: 21px;
-    height: 32px
+    height: 32px;
 }
 
 .icon-heart,
@@ -357,7 +359,7 @@ a {
 }
 
 .button-screen-down-header-left {
-    margin-top: 39px
+    /*margin-top: 39px*/
 }
 
 .button-heart {
@@ -477,7 +479,7 @@ body.page-loaded .header-top {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;S
+    z-index: 1000;
     height: 100%;
     opacity: 0.0;
     background-color: #fbfbfb;
