@@ -986,6 +986,7 @@ window.addEventListener("DOMContentLoaded", event =>
       
 			$( '.menu-btn' ).click(function(){
 				$('.header-left-nav').toggleClass('toggle');
+				$('.menu-btn').toggleClass('active');
 				console.log("jquery")
 			});
 
