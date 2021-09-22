@@ -1,5 +1,13 @@
 
+<<<<<<< Updated upstream
 /*hamburger menu transform*/
+=======
+.nav-toggled {
+    left: 96px;
+}
+
+
+>>>>>>> Stashed changes
 
 
 @font-face {
@@ -572,11 +580,14 @@ transform: scale(0);
     transition: left 0.33s;
 }
 
+<<<<<<< Updated upstream
 
 
 .header-left-nav.toggle {
     left: 96px;
 }
+=======
+>>>>>>> Stashed changes
 
 
 
@@ -712,7 +723,6 @@ body.page-loaded .section-1__image-1__wrapper {
 .section-1__image-1 {
     width: 100%;
     height: 100%;
-    background-image: url(../images/section-1-background.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1712,7 +1722,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-8__subtitle {
    /* top: 312px;
-    left: calc(50% - 72px);*/]
+    left: calc(50% - 72px);*/
     display: inline-block;
     position: relative;
     left: 220px;

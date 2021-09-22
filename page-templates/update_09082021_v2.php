@@ -1,4 +1,18 @@
+<<<<<<< Updated upstream
 <?php wp_head(); ?>
+=======
+<?php 
+/*
+
+ * Template Name: update09082021_v
+
+ */
+
+//get_header ();
+
+
+?>
+>>>>>>> Stashed changes
 <!DOCTYPE html>
 <html lang="en-EN">
 
@@ -124,13 +138,11 @@
             </div>
             <nav class="nav-main">
                 <ul class="nav-main__list">
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="320">[Be a catalyst.]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="320"><?php the_field("header_link-1")?></a>
                     </li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1050">[Make an
-                            impact.]</a></li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2590">[Embrace
-                            change.]</a></li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3800">[Have courage.]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1050"><?php the_field("header_link-2")?></a></li>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2590"><?php the_field("header_link-3")?></a></li>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3800"><?php the_field("header_link-4")?></a>
                     </li>
                     <li class="nav-main__item">
                         <button class="button button-heart button-heart-header-top">
@@ -155,6 +167,7 @@
                 </a>
             </div>
 
+<<<<<<< Updated upstream
             <div class="mobile-nav">
 
                 <div class="menu-btn" id="menu1">
@@ -162,6 +175,15 @@
                     <span class="s1"></span>
                     <span class="s2"></span>
                     <span class="s3"></span>
+=======
+                <div class="menu-btn" id="menu1" 
+ 					 onclick="myClick()" >
+					
+					 <div></div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+>>>>>>> Stashed changes
                 </div>
             </div>
 
@@ -189,9 +211,9 @@
 
     <div class="header-left-nav" id="nav1">
 
-        <a class="hideMenu" data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</a><br>
-            <a class="hideMenu submenu" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
-            <a class="hideMenu submenu" data-offset="65" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
+        <a class="hideMenu" data-offset="320" id="catalyst"><?php the_field("navigation-1")?></a><br>
+            <a class="hideMenu submenu" data-offset="675" href="#mercedSection"><?php the_field("navigation-2")?></a><br/>
+            <a class="hideMenu submenu" data-offset="65" href="#samm" ><?php the_field("navigation-3")?></a><br/>
             <a class="hideMenu submenu" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
         <br><br>
 
@@ -240,16 +262,15 @@
                 They have shared with us some of these wonderful poems that will appear throughout this site.
             </div>
         </div>
-
     </div>
     <!-- section tag includes by default: .fixed, .flex, .flex-direction__column -->
-    <section class="section-1">
+    <section class="section-1" style="background-image: url(<?php the_field('page-1_background'); ?>);">
         <div class="section-1__image-1__wrapper">
             <div class="section-1__image-1"></div>
         </div>
         <div class="section-1__text">
-            <div class="section-1__text-1">Every journey has a</div>
-            <div class="section-1__text-2">turning point.</div>
+            <div class="section-1__text-1"><?php the_field("page-1_title_part-1")?></div>
+            <div class="section-1__text-2"><?php the_field("page-1_title_part-2")?></div>
         </div>
         <div class="button-arrow-red-section-1" style="line-height: 42px;">
             <button class="button button-arrow-red" style="float: left;">
@@ -260,12 +281,11 @@
                     </svg>
                 </div>
             </button>
-            <span style="position: relative;">Scroll to explore</span>
+            <span style="position: relative;"><?php the_field("page-1_link")?></span>
         </div>
     </section>
     <section class="section-2">
         <div class="section-2__text">
-             <img src="<?php the_field('page-1_background'); ?>" />
             <div class="section-2__text-1">Turning points often appear as obstacles, unbidden,</div>
             <div class="section-2__text-2">forcing you to</div>
             <div class="section-2__text-3">choose a new path.</div>
