@@ -1,8 +1,5 @@
-/*.nav-toggled {*/
-/*    left: 96px;*/
-/*}*/
 
-
+/*hamburger menu transform*/
 
 
 @font-face {
@@ -468,7 +465,9 @@ body.page-loaded .header-top {
     font-size: 20px;
     line-height: 1;
     color: #fff!important;
+    text-decoration: none;
 }
+
 
 .nav-main__item:hover .nav-main__link {
     text-decoration: underline;
@@ -516,8 +515,28 @@ body.page-loaded .header-top {
     margin: 7px 0;
     background: #812820;
     z-index: 99;
+    transition: transform .4s;
+
 }
 
+.menu-btn.active span.s1 {
+    position: absolute;
+    right:-7px;
+    top: 8px;
+    transform: rotate(135deg);
+
+}
+.menu-btn.active span.s2 {
+transform: scale(0);
+
+
+}
+.menu-btn.active span.s3 {
+    position: absolute;
+    top: 8px;
+    right: -7px;
+    transform: rotate(45deg);
+}
 
 .hideMenu {
     text-decoration: none;
@@ -529,6 +548,11 @@ body.page-loaded .header-top {
 .hideMenu.submenu {
     font-size: 13px;
     font-family: "Roboto Light";
+    color:gray;
+}
+
+.hideMenu.submenu:hover {
+    color: black;
 }
 
 .header-left-nav {
@@ -540,7 +564,7 @@ body.page-loaded .header-top {
     padding: 49px;
     overflow-y: scroll;
     color: #63554F;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 13px;
     line-height: 28px;
@@ -549,6 +573,10 @@ body.page-loaded .header-top {
 }
 
 
+
+.header-left-nav.toggle {
+    left: 96px;
+}
 
 
 
@@ -572,9 +600,6 @@ body.page-loaded .header-top {
 
 
 
-.header-left-nav.toggle {
-    left: 96px;
-}
 
 .header-left-nav span, .hideMenu {
     font-family: Roboto-Black, Arial, sans-serif;

@@ -154,13 +154,14 @@
                     </svg>
                 </a>
             </div>
+
             <div class="mobile-nav">
 
                 <div class="menu-btn" id="menu1">
                     <div></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <span class="s1"></span>
+                    <span class="s2"></span>
+                    <span class="s3"></span>
                 </div>
             </div>
 
