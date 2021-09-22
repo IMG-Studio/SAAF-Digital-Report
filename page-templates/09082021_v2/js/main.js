@@ -1000,6 +1000,7 @@ window.addEventListener("DOMContentLoaded", event =>
 				){
 					console.log("toggle")
 					$('.header-left-nav').toggleClass('toggle');
+					$('.menu-btn').toggleClass('active');
 
 				}
 
