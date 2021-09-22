@@ -629,21 +629,28 @@ transform: scale(0);
 .header-left-nav__note {
     font-size: 11px;
     line-height: 17px;
+    margin-top: -24px;
 }
 
 .header-left-nav__note-asterisk,
 .header-left-nav__note-text {
     float: left;
 
+
 }
 
 
 .header-left-nav__note-asterisk {
+    font-weight: lighter;
     width: 10px;
+    font-size: 40px;
+    margin-top: 6px;
 }
 
 .header-left-nav__note-text {
     width: calc(100% - 10px);
+    margin-left: 26px;
+    margin-top: -20px;
 }
 
 .header-left__wrapper {
@@ -2288,7 +2295,7 @@ section.complete .button-next-slide-section-2 {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100%;
+    width: 80%;
     min-height: 100%;
     transform: translateY(-50%);
 }
@@ -2418,7 +2425,7 @@ section.complete .button-next-slide-section-2 {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100%;
+    width: 80%;
     min-height: 100%;
     transform: translateY(-50%);
 }
