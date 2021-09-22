@@ -485,7 +485,7 @@ body.page-loaded .header-top {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 1000;S
     height: 100%;
     opacity: 0.0;
     background-color: #fbfbfb;

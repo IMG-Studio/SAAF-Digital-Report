@@ -1,7 +1,10 @@
-<<<<<<< Updated upstream
-<?php wp_head(); ?>
+<?php
 =======
-<?php 
+
+<?php wp_head();
+
+
+
 /*
 
  * Template Name: update09082021_v
@@ -12,7 +15,7 @@
 
 
 ?>
->>>>>>> Stashed changes
+
 <!DOCTYPE html>
 <html lang="en-EN">
 
@@ -167,7 +170,6 @@
                 </a>
             </div>
 
-<<<<<<< Updated upstream
             <div class="mobile-nav">
 
                 <div class="menu-btn" id="menu1">
@@ -175,15 +177,6 @@
                     <span class="s1"></span>
                     <span class="s2"></span>
                     <span class="s3"></span>
-=======
-                <div class="menu-btn" id="menu1" 
- 					 onclick="myClick()" >
-					
-					 <div></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
->>>>>>> Stashed changes
                 </div>
             </div>
 
@@ -2166,4 +2159,3 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 
 </html>
 <?php //get_footer(); ?>
-

@@ -1,9 +1,5 @@
 /*!
-<<<<<<< Updated upstream
 Theme Name: Test site SAAF
-=======
-Theme Name: SAAF 
->>>>>>> Stashed changes
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -540,9 +536,11 @@ table {
 	color: #ffffff;
 }
 
+
  a:visited {
 	color: #ffffff;
 }
+
 
 a:hover,
 a:focus,
