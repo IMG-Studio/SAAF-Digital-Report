@@ -1,5 +1,8 @@
 /*!
-Theme Name: SAAF Local
+
+Theme Name: Test site SAAF
+
+
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -9,7 +12,7 @@ Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: saaf
+Text Domain: saafç
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -532,18 +535,20 @@ table {
 
 /* Links
 --------------------------------------------- */
-a {
-	color: #4169e1;
+ a {
+	color: #ffffff;
 }
 
-/*a:visited {*/
-/*	color: #800080;*/
-/*}*/
+
+ a:visited {
+	color: #ffffff;
+}
+
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color: #ffffff;
 }
 
 a:focus {

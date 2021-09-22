@@ -1,4 +1,3 @@
-
 /*.nav-toggled {*/
 /*    left: 96px;*/
 /*}*/
@@ -468,7 +467,7 @@ body.page-loaded .header-top {
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 20px;
     line-height: 1;
-    color: #fff
+    color: #fff!important;
 }
 
 .nav-main__item:hover .nav-main__link {

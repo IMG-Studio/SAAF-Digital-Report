@@ -533,17 +533,19 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
+	color: #ffffff;
 }
 
-/*a:visited {*/
-/*	color: #de0000;*/
-/*}*/
+
+a:visited {
+	color: #ffffff;
+}
+
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color: #f5f5f5;
 }
 
 a:focus {
