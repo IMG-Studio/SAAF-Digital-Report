@@ -980,10 +980,8 @@ window.addEventListener("DOMContentLoaded", event =>
 
 
 		// all custom jQuery will go here
-		jQuery(function($){
-
-
-
+		jQuery(document).ready(function($){
+ console.log("working jquery")
 			$( '.menu-btn' ).click(function(){
 				$('.header-left-nav').toggleClass('toggle');
 				console.log("jquery")
@@ -1002,8 +1000,6 @@ window.addEventListener("DOMContentLoaded", event =>
 					$('.header-left-nav').toggleClass('toggle');
 
 				}
-
-
 
 			});
 		});

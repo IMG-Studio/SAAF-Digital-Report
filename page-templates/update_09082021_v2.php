@@ -1,25 +1,16 @@
-<?php
-
-/*
-
- * Template Name: update09082021_v
-
- */
-
-//get_header ();
-
-
-?>
+<?php wp_head(); ?>
 <!DOCTYPE html>
 <html lang="en-EN">
 
 <head>
+
     <meta charset="utf-8">
     <title>San Antonio Area Foundation | 2020 Annual Report</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-    <script src="jquery-3.5.1.min.js"></script>
+
+
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -163,9 +154,9 @@
                     </svg>
                 </a>
             </div>
-            <div class="mobile-nav" >
+            <div class="mobile-nav">
 
-                <div class="menu-btn" id="menu1" ">
+                <div class="menu-btn" id="menu1">
                     <div></div>
                     <span></span>
                     <span></span>
@@ -2144,7 +2135,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 </section>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
