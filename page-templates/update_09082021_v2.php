@@ -213,16 +213,16 @@
             <a class="hideMenu submenu" data-offset="3919" ><?php the_field("navigation-4_part-2")?></a><br/>
             <a class="hideMenu submenu" data-offset="4080" ><?php the_field("navigation-4_part-3")?></a><br/>
             <a class="hideMenu submenu" data-offset="4206" ><?php the_field("navigation-4_part-4")?></a><br/>
-            <a class="hideMenu submenu" data-offset="4419" ><?php the_field("navigation-4_part-5")?></a><br/>
-            <a class="hideMenu submenu" data-offset="4419" ><?php the_field("navigation-4_part-6")?></a><br/>
+            <a class="hideMenu submenu" data-offset="4419" >Donor and Development Services</a><br/>
+            <a class="hideMenu submenu" data-offset="4419" >Donor Advised Funds</a><br/>
         <br><br>
         <hr>
         <br>
 
         <div class="header-left-nav__links">
-            <a href="#"><span><?php the_field("navigation-5_part-1")?></span><?php the_field("navigation-5_part-2")?></a><br>
+            <a href="#"><span>Visit</span> San Antonio Area Foundation</a><br>
             <br>
-            <a href="#"><span><?php the_field("navigation-6_part-1")?></span><?php the_field("navigation-6_part-2")?></a>
+            <a href="#"><span>View</span> Our Covid Report</a>
         </div>
 
         <br>
@@ -232,7 +232,10 @@
         <div class="header-left-nav__note">
             <span class="header-left-nav__note-asterisk">*</span>
             <div class="header-left-nav__note-text">
-                <?php the_field("navigation_note")?>
+                Gemini Ink, a funded agency partner of the San Antonio Area Foundation, collaborated with students from
+                Camelot Elementary and Montgomery Elementary to produce the poetry collection Quarantine Is…
+
+                They have shared with us some of these wonderful poems that will appear throughout this site.
             </div>
         </div>
     </div>
