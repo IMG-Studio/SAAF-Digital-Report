@@ -1,20 +1,4 @@
-<?php
-=======
-
-<?php wp_head();
-
-
-
-/*
-
- * Template Name: update09082021_v
-
- */
-
-//get_header ();
-
-
-?>
+<?php wp_head();?>
 
 <!DOCTYPE html>
 <html lang="en-EN">
@@ -204,42 +188,41 @@
 
     <div class="header-left-nav" id="nav1">
 
-        <a class="hideMenu" data-offset="320" id="catalyst"><?php the_field("navigation-1")?></a><br>
-            <a class="hideMenu submenu" data-offset="675" href="#mercedSection"><?php the_field("navigation-2")?></a><br/>
-            <a class="hideMenu submenu" data-offset="65" href="#samm" ><?php the_field("navigation-3")?></a><br/>
-            <a class="hideMenu submenu" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
+        <a class="hideMenu" data-offset="320" id="catalyst"><?php the_field("navigation-1_part-1")?></a><br>
+            <a class="hideMenu submenu" data-offset="675" href="#mercedSection"><?php the_field("navigation-1_part-2")?></a><br/>
+            <a class="hideMenu submenu" data-offset="65" href="#samm" ><?php the_field("navigation-1_part-3")?></a><br/>
+            <a class="hideMenu submenu" data-offset="981" href="#samm" ><?php the_field("navigation-1_part-4")?></a><br/>
         <br><br>
 
-        <span class="hideMenu" data-offset="1050" id="impact">[ Make an Impact. ] – Grantmaking by the Numbers</span><br>
-            <a class="hideMenu submenu" data-offset="1705" >Impact Area: Cultural Vibrancy</a><br/>
-            <a class="hideMenu submenu" data-offset="1856" >Impact Area: Livable and Resilient Communities</a><br/>
-            <a class="hideMenu submenu" data-offset="1993" >Impact Area: Youth Success</a><br/>
-            <a class="hideMenu submenu" data-offset="2157" >Impact Area: Successful Aging</a><br/>
-            <a class="hideMenu submenu" data-offset="2472" >Turning Point: The Public</a><br/>
-        <br><br>
-
-
-        <span class="hideMenu" data-offset="2590" id="embrace">[ Embrace Change. ] – Addressing Equity</span><br>
-            <a class="hideMenu submenu" data-offset="2858" >Turning Point: A Letter from
-                Theodore Guidry II, <br> San Antonio Area Foundation Past Chairman of the Board</a><br>
-            <a class="hideMenu submenu" data-offset="3596" >Turning Point: SAAAACF</a><br/>
+        <span class="hideMenu" data-offset="1050" id="impact"><?php the_field("navigation-2_part-1")?></span><br>
+            <a class="hideMenu submenu" data-offset="1705" ><?php the_field("navigation-2_part-2")?></a><br/>
+            <a class="hideMenu submenu" data-offset="1856" ><?php the_field("navigation-2_part-3")?></a><br/>
+            <a class="hideMenu submenu" data-offset="1993" ><?php the_field("navigation-2_part-4")?></a><br/>
+            <a class="hideMenu submenu" data-offset="2157" ><?php the_field("navigation-2_part-5")?></a><br/>
+            <a class="hideMenu submenu" data-offset="2472" ><?php the_field("navigation-2_part-6")?></a><br/>
         <br><br>
 
 
-        <span class="hideMenu" data-offset="3800" id="courage">[ Have Courage. ] – Scholarships</span><br>
-            <a class="hideMenu submenu" data-offset="3919" >Turning Point: A Little Help Goes a Long Way</a><br/>
-            <a class="hideMenu submenu" data-offset="4080" >Thank You from our Student Scholars</a><br/>
-            <a class="hideMenu submenu" data-offset="4206" >Turning Point: In Memoriam: Jack and Laura Richmond</a><br/>
-            <a class="hideMenu submenu" data-offset="4419" >Donor and Development Services</a><br/>
-            <a class="hideMenu submenu" data-offset="4419" >Donor Advised Funds</a><br/>
+        <span class="hideMenu" data-offset="2590" id="embrace"><?php the_field("navigation-3_part-1")?></span><br>
+            <a class="hideMenu submenu" data-offset="2858" ><?php the_field("navigation-3_part-2")?></a><br>
+            <a class="hideMenu submenu" data-offset="3596" ><?php the_field("navigation-3_part-3")?></a><br/>
+        <br><br>
+
+
+        <span class="hideMenu" data-offset="3800" id="courage"><?php the_field("navigation-4_part-1")?></span><br>
+            <a class="hideMenu submenu" data-offset="3919" ><?php the_field("navigation-4_part-2")?></a><br/>
+            <a class="hideMenu submenu" data-offset="4080" ><?php the_field("navigation-4_part-3")?></a><br/>
+            <a class="hideMenu submenu" data-offset="4206" ><?php the_field("navigation-4_part-4")?></a><br/>
+            <a class="hideMenu submenu" data-offset="4419" ><?php the_field("navigation-4_part-5")?></a><br/>
+            <a class="hideMenu submenu" data-offset="4419" ><?php the_field("navigation-4_part-6")?></a><br/>
         <br><br>
         <hr>
         <br>
 
         <div class="header-left-nav__links">
-            <a href="#"><span>Visit</span> San Antonio Area Foundation</a><br>
+            <a href="#"><span><?php the_field("navigation-5_part-1")?></span><?php the_field("navigation-5_part-2")?></a><br>
             <br>
-            <a href="#"><span>View</span> Our Covid Report</a>
+            <a href="#"><span><?php the_field("navigation-6_part-1")?></span><?php the_field("navigation-6_part-2")?></a>
         </div>
 
         <br>
@@ -249,10 +232,7 @@
         <div class="header-left-nav__note">
             <span class="header-left-nav__note-asterisk">*</span>
             <div class="header-left-nav__note-text">
-                Gemini Ink, a funded agency partner of the San Antonio Area Foundation, collaborated with students from
-                Camelot Elementary and Montgomery Elementary to produce the poetry collection Quarantine Is…
-
-                They have shared with us some of these wonderful poems that will appear throughout this site.
+                <?php the_field("navigation_note")?>
             </div>
         </div>
     </div>
