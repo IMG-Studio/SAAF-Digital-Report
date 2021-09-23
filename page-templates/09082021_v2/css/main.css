@@ -1940,6 +1940,7 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-10__total-wrapper {
+    font-family: Serif;
     opacity: 0;
 }
 
@@ -1973,7 +1974,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-10__bar .section-10__bar-inner {
     display: inline-block;
-    padding: 0 22.5px;
+    padding: 0 10px 0 10px;
     font-size: 18px;
     line-height: 20px;
     color: #fff;
@@ -1994,7 +1995,7 @@ section.complete .button-next-slide-section-2 {
     font-size: 32px;
     line-height: 67px;
     vertical-align: middle;
-    font-family: Roboto-Black, Arial, sans-serif;
+    font-family: Roboto-Black, Arial, sans-serif !important;
 }
 
 .section-10__bar.bar-1 .section-10__bar-inner {

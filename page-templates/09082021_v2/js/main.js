@@ -1009,13 +1009,13 @@ window.addEventListener("DOMContentLoaded", event =>
 				$("a").click(function(event) {
 					event.preventDefault();
 					linkLocation = this.href;
-					$("body").fadeOut(500, redirectPage);
+					$("body").fadeOut(2000, redirectPage);
 					console.log("j-fade")
 				});
-
+			//todo: add functionality "if scrollPosition !equals <a> location , fade white"
 				function redirectPage() {
 					window.location = linkLocation;
-					$("body").fadeIn(500);
+					$("body").fadeIn(2000);
 				}
 
 
