@@ -186,10 +186,9 @@
             <button class="button button-heart button-heart-header-left" >
                 <div class="icon icon-heart icon-heart-red">
                     <svg>
-
-                        <use href="#icon-heart">        <a href="https://saafdn.fcsuite.com/erp/donate/"/></use>
-
-
+                        <a href="https://saafdn.fcsuite.com/erp/donate/">
+                        <use href="#icon-heart"></use>
+                        </a>
                     </svg>
                 </div>
             </button>
@@ -280,7 +279,7 @@
                     </svg>
                 </div>
             </button>
-            <span style="position: relative;">Scroll to explore</span>
+            <span class="mt-2" style="position: relative;">Scroll to explore</span>
         </div>
     </section>
     <section class="section-2">
@@ -935,7 +934,7 @@
                     analysis to drive strategic decisions in uncertain times.</p>
                 <br>
                 <p>
-                    *<span>R</span>eflect on the vision guiding your work<br>
+                    <span>R</span>eflect on the vision guiding your work<br>
                     <span>E</span>valuate the underlying needs of your community<br>
                     <span>S</span>trengthen your program design<br>
                     <span>E</span>ducate your stakeholders<br>
