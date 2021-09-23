@@ -2161,13 +2161,13 @@ section.complete .button-next-slide-section-2 {
     top: 50%;
     left: 0;
     width: 80%;
-    min-height: 100%;
+    min-height: 105%;
     transform: translateY(-50%);
 }
 
 .section-12__image .section-12__imageshorttext {
     position: absolute;
-    right: 35px;
+    right: 41rem;
     bottom: 23px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
@@ -2296,13 +2296,13 @@ section.complete .button-next-slide-section-2 {
     top: 50%;
     left: 0;
     width: 80%;
-    min-height: 100%;
+    min-height: 105%;
     transform: translateY(-50%);
 }
 
 .section-13__image .section-13__imageshorttext {
     position: absolute;
-    right: 35px;
+    right: 41rem;
     bottom: 23px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
@@ -2432,7 +2432,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-14__image .section-14__imageshorttext {
     position: absolute;
-    right: 35px;
+    right: 41rem;
     bottom: 23px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
@@ -2576,8 +2576,8 @@ section.complete .button-next-slide-section-2 {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100%;
-    min-height: 100%;
+    width: 80%;
+    min-height: 105%;
     transform: translateY(-50%);
 }
 
@@ -3364,7 +3364,7 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-23__pretitle {
-    margin-top: 46px;
+    margin-top: 100px;
     left: 240px;
     font-size: 34px;
     line-height: 41px;

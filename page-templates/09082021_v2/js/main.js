@@ -982,14 +982,14 @@ window.addEventListener("DOMContentLoaded", event =>
 		// all custom jQuery will go here
 
 		jQuery(document).ready(function($){
- console.log("working jquery")
-      
+ 			console.log("working jquery")
+			//open nav and make menu an "x"
 			$( '.menu-btn' ).click(function(){
 				$('.header-left-nav').toggleClass('toggle');
 				$('.menu-btn').toggleClass('active');
 				console.log("jquery")
 			});
-
+			//close nav in clicked outside of nav and return hamburger menu
 			$(document).on("click", function(e){
 				e.stopPropagation()
 				if(
@@ -1002,10 +1002,26 @@ window.addEventListener("DOMContentLoaded", event =>
 					console.log("toggle")
 					$('.header-left-nav').toggleClass('toggle');
 					$('.menu-btn').toggleClass('active');
+				}
+			});
 
+
+				$("a").click(function(event) {
+					event.preventDefault();
+					linkLocation = this.href;
+					$("body").fadeOut(500, redirectPage);
+					console.log("j-fade")
+				});
+
+				function redirectPage() {
+					window.location = linkLocation;
+					$("body").fadeIn(500);
 				}
 
-			});
+
+
+
+
 		});
 
 
