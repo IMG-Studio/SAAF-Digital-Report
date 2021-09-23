@@ -490,9 +490,9 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-22", "opacity", 1.0, 0.0, 2165, 2200);
 
 
-	// new ElementAnimation("section-23__pretitle", "opacity", 0.0, 1.0, 2215, 2235);
+	new ElementAnimation("section-23__pretitle", "opacity", 1.0, 0.0, 2265, 2290);
 	// new ElementAnimation("section-23__pretitle", "margin-left", 50, 0, 2215, 2235);
-	// new ElementAnimation("section-23__title", "opacity", 0.0, 1.0, 2215, 2235);
+	new ElementAnimation("section-23__title", "opacity", 1.0, 0.0, 2265, 2290);
 	// new ElementAnimation("section-23__title", "margin-left", 50, 0, 2215, 2235);
 	new ElementAnimation("button-next-slide-section-23", "opacity", 0.0, 1.0, 2215, 2235);
 
@@ -500,18 +500,18 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-23__sector sector-2", "opacity", 0.0, 1.0, 2235, 2255);
 	new ElementAnimation("section-23__sector sector-3", "opacity", 0.0, 1.0, 2245, 2265);
 
-	new ElementAnimation("section-23", "opacity", 1.0, 0.0, 2265, 2300);
+	new ElementAnimation("section-23", "opacity", 1.0, 0.0, 2300, 2320);
 
 
 	new ElementAnimation("section-24__background", "scale", 1.0, 1.05, 2265, 2500);
-	new ElementAnimation("section-24__pretitle", "margin-left", 150, 0, 2320, 2330);
-	new ElementAnimation("section-24__pretitle", "opacity", 0.0, 1.0, 2320, 2330);
-	new ElementAnimation("section-24__title", "margin-left", 150, 0, 2320, 2330);
-	new ElementAnimation("section-24__title", "opacity", 0.0, 1.0, 2320, 2330);
-	new ElementAnimation("section-24__subtitle", "margin-left", 100, 0, 2320, 2330);
-	new ElementAnimation("section-24__subtitle", "opacity", 0.0, 1.0, 2320, 2330);
+	new ElementAnimation("section-24__pretitle", "margin-left", 150, 0, 2340, 2350);
+	new ElementAnimation("section-24__pretitle", "opacity", 0.0, 1.0, 2340, 2350);
+	new ElementAnimation("section-24__title", "margin-left", 150, 0, 2340, 2350);
+	new ElementAnimation("section-24__title", "opacity", 0.0, 1.0, 2340, 2350);
+	new ElementAnimation("section-24__subtitle", "margin-left", 100, 0, 2340, 2350);
+	new ElementAnimation("section-24__subtitle", "opacity", 0.0, 1.0, 2340, 2350);
 
-	new ElementAnimation("section-24", "opacity", 1.0, 0.0, 2365, 2400);
+	new ElementAnimation("section-24", "opacity", 1.0, 0.0, 2365, 2420);
 
 
 	new ElementAnimation("section-25__background", "scale", 1.0, 1.05, 2265, 2500);
@@ -1017,9 +1017,6 @@ window.addEventListener("DOMContentLoaded", event =>
 					window.location = linkLocation;
 					$("body").fadeIn(2000);
 				}
-
-
-
 
 
 		});

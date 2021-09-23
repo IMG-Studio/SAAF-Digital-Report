@@ -222,8 +222,10 @@ a {
 
 
 .icon-heart svg:hover {
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(145, 25, 25, 0.66));
+    filter: drop-shadow( 3px 3px 2px rgba(145, 25, 25, 0.66));
     fill: rgb(119, 26, 22);
-    text-shadow:0px 0px 30px #8c1d19;
+    /*text-shadow:0px 0px 30px #8c1d19;*/
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
@@ -232,8 +234,8 @@ a {
     height: 28px;
     margin-left:-4px;
     margin-top: -4px;
-    /*fill-opacity: .2;*/
-    /*fill: rgba(30, 90, 133, 0.23);*/
+    fill-opacity: .8;
+
     /*z-index:1*/
     /*opacity: 0.36;*/
 }
@@ -269,10 +271,17 @@ a {
     transition: transform 0.33s;
 }
 
-.button:hover {
+.button-heart:hover {
     cursor: pointer;
     transform: scale(1.025);
     transition: transform 0.33s;
+    width: 41px;
+    height: 41px;
+    background: rgba(133, 38, 30, 0.29) 0% 0% no-repeat  padding-box;
+border-radius: 50px;
+
+    /*box-shadow: 0px 0px 21px #00000022;*/
+    opacity: 1;
 }
 
 .button-arrow-red {
@@ -281,6 +290,15 @@ a {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background-color: #85261e
+}
+.button-arrow-red:hover {
+    transform: scale(1.025);
+    transition: transform 0.33s;
+    width: 41px;
+    height: 41px;
+    background: rgb(122, 37, 32) 0% 0% no-repeat  padding-box;
+    border-radius: 50px;
+
 }
 
 .button-arrow-yellow {
@@ -326,6 +344,8 @@ a {
 
 .button-arrow-red-section-1:hover {
     cursor: pointer;
+
+
 }
 
 .button-arrow-red-section-1 span {
@@ -944,6 +964,13 @@ section.complete .button-next-slide-section-2 {
     opacity: 0.0;
     background: rgba(185, 179, 175, 0.5);
     transition: all 0.1667s;
+}
+.button-ripple:hover {
+    width: 41px;
+    height: 41px;
+    background: #85261E 0% 0% no-repeat padding-box;
+    /*box-shadow: 0px 0px 21px #00000022;*/
+    opacity: 1;
 }
 
 .complete > .button-ripple,
