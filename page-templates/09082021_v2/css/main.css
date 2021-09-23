@@ -554,7 +554,7 @@ transform: scale(0);
 }
 
 .hideMenu.submenu:hover {
-    color: black;
+    color: #1C2D5A;
 }
 
 .header-left-nav {
@@ -2175,7 +2175,9 @@ section.complete .button-next-slide-section-2 {
     color: white;
 }
 
-.section-12__title {
+.section-12__title,
+.section-13__title,
+.section-14__title{
     display: inline-flex;
     justify-content: start;
     position: relative;
@@ -2187,7 +2189,9 @@ section.complete .button-next-slide-section-2 {
     color: #85261E;
 }
 
-.section-12__text {
+.section-12__text,
+.section-13__text,
+.section-14__text{
     width: 370px;
     position: relative;
     margin-top: 9.1vh;
@@ -2310,22 +2314,13 @@ section.complete .button-next-slide-section-2 {
     color: white;
 }
 
-.section-13__title {
-    display: inline-block;
-    position: relative;
-    margin-top: 18%;
-    left: 17.3%;
-    font-family: Whitman-Roman, Arial, sans-serif;
-    font-size: 80px;
-    line-height: 70px;
-    color: #85261E;
-}
+
 
 .section-13__text {
     width: 370px;
     position: relative;
     margin-top: 12vh;
-    left: 25.9%;
+    left: 0em;
 }
 
 .section-13__text h3 {
@@ -2440,23 +2435,9 @@ section.complete .button-next-slide-section-2 {
     color: white;
 }
 
-.section-14__title {
-    display: inline-block;
-    position: relative;
-    margin-top: 27%;
-    left: 17.3%;
-    font-family: Whitman-Roman, Arial, sans-serif;
-    font-size: 80px;
-    line-height: 70px;
-    color: #85261E;
-}
 
-.section-14__text {
-    width: 370px;
-    position: relative;
-    margin-top: 12vh;
-    left: 25.9%;
-}
+
+
 
 .section-14__text h3 {
     font-family: Roboto-Black, Arial, sans-serif;
@@ -2594,7 +2575,7 @@ section.complete .button-next-slide-section-2 {
 .section-15__pretitle {
     position: relative;
     margin-top: 11.6%;
-    left: 10.3%;
+    left: -2em;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 34px;
     line-height: 55px;
@@ -2605,7 +2586,7 @@ section.complete .button-next-slide-section-2 {
     display: inline-block;
     position: relative;
     margin-top: 0%;
-    left: 17.3%;
+    left: -.5em;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 80px;
     line-height: 70px;
@@ -2616,7 +2597,7 @@ section.complete .button-next-slide-section-2 {
     width: 370px;
     position: relative;
     margin-top: 5vh;
-    left: 25.9%;
+    left: 0em;
     background-color: #f4f4f4;
 }
 
@@ -3907,6 +3888,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-27a__image img {
     width: 100%;
+    height: 100%
 }
 
 .section-27a__text-wrapper {
@@ -4034,7 +4016,7 @@ section.complete .button-next-slide-section-2 {
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
-    color: #19356e;
+    color: #1C2D5A;
 }
 
 .section-28__text p {
@@ -4248,7 +4230,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-29a__image img {
     width: 100%;
-    height: 833px;
+    height: 100%;
 }
 
 .section-29a__text-wrapper {

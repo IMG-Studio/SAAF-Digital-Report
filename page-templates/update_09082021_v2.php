@@ -186,10 +186,10 @@
             <button class="button button-heart button-heart-header-left" >
                 <div class="icon icon-heart icon-heart-red">
                     <svg>
-                        <a href="https://saafdn.fcsuite.com/erp/donate/">
-                        <use href="#icon-heart"></use>
 
-                        </a>
+                        <use href="#icon-heart">        <a href="https://saafdn.fcsuite.com/erp/donate/"/></use>
+
+
                     </svg>
                 </div>
             </button>
