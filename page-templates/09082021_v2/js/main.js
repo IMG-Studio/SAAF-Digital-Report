@@ -173,14 +173,14 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-2__text-4", "opacity",  0.0,  1.0,  105, 145);
 	new ElementAnimation("section-2__text-4", "margin-left",  50,  0,  105, 145);
 	new ElementAnimation("button-next-slide-section-2", "opacity",  0.0,  1.0,  100, 110);
-	new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 110, 115);
-	new ElementAnimation("button-ripple-section-2", "scale", 1.0, 1.75, 110, 120);
-	new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 120, 130);
-	new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 115, 130);
-	new ElementAnimation("button-ripple-section-2", "scale", 1.5, 1.75, 170, 180);
-	new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 170, 180);
-	new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 180, 190);
-	new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 180, 190);
+	// new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 110, 115);
+	// new ElementAnimation("button-ripple-section-2", "scale", 1.0, 1.75, 110, 120);
+	// new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 120, 130);
+	// new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 115, 130);
+	// new ElementAnimation("button-ripple-section-2", "scale", 1.5, 1.75, 170, 180);
+	// new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 170, 180);
+	// new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 180, 190);
+	// new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 180, 190);
 	// new ElementAnimation("button-ripple-section-2", "scale", 2.0, 1.5, 131, 135);
 	// new ElementAnimation("button-ripple-section-2", "scale", 1.5, 2.0, 136, 140);
 	// new ElementAnimation("button-ripple-section-2", "scale", 2.0, 1.0, 139, 150);
@@ -1006,17 +1006,17 @@ window.addEventListener("DOMContentLoaded", event =>
 			});
 
 
-				$("a").click(function(event) {
-					event.preventDefault();
-					linkLocation = this.href;
-					$("body").fadeOut(2000, redirectPage);
-					console.log("j-fade")
-				});
-			//todo: add functionality "if scrollPosition !equals <a> location , fade white"
-				function redirectPage() {
-					window.location = linkLocation;
-					$("body").fadeIn(2000);
-				}
+			// 	$("a").click(function(event) {
+			// 		event.preventDefault();
+			// 		linkLocation = this.href;
+			// 		$("body").fadeOut(2000, redirectPage);
+			// 		console.log("j-fade")
+			// 	});
+			// //todo: add functionality "if scrollPosition !equals <a> location , fade white"
+			// 	function redirectPage() {
+			// 		window.location = linkLocation;
+			// 		$("body").fadeIn(2000);
+			// 	}
 
 
 		});

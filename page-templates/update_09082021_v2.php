@@ -148,10 +148,12 @@
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3800">[Have courage.]</a>
                     </li>
                     <li class="nav-main__item">
-                        <button class="button button-heart button-heart-header-top">
+                        <button class="button button-heart-1 button-heart-header-top">
                             <div class="icon icon-heart icon-heart-white">
                                 <svg>
+                                <a href="https://saafdn.fcsuite.com/erp/donate/">
                                     <use href="#icon-heart"></use>
+                                </a>
                                 </svg>
                             </div>
                         </button>
@@ -171,7 +173,6 @@
             </div>
 
             <div class="mobile-nav">
-
                 <div class="menu-btn" id="menu1">
                     <div></div>
                     <span class="s1"></span>
@@ -179,9 +180,6 @@
                     <span class="s3"></span>
                 </div>
             </div>
-
-
-
 
             <button class="button button-heart button-heart-header-left" >
                 <div class="icon icon-heart icon-heart-red">
