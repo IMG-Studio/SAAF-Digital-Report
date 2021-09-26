@@ -318,7 +318,7 @@ a {
     height: 42px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background-color: #C3A701
+    background-color: #C3A701!important;
 }
 
 .button-arrow-green {
@@ -980,6 +980,28 @@ section.complete .button-next-slide-section-2 {
     background: rgb(136, 29, 25);
     transition: all 0.1667s;
 }
+.button-ripple-yellow {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /*opacity: 0.0;*/
+    background: #C3A701;
+    transition: all 0.1667s;
+}
+.button:hover .button-ripple-yellow {
+    cursor: pointer;
+    transform: scale(1.45);
+    border: 8px solid rgba(211, 191, 191, 0.67);
+    font-weight: 800;
+    background-color: #C3A701;
+    /*color: rgb(201, 169, 167);*/
+    /*margin: 0;*/
+}
+
+
 
 .button:hover .button-ripple {
     cursor: pointer;

@@ -782,7 +782,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-12"></div>
+                <div class="button-ripple-yellow button-ripple-section-12"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -807,7 +807,7 @@
         <div class="button-next-slide button-back-section-12a" data-toggle=".section-12, .section-12a">
             <button class="button button-arrow-yellow">
 
-                <div class="button-ripple button-ripple-section-12a"></div>
+                <div class="button-ripple-yellow button-ripple-section-12a"></div>
                 <div class="icon icon-close">
                     <svg>
                         <use href="#icon-close-white"></use>
@@ -836,7 +836,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-13" data-toggle=".section-13, .section-13a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-13"></div>
+                <div class="button-ripple-yellow button-ripple-section-13"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -897,7 +897,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-14a"></div>
+                <div class="button-ripple-yellow button-ripple-section-14a"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -980,7 +980,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-15"></div>
+                <div class="button-ripple-yellow button-ripple-section-15"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -989,7 +989,6 @@
             </button>
         </div>
     </section>
-    <section class="section-15a">
         <div class="section-15a__text-wrapper">
             <div class="section-15a__text">
                 <h3>Vital partnerships</h3>
@@ -1027,7 +1026,7 @@
         </div>
         <div class="button-next-slide button-back-section-15a" data-toggle=".section-15, .section-15a">
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-15a"></div>
+                <div class="button-ripple-yellow button-ripple-section-15a"></div>
                 <div class="icon icon-close">
                     <svg>
                         <use href="#icon-close-white"></use>
@@ -2153,8 +2152,8 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 </section>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>-->
+<!--<script src="js/scripts.js"></script>-->
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
