@@ -215,16 +215,16 @@
             <a class="hideMenu submenu" data-offset="3919" ><?php the_field("navigation-4_part-2")?></a><br/>
             <a class="hideMenu submenu" data-offset="4080" ><?php the_field("navigation-4_part-3")?></a><br/>
             <a class="hideMenu submenu" data-offset="4206" ><?php the_field("navigation-4_part-4")?></a><br/>
-            <a class="hideMenu submenu" data-offset="4419" >Donor and Development Services</a><br/>
-            <a class="hideMenu submenu" data-offset="4419" >Donor Advised Funds</a><br/>
+            <a class="hideMenu submenu" data-offset="4419" ><?php the_field("navigation-4_part-5")?></a><br/>
+            <a class="hideMenu submenu" data-offset="4419" ><?php the_field("navigation-4_part-5")?></a><br/>
         <br><br>
         <hr>
         <br>
 
         <div class="header-left-nav__links">
-            <a href="#"><span>Visit</span> San Antonio Area Foundation</a><br>
+            <a href="#"><span><?php the_field("navigation-5_part-1")?></span> <?php the_field("navigation-5_part-2")?></a><br>
             <br>
-            <a href="#"><span>View</span> Our Covid Report</a>
+            <a href="#"><span><?php the_field("navigation-5_part-2")?></span> <?php the_field("navigation-6_part-2")?></a>
         </div>
 
         <br>
@@ -234,10 +234,7 @@
         <div class="header-left-nav__note">
             <span class="header-left-nav__note-asterisk">*</span>
             <div class="header-left-nav__note-text">
-                Gemini Ink, a funded agency partner of the San Antonio Area Foundation, collaborated with students from
-                Camelot Elementary and Montgomery Elementary to produce the poetry collection Quarantine Is…
-
-                They have shared with us some of these wonderful poems that will appear throughout this site.
+            <?php the_field("navigation_note")?>
             </div>
         </div>
     </div>
@@ -259,21 +256,18 @@
                     </svg>
                 </div>
             </button>
-            <span class="mt-2" style="position: relative;">Scroll to explore</span>
+            <span class="mt-2" style="position: relative;"><?php the_field("page-1_link")?></span>
         </div>
     </section>
     <section class="section-2">
         <div class="section-2__text">
-            <div class="section-2__text-1">Turning points often appear as obstacles, unbidden,</div>
-            <div class="section-2__text-2">forcing you to</div>
-            <div class="section-2__text-3">choose a new path.</div>
-            <div class="section-2__text-4">The choices you make the turns you take, can have a lifelong effect on you
-                and
-                those around you. And at the end of the path, you just might find that the obstacle has become an
-                opportunity.
+            <div class="section-2__text-1"><?php the_field("page-2_title_part-1")?></div>
+            <div class="section-2__text-2"><?php the_field("page-2_title_part-2")?></div>
+            <div class="section-2__text-3"><?php the_field("page-2_title_part-3")?></div>
+            <div class="section-2__text-4"><?php the_field("page-2_paragraph")?>
             </div>
         </div>
-        <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-2, .section-2a"><span>words from our ceo</span>
+        <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-2, .section-2a"><span><?php the_field("page-2_link")?></span>
             <button class="button button-arrow-red">
                 <div class="button-ripple button-ripple-section-2"></div>
                 <div class="icon icon-arrow">
@@ -295,143 +289,42 @@
                 <!--  <div class="section-2a__text-shadow-before"></div> -->
                 <div class="section-2a__text-overlay"></div>
                 <div class="section-2a__text">
-                    <p>Dear Friends, Donors, and Partners,</p>
-                    <p>I think it is safe to say that no one foresaw the extraordinary events of 2020. Each challenge
-                        became a
-                        turning point, an opportunity to think critically and act decisively to find new ways to address
-                        escalating community needs. The decisions were not always easy; the clear path was not always
-                        obvious.
-                        Fortunately, we were not alone on our journey.</p>
-                    <p>Here at the Area Foundation, we say Stronger Together all the time. There is a good reason for
-                        it.</p>
-                    <p>In 2020, there was simply no way we could have mobilized the financial resources and human
-                        capital to
-                        respond to the COVID-19 pandemic and social justice without the collaboration of a multitude of
-                        philanthropic partners, both within and beyond the Area Foundation. The generous spirit of the
-                        San Antonio
-                        community was on display during these tumultuous times, and we are humbled and grateful to serve
-                        as
-                        trusted advisor, supporter, and collaborative partner in philanthropy.</p>
-                    <h3>COLLABORATIVE GRANTMAKING</h3>
-                    <p>We were blessed to have a cadre of great leaders interested in helping the community. A special
-                        thanks to
-                        Harvey Najim and the Harvey E. Najim Charitable Foundation, David Rogers and the H. E. Butt
-                        Foundation,
-                        the Nancy Smith Hurd Foundation, and Chris Martin and the United Way of San Antonio and Bexar
-                        County for
-                        their willingness to lead, work, fund, and believe in this transformational relief fund.</p>
-                    <p>The COVID-19 Response Fund was launched on March 20, 2020. Hosted by the Area Foundation and
-                        jointly
-                        managed with United Way of San Antonio and Bexar County, the Fund raised $6.4 million through
-                        the
-                        tremendous generosity of hundreds of individual donors and dozens of foundations, businesses,
-                        and civic
-                        institutions who rallied in support of our community during this crisis.</p>
-                    <p>These funds were distributed to more than 200 regional nonprofits in a rapid-cycle process
-                        advanced by
-                        our Community Engagement and Impact (CEI) team. The average award size was $28,137, and grants
-                        were
-                        prioritized for organizations serving 17 of San Antonios lowest-income zip codes.</p>
-                    <p>The COVID-19 Response Fund focused its grantmaking in the areas of social services, business and
-                        employment, food security, and shelter. We intentionally aligned with Mayor Ron Nirenbergs key
-                        focus areas
-                        to amplify and coordinate philanthropic and public investments to address the critical needs of
-                        San
-                        Antonians. The Area Foundation also jointly invested with the City of San Antonio and United Way
-                        in
-                        providing temporary childcare access subsidies.</p>
-                    <p>Donor Advised Funds (DAFs) hosted at the Area Foundation recommended an additional $7 million in
-                        direct
-                        grants to 248 nonprofits, and 95% of all DAF giving in response to COVID-19 stayed in Bexar
-                        County.</p>
-                    <h3>Just-In-Time Capacity Building AND Online Resources</h3>
-                    <p>Fortunately for the hundreds of nonprofit professionals the Area Foundation serves through our
-                        trainings
-                        and classes, we upgraded our IT infrastructure before the pandemic struck. Working remotely
-                        since March
-                        2020, our Learning and Development Department staff readily pivoted to online learning
-                        opportunities. In
-                        2020, we offered 77 courses and more than 2,000 participants signed up.</p>
-                    <p>We delivered timely programs and free community sessions on topics such as: Leadership in Times
-                        of
-                        Transition, Communicating Effectively in Remote Environments, Lead by Example: Sustaining
-                        Ourselves,
-                        Engaging Employees in Remote Environments, and Brave New World: Returning to Work. Also, through
-                        a
-                        partnership with Candid, the Area Foundation offered free, online access for all area nonprofits
-                        to the
-                        Foundation Directory Online the most exhaustive and up-to-date database on grant makers</p>
-                    <h3>Data-Driven Events and Community Engagement</h3>
-                    <p>The COVID-19 pandemic fostered many opportunities for us to engage more deeply with donors and
-                        supporters
-                        within and beyond the Area Foundation. Throughout the year, we delivered well-attended
-                        philanthropic
-                        briefings to internal donors and volunteers on COVID-19 and on topics such as corporate social
-                        responsibility. We engaged a host of civic and business leaders through strategic conversations
-                        and with
-                        organizations as varied as Rotary, Humana, and Vistage.</p>
-                    <p>The Area Foundation contributed to the Mayors Taskforce on Workforce Development serving as a key
-                        partner. This taskforce was pivotal to the development of and advocacy for Proposition B, which
-                        was
-                        approved by San Antonio voters in the November election. The initiative, SA Ready to Work,
-                        funded by a
-                        one-eighth-cent sales tax, will grow job training programs, scholarships, and emergency
-                        financial
-                        assistance for up to 40,000 residents caught in the wake of the coronavirus pandemic.</p>
-                    <h3>Catalytic Investments</h3>
-                    <p>The Area Foundation provided a start-up grant to the Family Independence Initiative (now
-                        UpTogether)
-                        which fostered partnerships with several local funders to place earned income directly into the
-                        hands of
-                        working families. San Antonio is now one of only a dozen sites across the nation to deploy this
-                        innovative
-                        and proven program which provides access to capital and fuels family-driven solutions. Alongside
-                        other
-                        local partners, the Area Foundation invested in the launch of Get Shift Done for San Antonio and
-                        neighboring communities. The program coordinates, schedules, and pays adversely affected hourly
-                        workers in
-                        the hospitality industry to work paid shifts for organizations such as the San Antonio Food
-                        Bank. It helps
-                        food service workers who lost their paychecks and provides immediate support to nonprofits
-                        stretched in
-                        providing food service to people in need.</p>
-                    <p>The Area Foundation partnered with United Way, H. E. Butt Foundation, and LISC San Antonio on a
-                        weekly
-                        survey to more than 100 nonprofits to assess real-time community needs and engage donors on the
-                        most
-                        impactful investments. Our approach on the highest-level poverty zip codes in Bexar County
-                        illuminated
-                        sound and equitable approaches for our philanthropic partners and influenced their
-                        grantmaking.</p>
-                    <p>These are just a few of the highlights featured in our 2020 impact report. You will learn more
-                        about our
-                        commitment and our work to mobilize philanthropy, lead in the community, and operate with
-                        excellence.
-                        Thanks to your partnership, we can continue to serve our communitys needs today, while building
-                        a better
-                        tomorrow for all who call our region home.</p>
-                    <p>With gratitude,</p>
+                    <p><?php the_field("ceo-1")?></p>
+                    <p><?php the_field("ceo-2")?></p>
+                    <p><?php the_field("ceo-3")?></p>
+                    <p><?php the_field("ceo-4")?></p>
+                    <h3><?php the_field("ceo-5")?></h3>
+                    <p><?php the_field("ceo-6")?></p>
+                    <p><?php the_field("ceo-7")?></p>
+                    <p><?php the_field("ceo-8")?></p>
+                    <p><?php the_field("ceo-9")?></p>
+                    <p><?php the_field("ceo-10")?></p>
+                    <h3><?php the_field("ceo-11")?></h3>
+                    <p><?php the_field("ceo-12")?></p>
+                    <p><?php the_field("ceo-13")?></p>
+                    <h3><?php the_field("ceo-14")?></h3>
+                    <p><?php the_field("ceo-15")?></p>
+                    <p><?php the_field("ceo-16")?></p>
+                    <h3><?php the_field("ceo-17")?></h3>
+                    <p><?php the_field("ceo-18")?></p>
+                    <p><?php the_field("ceo-19")?></p>
+                    <p><?php the_field("ceo-20")?></p>
+                    <p><?php the_field("ceo-21")?></p>
                     <img class="section-2a__text__marjie-signature"
-                         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/marjie-signature-web-gray.png"
+                         src="<?php the_field("ceo_sig-1")?>"
                          alt="">
 
-                    <p>Marjie French, CEO, San Antonio Area Foundation</p>
+                    <p><?php the_field("ceo-22")?></p>
 
                     <br><br><br>
                 </div>
                 <div class="section-2a__text-shadow-after"></div>
             </div>
             <div class="section-2a__quoter">
-                <div class="quote active"><p>&#8220;There is very little that the…Foundation does that doesn’t influence
-                        most of our lives…and certainly mine.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief
-            Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>
+                <div class="quote active"><p>&#8220;<?php the_field("quote_1")?>&#8221;</p><span>&mdash; <?php the_field("quote_1_author")?></span>
                 </div>
-                <div class="quote"><p>&#8220;I have volunteered in the nonprofit space for more than three decades, and
-                        I have never seen such an
-                        efficient operation.&#8221;</p><span>&mdash; Aaronetta Pierce</span></div>
-                <div class="quote"><p>&#8220;You don’t have to be a millionaire to make an investment in a fund.
-                        Instead, it’s the kind of person who believes in the community and be able to want to assist
-                        others.&#8221;</p><span>&mdash; Janie Barrera</span></div>
+                <div class="quote"><p>&#8220;<?php the_field("quote_2")?>.&#8221;</p><span>&mdash;<?php the_field("quote_2_author")?></span></div>
+                <div class="quote"><p>&#8220;<?php the_field("quote_3")?>&#8221;</p><span>&mdash;<?php the_field("quote_3_author")?></span></div>
             </div>
         </div>
         <!-- <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.</div> -->
