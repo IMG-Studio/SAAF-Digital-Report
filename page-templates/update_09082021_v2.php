@@ -207,33 +207,33 @@
     <div class="header-left-nav" id="nav1">
 
         <a class="hideMenu" data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</a><br>
-            <a class="hideMenu submenu" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
-            <a class="hideMenu submenu" data-offset="675" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
-            <a class="hideMenu submenu" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
+            <a class="submenu" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
+            <a class="submenu" data-offset="675" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
+            <a class="submenu" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
         <br><br>
 
         <span class="hideMenu" data-offset="1050" id="impact">[ Make an Impact. ] – Grantmaking by the Numbers</span><br>
-            <a class="hideMenu submenu" data-offset="1705" >Impact Area: Cultural Vibrancy</a><br/>
-            <a class="hideMenu submenu" data-offset="1856" >Impact Area: Livable and Resilient Communities</a><br/>
-            <a class="hideMenu submenu" data-offset="1993" >Impact Area: Youth Success</a><br/>
-            <a class="hideMenu submenu" data-offset="2157" >Impact Area: Successful Aging</a><br/>
-            <a class="hideMenu submenu" data-offset="2450" >Turning Point: The Public</a><br/>
+            <a class="submenu" data-offset="1705" >Impact Area: Cultural Vibrancy</a><br/>
+            <a class="submenu" data-offset="1856" >Impact Area: Livable and Resilient Communities</a><br/>
+            <a class="submenu" data-offset="1993" >Impact Area: Youth Success</a><br/>
+            <a class="submenu" data-offset="2157" >Impact Area: Successful Aging</a><br/>
+            <a class="submenu" data-offset="2450" >Turning Point: The Public</a><br/>
         <br><br>
 
 
         <span class="hideMenu" data-offset="2590" id="embrace">[ Embrace Change. ] – Addressing Equity</span><br>
-            <a class="hideMenu submenu" data-offset="2858" >Turning Point: A Letter from
+            <a class="submenu" data-offset="2858" >Turning Point: A Letter from
                 Theodore Guidry II, <br> San Antonio Area Foundation Past Chairman of the Board</a><br>
-            <a class="hideMenu submenu" data-offset="3596" >Turning Point: SAAAACF</a><br/>
+            <a class="submenu" data-offset="3596" >Turning Point: SAAAACF</a><br/>
         <br><br>
 
 
         <span class="hideMenu" data-offset="3800" id="courage">[ Have Courage. ] – Scholarships</span><br>
-            <a class="hideMenu submenu" data-offset="3919" >Turning Point: A Little Help Goes a Long Way</a><br/>
-            <a class="hideMenu submenu" data-offset="4080" >Thank You from our Student Scholars</a><br/>
-            <a class="hideMenu submenu" data-offset="4206" >Turning Point: In Memoriam: Jack and Laura Richmond</a><br/>
-            <a class="hideMenu submenu" data-offset="4419" >Donor and Development Services</a><br/>
-            <a class="hideMenu submenu" data-offset="4419" >Donor Advised Funds</a><br/>
+            <a class="submenu" data-offset="3919" >Turning Point: A Little Help Goes a Long Way</a><br/>
+            <a class="submenu" data-offset="4080" >Thank You from our Student Scholars</a><br/>
+            <a class="submenu" data-offset="4206" >Turning Point: In Memoriam: Jack and Laura Richmond</a><br/>
+            <a class="submenu" data-offset="4419" >Donor and Development Services</a><br/>
+            <a class="submenu" data-offset="4419" >Donor Advised Funds</a><br/>
         <br><br>
         <hr>
         <br>

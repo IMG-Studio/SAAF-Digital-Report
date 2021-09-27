@@ -601,14 +601,14 @@ body.page-loaded .header-top {
     line-height: 28px;
 }
 
-.hideMenu.submenu {
+.submenu {
     font-size: 13px;
     font-family: "Roboto Light";!important;
     color: gray;
     cursor: pointer;
 }
 
-.hideMenu.submenu:hover {
+.submenu:hover {
     color: #1C2D5A;
 }
 
