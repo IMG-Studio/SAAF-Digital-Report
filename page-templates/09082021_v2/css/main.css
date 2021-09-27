@@ -87,7 +87,7 @@ p {
 }
 
 a {
-    text-decoration: none
+    text-decoration: none!important;
 }
 
 .svg-sprive {
@@ -186,7 +186,7 @@ a {
 .icon-arrow {
     width: 16px;
     height: 16px;
-    border: 1px solid rgba(208, 23, 23, 0);
+    /*border: 1px solid rgba(208, 23, 23, 0);*/
 }
 
 
@@ -276,6 +276,7 @@ a {
     padding: 0;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
+    border-width: 0!important;
 }
 
 .button:active {
@@ -301,16 +302,6 @@ a {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background-color: #85261e
-}
-
-.button-arrow-red:hover {
-    /*transform: scale(1.025);*/
-    /*transition: transform 0.33s;*/
-    /*width: 41px;*/
-    /*height: 41px;*/
-    /*background: rgb(122, 37, 32) 0% 0% no-repeat  padding-box;*/
-    /*border-radius: 50px;*/
-
 }
 
 .button-arrow-yellow {
@@ -605,14 +596,14 @@ body.page-loaded .header-top {
 .hideMenu {
     text-decoration: none;
     color: #584c47;
-    font-family: Roboto-Regular, Arial, sans-serif;
+    font-family: Roboto-Regular, Arial;
     font-size: 13px;
     line-height: 28px;
 }
 
 .hideMenu.submenu {
     font-size: 13px;
-    font-family: "Roboto Light";
+    font-family: "Roboto Light";!important;
     color: gray;
     cursor: pointer;
 }
@@ -645,19 +636,19 @@ body.page-loaded .header-top {
 
 
 #catalyst:hover {
-    color: #ff8000;
+    color: #E98243;
 }
 
 #impact:hover {
-    color: gold;
+    color: #C3A701;
 }
 
 #embrace:hover {
-    color: green;
+    color: #87946B;
 }
 
 #courage:hover {
-    color: blue;
+    color: #384E83;
 }
 
 
@@ -673,16 +664,16 @@ body.page-loaded .header-top {
     height: 1px;
     border: none;
     background: #B9B3AF linear-gradient(to right, #ccc, #B9B3AF, #ccc);
-    /*border-bottom: 1px solid #B9B3AF;*/
+    border-bottom: 1px solid #B9B3AF;
 }
 
 .header-left-nav__links {
     line-height: 20px;
 }
 
-.header-left-nav__links a {
-    color: #63554F;
-}
+/*.header-left-nav__links a {*/
+/*    color: #63554F;*/
+/*}*/
 
 .header-left-nav__note {
     font-size: 8px;
@@ -976,42 +967,48 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    /*opacity: 0.0;*/
-    background: rgb(136, 29, 25);
     transition: all 0.1667s;
 }
-.button-ripple-yellow {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    /*opacity: 0.0;*/
-    background: #C3A701;
-    transition: all 0.1667s;
-}
-.button:hover .button-ripple-yellow {
-    cursor: pointer;
-    transform: scale(1.45);
-    border: 8px solid rgba(211, 191, 191, 0.67);
-    font-weight: 800;
-    background-color: #C3A701;
-    /*color: rgb(201, 169, 167);*/
-    /*margin: 0;*/
-}
-
-
 
 .button:hover .button-ripple {
     cursor: pointer;
     transform: scale(1.45);
-    border: 8px solid rgba(211, 191, 191, 0.67);
+    border: 8px solid rgba(211, 191, 191, 0.7);
     font-weight: 800;
-    background-color: #812820;
+
     /*color: rgb(201, 169, 167);*/
     /*margin: 0;*/
 }
+.red {
+    background-color: #812820;
+}
+.yellow{
+    background-color: #C3A701;
+}
+.green {
+    background-color: #87946B;
+}
+
+.blue {
+    background-color: #3A6D88;
+}
+
+.button:hover .yellow {
+    border: 8px solid rgba(193, 162, 0, 0.38);
+    background-color: rgba(195, 167, 1, 0.52);
+}
+
+.button:hover .green {
+    border: 8px solid rgba(128, 145, 100, 0.42);
+    background-color: rgba(135, 148, 107, 0.44) !important;
+}
+
+.button:hover .blue {
+    border: 8px solid rgba(191, 203, 211, 0.67);
+    background-color: rgba(58, 109, 136, 0.5) !important;
+}
+
+
 
 
 .complete > .button-ripple,
@@ -1532,7 +1529,7 @@ section.complete .button-next-slide-section-2 {
 .button-next-slide-section-5 {
     position: absolute;
     right: 4%;
-    bottom: 8%;
+    bottom: 52px;
 }
 
 .button-next-slide-section-5:hover {
@@ -2744,7 +2741,7 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-15a {
-    z-index: 85;
+    z-index: 88;
     width: 50%;
     height: 100vh;
     margin-left: 100%;
@@ -4087,10 +4084,11 @@ section.complete .button-next-slide-section-2 {
 
 .section-28__main-content img {
     margin-right: 4%;
+    top:20px;
 }
 
 .section-28__text h3 {
-    margin-top: 20px;
+    margin-top: 27px;
     font-family: Roboto-Black, Arial, sans-serif;
     font-size: 18px;
     line-height: 25px;

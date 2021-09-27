@@ -194,7 +194,7 @@
             <button class="button button-screen-down button-screen-down-header-left">
                 <div class="icon-screen-down">
                     <svg class="icon-screen-down">
-                        <a href="https://www.dropbox.com/s/6u1jq57v2716lfp/WireO-Mockup.pdf?dl=0">
+                        <a href="https://saaf.mystagingwebsite.com/wp-content/uploads/2021/09/WireO-Mockup.pdf" target="_blank">
                         <use href="#icon-screen-down"></use>
                         </a>
                     </svg>
@@ -208,7 +208,7 @@
 
         <a class="hideMenu" data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</a><br>
             <a class="hideMenu submenu" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
-            <a class="hideMenu submenu" data-offset="65" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
+            <a class="hideMenu submenu" data-offset="675" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
             <a class="hideMenu submenu" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
         <br><br>
 
@@ -217,7 +217,7 @@
             <a class="hideMenu submenu" data-offset="1856" >Impact Area: Livable and Resilient Communities</a><br/>
             <a class="hideMenu submenu" data-offset="1993" >Impact Area: Youth Success</a><br/>
             <a class="hideMenu submenu" data-offset="2157" >Impact Area: Successful Aging</a><br/>
-            <a class="hideMenu submenu" data-offset="2472" >Turning Point: The Public</a><br/>
+            <a class="hideMenu submenu" data-offset="2450" >Turning Point: The Public</a><br/>
         <br><br>
 
 
@@ -239,7 +239,7 @@
         <br>
 
         <div class="header-left-nav__links">
-            <a href="#"><span>Visit</span> San Antonio Area Foundation</a><br>
+            <a href="https://www.saafdn.org"><span>Visit</span> San Antonio Area Foundation</a><br>
             <br>
             <a href="#"><span>View</span> Our Covid Report</a>
         </div>
@@ -270,7 +270,7 @@
         </div>
         <div class="button-arrow-red-section-1" style="line-height: 42px;">
             <button class="button button-arrow-red" style="float: left;">
-                <div class="button-ripple button-ripple-section-1"></div>
+                <div class="button-ripple red button-ripple-section-1"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-bottom"></use>
@@ -294,7 +294,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-2, .section-2a"><span>words from our ceo</span>
             <button class="button button-arrow-red">
-                <div class="button-ripple button-ripple-section-2"></div>
+                <div class="button-ripple red button-ripple-section-2"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -455,7 +455,7 @@
         </div>
         <!-- <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.</div> -->
         <button class="button button-arrow-red button-prev-red-section-2a" data-toggle=".section-2, .section-2a">
-            <div class="button-ripple button-ripple-section-2a"></div>
+            <div class="button-ripple red button-ripple-section-2a"></div>
             <div class="icon icon-arrow">
                 <svg>
                     <use href="#icon-arrow-left"></use>
@@ -525,7 +525,7 @@
         <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
             <!--  data-toggle-unique-class="clicked-button-ripple-section-5l" -->
             <button class="button button-arrow-red">
-                <div class="button-ripple button-ripple-section-5l"></div>
+                <div class="button-ripple red button-ripple-section-5l"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-left"></use>
@@ -536,7 +536,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span>bexar county family justice center</span>
             <button class="button button-arrow-red">
-                <div class="button-ripple button-ripple-section-5r"></div>
+                <div class="button-ripple red button-ripple-section-5r"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -571,7 +571,7 @@
             <div class="button-back-slide-section-5a" data-toggle=".section-5, .section-5a">
                 <!--  data-toggle-unique-class="clicked-button-ripple-section-5l" -->
                 <button class="button button-arrow-red">
-                    <div class="button-ripple button-ripple-section-5a"></div>
+                    <div class="button-ripple red button-ripple-section-5a"></div>
                     <div class="icon icon-arrow">
                         <svg>
                             <use href="#icon-arrow-right"></use>
@@ -609,7 +609,7 @@
             <span class="section-5b__imageshorttext">» Bexar County Family Justice Center</span>
             <div class="button-back-slide-section-5b" data-toggle=".section-5, .section-5b">
                 <button class="button button-arrow-red">
-                    <div class="button-ripple button-ripple-section-5b"></div>
+                    <div class="button-ripple red button-ripple-section-5b"></div>
                     <div class="icon icon-arrow">
                         <svg>
                             <use href="#icon-arrow-left"></use>
@@ -782,7 +782,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple-yellow button-ripple-section-12"></div>
+                <div class="button-ripple yellow button-ripple-section-12"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -807,7 +807,7 @@
         <div class="button-next-slide button-back-section-12a" data-toggle=".section-12, .section-12a">
             <button class="button button-arrow-yellow">
 
-                <div class="button-ripple-yellow button-ripple-section-12a"></div>
+                <div class="button-ripple yellow button-ripple-section-12a"></div>
                 <div class="icon icon-close">
                     <svg>
                         <use href="#icon-close-white"></use>
@@ -836,7 +836,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-13" data-toggle=".section-13, .section-13a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple-yellow button-ripple-section-13"></div>
+                <div class="button-ripple yellow button-ripple-section-13"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -869,7 +869,7 @@
         </div>
         <div class="button-next-slide button-back-section-13a" data-toggle=".section-13, .section-13a">
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-13a"></div>
+                <div class="button-ripple yellow button-ripple-section-13a"></div>
                 <div class="icon icon-close">
                     <svg>
                         <use href="#icon-close-white"></use>
@@ -897,7 +897,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple-yellow button-ripple-section-14a"></div>
+                <div class="button-ripple yellow button-ripple-section-14a"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -944,7 +944,7 @@
         </div>
         <div class="button-next-slide button-back-section-14a" data-toggle=".section-14, .section-14a">
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-14a"></div>
+                <div class="button-ripple yellow button-ripple-section-14a"></div>
                 <div class="icon icon-close">
                     <svg>
                         <use href="#icon-close-white"></use>
@@ -980,7 +980,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple-yellow button-ripple-section-15"></div>
+                <div class="button-ripple yellow button-ripple-section-15"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -989,6 +989,7 @@
             </button>
         </div>
     </section>
+    <section class="section-15a">
         <div class="section-15a__text-wrapper">
             <div class="section-15a__text">
                 <h3>Vital partnerships</h3>
@@ -1026,7 +1027,7 @@
         </div>
         <div class="button-next-slide button-back-section-15a" data-toggle=".section-15, .section-15a">
             <button class="button button-arrow-yellow">
-                <div class="button-ripple-yellow button-ripple-section-15a"></div>
+                <div class="button-ripple yellow button-ripple-section-15a"></div>
                 <div class="icon icon-close">
                     <svg>
                         <use href="#icon-close-white"></use>
@@ -1108,7 +1109,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span>Words from former chairman of the board</span>
             <button class="button button-arrow-green">
-                <div class="button-ripple button-ripple-section-20"></div>
+                <div class="button-ripple green button-ripple-section-20"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -1210,7 +1211,7 @@
           Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>
         </div>
         <button class="button button-arrow-green button-prev-green-section-20a" data-toggle=".section-20, .section-20a">
-            <div class="button-ripple button-ripple-section-20a"></div>
+            <div class="button-ripple green button-ripple-section-20a"></div>
             <div class="icon icon-arrow">
                 <svg>
                     <use href="#icon-arrow-left"></use>
@@ -1295,7 +1296,7 @@
             </div>
             <div class="button-next-slide button-next-slide-section-23" data-toggle=".section-23, .section-23a"><span>San Antonio equity fellowship program</span>
                 <button class="button button-arrow-green">
-                    <div class="button-ripple button-ripple-section-23"></div>
+                    <div class="button-ripple green button-ripple-section-23"></div>
                     <div class="icon icon-arrow">
                         <svg>
                             <use href="#icon-arrow-right"></use>
@@ -1468,7 +1469,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
             </div>
 <div class="button-next-slide button-next-slide-section-27" data-toggle=".section-27, .section-27a"><span>Eric Wilson’s full story</span>
     <button class="button button-arrow-blue">
-        <div class="button-ripple button-ripple-section-27"></div>
+        <div class="button-ripple blue button-ripple-section-27"></div>
         <div class="icon icon-arrow">
             <svg>
                 <use href="#icon-arrow-right"></use>
@@ -1555,7 +1556,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
             for helping me pursue my dreams.&#8221;</p><span>&mdash; Eric</span>
     </div>
     <button class="button button-arrow-blue button-prev-blue-section-27a" data-toggle=".section-27, .section-27a">
-        <div class="button-ripple button-ripple-section-27a"></div>
+        <div class="button-ripple blue button-ripple-section-27a"></div>
         <div class="icon icon-arrow">
             <svg>
                 <use href="#icon-arrow-left"></use>
@@ -1586,7 +1587,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
     </div>
     <div class="button-next-slide button-next-slide-section-28" data-toggle=".section-28, .section-28a"><span>Thank you from our student scholars</span>
         <button class="button button-arrow-blue">
-            <div class="button-ripple button-ripple-section-28"></div>
+            <div class="button-ripple blue button-ripple-section-28"></div>
             <div class="icon icon-arrow">
                 <svg>
                     <use href="#icon-arrow-right"></use>
@@ -1650,7 +1651,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         </div>
     </div>
     <button class="button button-arrow-blue button-prev-blue-section-28a" data-toggle=".section-28, .section-28a">
-        <div class="button-ripple button-ripple-section-28a"></div>
+        <div class="button-ripple blue button-ripple-section-28a"></div>
         <div class="icon icon-arrow">
             <svg>
                 <use href="#icon-arrow-left"></use>
@@ -1670,7 +1671,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
     </div>
     <div class="button-next-slide button-next-slide-section-29" data-toggle=".section-29a"><span>the Legacy of Jack and Laura Richmond</span>
         <button class="button button-arrow-blue">
-            <div class="button-ripple button-ripple-section-29"></div>
+            <div class="button-ripple blue button-ripple-section-29"></div>
             <div class="icon icon-arrow">
                 <svg>
                     <use href="#icon-arrow-right"></use>
@@ -1756,7 +1757,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         </p>
     </div>
     <button class="button button-arrow-blue button-prev-blue-section-29a" data-toggle=".section-29a">
-        <div class="button-ripple button-ripple-section-29a"></div>
+        <div class="button-ripple blue button-ripple-section-29a"></div>
         <div class="icon icon-arrow">
             <svg>
                 <use href="#icon-arrow-left"></use>
@@ -1861,7 +1862,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         Together.
     </div>
     <div class="section-32__donate">
-        <button>
+        <button onclick="window.location.href='https://saafdn.fcsuite.com/erp/donate/';">
             <div class="icon icon-heart icon-heart-white">
                 <svg>
                     <use href="#icon-heart"></use>
@@ -2152,8 +2153,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 </section>
 </div>
 
-<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>-->
-<!--<script src="js/scripts.js"></script>-->
+
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
