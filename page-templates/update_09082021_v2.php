@@ -955,7 +955,7 @@
     </section>
     <section class="section-15">
         <div class="section-15__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-15.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-15-portrait-cropped-16_Web.jpg">
             <div class="section-15__imageshorttext">» San Antonio Oasis </div>
         </div>
         <div class="section-14__text-wrapper">

@@ -2279,6 +2279,7 @@ section.complete .button-next-slide-section-2 {
     top: 50%;
     left: 0;
     width: 80%;
+    height: auto;
     min-height: 105%;
     transform: translateY(-50%);
 }
