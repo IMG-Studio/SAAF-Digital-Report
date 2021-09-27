@@ -340,31 +340,20 @@
     <section class="section-3">
         <div class="section-3__background"></div>
         <div class="section-3__title-wrapper">
-            <div class="section-3__title"><span class="section-3__title-1 .section-3__title">[ Be a </span>catalyst<span
+            <div class="section-3__title"><span class="section-3__title-1 .section-3__title"><?php the_field("page-3_title_part-1")?></span><?php the_field("page-3_title_part-2")?><span
                         class="section-3__title-2">. ]</span></div>
-            <div class="section-3__subtitle">COVID-19 Response Fund</div>
+            <div class="section-3__subtitle"><?php the_field("page-3_title_part-3")?></div>
         </div>
         <div class="section-3__icon" data-toggle=".section-3, .section-3a"><span
-                    class="section-3__icon__asterisk">*</span> <span class="section-3__icon__read-poem">Read Poem</span>
+                    class="section-3__icon__asterisk">*</span> <span class="section-3__icon__read-poem"><?php the_field("page-3_read_poem_label")?></span>
         </div>
     </section>
     <section class="section-3a">
         <div class="section-3a__text">
-            <h3>Quarantine Is A Cheetah</h3>
+            <h3><?php the_field("poem_1_title")?></h3>
             <br>
-            <p>
-                Quarantine is a cheetah<br>
-                because the cases of people who are<br>
-                getting the virus<br>
-                Are coming in fast. People can’t see<br>
-                Their family because of the virus.<br>
-                Quarantine makes me feel like<br>
-                I can’t do anything anymore.<br>
-                I want to outrun this cheetah,<br>
-                Be grateful for seafood every Friday<br>
-                And for people who recover from Covid.<br>
-                <br>
-                <i>— Olivia S., 5th Grade</i>
+            <p><?php the_field("poem_1_paragraph")?>
+                <i><?php the_field("poem_1_author")?></i>
             </p>
         </div>
         <div class="section-3a__close" data-toggle=".section-3, .section-3a">
@@ -378,7 +367,7 @@
     <section class="section-4">
         <div class="section-4__background"></div>
         <div class="section-4__title-wrapper">
-            <div class="section-4__pretitle">A crisis compels you to</div>
+            <div class="section-4__pretitle"><?php the_field("poem_1_title")?></div>
             <div class="section-4__title"><span class="section-4__title-1">be a catalyst for </span>change,</div>
         </div>
         <div class="section-4__text">An unprecedented crisis necessitated unprecedented levels of giving. The San
