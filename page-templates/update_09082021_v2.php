@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-
+    <script src="https://kit.fontawesome.com/3ed99841ff.js" crossorigin="anonymous"></script>
 
 
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -132,10 +132,12 @@
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3800"><?php the_field("header_link-4")?></a>
                     </li>
                     <li class="nav-main__item">
-                        <button class="button button-heart button-heart-header-top">
+                        <button class="button button-heart-1 button-heart-header-top">
                             <div class="icon icon-heart icon-heart-white">
                                 <svg>
+                                <a href="https://saafdn.fcsuite.com/erp/donate/">
                                     <use href="#icon-heart"></use>
+                                </a>
                                 </svg>
                             </div>
                         </button>
@@ -155,7 +157,6 @@
             </div>
 
             <div class="mobile-nav">
-
                 <div class="menu-btn" id="menu1">
                     <div></div>
                     <span class="s1"></span>
@@ -164,21 +165,22 @@
                 </div>
             </div>
 
-
-
-
             <button class="button button-heart button-heart-header-left" >
                 <div class="icon icon-heart icon-heart-red">
                     <svg>
+                        <a href="https://saafdn.fcsuite.com/erp/donate/">
                         <use href="#icon-heart"></use>
+                        </a>
                     </svg>
                 </div>
             </button>
 
             <button class="button button-screen-down button-screen-down-header-left">
-                <div class="icon icon-screen-down">
-                    <svg>
+                <div class="icon-screen-down">
+                    <svg class="icon-screen-down">
+                        <a href="https://www.dropbox.com/s/6u1jq57v2716lfp/WireO-Mockup.pdf?dl=0">
                         <use href="#icon-screen-down"></use>
+                        </a>
                     </svg>
                 </div>
             </button>
@@ -257,7 +259,7 @@
                     </svg>
                 </div>
             </button>
-            <span style="position: relative;"><?php the_field("page-1_link")?></span>
+            <span class="mt-2" style="position: relative;">Scroll to explore</span>
         </div>
     </section>
     <section class="section-2">
@@ -761,7 +763,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-12"></div>
+                <div class="button-ripple-yellow button-ripple-section-12"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -786,7 +788,7 @@
         <div class="button-next-slide button-back-section-12a" data-toggle=".section-12, .section-12a">
             <button class="button button-arrow-yellow">
 
-                <div class="button-ripple button-ripple-section-12a"></div>
+                <div class="button-ripple-yellow button-ripple-section-12a"></div>
                 <div class="icon icon-close">
                     <svg>
                         <use href="#icon-close-white"></use>
@@ -815,7 +817,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-13" data-toggle=".section-13, .section-13a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-13"></div>
+                <div class="button-ripple-yellow button-ripple-section-13"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -876,7 +878,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-14a"></div>
+                <div class="button-ripple-yellow button-ripple-section-14a"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -911,7 +913,7 @@
                     analysis to drive strategic decisions in uncertain times.</p>
                 <br>
                 <p>
-                    *<span>R</span>eflect on the vision guiding your work<br>
+                    <span>R</span>eflect on the vision guiding your work<br>
                     <span>E</span>valuate the underlying needs of your community<br>
                     <span>S</span>trengthen your program design<br>
                     <span>E</span>ducate your stakeholders<br>
@@ -935,7 +937,7 @@
     <section class="section-15">
         <div class="section-15__image">
             <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-15.jpg">
-            <div class="section-15__imageshorttext">» San Antonio Oasis</div>
+            <div class="section-15__imageshorttext">» San Antonio Oasis </div>
         </div>
         <div class="section-14__text-wrapper">
             <div class="section-15__pretitle">Even when it feels</div>
@@ -959,7 +961,7 @@
         </div>
         <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a"><span>Vital partnerships</span>
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-15"></div>
+                <div class="button-ripple-yellow button-ripple-section-15"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -968,7 +970,6 @@
             </button>
         </div>
     </section>
-    <section class="section-15a">
         <div class="section-15a__text-wrapper">
             <div class="section-15a__text">
                 <h3>Vital partnerships</h3>
@@ -1006,7 +1007,7 @@
         </div>
         <div class="button-next-slide button-back-section-15a" data-toggle=".section-15, .section-15a">
             <button class="button button-arrow-yellow">
-                <div class="button-ripple button-ripple-section-15a"></div>
+                <div class="button-ripple-yellow button-ripple-section-15a"></div>
                 <div class="icon icon-close">
                     <svg>
                         <use href="#icon-close-white"></use>
@@ -2132,8 +2133,8 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 </section>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>-->
+<!--<script src="js/scripts.js"></script>-->
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">

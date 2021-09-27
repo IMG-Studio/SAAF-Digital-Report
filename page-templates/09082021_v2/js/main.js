@@ -173,14 +173,14 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-2__text-4", "opacity",  0.0,  1.0,  105, 145);
 	new ElementAnimation("section-2__text-4", "margin-left",  50,  0,  105, 145);
 	new ElementAnimation("button-next-slide-section-2", "opacity",  0.0,  1.0,  100, 110);
-	new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 110, 115);
-	new ElementAnimation("button-ripple-section-2", "scale", 1.0, 1.75, 110, 120);
-	new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 120, 130);
-	new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 115, 130);
-	new ElementAnimation("button-ripple-section-2", "scale", 1.5, 1.75, 170, 180);
-	new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 170, 180);
-	new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 180, 190);
-	new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 180, 190);
+	// new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 110, 115);
+	// new ElementAnimation("button-ripple-section-2", "scale", 1.0, 1.75, 110, 120);
+	// new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 120, 130);
+	// new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 115, 130);
+	// new ElementAnimation("button-ripple-section-2", "scale", 1.5, 1.75, 170, 180);
+	// new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 170, 180);
+	// new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 180, 190);
+	// new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 180, 190);
 	// new ElementAnimation("button-ripple-section-2", "scale", 2.0, 1.5, 131, 135);
 	// new ElementAnimation("button-ripple-section-2", "scale", 1.5, 2.0, 136, 140);
 	// new ElementAnimation("button-ripple-section-2", "scale", 2.0, 1.0, 139, 150);
@@ -490,9 +490,9 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-22", "opacity", 1.0, 0.0, 2165, 2200);
 
 
-	// new ElementAnimation("section-23__pretitle", "opacity", 0.0, 1.0, 2215, 2235);
+	new ElementAnimation("section-23__pretitle", "opacity", 1.0, 0.0, 2265, 2290);
 	// new ElementAnimation("section-23__pretitle", "margin-left", 50, 0, 2215, 2235);
-	// new ElementAnimation("section-23__title", "opacity", 0.0, 1.0, 2215, 2235);
+	new ElementAnimation("section-23__title", "opacity", 1.0, 0.0, 2265, 2290);
 	// new ElementAnimation("section-23__title", "margin-left", 50, 0, 2215, 2235);
 	new ElementAnimation("button-next-slide-section-23", "opacity", 0.0, 1.0, 2215, 2235);
 
@@ -500,18 +500,18 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-23__sector sector-2", "opacity", 0.0, 1.0, 2235, 2255);
 	new ElementAnimation("section-23__sector sector-3", "opacity", 0.0, 1.0, 2245, 2265);
 
-	new ElementAnimation("section-23", "opacity", 1.0, 0.0, 2265, 2300);
+	new ElementAnimation("section-23", "opacity", 1.0, 0.0, 2300, 2320);
 
 
 	new ElementAnimation("section-24__background", "scale", 1.0, 1.05, 2265, 2500);
-	new ElementAnimation("section-24__pretitle", "margin-left", 150, 0, 2320, 2330);
-	new ElementAnimation("section-24__pretitle", "opacity", 0.0, 1.0, 2320, 2330);
-	new ElementAnimation("section-24__title", "margin-left", 150, 0, 2320, 2330);
-	new ElementAnimation("section-24__title", "opacity", 0.0, 1.0, 2320, 2330);
-	new ElementAnimation("section-24__subtitle", "margin-left", 100, 0, 2320, 2330);
-	new ElementAnimation("section-24__subtitle", "opacity", 0.0, 1.0, 2320, 2330);
+	new ElementAnimation("section-24__pretitle", "margin-left", 150, 0, 2340, 2350);
+	new ElementAnimation("section-24__pretitle", "opacity", 0.0, 1.0, 2340, 2350);
+	new ElementAnimation("section-24__title", "margin-left", 150, 0, 2340, 2350);
+	new ElementAnimation("section-24__title", "opacity", 0.0, 1.0, 2340, 2350);
+	new ElementAnimation("section-24__subtitle", "margin-left", 100, 0, 2340, 2350);
+	new ElementAnimation("section-24__subtitle", "opacity", 0.0, 1.0, 2340, 2350);
 
-	new ElementAnimation("section-24", "opacity", 1.0, 0.0, 2365, 2400);
+	new ElementAnimation("section-24", "opacity", 1.0, 0.0, 2365, 2420);
 
 
 	new ElementAnimation("section-25__background", "scale", 1.0, 1.05, 2265, 2500);
@@ -982,13 +982,13 @@ window.addEventListener("DOMContentLoaded", event =>
 		// all custom jQuery will go here
 
 		jQuery(document).ready(function($){
- console.log("working jquery")
-      
+ 			console.log("working jquery")
+			//open nav and make menu an "x"
 			$( '.menu-btn' ).click(function(){
 				$('.header-left-nav').toggleClass('toggle');
 				console.log("jquery")
 			});
-
+			//close nav in clicked outside of nav and return hamburger menu
 			$(document).on("click", function(e){
 				e.stopPropagation()
 				if(
@@ -1001,10 +1001,23 @@ window.addEventListener("DOMContentLoaded", event =>
 					console.log("toggle")
 					$('.header-left-nav').toggleClass('toggle');
 					$('.menu-btn').toggleClass('active');
-
 				}
-
 			});
+
+
+			// 	$("a").click(function(event) {
+			// 		event.preventDefault();
+			// 		linkLocation = this.href;
+			// 		$("body").fadeOut(2000, redirectPage);
+			// 		console.log("j-fade")
+			// 	});
+			// //todo: add functionality "if scrollPosition !equals <a> location , fade white"
+			// 	function redirectPage() {
+			// 		window.location = linkLocation;
+			// 		$("body").fadeIn(2000);
+			// 	}
+
+
 		});
 
 
