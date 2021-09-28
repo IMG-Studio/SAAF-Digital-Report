@@ -367,7 +367,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15__image", "margin-left", -60, 0, 1390, 1410);
     new ElementAnimation("section-15__image", "opacity", 0.0, 1.0, 1390, 1415);
     new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1400, 1470);
-    new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1480);
+    new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1440);
     new ElementAnimation("section-15__pretitle", "margin-left", 50, 0, 1415, 1480);
     new ElementAnimation("section-15__title", "opacity", 0.0, 1.0, 1410, 1440);
     new ElementAnimation("section-15__title", "margin-left", 50, 0, 1410, 1440);

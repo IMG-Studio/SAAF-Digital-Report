@@ -193,6 +193,7 @@ a {
     width: 16px;
     height: 16px;
     transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
     stroke: white;
 }
 
