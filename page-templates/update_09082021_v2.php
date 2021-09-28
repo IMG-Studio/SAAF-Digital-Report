@@ -55,8 +55,8 @@
     <meta name="msapplication-config" content="browserconfig.xml">
     <link href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/css/main.css"
           rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"-->
+<!--          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">-->
 </head>
 
 
@@ -206,34 +206,34 @@
 
     <div class="header-left-nav" id="nav1">
 
-        <a class="hideMenu" data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</a><br>
-            <a class="submenu" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
-            <a class="submenu" data-offset="675" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
-            <a class="submenu" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
-        <br><br>
-
-        <span class="hideMenu" data-offset="1050" id="impact">[ Make an Impact. ] – Grantmaking by the Numbers</span><br>
-            <a class="submenu" data-offset="1705" >Impact Area: Cultural Vibrancy</a><br/>
-            <a class="submenu" data-offset="1856" >Impact Area: Livable and Resilient Communities</a><br/>
-            <a class="submenu" data-offset="1993" >Impact Area: Youth Success</a><br/>
-            <a class="submenu" data-offset="2157" >Impact Area: Successful Aging</a><br/>
-            <a class="submenu" data-offset="2450" >Turning Point: The Public</a><br/>
+        <span class="hideMenu jToggle" data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</span><br>
+            <a class="submenu jToggle" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
+            <a class="submenu jToggle" data-offset="675" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
+            <a class="submenu jToggle" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
         <br><br>
 
 
-        <span class="hideMenu" data-offset="2590" id="embrace">[ Embrace Change. ] – Addressing Equity</span><br>
-            <a class="submenu" data-offset="2858" >Turning Point: A Letter from
+        <span class="hideMenu jToggle" data-offset="1035" id="impact">[ Make an Impact. ] – Grantmaking by the Numbers</span><br>
+            <a class="submenu jToggle" data-offset="1705" >Impact Area: Cultural Vibrancy</a><br/>
+            <a class="submenu jToggle" data-offset="1856" >Impact Area: Livable and Resilient Communities</a><br/>
+            <a class="submenu jToggle" data-offset="1993" >Impact Area: Youth Success</a><br/>
+            <a class="submenu jToggle" data-offset="2157" >Impact Area: Successful Aging</a><br/>
+            <a class="submenu jToggle" data-offset="2450" >Turning Point: The Public</a><br/>
+        <br><br>
+
+        <span class="hideMenu jToggle" data-offset="2580" id="embrace">[ Embrace Change. ] – Addressing Equity</span><br>
+            <a class="submenu jToggle" data-offset="2858" >Turning Point: A Letter from
                 Theodore Guidry II, <br> San Antonio Area Foundation Past Chairman of the Board</a><br>
-            <a class="submenu" data-offset="3596" >Turning Point: SAAAACF</a><br/>
+            <a class="submenu jToggle" data-offset="3596" >Turning Point: SAAAACF</a><br/>
         <br><br>
 
 
-        <span class="hideMenu" data-offset="3800" id="courage">[ Have Courage. ] – Scholarships</span><br>
-            <a class="submenu" data-offset="3919" >Turning Point: A Little Help Goes a Long Way</a><br/>
-            <a class="submenu" data-offset="4080" >Thank You from our Student Scholars</a><br/>
-            <a class="submenu" data-offset="4206" >Turning Point: In Memoriam: Jack and Laura Richmond</a><br/>
-            <a class="submenu" data-offset="4419" >Donor and Development Services</a><br/>
-            <a class="submenu" data-offset="4419" >Donor Advised Funds</a><br/>
+        <span class="hideMenu jToggle" data-offset="3760" id="courage">[ Have Courage. ] – Scholarships</span><br>
+            <a class="submenu jToggle" data-offset="3919" >Turning Point: A Little Help Goes a Long Way</a><br/>
+            <a class="submenu jToggle" data-offset="4080" >Thank You from our Student Scholars</a><br/>
+            <a class="submenu jToggle" data-offset="4206" >Turning Point: In Memoriam: Jack and Laura Richmond</a><br/>
+            <a class="submenu jToggle" data-offset="4390" >Donor and Development Services</a><br/>
+            <a class="submenu jToggle" data-offset="4390" >Donor Advised Funds</a><br/>
         <br><br>
         <hr>
         <br>
@@ -1443,15 +1443,15 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
             <div class="section-27__background"></div>
 
 
-            <div class="section-27-wrapper   ">
+            <div class="section-27-wrapper">
                 <div class="section-27__pretitle ">Change comes when you have the</div>
                 <div class="section-27__title-1 ">courage <span class="section-27__title-1b ">to <span
                                 class="section-27-28__seize-create">seize</span></span></div>
 
 
-                <div class="section-27__title-2 col-10 "> an opportunity.</div>
-                <div class="section-27__main-content mt-5 row justify-content-around">
-                    <div class="section-27__main-content-wrapper col-9 ">
+                <div class="section-27__title-2 "> an opportunity.</div>
+                <div class="section-27__main-content">
+                    <div class="section-27__main-content-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27.jpg">
                         <div class="section-27__text">
                             <h3>Former Scholarship Recipient Says Thanks and Pays It Forward</h3>
@@ -1569,7 +1569,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
     <div class="section-28__title-1">courage to create</div>
     <div class="section-28__title-2"> an opportunity.</div>
     <div class="section-28__main-content">
-        <div class="section-28__main-content-wrapper">
+        <div class="section-28__main-content-wrapper ">
             <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-28.jpg">
             <div class="section-28__text">
                 <h3>Donor generosity</h3>
@@ -2156,7 +2156,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">-->
 
 </body>
 

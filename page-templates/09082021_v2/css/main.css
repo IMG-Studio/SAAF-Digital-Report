@@ -88,6 +88,7 @@ p {
 
 a {
     text-decoration: none!important;
+    pointer-events: all;
 }
 
 .svg-sprive {
@@ -468,7 +469,7 @@ a {
     width: 100%;
     opacity: 0.0;
     transition: opacity 0.667s;
-    transition-delay: 1s;
+    /*transition-delay: 1s;*/
 }
 
 body.page-loaded .header-top {
@@ -477,6 +478,7 @@ body.page-loaded .header-top {
 
 .header-top.complete {
     pointer-events: none !important;
+
 }
 
 .header-top__wrapper {
@@ -635,6 +637,7 @@ body.page-loaded .header-top {
 
 #catalyst:hover {
     color: #E98243;
+
 }
 
 #impact:hover {
@@ -650,8 +653,8 @@ body.page-loaded .header-top {
 }
 
 
-.header-left-nav, .hideMenu {
-    font-family: Roboto-Black, Arial, sans-serif;
+ .hideMenu {
+    font-family: Roboto-Black;
 }
 
 .header-left-nav span:hover {
@@ -3879,23 +3882,25 @@ section.complete .button-next-slide-section-2 {
 
 .section-27__main-content {
     position: relative;
-    width: 90%;
+    width: 85%;
     /*margin-left: 12%;*/
     margin-top: 30px;
 }
 
 .section-27__main-content img,
 .section-27__main-content .section-27__text {
-    width: 48%;
+    width: 32.3%;
     float: left;
 }
 
 .section-27__main-content img {
-    margin-right: 4%;
+    margin-right: 3.2%;
+    margin-left: 21.6%;
+    top:20px;
 }
 
 .section-27__text h3 {
-    margin-top: 20px;
+    margin-top: 21px;
     font-family: Roboto-Black, Arial, sans-serif;
     font-size: 18px;
     line-height: 25px;
@@ -4076,17 +4081,18 @@ section.complete .button-next-slide-section-2 {
 
 .section-28__main-content img,
 .section-28__main-content .section-28__text {
-    width: 48%;
+    width: 43%;
     float: left;
 }
 
 .section-28__main-content img {
     margin-right: 4%;
+    margin-left: 10%;
     top:20px;
 }
 
 .section-28__text h3 {
-    margin-top: 27px;
+    margin-top: 21px;
     font-family: Roboto-Black, Arial, sans-serif;
     font-size: 18px;
     line-height: 25px;
