@@ -3,14 +3,6 @@
 
 
 
-/*
-
- * Template Name: update09082021_v
-
- */
-
-//get_header ();
-
 
 ?>
 
