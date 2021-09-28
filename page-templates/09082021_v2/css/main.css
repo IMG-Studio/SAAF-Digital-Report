@@ -186,18 +186,16 @@ a {
 .icon-arrow {
     width: 16px;
     height: 16px;
-    /*border: 1px solid rgba(208, 23, 23, 0);*/
+
+}
+.arrowBottom{
+    width: 16px;
+    height: 16px;
+    transform: rotate(90deg);
+    stroke: white;
 }
 
 
-/*.icon-arrow:hover {*/
-/*    !*color: rgba(196, 62, 62, 0.82);*!*/
-/*    opacity:.5;*/
-/*    border: 5px solid rgba(194, 96, 96, 0.76);*/
-/*    width: 16px;*/
-/*    height: 0px;*/
-
-/*}*/
 
 .icon-arrow svg {
     stroke: white;
@@ -596,20 +594,20 @@ body.page-loaded .header-top {
 .hideMenu {
     text-decoration: none;
     color: #584c47;
-    font-family: Roboto-Regular, Arial;
+    font-family: Roboto;
     font-size: 13px;
     line-height: 28px;
 }
 
 .submenu {
     font-size: 13px;
-    font-family: "Roboto Light";!important;
-    color: gray;
+    font-family: "Roboto";
+    color: #817a73;
     cursor: pointer;
 }
 
 .submenu:hover {
-    color: #1C2D5A;
+    color: #4b413a;
 }
 
 .header-left-nav {

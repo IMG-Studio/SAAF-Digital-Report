@@ -271,9 +271,9 @@
         <div class="button-arrow-red-section-1" style="line-height: 42px;">
             <button class="button button-arrow-red" style="float: left;">
                 <div class="button-ripple red button-ripple-section-1"></div>
-                <div class="icon icon-arrow">
+                <div class="icon arrowBottom">
                     <svg>
-                        <use href="#icon-arrow-bottom"></use>
+                        <use href="#icon-arrow-right "></use>
                     </svg>
                 </div>
             </button>

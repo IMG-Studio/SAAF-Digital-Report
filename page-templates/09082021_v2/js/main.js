@@ -122,30 +122,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	ElementAnimation.scrollFactor = 1.475; // 1 normal scroll speed, 2 scrolling takes twice as long, 3 scrolling takes three times as long as normal
 	ElementAnimation.scrollDisabled = false;
 
-	/*
-	ElementAnimation.createdAnimations =
-	{
-		"element-identifier-1": {
-			"property-1": [ElementAnimation(), ElementAnimation()],
-			"property-2": [ElementAnimation(), ElementAnimation()]
-		},
-		"element-identifier-1": {
-			...
-		}
-	}
-	*/
 
-	//navbar functionality
-	// const element = document.getElementById("nav1");
-	// const clicker = document.getElementById("menu1")
-	// // open nav
-	// clicker.onclick = function(){ element.classList.toggle("nav-toggled"); console.log("working") }
-	// //close nav if outside or on link
-	// document.onclick = function (e){ if(e.target.id !== 'nav1' && e.target.id !== 'menu1' )
-	// {
-	// 	element.classList.remove('nav-toggled');
-	// }
-	// }
 
 	// Page scroll animations
 
@@ -160,10 +137,10 @@ window.addEventListener("DOMContentLoaded", event =>
 		10, 100
 	);
 	new ElementAnimation("header-top", "opacity", 1.0, 0.0, 10, 85);
-	new ElementAnimation("header-left", "opacity", 0.0, 1.0, 85, 100);
+	new ElementAnimation("header-left", "opacity", 0.0, 1.0, 90, 100);
 	new ElementAnimation("header-left", "margin-left", -96, 0, 85, 100);
 
-	console.log ("margin-left as percent window");
+
 	new ElementAnimation("section-2__text-1", "opacity",  0.0,  1.0,  90, 140);
 	new ElementAnimation("section-2__text-1", "margin-left",  50,    0,  90, 130);
 	new ElementAnimation("section-2__text-2", "opacity",  0.0,  1.0,  105, 140);
@@ -173,17 +150,6 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-2__text-4", "opacity",  0.0,  1.0,  105, 145);
 	new ElementAnimation("section-2__text-4", "margin-left",  50,  0,  105, 145);
 	new ElementAnimation("button-next-slide-section-2", "opacity",  0.0,  1.0,  100, 110);
-	// new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 110, 115);
-	// new ElementAnimation("button-ripple-section-2", "scale", 1.0, 1.75, 110, 120);
-	// new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 120, 130);
-	// new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 115, 130);
-	// new ElementAnimation("button-ripple-section-2", "scale", 1.5, 1.75, 170, 180);
-	// new ElementAnimation("button-ripple-section-2", "opacity", 0.0, 1.0, 170, 180);
-	// new ElementAnimation("button-ripple-section-2", "scale", 1.75, 1.5, 180, 190);
-	// new ElementAnimation("button-ripple-section-2", "opacity", 1.0, 0.0, 180, 190);
-	// new ElementAnimation("button-ripple-section-2", "scale", 2.0, 1.5, 131, 135);
-	// new ElementAnimation("button-ripple-section-2", "scale", 1.5, 2.0, 136, 140);
-	// new ElementAnimation("button-ripple-section-2", "scale", 2.0, 1.0, 139, 150);
 
 	new ElementAnimation("section-2", "opacity", 1.0, 0.0, 185, 195);
 
@@ -224,24 +190,6 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-5__pretitle", "margin-left", 50, 0, 390, 485);
 	new ElementAnimation("button-prev-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
 	new ElementAnimation("button-next-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
-	// new ElementAnimation("button-ripple-section-5", "scale", 1.0, 5, 420, 440);
-	// new ElementAnimation("button-ripple-section-5", "scale", 5, 1.0, 450, 470);
-// new ElementAnimation("button-ripple-section-5l", "scale", 1.75, 1.5, 420, 430);
-	// new ElementAnimation("button-ripple-section-5l", "opacity", 1.0, 0.0, 415, 430);
-	// new ElementAnimation("button-ripple-section-5l", "scale", 1.5, 1.75, 470, 480);
-	// new ElementAnimation("button-ripple-section-5l", "opacity", 0.0, 1.0, 470, 480);
-	// new ElementAnimation("button-ripple-section-5l", "scale", 1.75, 1.5, 480, 490);
-	// new ElementAnimation("button-ripple-section-5l", "opacity", 1.0, 0.0, 480, 490);
-
-	// new ElementAnimation("button-ripple-section-5r", "opacity", 0.0, 1.0, 410, 415);
-	// new ElementAnimation("button-ripple-section-5r", "scale", 1.0, 1.75, 410, 420);
-	// new ElementAnimation("button-ripple-section-5r", "scale", 1.75, 1.5, 420, 430);
-	// new ElementAnimation("button-ripple-section-5r", "opacity", 1.0, 0.0, 415, 430);
-	// new ElementAnimation("button-ripple-section-5r", "scale", 1.5, 1.75, 470, 480);
-	// new ElementAnimation("button-ripple-section-5r", "opacity", 0.0, 1.0, 470, 480);
-	// new ElementAnimation("button-ripple-section-5r", "scale", 1.75, 1.5, 480, 490);
-	// new ElementAnimation("button-ripple-section-5r", "opacity", 1.0, 0.0, 480, 490);	// new ElementAnimation("button-ripple-section-5l", "opacity", 0.0, 1.0, 410, 415);
-	// new ElementAnimation("button-ripple-section-5l", "scale", 1.0, 1.75, 410, 420);
 
 
 	new ElementAnimation("section-5", "opacity", 1.0, 0.0, 470, 485);
