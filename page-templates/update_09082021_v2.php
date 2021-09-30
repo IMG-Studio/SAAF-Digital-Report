@@ -761,7 +761,7 @@
     </section>
     <section class="section-12">
         <div class="section-12__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-12.jpg">
+            <img/>
             <div class="section-12__imageshorttext">» San Anto Cultural Arts</div>
         </div>
         <div class="section-12__text-wrapper">
@@ -815,7 +815,7 @@
     </section>
     <section class="section-13">
         <div class="section-13__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-13.jpg">
+            <img>
             <div class="section-13__imageshorttext">» Habitat for Humanity</div>
         </div>
         <div class="section-12__text-wrapper">
@@ -877,7 +877,7 @@
     </section>
     <section class="section-14" id="section14">
         <div class="section-14__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-14.jpg">
+            <img/>
             <div class="section-14__imageshorttext">» Good Samaritan Center</div>
         </div>
         <div class="section-14__text-wrapper">
@@ -952,7 +952,7 @@
     </section>
     <section class="section-15">
         <div class="section-15__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-15rev.jpg">
+            <img/>
             <div class="section-15__imageshorttext">» San Antonio Oasis </div>
         </div>
         <div class="section-14__text-wrapper">
