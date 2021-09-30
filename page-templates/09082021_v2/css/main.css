@@ -1267,7 +1267,7 @@ section.complete .button-next-slide-section-2 {
 
 .section-3__title-wrapper {
     position: relative;
-    top: calc(30% + 38px);
+    top: calc(30% + 35px);
     left: calc(50% + 101px);
     width: 850px;
     transform: translateX(-50%) translateY(-50%);
