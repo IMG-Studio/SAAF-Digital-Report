@@ -138,11 +138,11 @@
                 <ul class="nav-main__list">
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="315">[Be a catalyst.]</a>
                     </li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1050">[Make an
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1035">[Make an
                             impact.]</a></li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2590">[Embrace
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2580">[Embrace
                             change.]</a></li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3800">[Have courage.]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3760">[Have courage.]</a>
                     </li>
                     <li class="nav-main__item">
                         <button class="button button-heart-1 button-heart-header-top">
