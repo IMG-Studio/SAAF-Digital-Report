@@ -1,7 +1,7 @@
 <?php wp_head();
 /*
 
- * Template Name: Home
+ * Template Name: test
 
  */
 
@@ -149,7 +149,7 @@
               through the COVID-19 Response Fund. In addition, Donor Advised Funds recommended more than $7 million in
               direct grants to nonprofits serving on the front lines of the pandemic.
             </div>
-            
+
           </div>
         </div>
         <div class="overlap-group4">

@@ -1,7 +1,12 @@
-
 <?php wp_head();
 
+/*
 
+ * Template Name: 09082021_v2
+
+ */
+
+//get_header ();
 
 
 ?>
@@ -131,7 +136,7 @@
             </div>
             <nav class="nav-main">
                 <ul class="nav-main__list">
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="320">[Be a catalyst.]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="315">[Be a catalyst.]</a>
                     </li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1050">[Make an
                             impact.]</a></li>
@@ -198,7 +203,7 @@
 
     <div class="header-left-nav" id="nav1">
 
-        <span class="hideMenu jToggle" data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</span><br>
+        <span class="hideMenu jToggle" data-offset="315" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</span><br>
             <a class="submenu jToggle" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
             <a class="submenu jToggle" data-offset="675" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
             <a class="submenu jToggle" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
@@ -231,9 +236,9 @@
         <br>
 
         <div class="header-left-nav__links">
-            <a href="https://www.saafdn.org"><span>Visit</span> San Antonio Area Foundation</a><br>
+            <a class="submenu"  href="https://www.saafdn.org"><span class="visitSpan">Visit</span> San Antonio Area Foundation</a><br>
             <br>
-            <a href="#"><span>View</span> Our Covid Report</a>
+            <a  class="submenu"  href="#"><span class="visitSpan">View</span> Our Covid Report</a>
         </div>
 
         <br>
@@ -274,7 +279,7 @@
     </section>
     <section class="section-2">
         <div class="section-2__text">
-             <img src="<?php the_field('page-1_background'); ?>" />
+<!--             <img src="--><?php //the_field('page-1_background'); ?><!--" />-->
             <div class="section-2__text-1">Turning points often appear as obstacles, unbidden,</div>
             <div class="section-2__text-2">forcing you to</div>
             <div class="section-2__text-3">choose a new path.</div>
