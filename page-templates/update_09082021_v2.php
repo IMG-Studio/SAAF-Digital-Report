@@ -227,7 +227,7 @@
         <div class="header-left-nav__links">
             <a href="#"><span><?php the_field("navigation-5_part-1")?></span> <?php the_field("navigation-5_part-2")?></a><br>
             <br>
-            <a href="#"><span><?php the_field("navigation-5_part-2")?></span> <?php the_field("navigation-6_part-2")?></a>
+            <a href="#"><span><?php the_field("navigation-6_part-2")?></span> <?php the_field("navigation-6_part-2")?></a>
         </div>
 
         <br>
@@ -284,40 +284,40 @@
     <section class="section-2a">
         <div class="section-2a__wrapper">
             <div class="section-2a__foto-wrapper"><img class="section-2a__foto-wrapper__img"
-                                                       src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/foto-marjie-web.jpg"
+                                                       src="<?php the_field("ceo_photo")?>"
                                                        alt=""><img class="section-2a__foto-wrapper__marjie-signature"
-                                                                   src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/marjie-signature-web.png"
+                                                                   src="<?php the_field("ceo_sig-1")?>"
                                                                    alt=""></div>
             <div class="section-2a__text-wrapper">
                 <!--  <div class="section-2a__text-shadow-before"></div> -->
                 <div class="section-2a__text-overlay"></div>
                 <div class="section-2a__text">
-                    <p><?php the_field("ceo-1")?></p>
-                    <p><?php the_field("ceo-2")?></p>
-                    <p><?php the_field("ceo-3")?></p>
-                    <p><?php the_field("ceo-4")?></p>
-                    <h3><?php the_field("ceo-5")?></h3>
-                    <p><?php the_field("ceo-6")?></p>
-                    <p><?php the_field("ceo-7")?></p>
-                    <p><?php the_field("ceo-8")?></p>
-                    <p><?php the_field("ceo-9")?></p>
-                    <p><?php the_field("ceo-10")?></p>
-                    <h3><?php the_field("ceo-11")?></h3>
-                    <p><?php the_field("ceo-12")?></p>
-                    <p><?php the_field("ceo-13")?></p>
-                    <h3><?php the_field("ceo-14")?></h3>
-                    <p><?php the_field("ceo-15")?></p>
-                    <p><?php the_field("ceo-16")?></p>
-                    <h3><?php the_field("ceo-17")?></h3>
-                    <p><?php the_field("ceo-18")?></p>
-                    <p><?php the_field("ceo-19")?></p>
-                    <p><?php the_field("ceo-20")?></p>
-                    <p><?php the_field("ceo-21")?></p>
+                    <p><?php the_field("ceo_1")?></p>
+                    <p><?php the_field("ceo_2")?></p>
+                    <p><?php the_field("ceo_3")?></p>
+                    <p><?php the_field("ceo_4")?></p>
+                    <h3><?php the_field("ceo_5")?></h3>
+                    <p><?php the_field("ceo_6")?></p>
+                    <p><?php the_field("ceo_7")?></p>
+                    <p><?php the_field("ceo_8")?></p>
+                    <p><?php the_field("ceo_9")?></p>
+                    <p><?php the_field("ceo_10")?></p>
+                    <h3><?php the_field("ceo_11")?></h3>
+                    <p><?php the_field("ceo_12")?></p>
+                    <p><?php the_field("ceo_13")?></p>
+                    <h3><?php the_field("ceo_14")?></h3>
+                    <p><?php the_field("ceo_15")?></p>
+                    <p><?php the_field("ceo_16")?></p>
+                    <h3><?php the_field("ceo_17")?></h3>
+                    <p><?php the_field("ceo_18")?></p>
+                    <p><?php the_field("ceo_19")?></p>
+                    <p><?php the_field("ceo_20")?></p>
+                    <p><?php the_field("ceo_21")?></p>
                     <img class="section-2a__text__marjie-signature"
-                         src="<?php the_field("ceo_sig-1")?>"
+                         src="<?php the_field("ceo_sig-2")?>"
                          alt="">
 
-                    <p><?php the_field("ceo-22")?></p>
+                    <p><?php the_field("ceo_22")?></p>
 
                     <br><br><br>
                 </div>
