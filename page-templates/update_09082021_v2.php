@@ -1,4 +1,7 @@
-<?php wp_head();?>
+<?php 
+    wp_head();
+    /* Template Name: update09082021_v */
+?>
 
 <!DOCTYPE html>
 <html lang="en-EN">
