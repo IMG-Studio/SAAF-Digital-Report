@@ -344,8 +344,8 @@
         <div class="section-3__background"></div>
         <div class="section-3__title-wrapper">
             <div class="section-3__title"><span class="section-3__title-1 .section-3__title"><?php the_field("page-3_title_part-1")?></span><?php the_field("page-3_title_part-2")?><span
-                        class="section-3__title-2">. ]</span></div>
-            <div class="section-3__subtitle"><?php the_field("page-3_title_part-3")?></div>
+                        class="section-3__title-2"><?php the_field("page-3_title_part-3")?></span></div>
+            <div class="section-3__subtitle"><?php the_field("page-3_subtitle")?></div>
         </div>
         <div class="section-3__icon" data-toggle=".section-3, .section-3a"><span
                     class="section-3__icon__asterisk">*</span> <span class="section-3__icon__read-poem"><?php the_field("page-3_read_poem_label")?></span>
@@ -355,7 +355,8 @@
         <div class="section-3a__text">
             <h3><?php the_field("poem_1_title")?></h3>
             <br>
-            <p><?php the_field("poem_1_paragraph")?>
+            <p>
+                <?php the_field("poem_1_paragraph")?>
                 <i><?php the_field("poem_1_author")?></i>
             </p>
         </div>
@@ -367,26 +368,22 @@
             </div>
         </div>
     </section>
-    <section class="section-4">
+    <section class="section-4" style="background-image: url(<?php the_field('page-4_background'); ?>);">
         <div class="section-4__background"></div>
         <div class="section-4__title-wrapper">
-            <div class="section-4__pretitle"><?php the_field("poem_1_title")?></div>
-            <div class="section-4__title"><span class="section-4__title-1">be a catalyst for </span>change,</div>
+            <div class="section-4__pretitle"><?php the_field("page-4_title_part-1")?></div>
+            <div class="section-4__title"><span class="section-4__title-1"><?php the_field("page-4_title_part-2")?></span><?php the_field("page-4_title_part-3")?></div>
         </div>
-        <div class="section-4__text">An unprecedented crisis necessitated unprecedented levels of giving. The San
-            Antonio
-            Area Foundation was there to build partnerships, raise funds, and provide data-driven, targeted funding of
-            nearly $6.5 million through the COVID-19 Response Fund. In addition, Donor Advised Funds recommended more
-            than
-            $7 million in direct grants to nonprofits serving on the front lines of the pandemic.
+        <div class="section-4__text">
+            <?php the_field("page-4_paragraph")?>
         </div>
 
     </section>
-    <section class="section-5">
-        <div class="section-5__background"></div>
+    <section class="section-5" >
+        <div class="section-5__background" style="background-image: url(<?php the_field('page-5_background');?>);"></div>
         <div class="section-5__title-wrapper">
-            <div class="section-5__pretitle">while remaining a safety net for those who</div>
-            <div class="section-5__title">can't wait for that change,</div>
+            <div class="section-5__pretitle"><?php the_field("page-5_title_part-1")?></div>
+            <div class="section-5__title"><?php the_field("page-5_title_part-2")?></div>
         </div>
         <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
             <!--  data-toggle-unique-class="clicked-button-ripple-section-5l" -->
@@ -398,9 +395,9 @@
                     </svg>
                 </div>
             </button>
-            <span id="merced">merced housing texas</span>
+            <span id="merced"><?php the_field("page-5_link-left")?></span>
         </div>
-        <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span>bexar county family justice center</span>
+        <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span><?php the_field("page-5_link-right")?></span>
             <button class="button button-arrow-red">
                 <div class="button-ripple button-ripple-section-5r"></div>
                 <div class="icon icon-arrow">
@@ -413,26 +410,21 @@
     </section>
     <section class="section-5a" id="mercedSection" >
         <div class="section-5a__wrapper">
-            <div class="section-5a__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-5a.jpg">
+            <div class="section-5a__image">
+                <img src="<?php the_field("link-left_image")?>">
             </div>
-            <div class="section-5a__purplebox">One gift card recipient was a single parent who lost her job due to
-                COVID-19. She is raising her 10-year-old son and was concerned about their limited food supply and
-                having to wait 12 days for their SNAP benefits. When she learned she would be receiving a gift card, she
-                was so appreciative and thanked the Resident Services Coordinator and the agencies involved with helping
-                her family. She stated that with the gift card she would be able to purchase much needed groceries.
+            <div class="section-5a__purplebox">
+                <?php the_field("link-left_quote")?>
             </div>
-            <span class="section-5a__imageshorttext">» Merced Housing Texas</span>
+            <span class="section-5a__imageshorttext"><?php the_field("link-left_image-cite")?></span>
             <div class="section-5a__text">
-                <h3>How do you find shelter when it feels like your world is falling apart?</h3>
+                <h3><?php the_field("left-link_title")?></h3>
                 <br>
-                <p>The foundation of our health and safety is a decent place to live. When the COVID-19 crisis pushed
-                    many in our community to the brink of homelessness, <span>Merced Housing Texas</span>, which focuses
-                    on advocating for and providing affordable housing opportunities, was there to help. And the
-                    COVID-19 Fund was there to help Merced by providing a $50,000 grant. Kristin Davila, Merced’s
-                    President and Executive Director, reports that the agency used half of the grant to cover its
-                    Resident Services Program for April. The other half came in the form of $250 gift cards for
-                    residents living at one of the agency’s apartment campuses.</p>
+                <p>
+                    <?php the_field("link-left_paragraph_part-1")?>
+                    <span><?php the_field("link-left_paragraph-colored")?></span>
+                    <?php the_field("link-left_paragraph_part-2")?>
+                </p>
             </div>
             <div class="button-back-slide-section-5a" data-toggle=".section-5, .section-5a">
                 <!--  data-toggle-unique-class="clicked-button-ripple-section-5l" -->
@@ -440,7 +432,7 @@
                     <div class="button-ripple button-ripple-section-5a"></div>
                     <div class="icon icon-arrow">
                         <svg>
-                            <use href="#icon-arrow-right"></use>
+                            <use href="#icon-arrow-right"/>
                         </svg>
                     </div>
                 </button>
@@ -450,27 +442,18 @@
     <section class="section-5b">
         <div class="section-5b__wrapper">
             <div class="section-5b__text">
-                <h3>Who do you turn to when you are in personal crisis during a larger community crisis?</h3>
+                <h3><?php the_field("right-link_title")?></h3>
                 <br>
-                <p>One of the many devastating effects of the pandemic has been an increase in domestic violence. The
-                    <span>Bexar County Family Justice Center</span>, a critical service provider to victims of domestic
-                    violence, had to find a way to remain open. This was no easy feat, given that it is typically an
-                    in-person, walk-in program.
-                    Before the pandemic, the Area Foundation had already begun the transition to trust-based
-                    philanthropy allowing organizations to focus on their mission and adjust or apply the grant dollars
-                    where they were needed most. This pivot to operational funding enabled the Bexar County Family
-                    Justice Center to apply the needed funds to provide crisis intervention and support services to a
-                    larger-than-normal client base. </p>
+                <p>
+                    <?php the_field("right-link_paragraph_line-1")?>
+                    <span><?php the_field("right-link_paragraph-colored")?></span><?php the_field("right-link_paragraph_line-2")?>
+                </p>
             </div>
-            <div class="section-5b__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-5b.jpg">
+            <div class="section-5b__image">
+                <img src="<?php the_field("right-link_image")?>">
             </div>
-            <div class="section-5b__purplebox">“It is so hard to take the chance to accuse someone when you know their
-                next step is
-                to kill you. You feel powerless and desperate. The Family Justice Center’s services helped me to have
-                courage. Today I am safe. I have been able to carry on with my beautiful life. I am able to see my
-                people without being terrified. I just want to express my gratitude to all of you because you help me
-                feel safe and protected.”
+            <div class="section-5b__purplebox">
+                <?php the_field("right-link_quote")?>
             </div>
             <span class="section-5b__imageshorttext">» Bexar County Family Justice Center</span>
             <div class="button-back-slide-section-5b" data-toggle=".section-5, .section-5b">
@@ -486,52 +469,38 @@
         </div>
     </section>
     <section class="section-6">
-        <div class="section-6__background"></div>
+        <div class="section-6__background" style="background-image: url(<?php the_field('page-6_background');?>);"></div>
         <div class="section-6__text-wrapper">
-            <div class="section-6__pretitle">providing others a moment to rest,<br>take a breath, and then</div>
-            <div class="section-6__title">keep moving forward.</div>
+            <div class="section-6__pretitle"><?php the_field("page-6_title_part-1")?></div>
+            <div class="section-6__title"><?php the_field("page-6_title_part-2")?></div>
         </div>
     </section>
     <section class="section-7" id="samm">
-        <div class="section-7__background"></div>
+        <div class="section-7__background" style="background-image: url(<?php the_field('page-6_background');?>);"></div>
         <div class="section-7__text">
-            The people that SAMMinistries serves struggle during normal circumstances to maintain stability. The
-            COVID-19 pandemic amplified vulnerabilities around such issues as food insecurity, rental assistance, access
-            to hygiene, cleaning supplies, and transportation. Those living in transitional housing lost many outlets to
-            socialize and simply let kids expend their energy. Generous funding helped alleviate these burdens, helping
-            to keep households safe and healthy. It helped pay rent, late fees, and mortgages, making SAMMinistries a
-            one-stop shop to address the housing needs of clients in financial crisis. One hundred percent of homeless
-            prevention and rapid re-housing clients remained housed; 60 percent of transitional clients exited to
-            permanent housing; and 98 percent of permanent supportive housing clients remained housed during the worst
-            of the crisis.
+            <?php the_field("page-6_paragraph")?>
         </div>
     </section>
     <section class="section-8">
         <div class="section-8__background"></div>
         <div class="section-8__text-wrapper">
-            <div class="section-8__title"><span class="section-8__title-1">[ Make an </span>impact<span
-                        class="section-8__title-2">. ]</span></div>
+            <div class="section-8__title"><span class="section-8__title-1"><?php the_field('page-7_title_part-1');?></span><?php the_field('page-7_title_impact');?><span
+                        class="section-8__title-2"><?php the_field('page-7_title_part-2');?></span></div>
             <div class="section-8__subtitle">
-                <div class="section-8__subtitle-wrapper">Grantmaking by the Numbers</div>
+                <div class="section-8__subtitle-wrapper"><?php the_field('page-7_subtitle');?></div>
             </div>
         </div>
         <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span
-                    class="section-8__icon__asterisk">*</span> <span class="section-8__icon__read-poem">Read Poem</span>
+                    class="section-8__icon__asterisk">*</span> <span class="section-8__icon__read-poem"><?php the_field('page-7_read_poem_label');?></span>
         </div>
     </section>
     <section class="section-8a">
         <div class="section-8a__text">
-            <h3>This Year</h3>
+            <h3><?php the_field('poem-2_title');?></h3>
             <br>
             <p>
-                This year is as beautiful as a white rose.<br>
-                This year is as bright as a shining red rose<br>
-                as hot as the sun and as beautiful as a sunset<br>
-                because this year is the most perfect year<br>
-                to start over like a blue bonnet just blooming and<br>
-                waiting to rebloom once again.<br>
-                <br>
-                <i>— Prestine T., 4th Grade</i>
+                <?php the_field('poem-2_paragraph');?>
+                <i><?php the_field('poem-2_author');?></i>
             </p>
         </div>
         <div class="section-8a__close" data-toggle=".section-8, .section-8a">
@@ -545,23 +514,22 @@
     <section class="section-9">
         <div class="section-9__background"></div>
         <div class="section-9__text-wrapper">
-            <div class="section-9__pretitle">Here is the</div>
-            <div class="section-9__title">impact<span class="section-9__title-1"> we made</span></div>
-            <div class="section-9__subtitle">in 2020.</div>
+            <div class="section-9__pretitle"><?php the_field('page-9_title_part-1');?></div>
+            <div class="section-9__title"><?php the_field('page-9_title_part-2');?><span class="section-9__title-1"><?php the_field('page-9_title_part-3');?></span></div>
+            <div class="section-9__subtitle"><?php the_field('page-9_title_part-4');?></div>
         </div>
         <div class="section-9__stats">
-            <div class="section-9__stats-block"><span>$1</span> Billion Total Assets Under Management</div>
-            <div class="section-9__stats-block"><span>500+</span> Charitable Funds</div>
-            <div class="section-9__stats-block"><span>$71.9</span> Million Total Grantmaking</div>
-            <div class="section-9__stats-block section-9__stats-subblock">—<span>$66.1</span> Million to nonprofits
+            <div class="section-9__stats-block"><span><?php the_field('page-9_line-1_part-1');?></span><?php the_field('page-9_line-1_part-2');?></div>
+            <div class="section-9__stats-block"><span><?php the_field('page-9_line-2_part-1');?></span><?php the_field('page-9_line-2_part-2');?></div>
+            <div class="section-9__stats-block"><span><?php the_field('page-9_line-3_part-1');?></span><?php the_field('page-9_line-3_part-2');?></div>
+            <div class="section-9__stats-block section-9__stats-subblock"><?php the_field('page-9_line-4_part-1');?><span><?php the_field('page-9_line-4_part-2');?></span><?php the_field('page-9_line-4_part-3');?>
             </div>
-            <div class="section-9__stats-block section-9__stats-subblock">—<span>$4.7</span> Million in scholarships
+            <div class="section-9__stats-block section-9__stats-subblock"><?php the_field('page-9_line-5_part-1');?><span><?php the_field('page-9_line-5_part-2');?></span><?php the_field('page-9_line-5_part-3');?>
             </div>
-            <div class="section-9__stats-block section-9__stats-subblock">—<span>$1.1</span> Million in hardship grants
+            <div class="section-9__stats-block section-9__stats-subblock"><?php the_field('page-9_line-6_part-1');?><span><?php the_field('page-9_line-6_part-2');?></span><?php the_field('page-9_line-6_part-3');?>
             </div>
-            <div class="section-9__stats-block"><span>2,342</span> Total Nonprofit Grants</div>
-            <div class="section-9__stats-block"><span>77</span> Nonprofit Programs and Classes Serving 2,016 Trainees
-            </div>
+            <div class="section-9__stats-block"><span><?php the_field('page-9_line-7_part-1');?></span><?php the_field('page-9_line-7_part-2');?></div>
+            <div class="section-9__stats-block"><span><?php the_field('page-9_line-8_part-1');?></span><?php the_field('page-9_line-8_part-2');?></div>
         </div>
     </section>
     <section class="section-10">
@@ -571,33 +539,32 @@
         </div>
         <div class="section-10__bars">
             <div class="section-10__bar bar-1">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Annual Responsive<br>Grantmaking</span><span
-                            class="section-10__bar-total">$3,199,110</span></div>
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-1_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-1_part-2');?></span></div>
             </div>
             <div class="section-10__bar bar-2">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Designated</span><span
-                            class="section-10__bar-total">$3,922,681</span></div>
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-2_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-2_part-2');?></span></div>
             </div>
             <div class="section-10__bar bar-3">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Scholarships</span><span
-                            class="section-10__bar-total">$4,655,491</span></div>
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-3_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-3_part-2');?></span></div>
             </div>
             <div class="section-10__bar bar-4">
-                <div class="section-10__bar-inner"><span
-                            class="section-10__bar-title">Supporting Organizations</span><span
-                            class="section-10__bar-total">$5,168,063</span></div>
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-4_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-4_part-2');?></span></div>
             </div>
             <div class="section-10__bar bar-5">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Other Grants including all<br>hardship and disaster relief grants</span><span
-                            class="section-10__bar-total">$6,156,827</span></div>
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-5_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-5_part-2');?></span></div>
             </div>
             <div class="section-10__bar bar-6">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">COVID-19 Relief Fund</span><span
-                            class="section-10__bar-total">$6,490,115</span></div>
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-6_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-6_part-1');?></span></div>
             </div>
             <div class="section-10__bar bar-7">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Donor Advised Funds (DAFs)<br>Direct Giving to Nonprofits</span><span
-                            class="section-10__bar-total">$42,309,054</span></div>
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-7_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-7_part-2');?></span></div>
             </div>
         </div>
     </section>
