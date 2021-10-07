@@ -194,6 +194,7 @@ a {
     height: 16px;
     transform: rotate(90deg);
     -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
     stroke: white;
 }
 
@@ -2301,7 +2302,7 @@ html{
 
 .section-12__image .section-12__imageshorttext {
     position: absolute;
-    /*right: 41rem;*/
+    left: 40px;
     bottom: 23px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
@@ -2449,7 +2450,7 @@ html{
 
 .section-13__image .section-13__imageshorttext {
     position: absolute;
-    right: 41rem;
+    left: 40px;
     bottom: 23px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
@@ -2570,8 +2571,8 @@ html{
 
 .section-14__image .section-14__imageshorttext {
     position: absolute;
-    /*right: 41rem;*/
-    bottom: 23px;
+    left: 40px;
+    bottom: 22px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -2703,6 +2704,7 @@ html{
 
 .section-15__image .section-15__imageshorttext {
     position: absolute;
+    left: 40px;
     bottom: 23px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
