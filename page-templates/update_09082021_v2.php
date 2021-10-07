@@ -507,7 +507,7 @@
         <div class="section-4__background"></div>
         <div class="section-4__title-wrapper">
             <div class="section-4__pretitle">A crisis compels you to</div>
-            <div class="section-4__title"><span class="section-4__title-1">be a catalyst for </span>change,</div>
+            <div class="section-4__title"><span class="section-4__title-1">be a<span style="visibility: hidden"> catalyst </span>for </span>change,</div>
         </div>
         <div class="section-4__text">An unprecedented crisis necessitated unprecedented levels of giving. The San
             Antonio

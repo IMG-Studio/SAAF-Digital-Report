@@ -146,7 +146,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-2", "opacity", 1.0, 0.0, 185, 195);
 
-    new ElementAnimation("section-3__title", "margin-left", 160, 0, 185, 500);
+    new ElementAnimation("section-3__title", "margin-left", 160, 0, 185, 505);
     new ElementAnimation("section-4__title", "margin-left", 160, 0, 185, 500);
     new ElementAnimation("section-5__title", "margin-left", 160, 0, 185, 500);
 
@@ -170,16 +170,16 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-4__background", "scale", 1.0, 1.05, 245, 500);
     new ElementAnimation("section-4__pretitle", "opacity", 0.0, 1.0, 290, 315);
-    new ElementAnimation("section-4__title", "opacity", 0.0, 1.0, 310, 315);
+    new ElementAnimation("section-4__title", "opacity", 0.0, 1.0, 300, 320);
     new ElementAnimation("section-4__text", "opacity", 0.0, 1.0, 310, 340);
 
     new ElementAnimation("section-4__pretitle", "margin-left", 100, 0, 260, 365);
     new ElementAnimation("section-4__pretitle", "opacity", 1.0, 0.0, 360, 365);
     new ElementAnimation("section-4__title-1", "opacity", 1.0, 0.0, 350, 365);
-    new ElementAnimation("section-3__title", "opacity", 1.0, 0.0, 350, 365);
+    new ElementAnimation("section-3__title", "opacity", 1.0, 0.0, 360, 365);
     new ElementAnimation("section-4__text", "opacity", 1.0, 0.0, 360, 365);
 
-    new ElementAnimation("section-3", "opacity", 1.0, 0.0, 360, 385);
+    new ElementAnimation("section-3", "opacity", 1.0, 0.0, 360, 365);
 
     new ElementAnimation("section-4__background", "opacity", 1.0, 0.0, 390, 405);
     new ElementAnimation("section-4", "opacity", 1.0, 0.0, 390, 405);
