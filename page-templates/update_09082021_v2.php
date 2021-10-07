@@ -148,7 +148,7 @@
                         <button class="button button-heart-1 button-heart-header-top">
                             <div class="icon icon-heart icon-heart-white">
                                 <svg>
-                                <a href="https://saafdn.fcsuite.com/erp/donate/">
+                                <a href="https://saafdn.fcsuite.com/erp/donate/" target="_blank">
                                     <use href="#icon-heart"></use>
                                 </a>
                                 </svg>
@@ -181,7 +181,7 @@
             <button class="button button-heart button-heart-header-left" >
                 <div class="icon icon-heart icon-heart-red">
                     <svg>
-                        <a href="https://saafdn.fcsuite.com/erp/donate/">
+                        <a href="https://saafdn.fcsuite.com/erp/donate/" target="_blank" >
                         <use href="#icon-heart"></use>
                         </a>
                     </svg>
@@ -1859,7 +1859,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         Together.
     </div>
     <div class="section-32__donate">
-        <button onclick="window.location.href='https://saafdn.fcsuite.com/erp/donate/';">
+        <button onclick="window.open('https://saafdn.fcsuite.com/erp/donate/');">
             <div class="icon icon-heart icon-heart-white">
                 <svg>
                     <use href="#icon-heart"></use>
@@ -2153,7 +2153,6 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
-<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">-->
 
 </body>
 
