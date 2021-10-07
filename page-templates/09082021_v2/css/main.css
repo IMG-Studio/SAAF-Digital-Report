@@ -137,9 +137,9 @@ a {
     align-items: center;
 }
 
-.hidden {
-    visibility: hidden
-}
+/*.hidden {*/
+/*    visibility: hidden*/
+/*}*/
 
 .scroll-dummy-overlay {
     position: absolute;
@@ -469,7 +469,7 @@ a {
     z-index: 1000;
     width: 100%;
     opacity: 0.0;
-    transition: opacity 0.667s;
+    /*transition: opacity 0.667s;*/
     /*transition-delay: 1s;*/
 }
 
@@ -604,7 +604,7 @@ body.page-loaded .header-top {
 
 .submenu {
     font-size: 13px;
-    font-family: "Roboto";
+    /*     font-family: "Roboto"; */
     color: #817a73;
     cursor: pointer;
 }
@@ -623,7 +623,7 @@ body.page-loaded .header-top {
     overflow-y: scroll;
     color: #63554F;
     background-color: #ffffff;
-    font-family: Roboto-Regular, Arial, sans-serif;
+    font-family: Roboto-Regular;
     font-size: 13px;
     line-height: 28px;
     z-index: 999;
@@ -653,13 +653,13 @@ body.page-loaded .header-top {
     color: #384E83;
 }
 
- .visitSpan {
-     font-weight: 450;
-     color: #493f37;
+.visitSpan {
+    font-weight: 450;
+    color: #493f37;
 }
 
 
- .hideMenu {
+.hideMenu {
     font-family: Roboto-Black;
 }
 
@@ -1267,8 +1267,8 @@ section.complete .button-next-slide-section-2 {
 
 .section-3__title-wrapper {
     position: relative;
-    top: calc(30% + 35px);
-    left: calc(50% + 101px);
+    top: calc(30% + 37px);
+    left: calc(50% + 99px);
     width: 850px;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -1413,10 +1413,15 @@ section.complete .button-next-slide-section-2 {
 
 .section-4__title-wrapper {
     position: relative;
-    top: 29.5%;
-    left: calc(50% + 119px);
+    top: calc(30.3% + -5px);
+    left: calc(49.9% + 120px);
     width: 850px;
     transform: translateX(-50%) translateY(-50%);
+}
+html{
+    height: 100%;
+    width: 100%;
+
 }
 
 .section-4__title,
@@ -4886,5 +4891,121 @@ section.complete .button-next-slide-section-2 {
 }
 
 
+/* mobile devices alert message */
+@media only screen and (max-width : 980px) {
+    body {
+        overflow: hidden;
+    }
 
+    .main-wrapper,
+    section {
+        display: none!important;
+    }
+
+    .mobile-container {
+        background: white;
+        display: block;
+        min-height: 100vh;
+        position: fixed;
+        padding: 7%;
+        box-sizing: border-box;
+        z-index: 10000;
+    }
+
+    .logo img{
+        max-width: 430px;
+    }
+
+    .responsive-hdr {
+        color: #85261E;
+        font-family: Whitman-Roman, Arial, sans-serif;
+        font-size: 50px;
+        font-weight: normal;
+        margin: 100px 0 0 0;
+        line-height: 1.1;
+    }
+
+    .responsive-lists {
+        padding: 0;
+        margin: 60px 0;
+        list-style:  none outside;
+    }
+
+    .responsive-lists li {
+        line-height: 1.5;
+        margin-bottom: 25px;
+        padding-left: 40px;
+        position: relative;
+        font-size: 22px;
+        color: #4A413A;
+        font-family: Whitman-Roman, Arial, sans-serif;
+    }
+
+
+    .responsive-lists li:before {
+        background-size: cover;
+        content:  '';
+        display: inline-block;
+        left: 0;
+        position: absolute;
+        top: 5px;
+    }
+
+    .responsive-lists--download:before {
+        background-image: url('https://saaf.mystagingwebsite.com/wp-content/uploads/2021/09/download-icon.png');
+        height: 32px;
+        width: 22px;
+    }
+
+    .responsive-lists--donate:before {
+        background-image: url('https://saaf.mystagingwebsite.com/wp-content/uploads/2021/09/donate-icon.png');
+        height: 20px;
+        width: 26px;
+    }
+
+    .responsive-lists li a {
+        color: #4A413A;
+        font-family: Whitman-Roman, Arial, sans-serif;
+        text-decoration: underline!important;
+    }
+}
+
+/* Mobile portrait */
+@media only screen and (max-width : 480px) {
+    .mobile-container {
+        padding: 10%;
+    }
+
+    .logo img{
+        max-width: 255px;
+    }
+
+    .responsive-hdr {
+        font-size: 40px;
+    }
+
+    .responsive-lists {
+        margin: 30px 0;
+    }
+
+    .responsive-lists li {
+        padding-left: 20px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .responsive-lists li:before {
+        margin-right: 10px;
+    }
+
+    .responsive-lists--download:before {
+        height: 16px;
+        width: 11px;
+    }
+
+    .responsive-lists--donate:before {
+        height: 10px;
+        width: 13px;
+    }
+}
 
