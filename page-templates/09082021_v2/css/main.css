@@ -194,6 +194,7 @@ a {
     height: 16px;
     transform: rotate(90deg);
     -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
     stroke: white;
 }
 
@@ -604,7 +605,6 @@ body.page-loaded .header-top {
 
 .submenu {
     font-size: 13px;
-    /*font-family: "Roboto";*/
     color: #817a73;
     cursor: pointer;
 }
@@ -653,13 +653,13 @@ body.page-loaded .header-top {
     color: #384E83;
 }
 
- .visitSpan {
-     font-weight: 450;
-     color: #493f37;
+.visitSpan {
+    font-weight: 450;
+    color: #493f37;
 }
 
 
- .hideMenu {
+.hideMenu {
     font-family: Roboto-Black;
 }
 
@@ -1087,7 +1087,7 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-2a__wrapper {
-    /*-webkit-box-align: center;
+    -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     display: -webkit-box;
@@ -1095,8 +1095,8 @@ section.complete .button-next-slide-section-2 {
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 96px;
-    width: 1368px;*/
+    /*padding-left: 96px;*/
+    width: 1368px;
     width: 100%;
     height: 100%
 }
@@ -1108,7 +1108,23 @@ section.complete .button-next-slide-section-2 {
     float: left;
 }
 
+.section-2a__image{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://saaf.mystagingwebsite.com/wp-content/uploads/2021/09/Marjie_Web-scaled.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all 4s;
+    transform: scale(1.025);
+
+}
+
 .section-2a__foto-wrapper__img {
+
     display: block;
     width: 100%;
     height: 100%;
@@ -1133,6 +1149,7 @@ section.complete .button-next-slide-section-2 {
     width: 460px;
     height: 600px;
     float: left;
+    overflow: scroll;
 }
 
 .section-2a__text__marjie-signature {
@@ -1153,6 +1170,7 @@ section.complete .button-next-slide-section-2 {
     background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #f4f4f4)
 }
 
+
 .section-2a__text,
 .section-20a__text,
 .section-29a__text,
@@ -1166,11 +1184,11 @@ section.complete .button-next-slide-section-2 {
 }
 
 .section-2a__text-overlay {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+
 
 }
 
@@ -2301,8 +2319,8 @@ html{
 
 .section-12__image .section-12__imageshorttext {
     position: absolute;
-    /*right: 41rem;*/
-    bottom: 23px;
+    left: 40px;
+    bottom: 22px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -2449,7 +2467,7 @@ html{
 
 .section-13__image .section-13__imageshorttext {
     position: absolute;
-    right: 41rem;
+    left: 40px;
     bottom: 23px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
@@ -2570,8 +2588,8 @@ html{
 
 .section-14__image .section-14__imageshorttext {
     position: absolute;
-    /*right: 41rem;*/
-    bottom: 23px;
+    left: 40px;
+    bottom: 22px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -2703,6 +2721,7 @@ html{
 
 .section-15__image .section-15__imageshorttext {
     position: absolute;
+    left: 40px;
     bottom: 23px;
     font-family: Roboto-Regular, Arial, sans-serif;
     font-size: 14px;
@@ -3247,6 +3266,7 @@ html{
 
 .section-20a__image img {
     width: 100%;
+    height: 100%;
 }
 
 .section-20a__text-wrapper {
@@ -3583,6 +3603,7 @@ html{
 
 .section-23a__image img {
     width: 100%;
+    height: 100%;
 }
 
 .section-23a__imageshorttext {
@@ -3983,31 +4004,41 @@ html{
 }
 
 .section-27a__maincontent {
-    width: 70%;
+    width: 46%;
+    height: 100%;
+
 }
 
 .section-27a__image,
 .section-27a__text-wrapper {
     float: left;
-    width: 50%;
+    width: 80%;
 }
 
 .section-27a__image img {
-    width: 100%;
-    height: 100%
+    background-image: url("../images/section-27a.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    width: 36%;
+    min-height: 100%;
+    transform: translateY(-50%);
 }
 
 .section-27a__text-wrapper {
     position: relative;
-    top: 12.5vh;
-    left: 5%;
     height: 80vh;
+    top: 12.5vh;
+    left: 91%;
 }
 
-/*.section-27a__text {*/
-/*    height: 100%;*/
-/*    overflow-y: scroll;*/
-/*}*/
+.section-27a__text {
+    height: 100%;
+    overflow-y: scroll;
+}
 
 .section-27a__text-shadow-after {
     content: "";
@@ -4030,18 +4061,15 @@ html{
     text-transform: uppercase
 }
 
-/*.section-27a__text p {*/
-/*    font-family: Whitman-Roman, Arial, sans-serif;*/
-/*    font-size: 15px;*/
-/*    line-height: 25px*/
-/*}*/
+
 
 .section-27a__quoter {
-    float: left;
-    margin-top: 25vh;
-    margin-left: 12.5%;
+    float: right;
+    top: 25em;
+    right: 8em;
     width: 144px;
     opacity: 1.0;
+    position: absolute;
 }
 
 .section-27a__quoter p {
@@ -4167,24 +4195,34 @@ html{
 }
 
 .section-28a__maincontent {
-    width: 70%;
+    width: 46%;
+    height: 100%;
 }
 
 .section-28a__image,
 .section-28a__text-wrapper {
     float: left;
-    width: 50%;
+    width: 80%;
 }
 
 .section-28a__image img {
-    width: 100%;
+    background-image: url("../images/section-28a.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    width: 36%;
+    min-height: 100%;
+    transform: translateY(-50%);
 }
 
 .section-28a__text-wrapper {
-    height: 80vh;
     position: relative;
-    top: 12.5vh;
-    left: 10%;
+    height: 80vh;
+    top: 6.5vh;
+    left: 100%;
 }
 
 .section-28a__text {
@@ -4309,6 +4347,7 @@ html{
 }
 
 .section-29a {
+
     z-index: -8;
     position: relative;
     width: 100%;
@@ -4338,15 +4377,23 @@ html{
 
 
 .section-29a__image img {
-    width: 100%;
-    height: 100%;
+    background-image:url("../images/section-29a.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    width: 36%;
+    min-height: 101%;
+    transform: translateY(-50%);
 }
 
 .section-29a__text-wrapper {
     position: relative;
     height: 80vh;
-    top: 12.5vh;
-    left: 5%;
+    top: 6.5vh;
+    left: 61%;
 }
 
 .section-29a__text-shadow-after {
@@ -4371,7 +4418,7 @@ html{
 .section-29a__quoter {
     float: left;
     margin-top: 25vh;
-    margin-left: 12.5%;
+    margin-left: 46.5%;
     width: 144px;
     opacity: 1.0;
 }
@@ -4891,5 +4938,121 @@ html{
 }
 
 
+/* mobile devices alert message */
+@media only screen and (max-width : 980px) {
+    body {
+        overflow: hidden;
+    }
 
+    .main-wrapper,
+    section {
+        display: none!important;
+    }
+
+    .mobile-container {
+        background: white;
+        display: block;
+        min-height: 100vh;
+        position: fixed;
+        padding: 7%;
+        box-sizing: border-box;
+        z-index: 10000;
+    }
+
+    .logo img{
+        max-width: 430px;
+    }
+
+    .responsive-hdr {
+        color: #85261E;
+        font-family: Whitman-Roman, Arial, sans-serif;
+        font-size: 50px;
+        font-weight: normal;
+        margin: 100px 0 0 0;
+        line-height: 1.1;
+    }
+
+    .responsive-lists {
+        padding: 0;
+        margin: 60px 0;
+        list-style:  none outside;
+    }
+
+    .responsive-lists li {
+        line-height: 1.5;
+        margin-bottom: 25px;
+        padding-left: 40px;
+        position: relative;
+        font-size: 22px;
+        color: #4A413A;
+        font-family: Whitman-Roman, Arial, sans-serif;
+    }
+
+
+    .responsive-lists li:before {
+        background-size: cover;
+        content:  '';
+        display: inline-block;
+        left: 0;
+        position: absolute;
+        top: 5px;
+    }
+
+    .responsive-lists--download:before {
+        background-image: url('https://saaf.mystagingwebsite.com/wp-content/uploads/2021/09/download-icon.png');
+        height: 32px;
+        width: 22px;
+    }
+
+    .responsive-lists--donate:before {
+        background-image: url('https://saaf.mystagingwebsite.com/wp-content/uploads/2021/09/donate-icon.png');
+        height: 20px;
+        width: 26px;
+    }
+
+    .responsive-lists li a {
+        color: #4A413A;
+        font-family: Whitman-Roman, Arial, sans-serif;
+        text-decoration: underline!important;
+    }
+}
+
+/* Mobile portrait */
+@media only screen and (max-width : 480px) {
+    .mobile-container {
+        padding: 10%;
+    }
+
+    .logo img{
+        max-width: 255px;
+    }
+
+    .responsive-hdr {
+        font-size: 40px;
+    }
+
+    .responsive-lists {
+        margin: 30px 0;
+    }
+
+    .responsive-lists li {
+        padding-left: 20px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .responsive-lists li:before {
+        margin-right: 10px;
+    }
+
+    .responsive-lists--download:before {
+        height: 16px;
+        width: 11px;
+    }
+
+    .responsive-lists--donate:before {
+        height: 10px;
+        width: 13px;
+    }
+}
 
