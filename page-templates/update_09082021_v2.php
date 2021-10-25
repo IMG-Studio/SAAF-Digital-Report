@@ -128,11 +128,19 @@
             </div>
             <nav class="nav-main">
                 <ul class="nav-main__list">
+<<<<<<< Updated upstream
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="320"><?php the_field("header_link-1")?></a>
                     </li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1050"><?php the_field("header_link-2")?></a></li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2590"><?php the_field("header_link-3")?></a></li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3800"><?php the_field("header_link-4")?></a>
+=======
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="315"><?php the_field("header_link-1")?></a>
+                    </li>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1035"><?php the_field("header_link-2")?></a></li>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2580"><?php the_field("header_link-3")?></a></li>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3760"><?php the_field("header_link-4")?></a>
+>>>>>>> Stashed changes
                     </li>
                     <li class="nav-main__item">
                         <button class="button button-heart-1 button-heart-header-top">
@@ -193,6 +201,7 @@
 
     <div class="header-left-nav" id="nav1">
 
+<<<<<<< Updated upstream
         <a class="hideMenu" data-offset="320" id="catalyst"><?php the_field("navigation-1_part-1")?></a><br>
             <a class="hideMenu submenu" data-offset="675" href="#mercedSection"><?php the_field("navigation-1_part-2")?></a><br/>
             <a class="hideMenu submenu" data-offset="65" href="#samm" ><?php the_field("navigation-1_part-3")?></a><br/>
@@ -220,14 +229,49 @@
             <a class="hideMenu submenu" data-offset="4206" ><?php the_field("navigation-4_part-4")?></a><br/>
             <a class="hideMenu submenu" data-offset="4419" ><?php the_field("navigation-4_part-5")?></a><br/>
             <a class="hideMenu submenu" data-offset="4419" ><?php the_field("navigation-4_part-5")?></a><br/>
+=======
+        <span class="hideMenu jToggle" data-offset="315" id="catalyst"><?php the_field("navigation-1_part-1")?></span><br>
+        <a class="submenu jToggle" data-offset="675" href="#mercedSection"><?php the_field("navigation-1_part-2")?></a><br/>
+        <a class="submenu jToggle" data-offset="675" href="#samm"><?php the_field("navigation-1_part-3")?></a><br/>
+        <a class="submenu jToggle" data-offset="981" href="#samm"><?php the_field("navigation-1_part-4")?></a><br/>
+        <br><br>
+
+
+        <span class="hideMenu jToggle" data-offset="1035" id="impact"><?php the_field("navigation-2_part-1")?></span><br>
+        <a class="submenu jToggle" data-offset="1705"><?php the_field("navigation-2_part-2")?></a><br/>
+        <a class="submenu jToggle" data-offset="1856"><?php the_field("navigation-2_part-3")?></a><br/>
+        <a class="submenu jToggle" data-offset="1993"><?php the_field("navigation-2_part-4")?></a><br/>
+        <a class="submenu jToggle" data-offset="2157"><?php the_field("navigation-2_part-5")?></a><br/>
+        <a class="submenu jToggle" data-offset="2450"><?php the_field("navigation-2_part-6")?></a><br/>
+        <br><br>
+
+        <span class="hideMenu jToggle" data-offset="2580" id="embrace"><?php the_field("navigation-3_part-1")?></span><br>
+        <a class="submenu jToggle" data-offset="2858"><?php the_field("navigation-3_part-2")?></a><br>
+        <a class="submenu jToggle" data-offset="3596"><?php the_field("navigation-3_part-3")?></a><br/>
+        <br><br>
+
+
+        <span class="hideMenu jToggle" data-offset="3760" id="courage"><?php the_field("navigation-4_part-1")?></span><br>
+        <a class="submenu jToggle" data-offset="3919"><?php the_field("navigation-4_part-2")?></a><br/>
+        <a class="submenu jToggle" data-offset="4080"><?php the_field("navigation-4_part-3")?></a><br/>
+        <a class="submenu jToggle" data-offset="4206"><?php the_field("navigation-4_part-4")?></a><br/>
+        <a class="submenu jToggle" data-offset="4390"><?php the_field("navigation-4_part-5")?></a><br/>
+        <a class="submenu jToggle" data-offset="4390"><?php the_field("navigation-4_part-6")?></a><br/>
+>>>>>>> Stashed changes
         <br><br>
         <hr>
         <br>
 
         <div class="header-left-nav__links">
+<<<<<<< Updated upstream
             <a href="#"><span><?php the_field("navigation-5_part-1")?></span> <?php the_field("navigation-5_part-2")?></a><br>
             <br>
             <a href="#"><span><?php the_field("navigation-6_part-2")?></span> <?php the_field("navigation-6_part-2")?></a>
+=======
+            <a class="submenu" href="https://www.saafdn.org"><span class="visitSpan"><?php the_field("navigation-5_part-1")?> </span><?php the_field("navigation-5_part-2")?></a><br>
+            <br>
+            <a class="submenu" href="#"><span class="visitSpan"><?php the_field("navigation-6_part-1")?> </span><?php the_field("navigation-6_part-2")?></a>
+>>>>>>> Stashed changes
         </div>
 
         <br>
@@ -237,7 +281,11 @@
         <div class="header-left-nav__note">
             <span class="header-left-nav__note-asterisk">*</span>
             <div class="header-left-nav__note-text">
+<<<<<<< Updated upstream
             <?php the_field("navigation_note")?>
+=======
+                <?php the_field("navigation_note")?>
+>>>>>>> Stashed changes
             </div>
         </div>
     </div>
@@ -279,8 +327,13 @@
                     </svg>
                 </div>
             </button>
+<<<<<<< Updated upstream
+=======
+            <span class="mt-2" style="position: relative;"><?php the_field("page-1_link")?></span>
+>>>>>>> Stashed changes
         </div>
     </section>
+<<<<<<< Updated upstream
     <section class="section-2a">
         <div class="section-2a__wrapper">
             <div class="section-2a__foto-wrapper"><img class="section-2a__foto-wrapper__img"
@@ -293,6 +346,41 @@
                 <div class="section-2a__text-overlay"></div>
                 <div class="section-2a__text">
                     <p><?php the_field("ceo_1")?></p>
+=======
+</div>
+</section>
+<section class="section-2">
+    <div class="section-2__text">
+        <div class="section-2__text-1"><?php the_field("page-2_title_part-1")?></div>
+        <div class="section-2__text-2"><?php the_field("page-2_title_part-2")?></div>
+        <div class="section-2__text-3"><?php the_field("page-2_title_part-3")?></div>
+        <div class="section-2__text-4"><?php the_field("page-2_paragraph")?>
+        </div>
+    </div>
+    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-2, .section-2a"><span><?php the_field("page-2_link")?></span>
+        <button class="button button-arrow-red">
+            <div class="button-ripple red button-ripple-section-2"></div>
+            <div class="icon icon-arrow">
+                <svg>
+                    <use href="#icon-arrow-right"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+</section>
+<section class="section-2a">
+    <div class="section-2a__wrapper">
+        <div class="section-2a__foto-wrapper">
+            <div class="section-2a__image">
+            </div>
+        </div>
+        <div class="section-2a__text-wrapper">
+            <!--  <div class="section-2a__text-shadow-before"></div> -->
+            <div class="section-2a__text-overlay"></div>
+            <div class="section-2a__text">
+                <p></p>
+<p><?php the_field("ceo_1")?></p>
+>>>>>>> Stashed changes
                     <p><?php the_field("ceo_2")?></p>
                     <p><?php the_field("ceo_3")?></p>
                     <p><?php the_field("ceo_4")?></p>
@@ -316,6 +404,7 @@
                     <img class="section-2a__text__marjie-signature"
                          src="<?php the_field("ceo_sig-2")?>"
                          alt="">
+<<<<<<< Updated upstream
 
                     <p><?php the_field("ceo_22")?></p>
 
@@ -333,12 +422,86 @@
         <!-- <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.</div> -->
         <button class="button button-arrow-red button-prev-red-section-2a" data-toggle=".section-2, .section-2a">
             <div class="button-ripple button-ripple-section-2a"></div>
+=======
+
+                    <p><?php the_field("ceo_22")?></p>
+                <br><br><br>
+            </div>
+            <div class="section-2a__text-shadow-after"></div>
+        </div>
+        <div class="section-2a__quoter">
+            <div class="quote active"><p>&#8220;<?php the_field("quote_1")?>&#8221;</p><span>&mdash; <?php the_field("quote_1_author")?></span>
+            </div>
+            <div class="quote"><p>&#8220;<?php the_field("quote_2")?>.&#8221;</p><span>&mdash;<?php the_field("quote_2_author")?></span></div>
+            <div class="quote"><p>&#8220;<?php the_field("quote_3")?>&#8221;</p><span>&mdash;<?php the_field("quote_3_author")?></span></div>
+        </div>
+    </div>
+    <!-- <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.</div> -->
+    <button class="button button-arrow-red button-prev-red-section-2a" data-toggle=".section-2, .section-2a">
+        <div class="button-ripple red button-ripple-section-2a"></div>
+        <div class="icon icon-arrow">
+            <svg>
+                <use href="#icon-arrow-left"></use>
+            </svg>
+        </div>
+    </button>
+</section>
+<section class="section-3">
+    <div class="section-3__background"></div>
+    <div class="section-3__title-wrapper">
+        <div class="section-3__title"><span class="section-3__title-1 .section-3__title"><?php the_field("page-3_title_part-1")?></span><?php the_field("page-3_title_part-2")?><span
+                    class="section-3__title-2"><?php the_field("page-3_title_part-3")?></span></div>
+        <div class="section-3__subtitle"><?php the_field("page-3_subtitle")?></div>
+    </div>
+    <div class="section-3__icon" data-toggle=".section-3, .section-3a"><span
+                class="section-3__icon__asterisk">*</span> <span class="section-3__icon__read-poem"><?php the_field("page-3_read_poem_label")?></span>
+    </div>
+</section>
+<section class="section-3a">
+    <div class="section-3a__text">
+        <h3><?php the_field("poem_1_title")?></h3>
+        <br>
+        <p>
+            <?php the_field("poem_1_paragraph")?>
+            <i><?php the_field("poem_1_author")?></i>
+        </p>
+    </div>
+    <div class="section-3a__close" data-toggle=".section-3, .section-3a">
+        <div class="icon icon-close">
+            <svg>
+                <use href="#icon-close-white"></use>
+            </svg>
+        </div>
+    </div>
+</section>
+<section class="section-4" style="background-image: url(<?php the_field('page-4_background'); ?>);">
+    <div class="section-4__background"></div>
+    <div class="section-4__title-wrapper">
+        <div class="section-4__pretitle"><?php the_field("page-4_title_part-1")?></div>
+        <div class="section-4__title"><span class="section-4__title-1"><?php the_field("page-4_title_part-2")?></span><?php the_field("page-4_title_part-3")?></div>
+    </div>
+    <div class="section-4__text">
+        <?php the_field("page-4_paragraph")?>
+    </div>
+
+</section>
+<section class="section-5">
+    <div class="section-5__background" style="background-image: url(<?php the_field('page-5_background');?>);"></div>
+    <div class="section-5__title-wrapper">
+        <div class="section-5__pretitle"><?php the_field("page-5_title_part-1")?></div>
+        <div class="section-5__title"><?php the_field("page-5_title_part-2")?></div>
+    </div>
+    <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
+        <button class="button button-arrow-red">
+            <div class="button-ripple red button-ripple-section-5l"></div>
+>>>>>>> Stashed changes
             <div class="icon icon-arrow">
                 <svg>
                     <use href="#icon-arrow-left"></use>
                 </svg>
             </div>
         </button>
+<<<<<<< Updated upstream
     </section>
     <section class="section-3">
         <div class="section-3__background"></div>
@@ -362,10 +525,19 @@
         </div>
         <div class="section-3a__close" data-toggle=".section-3, .section-3a">
             <div class="icon icon-close">
+=======
+        <span id="merced"><?php the_field("page-5_link-left")?></span>
+    </div>
+    <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span><?php the_field("page-5_link-right")?></span>
+        <button class="button button-arrow-red">
+            <div class="button-ripple red button-ripple-section-5r"></div>
+            <div class="icon icon-arrow">
+>>>>>>> Stashed changes
                 <svg>
                     <use href="#icon-close-white"></use>
                 </svg>
             </div>
+<<<<<<< Updated upstream
         </div>
     </section>
     <section class="section-4" style="background-image: url(<?php the_field('page-4_background'); ?>);">
@@ -387,6 +559,30 @@
         </div>
         <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
             <!--  data-toggle-unique-class="clicked-button-ripple-section-5l" -->
+=======
+        </button>
+    </div>
+</section>
+<section class="section-5a" id="mercedSection">
+    <div class="section-5a__wrapper">
+        <div class="section-5a__image">
+            <img src="<?php the_field("link-left_image")?> ">
+        </div>
+        <div class="section-5a__purplebox">
+            <?php the_field("link-left_quote")?>
+        </div>
+        <span class="section-5a__imageshorttext"><?php the_field("link-left_image-cite")?></span>
+        <div class="section-5a__text">
+            <h3><?php the_field("left-link_title")?></h3>
+            <br>
+            <p>
+                    <?php the_field("link-left_paragraph_part-1")?>
+                    <span><?php the_field("link-left_paragraph-colored")?></span>
+                    <?php the_field("link-left_paragraph_part-2")?>
+            </p>
+        </div>
+        <div class="button-back-slide-section-5a" data-toggle=".section-5, .section-5a">
+>>>>>>> Stashed changes
             <button class="button button-arrow-red">
                 <div class="button-ripple button-ripple-section-5l"></div>
                 <div class="icon icon-arrow">
@@ -397,7 +593,30 @@
             </button>
             <span id="merced"><?php the_field("page-5_link-left")?></span>
         </div>
+<<<<<<< Updated upstream
         <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span><?php the_field("page-5_link-right")?></span>
+=======
+    </div>
+</section>
+<section class="section-5b">
+    <div class="section-5b__wrapper">
+        <div class="section-5b__text">
+        <h3><?php the_field("right-link_title")?></h3>
+            <br>
+            <p>
+                <?php the_field("right-link_paragraph_line-1")?>
+                <span><?php the_field("right-link_paragraph-colored")?></span><?php the_field("right-link_paragraph_line-2")?>
+            </p>
+        </div>
+        <div class="section-5b__image"><img
+                    src="<?php the_field("right-link_image")?>">
+        </div>
+        <div class="section-5b__purplebox">
+            <?php the_field("right-link_quote")?>
+        </div>
+        <span class="section-5b__imageshorttext"><?php the_field("right-link_image-cite")?></span>
+        <div class="button-back-slide-section-5b" data-toggle=".section-5, .section-5b">
+>>>>>>> Stashed changes
             <button class="button button-arrow-red">
                 <div class="button-ripple button-ripple-section-5r"></div>
                 <div class="icon icon-arrow">
@@ -407,6 +626,7 @@
                 </div>
             </button>
         </div>
+<<<<<<< Updated upstream
     </section>
     <section class="section-5a" id="mercedSection" >
         <div class="section-5a__wrapper">
@@ -492,6 +712,135 @@
         </div>
         <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span
                     class="section-8__icon__asterisk">*</span> <span class="section-8__icon__read-poem"><?php the_field('page-7_read_poem_label');?></span>
+=======
+    </div>
+</section>
+<section class="section-6">
+    <div class="section-6__background" style="background-image: url(<?php the_field('page-6_background');?>);"></div>
+    <div class="section-6__text-wrapper">
+        <div class="section-6__pretitle"><?php the_field("page-6_title_part-1")?></div>
+        <div class="section-6__title"><?php the_field("page-6_title_part-2")?></div>
+    </div>
+</section>
+<section class="section-7" id="samm">
+    <div class="section-7__background"style="background-image: url(<?php the_field('page-6_background');?>);"></div>
+        <div class="section-7__text">
+            <?php the_field("page-6_paragraph")?>
+        </div>
+</section>
+<section class="section-8">
+    <div class="section-8__background"></div>
+    <div class="section-8__text-wrapper">
+        <div class="section-8__title"><span class="section-8__title-1"><?php the_field('page-7_title_part-1');?></span><?php the_field('page-7_title_impact');?><span
+                    class="section-8__title-2"><?php the_field('page-7_title_part-2');?></span></div>
+        <div class="section-8__subtitle">
+            <div class="section-8__subtitle-wrapper"><?php the_field('page-7_subtitle');?></div>
+        </div>
+    </div>
+    <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span
+                class="section-8__icon__asterisk">*</span> <span class="section-8__icon__read-poem"><?php the_field('page-7_read_poem_label');?></span>
+    </div>
+</section>
+<section class="section-8a">
+    <div class="section-8a__text">
+        <h3><?php the_field('poem-2_title');?></h3>
+        <br>
+        <p>
+            <?php the_field('poem-2_paragraph');?>
+            <i><?php the_field('poem-2_author');?></i>
+        </p>
+    </div>
+    <div class="section-8a__close" data-toggle=".section-8, .section-8a">
+        <div class="icon icon-close">
+            <svg>
+                <use href="#icon-close-white"></use>
+            </svg>
+        </div>
+    </div>
+</section>
+<section class="section-9">
+    <div class="section-9__background"></div>
+    <div class="section-9__text-wrapper">
+        <div class="section-9__pretitle"><?php the_field('page-9_title_part-1');?></div>
+        <div class="section-9__title"><?php the_field('page-9_title_part-2');?><span class="section-9__title-1"><?php the_field('page-9_title_part-3');?></span></div>
+        <div class="section-9__subtitle">in 2020.</div>
+    </div>
+    <div class="section-9__stats">
+        <div class="section-9__stats-block"><span><?php the_field('page-9_line-1_part-1');?></span><?php the_field('page-9_line-1_part-2');?></div>
+        <div class="section-9__stats-block"><span><?php the_field('page-9_line-2_part-1');?></span><?php the_field('page-9_line-2_part-2');?></div>
+        <div class="section-9__stats-block"><span><?php the_field('page-9_line-3_part-1');?></span><?php the_field('page-9_line-3_part-2');?></div>
+        <div class="section-9__stats-block section-9__stats-subblock"><?php the_field('page-9_line-4_part-1');?><span><?php the_field('page-9_line-4_part-2');?></span><?php the_field('page-9_line-4_part-3');?>
+        </div>
+        <div class="section-9__stats-block section-9__stats-subblock"><?php the_field('page-9_line-5_part-1');?><span><?php the_field('page-9_line-5_part-2');?></span><?php the_field('page-9_line-5_part-3');?>
+        </div>
+        <div class="section-9__stats-block section-9__stats-subblock"><?php the_field('page-9_line-6_part-1');?><span><?php the_field('page-9_line-6_part-2');?></span><?php the_field('page-9_line-6_part-3');?>
+        </div>
+        <div class="section-9__stats-block"><span><?php the_field('page-9_line-7_part-1');?></span><?php the_field('page-9_line-7_part-2');?></div>
+        <div class="section-9__stats-block"><span><?php the_field('page-9_line-8_part-1');?></span><?php the_field('page-9_line-8_part-2');?></div>
+    </div>
+</section>
+<section class="section-10">
+    <div class="section-10__background"></div>
+    <div class="section-10__total">
+        <div class="section-10__total-wrapper">$XX,XXX,XXX</div>
+    </div>
+    <div class="section-10__bars">
+    <div class="section-10__bar bar-1">
+                <div class="section-10__bar-inner">
+                    <span class="section-10__bar-title"><?php the_field('graph-line-1_part-1');?></span>
+                    <span class="section-10__bar-total"><?php the_field('graph-line-1_part-2');?></span></div>
+            </div>
+            <div class="section-10__bar bar-2">
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-2_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-2_part-2');?></span></div>
+            </div>
+            <div class="section-10__bar bar-3">
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-3_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-3_part-2');?></span></div>
+            </div>
+            <div class="section-10__bar bar-4">
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-4_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-4_part-2');?></span></div>
+            </div>
+            <div class="section-10__bar bar-5">
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-5_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-5_part-2');?></span></div>
+            </div>
+            <div class="section-10__bar bar-6">
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-6_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-6_part-1');?></span></div>
+            </div>
+            <div class="section-10__bar bar-7">
+                <div class="section-10__bar-inner"><span class="section-10__bar-title"><?php the_field('graph-line-7_part-1');?></span><span
+                            class="section-10__bar-total"><?php the_field('graph-line-7_part-2');?></span></div>
+            </div>
+    </div>
+</section>
+<section class="section-11">
+    <div class="section-11__background"></div>
+    <div class="section-11__wrapper">
+        <div class="section-11-title-total">
+            <div class="section-11__pretitle">Bonkkkkkk</div>
+            <div class="section-11__title">bold leadership,</div>
+        </div>
+        <div class="section-11__text">
+            We are proud to have been the bridge between those most able to give and those who most needed to
+            receive. With community input, research and strategic planning, the San Antonio Area Foundation focused
+            grantmaking and relief efforts on <span>four Impact Areas.</span>
+        </div>
+        <div class="section-11__bardetails">
+            <span>Key investment areas:</span><br>
+            1. Cultural Vibrancy $626,000<br>
+            2. Livable and Resilient Communities $741,000<br>
+            3. Youth Success $636,000<br>
+            4. Successful Aging $545,000
+        </div>
+        <div class="section-11__note">
+            Note: All figures listed are before final audit. Total Giving includes all scholarships, hardship
+            grants, disaster relief grants, supporting organization grants, designated grants, and interfund grants
+            to the Area Foundation to redistribute in alignment with our mission and program initiatives. For the
+            most updated information, visit www.saafdn.org/impact.
+>>>>>>> Stashed changes
         </div>
     </section>
     <section class="section-8a">
