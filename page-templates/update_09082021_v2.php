@@ -982,10 +982,7 @@
         </div>
     </div>
     <div class="section-20a__quoter">
-        <p>&#8220;I have volunteered in the nonprofit space for more than three decades, and I have never seen such
-            an
-            efficient operation.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief
-          Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>
+        <p><?php the_field("page-11_quote-11a")?></p><span><?php the_field("page-11_quote-author-11a")?></span>
     </div>
     <button class="button button-arrow-green button-prev-green-section-20a" data-toggle=".section-20, .section-20a">
         <div class="button-ripple-green green button-ripple-section-20a"></div>
@@ -997,83 +994,63 @@
     </button>
 </section>
 <section class="section-21">
-    <div class="section-21__pretitle">2020 demanded that we deepen our</div>
-    <div class="section-21__title">community engagement</div>
+    <div class="section-21__pretitle"><?php the_field("page-13_main-title_part-1")?></div>
+    <div class="section-21__title"><?php the_field("page-13_main-title_part-2")?></div>
     <div class="section-21__main-content">
         <div class="section-21__main-content-wrapper">
             <img class="section-21__main-content__image"
-                 src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-21.jpg">
+                 src="<?php the_field("page-13_image-1")?>">
             <div class="section-21__text">
-                <h3>Addressing equity</h3>
+                <h3><?php the_field("page-13_title_1")?></h3>
                 <br>
                 <p>
-                    The urgency of addressing inequities, spurred by the murder of George Floyd, has driven the Area
-                    Foundation to provide additional new investments, partnerships, research, and advocacy
-                    supporting the African American and other marginalized communities to ensure that we recognize
-                    various marginalized communities are disproportionately impacted. Our path to achieving more
-                    equitable outcomes began by more intentionally focusing our annual responsive grantmaking on the
-                    city’s most distressed zip codes and most disproportionately impacted families.
+                    <?php the_field("page-13_paragraph-1")?>
                 </p>
             </div>
         </div>
     </div>
     <div class="section-21__quoter">
-        <p>&#8220;Where you were born, where you live, and the color of your skin, should not determine your life
-            outcomes.&#8221;</p><span>&mdash; Marjie French, CEO</span>
+        <p><?php the_field("page-13_quote")?></p><span><?php the_field("page-13_quote-credits")?></span>
     </div>
 </section>
 <section class="section-22">
-    <div class="section-22__pretitle">2020 demanded that we deepen our</div>
-    <div class="section-22__title">community engagement</div>
+    <div class="section-22__pretitle"><?php the_field("page-13_main-title_part-1")?></div>
+    <div class="section-22__title"><?php the_field("page-13_main-title_part-2")?></div>
     <div class="section-22__main-content">
         <div class="section-22__main-content-wrapper">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-22.jpg">
+            <img src="<?php the_field("page-13_image-2")?>">
             <div class="section-22__text">
-                <h3>Meaningful decisions need meaningful data: The State of the African American Community in Bexar
-                    County</h3>
+                <h3><?php the_field("page-13_title-2")?></h3>
                 <br>
                 <p>
-                    A clear understanding of a situation is the only way to achieve clear results. The San Antonio
-                    Area Foundation has partnered with CI:NOW and the San Antonio Area African American Community
-                    Fund to sponsor a first-of-its-kind report for Bexar County detailing key indicators within the
-                    African American community: population, education, employment and income, business and workforce
-                    development, health, housing, justice, and social issues. The report, to be released in autumn
-                    2021, will be used to guide policy and future community investments in the African American
-                    community.
+                    <?php the_field("page-13_paragraph-2")?>
                 </p>
             </div>
         </div>
     </div>
 </section>
 <section class="section-23">
-    <div class="section-23__pretitle">2020 demanded that we deepen our</div>
-    <div class="section-23__title">community engagement</div>
+    <div class="section-23__pretitle"><?php the_field("page-13_main-title_part-1")?></div>
+    <div class="section-23__title"><?php the_field("page-13_main-title_part-2")?></div>
     <div class="section-23__sectors">
         <div class="section-23__sector sector-1">
-            <h3>Social justice fund</h3>
+            <h3><?php the_field("page-13_box-title-1")?></h3>
             <br>
-            <p>We assisted the fund and lead donors Cara and Brian Wright to establish a new charitable fund to
-                provide free legal services for matters involving bail issues, law enforcement excessive use of
-                force, racial discrimination, and voting rights.</p>
+            <p><?php the_field("page-13_box-paragraph-1")?></p>
         </div>
         <div class="section-23__sector sector-2">
-            <h3>Census outreach</h3>
+            <h3><?php the_field("page-13_box-title-2")?></h3>
             <br>
-            <p>We partnered with data analysis organization CI:NOW and the African American Fund to develop outreach
-                strategies and collateral materials to target African American communities historically
-                underrepresented in the U.S. Census. Additionally, we partnered COSA and Bexar County and five other
-                organizations to ensure a complete count.</p>
+            <p><?php the_field("page-13_box-paragraph-2")?></p>
         </div>
         <div class="section-23__sector sector-3">
-            <h3>emergency and rapid response grants</h3>
+            <h3><?php the_field("page-13_box-title-3")?></h3>
             <br>
-            <p>The Area Foundation also provided emergency and rapid response grants to multiple nonprofits who were
-                connected with families disproportionately impacted by COVID-19 to continue to provide critical
-                safety net and recovery services in the wake of a crisis.</p>
+            <p><?php the_field("page-13_box-paragraph-3")?></p>
         </div>
-        <div class="button-next-slide button-next-slide-section-23" data-toggle=".section-23, .section-23a"><span>San Antonio equity fellowship program</span>
+        <div class="button-next-slide button-next-slide-section-23" data-toggle=".section-23, .section-23a"><span><?php the_field("page-13_link")?></span>
             <button class="button button-arrow-green">
-                <div class="button-ripple green button-ripple-section-23"></div>
+                <div class="button-ripple-green green button-ripple-section-23"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -1123,7 +1100,7 @@
     <span class="section-23a__imageshorttext">» American Indians in Texas at the Spanish Colonial Missions</span>
     <div class="button-back-slide-section-23a">
         <button class="button button-arrow-green" data-toggle=".section-23, .section-23a">
-            <div class="button-ripple button-ripple-section-23a"></div>
+            <div class="button-ripple-green button-ripple-section-23a"></div>
             <div class="icon icon-arrow">
                 <svg>
                     <use href="#icon-arrow-left"></use>
