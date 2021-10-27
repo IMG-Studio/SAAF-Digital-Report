@@ -1062,42 +1062,27 @@
 <section class="section-23a">
     <div class="section-23a__text-wrapper">
         <div class="section-23a__text">
-            <h3>HOW DO YOU BRING ABOUT JUSTICE AND EQUITY WHILE STRENGTHENING BONDS BETWEEN DIVERSE COMMUNITIES OF
-                COLOR?</h3>
+            <h3><?php the_field("page-13_program_title")?></h3>
             <br>
             <p>
-                <span>The San Antonio Equity Fellowship Program</span> is a pilot transformational leadership
-                program focused on bringing together African American and Latinx participants who are committed to
-                constructively altering societal conditions toward fuller justice and equity for all. The San
-                Antonio Area Foundation is pleased to offer this unique opportunity for personal and professional
-                development as part of the Foundation’s commitment to equity work, capacity building of our
-                nonprofit sector, and commitment to strengthen the leaders of nonprofit organizations in San
-                Antonio.
+                <span><?php the_field("page-13_program_label")?></span> <?php the_field("page-13_program_paragraph_part-1")?>
             </p>
             <br>
             <p>
-                The San Antonio Equity Fellowship Program will provide a series of leadership workshops to
-                nonprofits in the four SAAFdn impact areas — Cultural Vibrancy, Livable and Resilient Communities,
-                Youth Success, and Successful Aging in San Antonio — who are committed to social change, policy
-                impact, and/or community improvement that serve communities of color throughout San Antonio.
+                <?php the_field("page-13_program_paragraph_part-2")?>
             </p>
             <br>
             <p>
-                The six-month nonprofit leadership program is focused on strengthening relationships from diverse
-                communities of color. Applicants may be executive directors or senior program staff at their
-                sponsoring organization. San Antonio Equity Fellowship Program will result in strengthened
-                leadership for community impact, increased cross-cultural understanding, bolstered community
-                collaboration to address pressing social issues, and a network of diverse leaders who will be able
-                to call upon each other in the future.
+                <?php the_field("page-13_program_paragraph_part-3")?>
             </p>
             <br><br>
         </div>
         <div class="section-23a__text-shadow-after"></div>
     </div>
     <div class="section-23a__image"><img
-                src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-23a.jpg">
+                src="<?php the_field("page-13_program_image")?>">
     </div>
-    <span class="section-23a__imageshorttext">» American Indians in Texas at the Spanish Colonial Missions</span>
+    <span class="section-23a__imageshorttext"><?php the_field("page-13_program_image-cite")?></span>
     <div class="button-back-slide-section-23a">
         <button class="button button-arrow-green" data-toggle=".section-23, .section-23a">
             <div class="button-ripple-green button-ripple-section-23a"></div>
@@ -1108,81 +1093,49 @@
             </div>
         </button>
 </section>
-<!-- <div class="section-5b__wrapper">
-        <div class="section-5b__text">
-          <h3>Who do you turn to when you are in personal crisis during a larger community crisis?</h3>
-          <br>
-          <p>One of the many devastating effects of the pandemic has been an increase in domestic violence. The <span>Bexar County Family Justice Center</span>, a critical service provider to victims of domestic violence, had to find a way to remain open. This was no easy feat, given that it is typically an in-person, walk-in program.
-Before the pandemic, the Area Foundation had already begun the transition to trust-based philanthropy allowing organizations to focus on their mission and adjust or apply the grant dollars where they were needed most. This pivot to operational funding enabled the Bexar County Family Justice Center to apply the needed funds to provide crisis intervention and support services to a larger-than-normal client base. </p>
-        </div>
-        <div class="section-5b__image"><img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-5b.jpg"></div>
-        <span class="section-5b__imageshorttext">» Bexar County Family Justice Center</span>
-
-        </div>
-      </div> -->
+<style>
+    .section-24__background{
+        background-image: url('<?php the_field("page-14_background-1")?>')
+    }
+    .section-25__background{
+        background-image: url('<?php the_field("page-14_background-2")?>')
+    }
+</style>
 <section class="section-24">
     <div class="section-24__background"></div>
-    <div class="section-24__pretitle">with clarity of purpose and a resolve to</div>
-    <div class="section-24__title">find new solutions</div>
-    <div class="section-24__subtitle">to old problems.</div>
+    <div class="section-24__pretitle"><?php the_field("page-14_title_part-1")?></div>
+    <div class="section-24__title"><?php the_field("page-14_title_part-2")?></div>
+    <div class="section-24__subtitle"><?php the_field("page-14_title_part-3")?></div>
 </section>
 <section class="section-25">
     <div class="section-25__background"></div>
     <div class="section-25__text">
-        As the country embarked on renewed racial reckoning ushered by the horrendous murder of George Floyd in
-        Minneapolis in May 2020, the reverberations of growing social unrest were soon felt here in San Antonio. The
-        community needed bona fide sources of leadership that could help tackle racial injustice and work toward
-        establishing equity. The San Antonio Area African American Community Fund (SAAAACF), a charitable fund of
-        the San Antonio Area Foundation, was repeatedly pointed out by News 4 WOAI, San Antonio Magazine, and
-        national nonprofit circles as a go-to organization in the Alamo City. The organization has quietly but
-        effectively advocated for the Alamo City’s Black community for more than a decade. “We want to be a major
-        player,” said Bobby Blount, Chairman of the SAAAACF Board of Directors and a figure in the local educational
-        scene, serving on the Board of Trustees of the Northside Independent School District. “People started
-        looking around to see which organizations were willing to step up and we quickly realized that we needed to
-        be more engaged, providing more leadership in the community.”
+        <?php the_field("page-14-paragraph")?>
     </div>
 </section>
 <div class="container-courage">
     <section class="section-26">
         <div class="section-26__background"></div>
-        <div class="section-26__title"><span class="section-26__title-1">[ Have </span>courage<span
-                    class="section-26__title-2">. ]</span></div>
-        <div class="section-26__subtitle">Scholarships</div>
+        <div class="section-26__title"><span class="section-26__title-1"><?php the_field("page-15_title-part-1")?> </span><?php the_field("page-15_title-part-2")?><span
+                    class="section-26__title-2"><?php the_field("page-15_title-part-3")?></span></div>
+        <div class="section-26__subtitle"></div>
         <div class="section-26__icon" data-toggle=".section-26, .section-26a"><span
                     class="section-26__icon__asterisk">*</span> <span
-                    class="section-26__icon__read-poem">Read Poem</span></div>
+                    class="section-26__icon__read-poem"><?php the_field("page-15_read_poem_label")?></span></div>
     </section>
     <section class="section-26a">
         <div class="section-26a__text-1">
-            <h3>Except this ONE: A free verse poem</h3>
+            <h3><?php the_field('poem-4_title')?></h3>
             <br>
             <p>
-                I have no other fears<br>
-                Except for this one<br>
-                This strange, twisted thing<br>
-                Isn’t all so fun<br>
-                So I put it up high<br>
-                Up on a shelf<br>
-                The thing that I fear<br>
-                Is fear itself<br>
-                Why should we be scared <br>
-                when we can feel great?<br>
-                Was it something it did?<br>
-                Maybe something it ate?
+                <?php the_field('poem-4_part-1')?>
             </p>
         </div>
         <div class="section-26a__text-2">
             <p>
-                But it doesn’t have eyes<br>
-                Nor a nose or a tongue<br>
-                No body, no ears,<br>
-                Certainly no lungs<br>
-                Well, after all,<br>
-                It doesn’t exist<br>
-                At least not for me,<br>
-                And it will not be missed<br>
+                <?php the_field('poem-4_part-2')?>
                 <br>
-                <i>— Taylor B.</i>
+                <i><?php the_field('poem-4_author')?></i>
             </p>
         </div>
         <div class="section-26a__close" data-toggle=".section-26, .section-26a">
