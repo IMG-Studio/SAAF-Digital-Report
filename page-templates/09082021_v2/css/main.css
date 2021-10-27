@@ -698,8 +698,7 @@ body.page-loaded .header-top {
 .header-left-nav__note-asterisk,
 .header-left-nav__note-text {
     float: left;
-    font: italic normal normal 12px/16px Whitman;!important;
-
+    font: italic normal normal 12px/16px Whitman !important;
 }
 
 
@@ -774,6 +773,12 @@ section.out-of-context {
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
     transition: all 5s;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body.page-loaded .section-1__image-1__wrapper {
@@ -783,10 +788,7 @@ body.page-loaded .section-1__image-1__wrapper {
 .section-1__image-1 {
     width: 100%;
     height: 100%;
-<<<<<<< Updated upstream
-=======
     /* background-image: url(../images/section-1-background.jpg); */
->>>>>>> Stashed changes
     background-position: 50%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1009,6 +1011,27 @@ section.complete .button-next-slide-section-2 {
     /*margin: 0;*/
 }
 
+
+.button-ripple-green {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /*opacity: 0.0;*/
+    background: #87946B;
+    transition: all 0.1667s;
+}
+.button:hover .button-ripple-green {
+    cursor: pointer;
+    transform: scale(1.45);
+    border: 8px solid rgba(211, 191, 191, 0.67);
+    font-weight: 800;
+    background-color: #87946B;
+    /*color: rgb(201, 169, 167);*/
+    /*margin: 0;*/
+}
 
 
 .button:hover .button-ripple {
@@ -1962,7 +1985,7 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-9-background.jpg);
+    /* background-image: url(../images/section-9-background.jpg); */
     background-position: bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -2055,7 +2078,7 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-10-background.jpg);
+    /* background-image: url(../images/section-10-background.jpg); */
     background-position: bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -2170,7 +2193,7 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-11-background.jpg);
+    /* background-image: url(../images/section-11-background.jpg); */
     background-position: bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -2834,7 +2857,7 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-16-background.jpg);
+    /* background-image: url(../images/section-16-background.jpg); */
     background-position: bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -2883,7 +2906,7 @@ section.complete .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-17-background.jpg);
+    /* background-image: url(../images/section-17-background.jpg); */
     background-position: bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
