@@ -1,11 +1,8 @@
-
 <?php wp_head();
-
-
 
 /*
 
- * Template Name: update09082021_v
+ * Template Name: 09082021_v2
 
  */
 
@@ -20,7 +17,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>San Antonio Area Foundation | 2020 Annual Report</title>
+    <title>SAAFdn — Where Giving and Community Connect</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
@@ -55,16 +52,38 @@
     <meta name="msapplication-config" content="browserconfig.xml">
     <link href="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/css/main.css"
           rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"-->
+    <!--          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">-->
 </head>
 
 
 <body class="index-page" id="top">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-17KFKM7KZ5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-17KFKM7KZ5');
+    </script>
+<div class="mobile-container">
+    <div class="logo">
+        <a href="https://saafdn.org/" target="_blank"><img src="https://saaf.mystagingwebsite.com/wp-content/uploads/2021/09/saaf-logo-responsive.png" alt="">
+        </a>
+    </div>
+    <h1 class="responsive-hdr">For best experience, view Impact Report on desktop.</h1>
+    <ul class="responsive-lists">
+        <li class="responsive-lists--download"><a href="https://saaf.mystagingwebsite.com/wp-content/uploads/2021/10/2020-SAAF_ImpactReport.pdf" target="_blank">Download PDF Impact Report</a></li>
+        <li class="responsive-lists--donate">Will you take that journey with us? <br>
+            <a href="https://saafdn.org/giving/giving-options/" target="_blank">Donate Today</a>
+        </li>
+    </ul>
+</div>
 <div class="scroll-dummy-overlay"></div>
 <div class="svg-sprive">
     <svg width="0" height="0">
-        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 55" id="logo-main" fill="inherit">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 55" id="logo-main" fill="#822720">
             <path
                     d="M13.312.581c-.754-.537-1.711-.7-2.6-.444-2.63.5-2.238 2.858-2.071 3.865l.04.262c.097.784.52 1.491 1.164 1.948a3.57 3.57 0 0 0 2.072.686 2.9 2.9 0 0 0 .525-.047c1.458-.269 2.038-2.174 2.025-3.136.078-1.161-.342-2.301-1.155-3.134zm11.752.283A2.9 2.9 0 0 0 22.95.02a3.24 3.24 0 0 0-2.511.8 2.69 2.69 0 0 0-.856 1.951v.277c-.018 1.382-.047 3.7 3.128 3.765h.167c2.442 0 2.724-1.243 2.834-2.863.199-1.074-.034-2.183-.648-3.086zm11.753.844A3.51 3.51 0 0 0 34.635.252c-.947-.12-1.902.161-2.633.775-.825.782-1.246 1.899-1.144 3.031.027 1.512 1.751 2.579 3.331 2.7l.24.01c1.5 0 2.55-1.1 2.909-3.041a2.68 2.68 0 0 0-.521-2.019zm7.942 10.249c-.357-1.064-1.133-1.935-2.149-2.412-2.074-.9-6.113-1.755-21.484-1.991-14.47-.232-17.317 1.776-19.2 3.1l-.3.208c-1.06.587-1.69 1.73-1.621 2.94s.826 2.273 1.946 2.735a6.05 6.05 0 0 0 3.072.833 5.18 5.18 0 0 0 3.409-1.116c.575-.618.781-1.1.629-1.482-.178-.443-.823-.691-1.974-.761a.8.8 0 0 1-.723-.358c-.273-.525.255-1.47.347-1.627a33.9 33.9 0 0 1 4.857-1.167 151.09 151.09 0 0 1 17.656-.269c5.706.368 8.859 1.008 9.642 1.96.449.544.714.947.647 1.268-.063.3-.413.584-1.248 1.01-.725.368-1.042.672-1.03.987.015.388.515.741 1.783 1.263 1.374.373 2.839.194 4.082-.5a3.47 3.47 0 0 0 1.908-1.8 4.99 4.99 0 0 0-.249-2.821zm-18.76 5.99c-.127-1.653-1.036-4.323-2.172-4.744h0c-.575-.213-3.5-1.163-4.607 1.118-.716 1.474.5 16.211 1.309 25.962l.524 6.811c.117 3.1.5 6.527 1.018 7.079.277.331.666.549 1.094.609a.54.54 0 0 0 .18-.029c.249-.083.4-.339.441-.757.184-1.789 2.331-34.498 2.213-36.049zm10.183-1.107a9.35 9.35 0 0 1-.547-1.217c-.4-1-.77-1.953-1.836-2.247-.8-.212-1.653-.078-2.349.37-.629.396-1.055 1.044-1.169 1.778s-.422 5.377-.778 10.753l-1.187 16.162a51.01 51.01 0 0 0-.333 6.475l-.042 2.55c-.115 2.44 0 3.167 1.007 3.634a.79.79 0 0 0 .336.075.99.99 0 0 0 .474-.131 3.01 3.01 0 0 0 1.258-1.985c.129-.948 4.864-26.871 5.173-28.459s.779-6.382-.007-7.758zM18.303 50.954l-.041-2.542a51.25 51.25 0 0 0-.333-6.483c-.273-2.388-.757-9.693-1.185-16.14l-.781-10.777a2.28 2.28 0 0 0-1.024-1.611 3.02 3.02 0 0 0-2.407-.312c-1.452.4-2.216 1.411-2.477 3.268a35.49 35.49 0 0 0 0 7.732l5.173 28.459c.134.805.588 1.521 1.259 1.985a.98.98 0 0 0 .472.131.79.79 0 0 0 .335-.075c1.011-.471 1.123-1.198 1.009-3.635z"
                     fill="inherit"/>
@@ -99,6 +118,10 @@
                     <path fill="#fff" transform="matrix(0 1 -1 0 16 0)" d="M0 0h15.256v15.486H0z"/>
                 </clipPath>
             </defs>
+        </symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-down" fill="none"
+                stroke-linecap="round" stroke-width="2">
+            <path d="M1 7.744h12m-3.855-6.34l4.852 6.162-4.852 6.52"/>
         </symbol>
         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-left" fill="none"
                 stroke-linecap="round" stroke-width="2" xmlns:v="https://vecta.io/nano">
@@ -139,21 +162,21 @@
             </div>
             <nav class="nav-main">
                 <ul class="nav-main__list">
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="320">[Be a catalyst.]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="315">[Be a catalyst.]</a>
                     </li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1050">[Make an
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1035">[Make an
                             impact.]</a></li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2590">[Embrace
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2580">[Embrace
                             change.]</a></li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3800">[Have courage.]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3760">[Have courage.]</a>
                     </li>
                     <li class="nav-main__item">
                         <button class="button button-heart-1 button-heart-header-top">
                             <div class="icon icon-heart icon-heart-white">
                                 <svg>
-                                <a href="https://saafdn.fcsuite.com/erp/donate/">
-                                    <use href="#icon-heart"></use>
-                                </a>
+                                    <a href="https://saafdn.org/giving/giving-options/" target="_blank">
+                                        <use href="#icon-heart"></use>
+                                    </a>
                                 </svg>
                             </div>
                         </button>
@@ -181,11 +204,11 @@
                 </div>
             </div>
 
-            <button class="button button-heart button-heart-header-left" >
+            <button class="button button-heart button-heart-header-left">
                 <div class="icon icon-heart icon-heart-red">
                     <svg>
-                        <a href="https://saafdn.fcsuite.com/erp/donate/">
-                        <use href="#icon-heart"></use>
+                        <a href="https://saafdn.org/giving/giving-options/" target="_blank">
+                            <use href="#icon-heart"></use>
                         </a>
                     </svg>
                 </div>
@@ -194,8 +217,9 @@
             <button class="button button-screen-down button-screen-down-header-left">
                 <div class="icon-screen-down">
                     <svg class="icon-screen-down">
-                        <a href="https://saaf.mystagingwebsite.com/wp-content/uploads/2021/09/WireO-Mockup.pdf" target="_blank">
-                        <use href="#icon-screen-down"></use>
+                        <a href="https://saaf.mystagingwebsite.com/wp-content/uploads/2021/10/2020-SAAF_ImpactReport.pdf"
+                           target="_blank">
+                            <use href="#icon-screen-down"></use>
                         </a>
                     </svg>
                 </div>
@@ -206,42 +230,47 @@
 
     <div class="header-left-nav" id="nav1">
 
-        <a class="hideMenu" data-offset="320" id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</a><br>
-            <a class="hideMenu submenu" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
-            <a class="hideMenu submenu" data-offset="675" href="#samm" >Turning Point: Bexar County Family Justice Center</a><br/>
-            <a class="hideMenu submenu" data-offset="981" href="#samm" >Turning Point: SAMMinistries</a><br/>
-        <br><br>
-
-        <span class="hideMenu" data-offset="1050" id="impact">[ Make an Impact. ] – Grantmaking by the Numbers</span><br>
-            <a class="hideMenu submenu" data-offset="1705" >Impact Area: Cultural Vibrancy</a><br/>
-            <a class="hideMenu submenu" data-offset="1856" >Impact Area: Livable and Resilient Communities</a><br/>
-            <a class="hideMenu submenu" data-offset="1993" >Impact Area: Youth Success</a><br/>
-            <a class="hideMenu submenu" data-offset="2157" >Impact Area: Successful Aging</a><br/>
-            <a class="hideMenu submenu" data-offset="2450" >Turning Point: The Public</a><br/>
+        <span class="hideMenu jToggle" data-offset="315"
+              id="catalyst">[ Be a Catalyst. ] – COVID 19 Response Fund</span><br>
+        <a class="submenu jToggle" data-offset="675" href="#mercedSection"> Turning Point: Merced Housing</a><br/>
+        <a class="submenu jToggle" data-offset="675" href="#samm">Turning Point: Bexar County Family Justice
+            Center</a><br/>
+        <a class="submenu jToggle" data-offset="981" href="#samm">Turning Point: SAMMinistries</a><br/>
         <br><br>
 
 
-        <span class="hideMenu" data-offset="2590" id="embrace">[ Embrace Change. ] – Addressing Equity</span><br>
-            <a class="hideMenu submenu" data-offset="2858" >Turning Point: A Letter from
-                Theodore Guidry II, <br> San Antonio Area Foundation Past Chairman of the Board</a><br>
-            <a class="hideMenu submenu" data-offset="3596" >Turning Point: SAAAACF</a><br/>
+        <span class="hideMenu jToggle" data-offset="1035"
+              id="impact">[ Make an Impact. ] – Grantmaking by the Numbers</span><br>
+        <a class="submenu jToggle" data-offset="1705">Impact Area: Cultural Vibrancy</a><br/>
+        <a class="submenu jToggle" data-offset="1856">Impact Area: Livable and Resilient Communities</a><br/>
+        <a class="submenu jToggle" data-offset="1993">Impact Area: Youth Success</a><br/>
+        <a class="submenu jToggle" data-offset="2157">Impact Area: Successful Aging</a><br/>
+        <a class="submenu jToggle" data-offset="2450">Turning Point: The Public</a><br/>
+        <br><br>
+
+        <span class="hideMenu jToggle" data-offset="2580"
+              id="embrace">[ Embrace Change. ] – Addressing Equity</span><br>
+        <a class="submenu jToggle" data-offset="2858">Turning Point: A Letter from
+            Theodore Guidry II, <br> San Antonio Area Foundation Past Chairman of the Board</a><br>
+        <a class="submenu jToggle" data-offset="3596">Turning Point: SAAAACF</a><br/>
         <br><br>
 
 
-        <span class="hideMenu" data-offset="3800" id="courage">[ Have Courage. ] – Scholarships</span><br>
-            <a class="hideMenu submenu" data-offset="3919" >Turning Point: A Little Help Goes a Long Way</a><br/>
-            <a class="hideMenu submenu" data-offset="4080" >Thank You from our Student Scholars</a><br/>
-            <a class="hideMenu submenu" data-offset="4206" >Turning Point: In Memoriam: Jack and Laura Richmond</a><br/>
-            <a class="hideMenu submenu" data-offset="4419" >Donor and Development Services</a><br/>
-            <a class="hideMenu submenu" data-offset="4419" >Donor Advised Funds</a><br/>
+        <span class="hideMenu jToggle" data-offset="3760" id="courage">[ Have Courage. ] – Scholarships</span><br>
+        <a class="submenu jToggle" data-offset="3919">Turning Point: A Little Help Goes a Long Way</a><br/>
+        <a class="submenu jToggle" data-offset="4080">Thank You from our Student Scholars</a><br/>
+        <a class="submenu jToggle" data-offset="4206">Turning Point: In Memoriam: Jack and Laura Richmond</a><br/>
+        <a class="submenu jToggle" data-offset="4390">Donor and Development Services</a><br/>
+        <a class="submenu jToggle" data-offset="4390">Donor Advised Funds</a><br/>
         <br><br>
         <hr>
         <br>
 
         <div class="header-left-nav__links">
-            <a href="https://www.saafdn.org"><span>Visit</span> San Antonio Area Foundation</a><br>
+            <a class="submenu" href="https://www.saafdn.org"><span class="visitSpan">Visit</span> San Antonio Area
+                Foundation</a><br>
             <br>
-            <a href="#"><span>View</span> Our Covid Report</a>
+            <!-- <a class="submenu" href="#"><span class="visitSpan">View</span> Our Covid Report</a> -->
         </div>
 
         <br>
@@ -269,847 +298,1040 @@
             <div class="section-1__text-2">turning point.</div>
         </div>
         <div class="button-arrow-red-section-1" style="line-height: 42px;">
+
             <button class="button button-arrow-red" style="float: left;">
-                <div class="button-ripple red button-ripple-section-1"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-bottom"></use>
-                    </svg>
+                <div class="button-ripple red button-ripple-section-1">
                 </div>
-            </button>
-            <span class="mt-2" style="position: relative;">Scroll to explore</span>
-        </div>
-    </section>
-    <section class="section-2">
-        <div class="section-2__text">
-             <img src="<?php the_field('page-1_background'); ?>" />
-            <div class="section-2__text-1">Turning points often appear as obstacles, unbidden,</div>
-            <div class="section-2__text-2">forcing you to</div>
-            <div class="section-2__text-3">choose a new path.</div>
-            <div class="section-2__text-4">The choices you make the turns you take, can have a lifelong effect on you
-                and
-                those around you. And at the end of the path, you just might find that the obstacle has become an
-                opportunity.
-            </div>
-        </div>
-        <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-2, .section-2a"><span>words from our ceo</span>
-            <button class="button button-arrow-red">
-                <div class="button-ripple red button-ripple-section-2"></div>
-                <div class="icon icon-arrow">
+                <div class="icon icon-arrow arrowBottom">
                     <svg>
                         <use href="#icon-arrow-right"></use>
                     </svg>
                 </div>
             </button>
+                    <span class="mt-2" style="position: relative;">Scroll to explore</span>
         </div>
+
     </section>
-    <section class="section-2a">
-        <div class="section-2a__wrapper">
-            <div class="section-2a__foto-wrapper"><img class="section-2a__foto-wrapper__img"
-                                                       src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/foto-marjie-web.jpg"
-                                                       alt=""><img class="section-2a__foto-wrapper__marjie-signature"
-                                                                   src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/marjie-signature-web.png"
-                                                                   alt=""></div>
-            <div class="section-2a__text-wrapper">
-                <!--  <div class="section-2a__text-shadow-before"></div> -->
-                <div class="section-2a__text-overlay"></div>
-                <div class="section-2a__text">
-                    <p>Dear Friends, Donors, and Partners,</p>
-                    <p>I think it is safe to say that no one foresaw the extraordinary events of 2020. Each challenge
-                        became a
-                        turning point, an opportunity to think critically and act decisively to find new ways to address
-                        escalating community needs. The decisions were not always easy; the clear path was not always
-                        obvious.
-                        Fortunately, we were not alone on our journey.</p>
-                    <p>Here at the Area Foundation, we say Stronger Together all the time. There is a good reason for
-                        it.</p>
-                    <p>In 2020, there was simply no way we could have mobilized the financial resources and human
-                        capital to
-                        respond to the COVID-19 pandemic and social justice without the collaboration of a multitude of
-                        philanthropic partners, both within and beyond the Area Foundation. The generous spirit of the
-                        San Antonio
-                        community was on display during these tumultuous times, and we are humbled and grateful to serve
-                        as
-                        trusted advisor, supporter, and collaborative partner in philanthropy.</p>
-                    <h3>COLLABORATIVE GRANTMAKING</h3>
-                    <p>We were blessed to have a cadre of great leaders interested in helping the community. A special
-                        thanks to
-                        Harvey Najim and the Harvey E. Najim Charitable Foundation, David Rogers and the H. E. Butt
-                        Foundation,
-                        the Nancy Smith Hurd Foundation, and Chris Martin and the United Way of San Antonio and Bexar
-                        County for
-                        their willingness to lead, work, fund, and believe in this transformational relief fund.</p>
-                    <p>The COVID-19 Response Fund was launched on March 20, 2020. Hosted by the Area Foundation and
-                        jointly
-                        managed with United Way of San Antonio and Bexar County, the Fund raised $6.4 million through
-                        the
-                        tremendous generosity of hundreds of individual donors and dozens of foundations, businesses,
-                        and civic
-                        institutions who rallied in support of our community during this crisis.</p>
-                    <p>These funds were distributed to more than 200 regional nonprofits in a rapid-cycle process
-                        advanced by
-                        our Community Engagement and Impact (CEI) team. The average award size was $28,137, and grants
-                        were
-                        prioritized for organizations serving 17 of San Antonios lowest-income zip codes.</p>
-                    <p>The COVID-19 Response Fund focused its grantmaking in the areas of social services, business and
-                        employment, food security, and shelter. We intentionally aligned with Mayor Ron Nirenbergs key
-                        focus areas
-                        to amplify and coordinate philanthropic and public investments to address the critical needs of
-                        San
-                        Antonians. The Area Foundation also jointly invested with the City of San Antonio and United Way
-                        in
-                        providing temporary childcare access subsidies.</p>
-                    <p>Donor Advised Funds (DAFs) hosted at the Area Foundation recommended an additional $7 million in
-                        direct
-                        grants to 248 nonprofits, and 95% of all DAF giving in response to COVID-19 stayed in Bexar
-                        County.</p>
-                    <h3>Just-In-Time Capacity Building AND Online Resources</h3>
-                    <p>Fortunately for the hundreds of nonprofit professionals the Area Foundation serves through our
-                        trainings
-                        and classes, we upgraded our IT infrastructure before the pandemic struck. Working remotely
-                        since March
-                        2020, our Learning and Development Department staff readily pivoted to online learning
-                        opportunities. In
-                        2020, we offered 77 courses and more than 2,000 participants signed up.</p>
-                    <p>We delivered timely programs and free community sessions on topics such as: Leadership in Times
-                        of
-                        Transition, Communicating Effectively in Remote Environments, Lead by Example: Sustaining
-                        Ourselves,
-                        Engaging Employees in Remote Environments, and Brave New World: Returning to Work. Also, through
-                        a
-                        partnership with Candid, the Area Foundation offered free, online access for all area nonprofits
-                        to the
-                        Foundation Directory Online the most exhaustive and up-to-date database on grant makers</p>
-                    <h3>Data-Driven Events and Community Engagement</h3>
-                    <p>The COVID-19 pandemic fostered many opportunities for us to engage more deeply with donors and
-                        supporters
-                        within and beyond the Area Foundation. Throughout the year, we delivered well-attended
-                        philanthropic
-                        briefings to internal donors and volunteers on COVID-19 and on topics such as corporate social
-                        responsibility. We engaged a host of civic and business leaders through strategic conversations
-                        and with
-                        organizations as varied as Rotary, Humana, and Vistage.</p>
-                    <p>The Area Foundation contributed to the Mayors Taskforce on Workforce Development serving as a key
-                        partner. This taskforce was pivotal to the development of and advocacy for Proposition B, which
-                        was
-                        approved by San Antonio voters in the November election. The initiative, SA Ready to Work,
-                        funded by a
-                        one-eighth-cent sales tax, will grow job training programs, scholarships, and emergency
-                        financial
-                        assistance for up to 40,000 residents caught in the wake of the coronavirus pandemic.</p>
-                    <h3>Catalytic Investments</h3>
-                    <p>The Area Foundation provided a start-up grant to the Family Independence Initiative (now
-                        UpTogether)
-                        which fostered partnerships with several local funders to place earned income directly into the
-                        hands of
-                        working families. San Antonio is now one of only a dozen sites across the nation to deploy this
-                        innovative
-                        and proven program which provides access to capital and fuels family-driven solutions. Alongside
-                        other
-                        local partners, the Area Foundation invested in the launch of Get Shift Done for San Antonio and
-                        neighboring communities. The program coordinates, schedules, and pays adversely affected hourly
-                        workers in
-                        the hospitality industry to work paid shifts for organizations such as the San Antonio Food
-                        Bank. It helps
-                        food service workers who lost their paychecks and provides immediate support to nonprofits
-                        stretched in
-                        providing food service to people in need.</p>
-                    <p>The Area Foundation partnered with United Way, H. E. Butt Foundation, and LISC San Antonio on a
-                        weekly
-                        survey to more than 100 nonprofits to assess real-time community needs and engage donors on the
-                        most
-                        impactful investments. Our approach on the highest-level poverty zip codes in Bexar County
-                        illuminated
-                        sound and equitable approaches for our philanthropic partners and influenced their
-                        grantmaking.</p>
-                    <p>These are just a few of the highlights featured in our 2020 impact report. You will learn more
-                        about our
-                        commitment and our work to mobilize philanthropy, lead in the community, and operate with
-                        excellence.
-                        Thanks to your partnership, we can continue to serve our communitys needs today, while building
-                        a better
-                        tomorrow for all who call our region home.</p>
-                    <p>With gratitude,</p>
-                    <img class="section-2a__text__marjie-signature"
-                         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/marjie-signature-web-gray.png"
-                         alt="">
-
-                    <p>Marjie French, CEO, San Antonio Area Foundation</p>
-
-                    <br><br><br>
-                </div>
-                <div class="section-2a__text-shadow-after"></div>
-            </div>
-            <div class="section-2a__quoter">
-                <div class="quote active"><p>&#8220;There is very little that the…Foundation does that doesn’t influence
-                        most of our lives…and certainly mine.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief
-            Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>
-                </div>
-                <div class="quote"><p>&#8220;I have volunteered in the nonprofit space for more than three decades, and
-                        I have never seen such an
-                        efficient operation.&#8221;</p><span>&mdash; Aaronetta Pierce</span></div>
-                <div class="quote"><p>&#8220;You don’t have to be a millionaire to make an investment in a fund.
-                        Instead, it’s the kind of person who believes in the community and be able to want to assist
-                        others.&#8221;</p><span>&mdash; Janie Barrera</span></div>
-            </div>
+</div>
+</section>
+<section class="section-2">
+    <div class="section-2__text">
+        <!--             <img src="--><?php //the_field('page-1_background'); ?><!--" />-->
+        <div class="section-2__text-1">Turning points often appear as obstacles, unbidden,</div>
+        <div class="section-2__text-2">forcing you to</div>
+        <div class="section-2__text-3">choose a new path.</div>
+        <div class="section-2__text-4">The choices you make the turns you take, can have a lifelong effect on you
+            and
+            those around you. And at the end of the path, you just might find that the obstacle has become an
+            opportunity.
         </div>
-        <!-- <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.</div> -->
-        <button class="button button-arrow-red button-prev-red-section-2a" data-toggle=".section-2, .section-2a">
-            <div class="button-ripple red button-ripple-section-2a"></div>
+    </div>
+    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-2, .section-2a"><span>words from our ceo</span>
+        <button class="button button-arrow-red">
+            <div class="button-ripple red button-ripple-section-2"></div>
+            <div class="icon icon-arrow">
+                <svg>
+                    <use href="#icon-arrow-right"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+</section>
+<section class="section-2a">
+    <div class="section-2a__wrapper">
+        <div class="section-2a__foto-wrapper">
+            <div class="section-2a__image">
+           </div>
+        </div>
+        <div class="section-2a__text-wrapper">
+            <!--  <div class="section-2a__text-shadow-before"></div> -->
+            <div class="section-2a__text-overlay"></div>
+            <div class="section-2a__text">
+                <p>Dear Friends, Donors, and Partners,</p>
+                <p>I think it is safe to say that no one foresaw the extraordinary events of 2020. Each challenge
+                    became a
+                    turning point, an opportunity to think critically and act decisively to find new ways to address
+                    escalating community needs. The decisions were not always easy; the clear path was not always
+                    obvious.
+                    Fortunately, we were not alone on our journey.</p>
+                <p>Here at the Area Foundation, we say Stronger Together all the time. There is a good reason for
+                    it.</p>
+                <p>In 2020, there was simply no way we could have mobilized the financial resources and human
+                    capital to
+                    respond to the COVID-19 pandemic and social justice without the collaboration of a multitude of
+                    philanthropic partners, both within and beyond the Area Foundation. The generous spirit of the
+                    San Antonio
+                    community was on display during these tumultuous times, and we are humbled and grateful to serve
+                    as
+                    trusted advisor, supporter, and collaborative partner in philanthropy.</p>
+                <h3>COLLABORATIVE GRANTMAKING</h3>
+                <p>We were blessed to have a cadre of great leaders interested in helping the community. A special
+                    thanks to
+                    Harvey Najim and the Harvey E. Najim Charitable Foundation, David Rogers and the H. E. Butt
+                    Foundation,
+                    the Nancy Smith Hurd Foundation, and Chris Martin and the United Way of San Antonio and Bexar
+                    County for
+                    their willingness to lead, work, fund, and believe in this transformational relief fund.</p>
+                <p>The COVID-19 Response Fund was launched on March 20, 2020. Hosted by the Area Foundation and
+                    jointly
+                    managed with United Way of San Antonio and Bexar County, the Fund raised $6.4 million through
+                    the
+                    tremendous generosity of hundreds of individual donors and dozens of foundations, businesses,
+                    and civic
+                    institutions who rallied in support of our community during this crisis.</p>
+                <p>These funds were distributed to more than 200 regional nonprofits in a rapid-cycle process
+                    advanced by
+                    our Community Engagement and Impact (CEI) team. The average award size was $28,137, and grants
+                    were
+                    prioritized for organizations serving 17 of San Antonios lowest-income zip codes.</p>
+                <p>The COVID-19 Response Fund focused its grantmaking in the areas of social services, business and
+                    employment, food security, and shelter. We intentionally aligned with Mayor Ron Nirenbergs key
+                    focus areas
+                    to amplify and coordinate philanthropic and public investments to address the critical needs of
+                    San
+                    Antonians. The Area Foundation also jointly invested with the City of San Antonio and United Way
+                    in
+                    providing temporary childcare access subsidies.</p>
+                <p>Donor Advised Funds (DAFs) hosted at the Area Foundation recommended an additional $7 million in
+                    direct
+                    grants to 248 nonprofits, and 95% of all DAF giving in response to COVID-19 stayed in Bexar
+                    County.</p>
+                <h3>Just-In-Time Capacity Building AND Online Resources</h3>
+                <p>Fortunately for the hundreds of nonprofit professionals the Area Foundation serves through our
+                    trainings
+                    and classes, we upgraded our IT infrastructure before the pandemic struck. Working remotely
+                    since March
+                    2020, our Learning and Development Department staff readily pivoted to online learning
+                    opportunities. In
+                    2020, we offered 77 courses and more than 2,000 participants signed up.</p>
+                <p>We delivered timely programs and free community sessions on topics such as: Leadership in Times
+                    of
+                    Transition, Communicating Effectively in Remote Environments, Lead by Example: Sustaining
+                    Ourselves,
+                    Engaging Employees in Remote Environments, and Brave New World: Returning to Work. Also, through
+                    a
+                    partnership with Candid, the Area Foundation offered free, online access for all area nonprofits
+                    to the
+                    Foundation Directory Online the most exhaustive and up-to-date database on grant makers</p>
+                <h3>Data-Driven Events and Community Engagement</h3>
+                <p>The COVID-19 pandemic fostered many opportunities for us to engage more deeply with donors and
+                    supporters
+                    within and beyond the Area Foundation. Throughout the year, we delivered well-attended
+                    philanthropic
+                    briefings to internal donors and volunteers on COVID-19 and on topics such as corporate social
+                    responsibility. We engaged a host of civic and business leaders through strategic conversations
+                    and with
+                    organizations as varied as Rotary, Humana, and Vistage.</p>
+                <p>The Area Foundation contributed to the Mayors Taskforce on Workforce Development serving as a key
+                    partner. This taskforce was pivotal to the development of and advocacy for Proposition B, which
+                    was
+                    approved by San Antonio voters in the November election. The initiative, SA Ready to Work,
+                    funded by a
+                    one-eighth-cent sales tax, will grow job training programs, scholarships, and emergency
+                    financial
+                    assistance for up to 40,000 residents caught in the wake of the coronavirus pandemic.</p>
+                <h3>Catalytic Investments</h3>
+                <p>The Area Foundation provided a start-up grant to the Family Independence Initiative (now
+                    UpTogether)
+                    which fostered partnerships with several local funders to place earned income directly into the
+                    hands of
+                    working families. San Antonio is now one of only a dozen sites across the nation to deploy this
+                    innovative
+                    and proven program which provides access to capital and fuels family-driven solutions. Alongside
+                    other
+                    local partners, the Area Foundation invested in the launch of Get Shift Done for San Antonio and
+                    neighboring communities. The program coordinates, schedules, and pays adversely affected hourly
+                    workers in
+                    the hospitality industry to work paid shifts for organizations such as the San Antonio Food
+                    Bank. It helps
+                    food service workers who lost their paychecks and provides immediate support to nonprofits
+                    stretched in
+                    providing food service to people in need.</p>
+                <p>The Area Foundation partnered with United Way, H. E. Butt Foundation, and LISC San Antonio on a
+                    weekly
+                    survey to more than 100 nonprofits to assess real-time community needs and engage donors on the
+                    most
+                    impactful investments. Our approach on the highest-level poverty zip codes in Bexar County
+                    illuminated
+                    sound and equitable approaches for our philanthropic partners and influenced their
+                    grantmaking.</p>
+                <p>These are just a few of the highlights featured in our 2020 impact report. You will learn more
+                    about our
+                    commitment and our work to mobilize philanthropy, lead in the community, and operate with
+                    excellence.
+                    Thanks to your partnership, we can continue to serve our community&#8217;s needs today, while building
+                    a better
+                    tomorrow for all who call our region home.</p>
+                <p>With gratitude,</p>
+                <img class="section-2a__text__marjie-signature"
+                     src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/marjie-signature-web-gray.png"
+                     alt="">
+
+                <p>Marjie French, CEO, San Antonio Area Foundation</p>
+
+                <br><br><br>
+            </div>
+            <div class="section-2a__text-shadow-after"></div>
+        </div>
+        <div class="section-2a__quoter">
+            <div class="quote active"><p>&#8220;There is very little that the…Foundation does that doesn&#8217;t influence
+                    most of our lives…and certainly mine.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief
+            Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>
+            </div>
+            <div class="quote"><p>&#8220;I have volunteered in the nonprofit space for more than three decades, and
+                    I have never seen such an
+                    efficient operation.&#8221;</p><span>&mdash; Aaronetta Pierce</span></div>
+            <div class="quote"><p>&#8220;You don&#8217;t have to be a millionaire to make an investment in a fund.
+                    Instead, it&#8217;s the kind of person who believes in the community and be able to want to assist
+                    others.&#8221;</p><span>&mdash; Janie Barrera</span></div>
+        </div>
+    </div>
+    <!-- <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.</div> -->
+    <button class="button button-arrow-red button-prev-red-section-2a" data-toggle=".section-2, .section-2a">
+        <div class="button-ripple red button-ripple-section-2a"></div>
+        <div class="icon icon-arrow">
+            <svg>
+                <use href="#icon-arrow-left"></use>
+            </svg>
+        </div>
+    </button>
+</section>
+<section class="section-3">
+    <div class="section-3__background"></div>
+    <div class="section-3__title-wrapper">
+        <div class="section-3__title"><span class="section-3__title-1 .section-3__title">[ Be a </span>catalyst<span
+                    class="section-3__title-2">. ]</span></div>
+        <div class="section-3__subtitle">COVID-19 Response Fund</div>
+    </div>
+    <div class="section-3__icon" data-toggle=".section-3, .section-3a"><span
+                class="section-3__icon__asterisk">*</span> <span class="section-3__icon__read-poem">Read Poem</span>
+    </div>
+</section>
+<section class="section-3a">
+    <div class="section-3a__text">
+        <h3>Quarantine Is A Cheetah</h3>
+        <br>
+        <p>
+            Quarantine is a cheetah<br>
+            because the cases of people who are<br>
+            getting the virus<br>
+            Are coming in fast. People can&#8217;t see<br>
+            Their family because of the virus.<br>
+            Quarantine makes me feel like<br>
+            I can&#8217;t do anything anymore.<br>
+            I want to outrun this cheetah,<br>
+            Be grateful for seafood every Friday<br>
+            And for people who recover from Covid.<br>
+            <br>
+            <i>— Olivia S., 5th Grade</i>
+        </p>
+    </div>
+    <div class="section-3a__close" data-toggle=".section-3, .section-3a">
+        <div class="icon icon-close">
+            <svg>
+                <use href="#icon-close-white"></use>
+            </svg>
+        </div>
+    </div>
+</section>
+<section class="section-4">
+    <div class="section-4__background"></div>
+    <div class="section-4__title-wrapper">
+        <div class="section-4__pretitle">A crisis compels you to</div>
+        <div class="section-4__title"><span class="section-4__title-1">be a catalyst for </span>change,</div>
+    </div>
+    <div class="section-4__text">An unprecedented crisis necessitated unprecedented levels of giving. The San
+        Antonio
+        Area Foundation was there to build partnerships, raise funds, and provide data-driven, targeted funding of
+        nearly $6.5 million through the COVID-19 Response Fund. In addition, Donor Advised Funds recommended more
+        than
+        $7 million in direct grants to nonprofits serving on the front lines of the pandemic.
+    </div>
+
+</section>
+<section class="section-5">
+    <div class="section-5__background"></div>
+    <div class="section-5__title-wrapper">
+        <div class="section-5__pretitle">while remaining a safety net for those who</div>
+        <div class="section-5__title">can&#8217;t wait for that change,</div>
+    </div>
+    <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
+        <!--  data-toggle-unique-class="clicked-button-ripple-section-5l" -->
+        <button class="button button-arrow-red">
+            <div class="button-ripple red button-ripple-section-5l"></div>
             <div class="icon icon-arrow">
                 <svg>
                     <use href="#icon-arrow-left"></use>
                 </svg>
             </div>
         </button>
-    </section>
-    <section class="section-3">
-        <div class="section-3__background"></div>
-        <div class="section-3__title-wrapper">
-            <div class="section-3__title"><span class="section-3__title-1 .section-3__title">[ Be a </span>catalyst<span
-                        class="section-3__title-2">. ]</span></div>
-            <div class="section-3__subtitle">COVID-19 Response Fund</div>
-        </div>
-        <div class="section-3__icon" data-toggle=".section-3, .section-3a"><span
-                    class="section-3__icon__asterisk">*</span> <span class="section-3__icon__read-poem">Read Poem</span>
-        </div>
-    </section>
-    <section class="section-3a">
-        <div class="section-3a__text">
-            <h3>Quarantine Is A Cheetah</h3>
-            <br>
-            <p>
-                Quarantine is a cheetah<br>
-                because the cases of people who are<br>
-                getting the virus<br>
-                Are coming in fast. People can’t see<br>
-                Their family because of the virus.<br>
-                Quarantine makes me feel like<br>
-                I can’t do anything anymore.<br>
-                I want to outrun this cheetah,<br>
-                Be grateful for seafood every Friday<br>
-                And for people who recover from Covid.<br>
-                <br>
-                <i>— Olivia S., 5th Grade</i>
-            </p>
-        </div>
-        <div class="section-3a__close" data-toggle=".section-3, .section-3a">
-            <div class="icon icon-close">
+        <span id="merced">merced housing texas</span>
+    </div>
+    <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span>bexar county family justice center</span>
+        <button class="button button-arrow-red">
+            <div class="button-ripple red button-ripple-section-5r"></div>
+            <div class="icon icon-arrow">
                 <svg>
-                    <use href="#icon-close-white"></use>
+                    <use href="#icon-arrow-right"></use>
                 </svg>
             </div>
+        </button>
+    </div>
+</section>
+<section class="section-5a" id="mercedSection">
+    <div class="section-5a__wrapper">
+        <div class="section-5a__image"><img
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-5a.jpg">
         </div>
-    </section>
-    <section class="section-4">
-        <div class="section-4__background"></div>
-        <div class="section-4__title-wrapper">
-            <div class="section-4__pretitle">A crisis compels you to</div>
-            <div class="section-4__title"><span class="section-4__title-1">be a catalyst for </span>change,</div>
+        <div class="section-5a__purplebox">One gift card recipient was a single parent who lost her job due to
+            COVID-19. She is raising her 10-year-old son and was concerned about their limited food supply and
+            having to wait 12 days for their SNAP benefits. When she learned she would be receiving a gift card, she
+            was so appreciative and thanked the Resident Services Coordinator and the agencies involved with helping
+            her family. She stated that with the gift card she would be able to purchase much needed groceries.
         </div>
-        <div class="section-4__text">An unprecedented crisis necessitated unprecedented levels of giving. The San
-            Antonio
-            Area Foundation was there to build partnerships, raise funds, and provide data-driven, targeted funding of
-            nearly $6.5 million through the COVID-19 Response Fund. In addition, Donor Advised Funds recommended more
-            than
-            $7 million in direct grants to nonprofits serving on the front lines of the pandemic.
+        <span class="section-5a__imageshorttext">» Merced Housing Texas</span>
+        <div class="section-5a__text">
+            <h3>How do you find shelter when it feels like your world is falling apart?</h3>
+            <br>
+            <p>The foundation of our health and safety is a decent place to live. When the COVID-19 crisis pushed
+                many in our community to the brink of homelessness, <span>Merced Housing Texas</span>, which focuses
+                on advocating for and providing affordable housing opportunities, was there to help. And the
+                COVID-19 Fund was there to help Merced by providing a $50,000 grant. Kristin Davila, Merced&#8217;s
+                President and Executive Director, reports that the agency used half of the grant to cover its
+                Resident Services Program for April. The other half came in the form of $250 gift cards for
+                residents living at one of the agency&#8217;s apartment campuses.</p>
         </div>
-
-    </section>
-    <section class="section-5">
-        <div class="section-5__background"></div>
-        <div class="section-5__title-wrapper">
-            <div class="section-5__pretitle">while remaining a safety net for those who</div>
-            <div class="section-5__title">can't wait for that change,</div>
-        </div>
-        <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
+        <div class="button-back-slide-section-5a" data-toggle=".section-5, .section-5a">
             <!--  data-toggle-unique-class="clicked-button-ripple-section-5l" -->
             <button class="button button-arrow-red">
-                <div class="button-ripple red button-ripple-section-5l"></div>
+                <div class="button-ripple red button-ripple-section-5a"></div>
+                <div class="icon icon-arrow">
+                    <svg>
+                        <use href="#icon-arrow-right"></use>
+                    </svg>
+                </div>
+            </button>
+        </div>
+    </div>
+</section>
+<section class="section-5b">
+    <div class="section-5b__wrapper">
+        <div class="section-5b__text">
+            <h3>Who do you turn to when you are in personal crisis during a larger community crisis?</h3>
+            <br>
+            <p>One of the many devastating effects of the pandemic has been an increase in domestic violence. The
+                <span>Bexar County Family Justice Center</span>, a critical service provider to victims of domestic
+                violence, had to find a way to remain open. This was no easy feat, given that it is typically an
+                in-person, walk-in program.
+                Before the pandemic, the Area Foundation had already begun the transition to trust-based
+                philanthropy allowing organizations to focus on their mission and adjust or apply the grant dollars
+                where they were needed most. This pivot to operational funding enabled the Bexar County Family
+                Justice Center to apply the needed funds to provide crisis intervention and support services to a
+                larger-than-normal client base. </p>
+        </div>
+        <div class="section-5b__image"><img
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-5b.jpg">
+        </div>
+        <div class="section-5b__purplebox">&#8220;It is so hard to take the chance to accuse someone when you know their
+            next step is
+            to kill you. You feel powerless and desperate. The Family Justice Center&#8217;s services helped me to have
+            courage. Today I am safe. I have been able to carry on with my beautiful life. I am able to see my
+            people without being terrified. I just want to express my gratitude to all of you because you help me
+            feel safe and protected.&#8221;
+        </div>
+        <span class="section-5b__imageshorttext">» Bexar County Family Justice Center</span>
+        <div class="button-back-slide-section-5b" data-toggle=".section-5, .section-5b">
+            <button class="button button-arrow-red">
+                <div class="button-ripple red button-ripple-section-5b"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-left"></use>
                     </svg>
                 </div>
             </button>
-            <span id="merced">merced housing texas</span>
         </div>
-        <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span>bexar county family justice center</span>
-            <button class="button button-arrow-red">
-                <div class="button-ripple red button-ripple-section-5r"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
+    </div>
+</section>
+<section class="section-6">
+    <div class="section-6__background"></div>
+    <div class="section-6__text-wrapper">
+        <div class="section-6__pretitle">providing others a moment to rest,<br>take a breath, and then</div>
+        <div class="section-6__title">keep moving forward.</div>
+    </div>
+</section>
+<section class="section-7" id="samm">
+    <div class="section-7__background"></div>
+    <div class="section-7__text">
+        The people that SAMMinistries serves struggle during normal circumstances to maintain stability. The
+        COVID-19 pandemic amplified vulnerabilities around such issues as food insecurity, rental assistance, access
+        to hygiene, cleaning supplies, and transportation. Those living in transitional housing lost many outlets to
+        socialize and simply let kids expend their energy. Generous funding helped alleviate these burdens, helping
+        to keep households safe and healthy. It helped pay rent, late fees, and mortgages, making SAMMinistries a
+        one-stop shop to address the housing needs of clients in financial crisis. One hundred percent of homeless
+        prevention and rapid re-housing clients remained housed; 60 percent of transitional clients exited to
+        permanent housing; and 98 percent of permanent supportive housing clients remained housed during the worst
+        of the crisis.
+    </div>
+</section>
+<section class="section-8">
+    <div class="section-8__background"></div>
+    <div class="section-8__text-wrapper">
+        <div class="section-8__title"><span class="section-8__title-1">[ Make an </span>impact<span
+                    class="section-8__title-2">. ]</span></div>
+        <div class="section-8__subtitle">
+            <div class="section-8__subtitle-wrapper">Grantmaking by the Numbers</div>
         </div>
-    </section>
-    <section class="section-5a" id="mercedSection" >
-        <div class="section-5a__wrapper">
-            <div class="section-5a__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-5a.jpg">
-            </div>
-            <div class="section-5a__purplebox">One gift card recipient was a single parent who lost her job due to
-                COVID-19. She is raising her 10-year-old son and was concerned about their limited food supply and
-                having to wait 12 days for their SNAP benefits. When she learned she would be receiving a gift card, she
-                was so appreciative and thanked the Resident Services Coordinator and the agencies involved with helping
-                her family. She stated that with the gift card she would be able to purchase much needed groceries.
-            </div>
-            <span class="section-5a__imageshorttext">» Merced Housing Texas</span>
-            <div class="section-5a__text">
-                <h3>How do you find shelter when it feels like your world is falling apart?</h3>
-                <br>
-                <p>The foundation of our health and safety is a decent place to live. When the COVID-19 crisis pushed
-                    many in our community to the brink of homelessness, <span>Merced Housing Texas</span>, which focuses
-                    on advocating for and providing affordable housing opportunities, was there to help. And the
-                    COVID-19 Fund was there to help Merced by providing a $50,000 grant. Kristin Davila, Merced’s
-                    President and Executive Director, reports that the agency used half of the grant to cover its
-                    Resident Services Program for April. The other half came in the form of $250 gift cards for
-                    residents living at one of the agency’s apartment campuses.</p>
-            </div>
-            <div class="button-back-slide-section-5a" data-toggle=".section-5, .section-5a">
-                <!--  data-toggle-unique-class="clicked-button-ripple-section-5l" -->
-                <button class="button button-arrow-red">
-                    <div class="button-ripple red button-ripple-section-5a"></div>
-                    <div class="icon icon-arrow">
-                        <svg>
-                            <use href="#icon-arrow-right"></use>
-                        </svg>
-                    </div>
-                </button>
-            </div>
-        </div>
-    </section>
-    <section class="section-5b">
-        <div class="section-5b__wrapper">
-            <div class="section-5b__text">
-                <h3>Who do you turn to when you are in personal crisis during a larger community crisis?</h3>
-                <br>
-                <p>One of the many devastating effects of the pandemic has been an increase in domestic violence. The
-                    <span>Bexar County Family Justice Center</span>, a critical service provider to victims of domestic
-                    violence, had to find a way to remain open. This was no easy feat, given that it is typically an
-                    in-person, walk-in program.
-                    Before the pandemic, the Area Foundation had already begun the transition to trust-based
-                    philanthropy allowing organizations to focus on their mission and adjust or apply the grant dollars
-                    where they were needed most. This pivot to operational funding enabled the Bexar County Family
-                    Justice Center to apply the needed funds to provide crisis intervention and support services to a
-                    larger-than-normal client base. </p>
-            </div>
-            <div class="section-5b__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-5b.jpg">
-            </div>
-            <div class="section-5b__purplebox">“It is so hard to take the chance to accuse someone when you know their
-                next step is
-                to kill you. You feel powerless and desperate. The Family Justice Center’s services helped me to have
-                courage. Today I am safe. I have been able to carry on with my beautiful life. I am able to see my
-                people without being terrified. I just want to express my gratitude to all of you because you help me
-                feel safe and protected.”
-            </div>
-            <span class="section-5b__imageshorttext">» Bexar County Family Justice Center</span>
-            <div class="button-back-slide-section-5b" data-toggle=".section-5, .section-5b">
-                <button class="button button-arrow-red">
-                    <div class="button-ripple red button-ripple-section-5b"></div>
-                    <div class="icon icon-arrow">
-                        <svg>
-                            <use href="#icon-arrow-left"></use>
-                        </svg>
-                    </div>
-                </button>
-            </div>
-        </div>
-    </section>
-    <section class="section-6">
-        <div class="section-6__background"></div>
-        <div class="section-6__text-wrapper">
-            <div class="section-6__pretitle">providing others a moment to rest,<br>take a breath, and then</div>
-            <div class="section-6__title">keep moving forward.</div>
-        </div>
-    </section>
-    <section class="section-7" id="samm">
-        <div class="section-7__background"></div>
-        <div class="section-7__text">
-            The people that SAMMinistries serves struggle during normal circumstances to maintain stability. The
-            COVID-19 pandemic amplified vulnerabilities around such issues as food insecurity, rental assistance, access
-            to hygiene, cleaning supplies, and transportation. Those living in transitional housing lost many outlets to
-            socialize and simply let kids expend their energy. Generous funding helped alleviate these burdens, helping
-            to keep households safe and healthy. It helped pay rent, late fees, and mortgages, making SAMMinistries a
-            one-stop shop to address the housing needs of clients in financial crisis. One hundred percent of homeless
-            prevention and rapid re-housing clients remained housed; 60 percent of transitional clients exited to
-            permanent housing; and 98 percent of permanent supportive housing clients remained housed during the worst
-            of the crisis.
-        </div>
-    </section>
-    <section class="section-8">
-        <div class="section-8__background"></div>
-        <div class="section-8__text-wrapper">
-            <div class="section-8__title"><span class="section-8__title-1">[ Make an </span>impact<span
-                        class="section-8__title-2">. ]</span></div>
-            <div class="section-8__subtitle">
-                <div class="section-8__subtitle-wrapper">Grantmaking by the Numbers</div>
-            </div>
-        </div>
-        <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span
-                    class="section-8__icon__asterisk">*</span> <span class="section-8__icon__read-poem">Read Poem</span>
-        </div>
-    </section>
-    <section class="section-8a">
-        <div class="section-8a__text">
-            <h3>This Year</h3>
+    </div>
+    <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span
+                class="section-8__icon__asterisk">*</span> <span class="section-8__icon__read-poem">Read Poem</span>
+    </div>
+</section>
+<section class="section-8a">
+    <div class="section-8a__text">
+        <h3>This Year</h3>
+        <br>
+        <p>
+            This year is as beautiful as a white rose.<br>
+            This year is as bright as a shining red rose<br>
+            as hot as the sun and as beautiful as a sunset<br>
+            because this year is the most perfect year<br>
+            to start over like a blue bonnet just blooming and<br>
+            waiting to rebloom once again.<br>
             <br>
-            <p>
-                This year is as beautiful as a white rose.<br>
-                This year is as bright as a shining red rose<br>
-                as hot as the sun and as beautiful as a sunset<br>
-                because this year is the most perfect year<br>
-                to start over like a blue bonnet just blooming and<br>
-                waiting to rebloom once again.<br>
-                <br>
-                <i>— Prestine T., 4th Grade</i>
-            </p>
+            <i>— Prestine T., 4th Grade</i>
+        </p>
+    </div>
+    <div class="section-8a__close" data-toggle=".section-8, .section-8a">
+        <div class="icon icon-close">
+            <svg>
+                <use href="#icon-close-white"></use>
+            </svg>
         </div>
-        <div class="section-8a__close" data-toggle=".section-8, .section-8a">
-            <div class="icon icon-close">
+    </div>
+</section>
+<section class="section-9">
+    <div class="section-9__background"></div>
+    <div class="section-9__text-wrapper">
+        <div class="section-9__pretitle">Here is the</div>
+        <div class="section-9__title">impact<span class="section-9__title-1"> we made</span></div>
+        <div class="section-9__subtitle">in 2020.</div>
+    </div>
+    <div class="section-9__stats">
+        <div class="section-9__stats-block"><span>$1</span> Billion Total Assets Under Management</div>
+        <div class="section-9__stats-block"><span>500+</span> Charitable Funds</div>
+        <div class="section-9__stats-block"><span>$71.9</span> Million Total Grantmaking</div>
+        <div class="section-9__stats-block section-9__stats-subblock">—<span>$66.1</span> Million to nonprofits
+        </div>
+        <div class="section-9__stats-block section-9__stats-subblock">—<span>$4.7</span> Million in scholarships
+        </div>
+        <div class="section-9__stats-block section-9__stats-subblock">—<span>$1.1</span> Million in hardship grants
+        </div>
+        <div class="section-9__stats-block"><span>2,342</span> Total Nonprofit Grants</div>
+        <div class="section-9__stats-block"><span>77</span> Nonprofit Programs and Classes Serving 2,016 Trainees
+        </div>
+    </div>
+</section>
+<section class="section-10">
+    <div class="section-10__background"></div>
+    <div class="section-10__total">
+        <div class="section-10__total-wrapper">$XX,XXX,XXX</div>
+    </div>
+    <div class="section-10__bars">
+        <div class="section-10__bar bar-1">
+            <div class="section-10__bar-inner"><span
+                        class="section-10__bar-title">Annual Responsive<br>Grantmaking</span><span
+                        class="section-10__bar-total">$3,199,110</span></div>
+        </div>
+        <div class="section-10__bar bar-2">
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">Designated</span><span
+                        class="section-10__bar-total">$3,922,681</span></div>
+        </div>
+        <div class="section-10__bar bar-3">
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">Scholarships</span><span
+                        class="section-10__bar-total">$4,655,491</span></div>
+        </div>
+        <div class="section-10__bar bar-4">
+            <div class="section-10__bar-inner"><span
+                        class="section-10__bar-title">Supporting Organizations</span><span
+                        class="section-10__bar-total">$5,168,063</span></div>
+        </div>
+        <div class="section-10__bar bar-5">
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">Other Grants including all<br>hardship and disaster relief grants</span><span
+                        class="section-10__bar-total">$6,156,827</span></div>
+        </div>
+        <div class="section-10__bar bar-6">
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">COVID-19 Relief Fund</span><span
+                        class="section-10__bar-total">$6,490,115</span></div>
+        </div>
+        <div class="section-10__bar bar-7">
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">Donor Advised Funds (DAFs)<br>Direct Giving to Nonprofits</span><span
+                        class="section-10__bar-total">$42,309,054</span></div>
+        </div>
+    </div>
+</section>
+<section class="section-11">
+    <div class="section-11__background"></div>
+    <div class="section-11__wrapper">
+        <div class="section-11-title-total">
+            <div class="section-11__pretitle">Turning points require</div>
+            <div class="section-11__title">bold leadership,</div>
+        </div>
+        <div class="section-11__text">
+            We are proud to have been the bridge between those most able to give and those who most needed to
+            receive. With community input, research and strategic planning, the San Antonio Area Foundation focused
+            grantmaking and relief efforts on <span>four Impact Areas.</span>
+        </div>
+        <div class="section-11__bardetails">
+            <span>Key investment areas:</span><br>
+            1. Cultural Vibrancy $626,000<br>
+            2. Livable and Resilient Communities $741,000<br>
+            3. Youth Success $636,000<br>
+            4. Successful Aging $545,000
+        </div>
+        <div class="section-11__note">
+            Note: All figures listed are before final audit. Total Giving includes all scholarships, hardship
+            grants, disaster relief grants, supporting organization grants, designated grants, and interfund grants
+            to the Area Foundation to redistribute in alignment with our mission and program initiatives. For the
+            most updated information, visit www.saafdn.org/impact.
+        </div>
+    </div>
+</section>
+<section class="section-12">
+    <div class="section-12__image">
+        <img/>
+        <div class="section-12__imageshorttext">» San Anto Cultural Arts</div>
+    </div>
+    <div class="section-12__text-wrapper">
+        <div class="section-12__title">creative thinking,</div>
+        <div class="section-12__text">
+            <h3>1. cultural vibrancy</h3>
+            <br>
+            <br>
+            <p>Our strategic investments and partnerships with arts and culture organizations in 2020 ensured that
+                the brightness and vitality that makes San Antonio special were not dimmed. Quite the opposite. By
+                keeping arts organizations up and running (often virtually), they could continue to provide
+                emotional, intellectual, and creative lifelines to a broad range of audiences in need of community
+                and cultural celebration.</p>
+        </div>
+    </div>
+    <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a"><span>Vital partnerships</span>
+        <button class="button button-arrow-yellow">
+            <div class="button-ripple yellow button-ripple-section-12"></div>
+            <div class="icon icon-arrow">
                 <svg>
-                    <use href="#icon-close-white"></use>
+                    <use href="#icon-arrow-right"></use>
                 </svg>
             </div>
-        </div>
-    </section>
-    <section class="section-9">
-        <div class="section-9__background"></div>
-        <div class="section-9__text-wrapper">
-            <div class="section-9__pretitle">Here is the</div>
-            <div class="section-9__title">impact<span class="section-9__title-1"> we made</span></div>
-            <div class="section-9__subtitle">in 2020.</div>
-        </div>
-        <div class="section-9__stats">
-            <div class="section-9__stats-block"><span>$1</span> Billion Total Assets Under Management</div>
-            <div class="section-9__stats-block"><span>500+</span> Charitable Funds</div>
-            <div class="section-9__stats-block"><span>$71.9</span> Million Total Grantmaking</div>
-            <div class="section-9__stats-block section-9__stats-subblock">—<span>$66.1</span> Million to nonprofits
-            </div>
-            <div class="section-9__stats-block section-9__stats-subblock">—<span>$4.7</span> Million in scholarships
-            </div>
-            <div class="section-9__stats-block section-9__stats-subblock">—<span>$1.1</span> Million in hardship grants
-            </div>
-            <div class="section-9__stats-block"><span>2,342</span> Total Nonprofit Grants</div>
-            <div class="section-9__stats-block"><span>77</span> Nonprofit Programs and Classes Serving 2,016 Trainees
-            </div>
-        </div>
-    </section>
-    <section class="section-10">
-        <div class="section-10__background"></div>
-        <div class="section-10__total">
-            <div class="section-10__total-wrapper">$XX,XXX,XXX</div>
-        </div>
-        <div class="section-10__bars">
-            <div class="section-10__bar bar-1">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Annual Responsive<br>Grantmaking</span><span
-                            class="section-10__bar-total">$3,199,110</span></div>
-            </div>
-            <div class="section-10__bar bar-2">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Designated</span><span
-                            class="section-10__bar-total">$3,922,681</span></div>
-            </div>
-            <div class="section-10__bar bar-3">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Scholarships</span><span
-                            class="section-10__bar-total">$4,655,491</span></div>
-            </div>
-            <div class="section-10__bar bar-4">
-                <div class="section-10__bar-inner"><span
-                            class="section-10__bar-title">Supporting Organizations</span><span
-                            class="section-10__bar-total">$5,168,063</span></div>
-            </div>
-            <div class="section-10__bar bar-5">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Other Grants including all<br>hardship and disaster relief grants</span><span
-                            class="section-10__bar-total">$6,156,827</span></div>
-            </div>
-            <div class="section-10__bar bar-6">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">COVID-19 Relief Fund</span><span
-                            class="section-10__bar-total">$6,490,115</span></div>
-            </div>
-            <div class="section-10__bar bar-7">
-                <div class="section-10__bar-inner"><span class="section-10__bar-title">Donor Advised Funds (DAFs)<br>Direct Giving to Nonprofits</span><span
-                            class="section-10__bar-total">$42,309,054</span></div>
-            </div>
-        </div>
-    </section>
-    <section class="section-11">
-        <div class="section-11__background"></div>
-        <div class="section-11__wrapper">
-            <div class="section-11-title-total">
-                <div class="section-11__pretitle">Turning points require</div>
-                <div class="section-11__title">bold leadership,</div>
-            </div>
-            <div class="section-11__text">
-                We are proud to have been the bridge between those most able to give and those who most needed to
-                receive. With community input, research and strategic planning, the San Antonio Area Foundation focused
-                grantmaking and relief efforts on <span>four Impact Areas.</span>
-            </div>
-            <div class="section-11__bardetails">
-                <span>Key investment areas:</span><br>
-                1. Cultural Vibrancy $626,000<br>
-                2. Livable and Resilient Communities $741,000<br>
-                3. Youth Success $636,000<br>
-                4. Successful Aging $545,000
-            </div>
-            <div class="section-11__note">
-                Note: All figures listed are before final audit. Total Giving includes all scholarships, hardship
-                grants, disaster relief grants, supporting organization grants, designated grants, and interfund grants
-                to the Area Foundation to redistribute in alignment with our mission and program initiatives. For the
-                most updated information, visit www.saafdn.org/impact.
-            </div>
-        </div>
-    </section>
-    <section class="section-12">
-        <div class="section-12__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-12.jpg">
-            <div class="section-12__imageshorttext">» San Anto Cultural Arts</div>
-        </div>
-        <div class="section-12__text-wrapper">
-            <div class="section-12__title">creative thinking,</div>
-            <div class="section-12__text">
-                <h3>1. cultural vibrancy</h3>
-                <br>
-                <br>
-                <p>Our strategic investments and partnerships with arts and culture organizations in 2020 ensured that
-                    the brightness and vitality that makes San Antonio special were not dimmed. Quite the opposite. By
-                    keeping arts organizations up and running (often virtually), they could continue to provide
-                    emotional, intellectual, and creative lifelines to a broad range of audiences in need of community
-                    and cultural celebration.</p>
-            </div>
-        </div>
-        <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a"><span>Vital partnerships</span>
-            <button class="button button-arrow-yellow">
-                <div class="button-ripple yellow button-ripple-section-12"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-12a">
-        <div class="section-12a__text">
-            <h3>Vital partnerships</h3>
-            <br>
-            <br>
-            <p>The <span>H. E. Butt Foundation</span> co-invested with the SAAFdn in early-stage capacity building for
-                three organizations: American Indians in Texas at the Spanish Colonial Missions, San Anto Cultural Arts
-                and the Classical Music Institute.
-                The Area Foundation partnered with the <span>Ford Foundation</span> to provide $100,000 to the Guadalupe
-                Cultural Arts Center in appreciation of its 36-year history as a home for San Antonio’s Latino artists
-                and cultural traditions and as a means to strengthen the Guadalupe’s ability to work through and beyond
-                the current crisis.</p>
-        </div>
-        <div class="button-next-slide button-back-section-12a" data-toggle=".section-12, .section-12a">
-            <button class="button button-arrow-yellow">
+        </button>
+    </div>
+</section>
+<section class="section-12a">
+    <div class="section-12a__text">
+        <h3>Vital partnerships</h3>
+        <br>
+        <br>
+        <p>The <span>H. E. Butt Foundation</span> co-invested with the SAAFdn in early-stage capacity building for
+            three organizations: American Indians in Texas at the Spanish Colonial Missions, San Anto Cultural Arts
+            and the Classical Music Institute.
+            The Area Foundation partnered with the <span>Ford Foundation</span> to provide $100,000 to the Guadalupe
+            Cultural Arts Center in appreciation of its 36-year history as a home for San Antonio&#8217;s Latino artists
+            and cultural traditions and as a means to strengthen the Guadalupe&#8217;s ability to work through and beyond
+            the current crisis.</p>
+    </div>
+    <div class="button-next-slide button-back-section-12a" data-toggle=".section-12, .section-12a">
+        <button class="button button-arrow-yellow">
 
-                <div class="button-ripple yellow button-ripple-section-12a"></div>
-                <div class="icon icon-close">
-                    <svg>
-                        <use href="#icon-close-white"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-13">
-        <div class="section-13__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-13.jpg">
-            <div class="section-13__imageshorttext">» Habitat for Humanity</div>
-        </div>
-        <div class="section-12__text-wrapper">
-            <div class="section-13__title">and committed<br>partners,</div>
-            <div class="section-13__text">
-                <h3>2. Livable and Resilient Communities</h3>
-                <br>
-                <br>
-                <p>The 2019 COSA Poverty Report put numbers to the high economic inequality, racial disparities, and
-                    residential segregation that continue to plague our city. The 2020 pandemic put faces and, too
-                    often, tragic outcomes to those numbers. As philanthropic leaders, we have taken a hard look at what
-                    it takes to build a thriving, connected, and resilient San Antonio where residents in every zip code
-                    can enjoy the best quality of life that our city offers.</p>
-            </div>
-        </div>
-        <div class="button-next-slide button-next-slide-section-13" data-toggle=".section-13, .section-13a"><span>Vital partnerships</span>
-            <button class="button button-arrow-yellow">
-                <div class="button-ripple yellow button-ripple-section-13"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-13a">
-        <div class="section-13a__text">
-            <h3>Vital partnerships</h3>
-            <br>
-            <br>
-            <p>
-                Recognizing the challenges rooted in inequitable systems, and identifying the need to uplift the
-                affordable housing and community development sector, the San Antonio Area Foundation partnered with
-                <span>LISC San Antonio</span> to engage nonprofit executives in a pilot leadership development program
-                supporting new and emerging leaders in the affordable housing arena. “Leading to Change: Building Equity
-                in Community”, includes leadership training, racial equity and organizational culture skill-building,
-                and executive coaching.
-            </p>
-            <br/>
-            <p>
-                In a partnership with <span>Metro Health</span> to address health disparities, the Area Foundation
-                awarded seven organizations grants in the amount of $6,717.86 to support COVID-19 response efforts in
-                communities disproportionately impacted. Over 3,000 individuals received support between the months of
-                December 2020 and March 2021.  Services focused on helping individuals meet their basic needs through
-                food distribution, household and hygiene kits, financial assistance, and accessing healthcare.
-            </p>
-        </div>
-        <div class="button-next-slide button-back-section-13a" data-toggle=".section-13, .section-13a">
-            <button class="button button-arrow-yellow">
-                <div class="button-ripple yellow button-ripple-section-13a"></div>
-                <div class="icon icon-close">
-                    <svg>
-                        <use href="#icon-close-white"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-14" id="section14">
-        <div class="section-14__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-14.jpg">
-            <div class="section-14__imageshorttext">» Good Samaritan Center</div>
-        </div>
-        <div class="section-14__text-wrapper">
-            <div class="section-14__title">forging ahead,</div>
-            <div class="section-14__text">
-                <h3>3. Youth success</h3>
-                <br>
-                <br>
-                <p>The strength of our community lies in the success of our children. The COVID-19 pandemic, however,
-                    exposed the lingering inequities in our education system. In response, the San Antonio Area
-                    Foundation has invested in organizations who take on the challenge of giving every child an
-                    accessible pathway, from cradle to career, to achieve lifelong academic and personal success.</p>
-            </div>
-        </div>
-        <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span>Vital partnerships</span>
-            <button class="button button-arrow-yellow">
-                <div class="button-ripple yellow button-ripple-section-14a"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-14a">
-        <div class="section-14a__text-wrapper">
-            <div class="section-14a__text">
-                <h3>Vital partnerships</h3>
-                <br>
-                <br>
-                <p>The Area Foundation with <span>UP Partnership</span> secured an $8 million commitment from Blue
-                    Meridian Partners to expand educational and economic opportunities grounded in equity and
-                    data-driven approaches. The project will provide support to youth development agencies, workforce
-                    programs, childcare, and leadership development programs that amplify our youth’s voice in the
-                    community.</p>
-                <br>
-                <p>The Area Foundation is involved in a city-wide effort to improve youth outcomes through out-of-school
-                    time programs. The initiative, known as <span>Excel Beyond the Bell - San Antonio</span>, convened
-                    48 nonprofit organizations serving 80,000 area youth centered on building developmental
-                    relationships with youth, growing service capacity, and committing to an equitable recovery for all
-                    youth impacted by COVID-19.</p>
-                <br>
-                <p>The Area Foundation and <span>UP Partnership</span> offer organizations the opportunity to rethink
-                    many fundamental components of their operations, service delivery, and finances in the wake of the
-                    pandemic. <span>RESET*</span> is an organizational recovery framework designed to strengthen the
-                    capacity of organizations to navigate challenges. The RESET course launched August 2020 with a focus
-                    on organizational recovery, change management, program model improvements, and equity-centered data
-                    analysis to drive strategic decisions in uncertain times.</p>
-                <br>
-                <p>
-                    <span>R</span>eflect on the vision guiding your work<br>
-                    <span>E</span>valuate the underlying needs of your community<br>
-                    <span>S</span>trengthen your program design<br>
-                    <span>E</span>ducate your stakeholders<br>
-                    <span>T</span>ransform how your organization learns<br>
-                </p>
-                <br><br><br>
-            </div>
-            <div class="section-14a__text-shadow-after"></div>
-        </div>
-        <div class="button-next-slide button-back-section-14a" data-toggle=".section-14, .section-14a">
-            <button class="button button-arrow-yellow">
-                <div class="button-ripple yellow button-ripple-section-14a"></div>
-                <div class="icon icon-close">
-                    <svg>
-                        <use href="#icon-close-white"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-15">
-        <div class="section-15__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-15.jpg">
-            <div class="section-15__imageshorttext">» San Antonio Oasis </div>
-        </div>
-        <div class="section-14__text-wrapper">
-            <div class="section-15__pretitle">Even when it feels</div>
-            <div class="section-15__title">overwhelming<br>to do so.</div>
-            <div class="section-15__text">
-                <h3>4. Successful Aging</h3>
-                <br>
-                <br>
-                <p>
-                    The pandemic has severely affected all of us, but the impact has been even greater for older San
-                    Antonians. It’s not just health outcomes. Some older adults face challenges with social isolation,
-                    loneliness, transportation, food security, and mental health. We are all aging and the San Antonio
-                </p>
-                <br>
-                <p>
-                    Area Foundation is committed to a community where older adults are respected, thrive, and enjoy
-                    connected lives. We are dedicated to Reframing Aging, a social change endeavor designed to change
-                    the publics’ perception of aging by empowering us to all live our best lives as we age.
-                </p>
-            </div>
-        </div>
-        <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a"><span>Vital partnerships</span>
-            <button class="button button-arrow-yellow">
-                <div class="button-ripple yellow button-ripple-section-15"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-15a">
-        <div class="section-15a__text-wrapper">
-            <div class="section-15a__text">
-                <h3>Vital partnerships</h3>
-                <br>
-                <br>
-                <p>In 2020, the <span>Successful Aging and Living in San Antonio (SALSA)</span> collective impact
-                    initiative built significant momentum. SALSA inspires its 38 multi-sector partners to develop a
-                    common agenda and implement agreed upon strategies and activities. Significant accomplishments for
-                    SALSA this year include:</p>
-                <br>
-                <p>• In partnership with <span>WellMed Charitable Foundation</span>, the creation, development, and
-                    distribution of the Family Caregiver Toolkit, in Spanish and English, to offer resources to spouses,
-                    family, and significant others who provide care for their loved ones.</p>
-                <br>
-                <p>• Training and launch of our community’s Reframing Aging Initiative.  With training received from
-                    <span>The Gerontological Society of America (GSA)</span>, who lead the national reframing aging
-                    initiative, SALSA trained and graduated 15 Reframing Aging Facilitators dedicated to using
-                    evidence-based, cutting edge communications tools and messages developed by <span>FrameWorks Institute</span>,
-                    and tailored for our community.  By changing the way that people talk and think about aging, we are
-                    setting the foundation for policies and practices that leverage the strengths and talents of older
-                    people, and systems that support well-being for all of us as we age.</p>
-                </p>
-                <br>
-                <p>
-                    • Co-authoring with <span>City of San Antonio</span> and <span>Disability SA</span> of a survey and
-                    report of the experiences of people with disabilities during COVID-19.
-                </p>
-                <br>
-                <p>
-                    • The Innovators in Aging award for unique and successful efforts to serve older Texans (<span>Texas Health and Human Services</span>).
-                </p>
-                <br><br><br>
-            </div>
-            <div class="section-15a__text-shadow-after"></div>
-        </div>
-        <div class="button-next-slide button-back-section-15a" data-toggle=".section-15, .section-15a">
-            <button class="button button-arrow-yellow">
-                <div class="button-ripple yellow button-ripple-section-15a"></div>
-                <div class="icon icon-close">
-                    <svg>
-                        <use href="#icon-close-white"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </section>
-    <section class="section-16">
-        <div class="section-16__background"></div>
-        <div class="section-16__pretitle">Because turning back</div>
-        <div class="section-16__title">is not an option.</div>
-    </section>
-    <section class="section-17">
-        <div class="section-17__background"></div>
-        <div class="section-17__text">
-            With the second half of its 2019/20 theater season suspended, The Public Theater of San Antonio implemented
-            remote theater arts programming to ensure the community had access to live professional theater experiences
-            to increase the social and emotional well-being of individuals of all ages. By hosting virtual play
-            readings, musical cabarets, instructional classes, and free youth programming, The Public was able to
-            provide income opportunities for displaced performers and technical crew members, supplement youth
-            educational theater arts programming in distance learning settings,
-            and provide much-needed entertainment.
-        </div>
-    </section>
-    <section class="section-18">
-        <div class="section-18__background"></div>
-        <div class="section-18__text-wrapper">
-            <div class="section-18__title"><span class="section-18__title-1">[ </span>Embrace<span
-                        class="section-18__title-2"> change. ]</span></div>
-            <div class="section-18__subtitle">Addressing Equity</div>
-        </div>
-        <div class="section-18__icon" data-toggle=".section-18, .section-18a"><span
-                    class="section-18__icon__asterisk">*</span> <span
-                    class="section-18__icon__read-poem">Read Poem</span></div>
-    </section>
-    <section class="section-18a">
-        <div class="section-18a__text">
-            <h3>I Hope the New Year Is</h3>
-            <br>
-            <p>
-                I hope the new year is a happy color like yellow<br>
-                I hope the new year is like the yellow on mac-n-cheese<br>
-                I hope the new year is waving at everyone as long as it can<br>
-                I hope the new year is slow like a sloth so we can enjoy<br>
-                the good things about it.<br>
-                <br>
-                <i>— Breona C., 4th Grade</i>
-            </p>
-        </div>
-        <div class="section-18a__close" data-toggle=".section-18, .section-18a">
+            <div class="button-ripple yellow button-ripple-section-12a"></div>
             <div class="icon icon-close">
                 <svg>
                     <use href="#icon-close-white"></use>
                 </svg>
             </div>
+        </button>
+    </div>
+</section>
+<section class="section-13">
+    <div class="section-13__image">
+        <img>
+        <div class="section-13__imageshorttext">» Habitat for Humanity</div>
+    </div>
+    <div class="section-12__text-wrapper">
+        <div class="section-13__title">and committed<br>partners,</div>
+        <div class="section-13__text">
+            <h3>2. Livable and Resilient Communities</h3>
+            <br>
+            <br>
+            <p>The 2019 COSA Poverty Report put numbers to the high economic inequality, racial disparities, and
+                residential segregation that continue to plague our city. The 2020 pandemic put faces and, too
+                often, tragic outcomes to those numbers. As philanthropic leaders, we have taken a hard look at what
+                it takes to build a thriving, connected, and resilient San Antonio where residents in every zip code
+                can enjoy the best quality of life that our city offers.</p>
         </div>
-    </section>
-    <section class="section-19">
-        <div class="section-19__background"></div>
-        <div class="section-19__pretitle">Together we can</div>
-        <div class="section-19__title">face turning points,</div>
-        <div class="section-19__text">
-            Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to
-            racial and social justice by implementing a strategic, data-driven approach to serving the community. This
-            “equity-based decision-making” is the targeted investment of money and human capital to equip our most
-            under-served residents to realize a quality of life filled with hope, good health, and opportunity.
+    </div>
+    <div class="button-next-slide button-next-slide-section-13" data-toggle=".section-13, .section-13a"><span>Vital partnerships</span>
+        <button class="button button-arrow-yellow">
+            <div class="button-ripple yellow button-ripple-section-13"></div>
+            <div class="icon icon-arrow">
+                <svg>
+                    <use href="#icon-arrow-right"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+</section>
+<section class="section-13a">
+    <div class="section-13a__text">
+        <h3>Vital partnerships</h3>
+        <br>
+        <br>
+        <p>
+            Recognizing the challenges rooted in inequitable systems, and identifying the need to uplift the
+            affordable housing and community development sector, the San Antonio Area Foundation partnered with
+            <span>LISC San Antonio</span> to engage nonprofit executives in a pilot leadership development program
+            supporting new and emerging leaders in the affordable housing arena. &#8220;Leading to Change: Building Equity
+            in Community&#8221;, includes leadership training, racial equity and organizational culture skill-building,
+            and executive coaching.
+        </p>
+        <br/>
+        <p>
+            In a partnership with <span>Metro Health</span> to address health disparities, the Area Foundation
+            awarded seven organizations grants in the amount of $6,717.86 to support COVID-19 response efforts in
+            communities disproportionately impacted. Over 3,000 individuals received support between the months of
+            December 2020 and March 2021.  Services focused on helping individuals meet their basic needs through
+            food distribution, household and hygiene kits, financial assistance, and accessing healthcare.
+        </p>
+    </div>
+    <div class="button-next-slide button-back-section-13a" data-toggle=".section-13, .section-13a">
+        <button class="button button-arrow-yellow">
+            <div class="button-ripple yellow button-ripple-section-13a"></div>
+            <div class="icon icon-close">
+                <svg>
+                    <use href="#icon-close-white"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+</section>
+<section class="section-14" id="section14">
+    <div class="section-14__image">
+        <img/>
+        <div class="section-14__imageshorttext">» Good Samaritan Center</div>
+    </div>
+    <div class="section-14__text-wrapper">
+        <div class="section-14__title">forging ahead,</div>
+        <div class="section-14__text">
+            <h3>3. Youth success</h3>
+            <br>
+            <br>
+            <p>The strength of our community lies in the success of our children. The COVID-19 pandemic, however,
+                exposed the lingering inequities in our education system. In response, the San Antonio Area
+                Foundation has invested in organizations who take on the challenge of giving every child an
+                accessible pathway, from cradle to career, to achieve lifelong academic and personal success.</p>
         </div>
-    </section>
-    <section class="section-20">
-        <div class="section-20__background"></div>
-        <div class="section-20__pretitle">while embracing</div>
-        <div class="section-20__title">what matters most.</div>
-        <div class="section-20__text">
-            Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to
-            racial and social justice by implementing a strategic, data-driven approach to serving the community. This
-            “equity-based decision-making” is the targeted investment of money and human capital to equip our most
-            under-served residents to realize a quality of life filled with hope, good health, and opportunity.
+    </div>
+    <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span>Vital partnerships</span>
+        <button class="button button-arrow-yellow">
+            <div class="button-ripple yellow button-ripple-section-14a"></div>
+            <div class="icon icon-arrow">
+                <svg>
+                    <use href="#icon-arrow-right"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+</section>
+<section class="section-14a">
+    <div class="section-14a__text-wrapper">
+        <div class="section-14a__text">
+            <h3>Vital partnerships</h3>
+            <br>
+            <br>
+            <p>The Area Foundation with <span>UP Partnership</span> secured an $8 million commitment from Blue
+                Meridian Partners to expand educational and economic opportunities grounded in equity and
+                data-driven approaches. The project will provide support to youth development agencies, workforce
+                programs, childcare, and leadership development programs that amplify our youth&#8217;s voice in the
+                community.</p>
+            <br>
+            <p>The Area Foundation is involved in a city-wide effort to improve youth outcomes through out-of-school
+                time programs. The initiative, known as <span>Excel Beyond the Bell - San Antonio</span>, convened
+                48 nonprofit organizations serving 80,000 area youth centered on building developmental
+                relationships with youth, growing service capacity, and committing to an equitable recovery for all
+                youth impacted by COVID-19.</p>
+            <br>
+            <p>The Area Foundation and <span>UP Partnership</span> offer organizations the opportunity to rethink
+                many fundamental components of their operations, service delivery, and finances in the wake of the
+                pandemic. <span>RESET*</span> is an organizational recovery framework designed to strengthen the
+                capacity of organizations to navigate challenges. The RESET course launched August 2020 with a focus
+                on organizational recovery, change management, program model improvements, and equity-centered data
+                analysis to drive strategic decisions in uncertain times.</p>
+            <br>
+            <p>
+                <span>R</span>eflect on the vision guiding your work<br>
+                <span>E</span>valuate the underlying needs of your community<br>
+                <span>S</span>trengthen your program design<br>
+                <span>E</span>ducate your stakeholders<br>
+                <span>T</span>ransform how your organization learns<br>
+            </p>
+            <br><br><br>
         </div>
-        <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span>Words from former chairman of the board</span>
+        <div class="section-14a__text-shadow-after"></div>
+    </div>
+    <div class="button-next-slide button-back-section-14a" data-toggle=".section-14, .section-14a">
+        <button class="button button-arrow-yellow">
+            <div class="button-ripple yellow button-ripple-section-14a"></div>
+            <div class="icon icon-close">
+                <svg>
+                    <use href="#icon-close-white"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+</section>
+<section class="section-15">
+    <div class="section-15__image">
+        <img/>
+        <div class="section-15__imageshorttext">» San Antonio Oasis</div>
+    </div>
+    <div class="section-14__text-wrapper">
+        <div class="section-15__pretitle">Even when it feels</div>
+        <div class="section-15__title">overwhelming<br>to do so.</div>
+        <div class="section-15__text">
+            <h3>4. Successful Aging</h3>
+            <br>
+            <br>
+            <p>
+                The pandemic has severely affected all of us, but the impact has been even greater for older San
+                Antonians. It&#8217;s not just health outcomes. Some older adults face challenges with social isolation,
+                loneliness, transportation, food security, and mental health. We are all aging and the San Antonio
+            </p>
+            <br>
+            <p>
+                Area Foundation is committed to a community where older adults are respected, thrive, and enjoy
+                connected lives. We are dedicated to Reframing Aging, a social change endeavor designed to change
+                the publics&#8217; perception of aging by empowering us to all live our best lives as we age.
+            </p>
+        </div>
+    </div>
+    <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a"><span>Vital partnerships</span>
+        <button class="button button-arrow-yellow">
+            <div class="button-ripple yellow button-ripple-section-15"></div>
+            <div class="icon icon-arrow">
+                <svg>
+                    <use href="#icon-arrow-right"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+</section>
+<section class="section-15a">
+    <div class="section-15a__text-wrapper">
+        <div class="section-15a__text">
+            <h3>Vital partnerships</h3>
+            <br>
+            <br>
+            <p>In 2020, the <span>Successful Aging and Living in San Antonio (SALSA)</span> collective impact
+                initiative built significant momentum. SALSA inspires its 38 multi-sector partners to develop a
+                common agenda and implement agreed upon strategies and activities. Significant accomplishments for
+                SALSA this year include:</p>
+            <br>
+            <p>• In partnership with <span>WellMed Charitable Foundation</span>, the creation, development, and
+                distribution of the Family Caregiver Toolkit, in Spanish and English, to offer resources to spouses,
+                family, and significant others who provide care for their loved ones.</p>
+            <br>
+            <p>• Training and launch of our community&#8217;s Reframing Aging Initiative.  With training received from
+                <span>The Gerontological Society of America (GSA)</span>, who lead the national reframing aging
+                initiative, SALSA trained and graduated 15 Reframing Aging Facilitators dedicated to using
+                evidence-based, cutting edge communications tools and messages developed by
+                <span>FrameWorks Institute</span>,
+                and tailored for our community.  By changing the way that people talk and think about aging, we are
+                setting the foundation for policies and practices that leverage the strengths and talents of older
+                people, and systems that support well-being for all of us as we age.</p>
+            </p>
+            <br>
+            <p>
+                • Co-authoring with <span>City of San Antonio</span> and <span>Disability SA</span> of a survey and
+                report of the experiences of people with disabilities during COVID-19.
+            </p>
+            <br>
+            <p>
+                • Receiving a nomination for the Innovators in Aging award for unique and successful efforts to serve older Texans (<span>Texas Health and Human Services</span>).
+            </p>
+            <br><br><br>
+        </div>
+        <div class="section-15a__text-shadow-after"></div>
+    </div>
+    <div class="button-next-slide button-back-section-15a" data-toggle=".section-15, .section-15a">
+        <button class="button button-arrow-yellow">
+            <div class="button-ripple yellow button-ripple-section-15a"></div>
+            <div class="icon icon-close">
+                <svg>
+                    <use href="#icon-close-white"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+</section>
+<section class="section-16">
+    <div class="section-16__background"></div>
+    <div class="section-16__pretitle">Because turning back</div>
+    <div class="section-16__title">is not an option.</div>
+</section>
+<section class="section-17">
+    <div class="section-17__background"></div>
+    <div class="section-17__text">
+        With the second half of its 2019/20 theater season suspended, The Public Theater of San Antonio implemented
+        remote theater arts programming to ensure the community had access to live professional theater experiences
+        to increase the social and emotional well-being of individuals of all ages. By hosting virtual play
+        readings, musical cabarets, instructional classes, and free youth programming, The Public was able to
+        provide income opportunities for displaced performers and technical crew members, supplement youth
+        educational theater arts programming in distance learning settings,
+        and provide much-needed entertainment.
+    </div>
+</section>
+<section class="section-18">
+    <div class="section-18__background"></div>
+    <div class="section-18__text-wrapper">
+        <div class="section-18__title"><span class="section-18__title-1">[ </span>Embrace<span
+                    class="section-18__title-2"> change. ]</span></div>
+        <div class="section-18__subtitle">Addressing Equity</div>
+    </div>
+    <div class="section-18__icon" data-toggle=".section-18, .section-18a"><span
+                class="section-18__icon__asterisk">*</span> <span
+                class="section-18__icon__read-poem">Read Poem</span></div>
+</section>
+<section class="section-18a">
+    <div class="section-18a__text">
+        <h3>I Hope the New Year Is</h3>
+        <br>
+        <p>
+            I hope the new year is a happy color like yellow<br>
+            I hope the new year is like the yellow on mac-n-cheese<br>
+            I hope the new year is waving at everyone as long as it can<br>
+            I hope the new year is slow like a sloth so we can enjoy<br>
+            the good things about it.<br>
+            <br>
+            <i>— Breona C., 4th Grade</i>
+        </p>
+    </div>
+    <div class="section-18a__close" data-toggle=".section-18, .section-18a">
+        <div class="icon icon-close">
+            <svg>
+                <use href="#icon-close-white"></use>
+            </svg>
+        </div>
+    </div>
+</section>
+<section class="section-19">
+    <div class="section-19__background"></div>
+    <div class="section-19__pretitle">Together we can</div>
+    <div class="section-19__title">face turning points,</div>
+    <div class="section-19__text">
+        Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to
+        racial and social justice by implementing a strategic, data-driven approach to serving the community. This
+        &#8220;equity-based decision-making&#8221; is the targeted investment of money and human capital to equip our most
+        under-served residents to realize a quality of life filled with hope, good health, and opportunity.
+    </div>
+</section>
+<section class="section-20">
+    <div class="section-20__background"></div>
+    <div class="section-20__pretitle">while embracing</div>
+    <div class="section-20__title">what matters most.</div>
+    <div class="section-20__text">
+        Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to
+        racial and social justice by implementing a strategic, data-driven approach to serving the community. This
+        &#8220;equity-based decision-making&#8221; is the targeted investment of money and human capital to equip our most
+        under-served residents to realize a quality of life filled with hope, good health, and opportunity.
+    </div>
+    <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span>Words from former chairman of the board</span>
+        <button class="button button-arrow-green">
+            <div class="button-ripple green button-ripple-section-20"></div>
+            <div class="icon icon-arrow">
+                <svg>
+                    <use href="#icon-arrow-right"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+</section>
+<section class="section-20a">
+    <div class="section-20a__maincontent">
+        <div class="section-20a__image"><img
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-20a.jpg"
+                    alt=""></div>
+        <div class="section-20a__text-wrapper">
+            <div class="section-20a__text">
+                <h3>Words from former chairman of the board</h3>
+                <br>
+                <p>
+                    I had many friends check in on me in the summer of 2020. Given everything going on at that time
+                    with racial unrest across the country, they just wanted to make sure I was doing OK. I
+                    appreciated their care and concern and let them know as much. But I was also honest with them –
+                    no, I told them. I have not been OK.
+                </p>
+                <br>
+                <p>
+                    Following the deaths of George Floyd, Rayshard Brooks, Breonna Taylor, and a growing list of
+                    African Americans taken away from us far too young and far too soon, I cannot deny feeling
+                    personally impacted. It has taken a heavy emotional toll on me.
+                </p>
+                <br>
+                <p>
+                    As Chairman of the Board of Directors of the San Antonio Area Foundation, I was responsible  — 
+                    along with my fellow board members  —  for overseeing the organization&#8217;s various programs and
+                    activities. Taking on societal ills such as racial injustice and inequity is not new for us  — 
+                    but making it an important part of our agenda moving forward is something we have a
+                    responsibility to do.
+                </p>
+                <br>
+                <p>
+                    That is why we sent out an official organizational statement signed by me and Area Foundation
+                    CEO Marjie French delineating our stance against discrimination and injustice.
+                </p>
+                <br>
+                <p>
+                    So, no, I am not OK. I cannot be OK when I reflect on our national climate as our country
+                    continues to grapple with its centuries-old racial reckoning. Institutional and systemic racism
+                    is still here with us, making its presence felt in all areas of society.
+                </p>
+                <br>
+                <p>
+                    Yet this is not about me. It is about my beautiful grandchildren and countless other young
+                    African Americans like them. Will they grow up also fearing they will experience the scourge of
+                    racism we see rear its ugly head?
+                </p>
+                <br>
+                <p>
+                    Can you imagine being afraid to call the police in a time of need? Can you imagine having to
+                    have the talk with your 10-year-old son just to make sure he knows how to properly respond to a
+                    police officer so that he can come home alive? People need to know this is still all too real in
+                    our country.
+                </p>
+                <br>
+                <p>
+                    I cannot be silent at this time. I need to speak up. We simply cannot move forward without
+                    acknowledging the pain and suffering inflicted on the Black community  — indeed, many
+                    communities of color  —  without doing the challenging work to change the systems that have
+                    ushered such palpable inequities.
+                </p>
+                <br>
+                <p>
+                    As Chairman of the Area Foundation Board in 2020, I personally witnessed generous and courageous
+                    leaders who have given of themselves over our organization&#8217;s 55-year history to effect change
+                    and to create a community where we can all thrive. There is no better time than now to ask
+                    ourselves what we can do to be part of the solution and how we can take ownership of our role as
+                    a community leader to address institutional racism and advance equity.
+                </p>
+                <br>
+                <p>
+                    Change and improvement will not come overnight nor will it be an easy endeavor. But we have the
+                    brightest minds in the world, and I am confident we can indeed bring about meaningful change.
+                    The only way we can fail is to think we cannot succeed. Yet, we must succeed. Failure is simply
+                    not an option, at least not for me  —  my grandchildren&#8217;s lives are at stake.
+                </p>
+                <br>
+                <p><span>Theodore (Theo) Guidry II, CPA</span></p>
+                <br>
+                <p>Chairman of the Board, SAAFdn, 2019-2020</p>
+                <br>
+                <p>Retired, Former Senior Vice President of Risk Management, Valero Energy Corporation</p>
+                <br><br>
+            </div>
+            <div class="section-20a__text-shadow-after"></div>
+        </div>
+    </div>
+    <div class="section-20a__quoter">
+        <p>&#8220;I have volunteered in the nonprofit space for more than three decades, and I have never seen such
+            an
+            efficient operation.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief
+          Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>
+    </div>
+    <button class="button button-arrow-green button-prev-green-section-20a" data-toggle=".section-20, .section-20a">
+        <div class="button-ripple green button-ripple-section-20a"></div>
+        <div class="icon icon-arrow">
+            <svg>
+                <use href="#icon-arrow-left"></use>
+            </svg>
+        </div>
+    </button>
+</section>
+<section class="section-21">
+    <div class="section-21__pretitle">2020 demanded that we deepen our</div>
+    <div class="section-21__title">community engagement</div>
+    <div class="section-21__main-content">
+        <div class="section-21__main-content-wrapper">
+            <img class="section-21__main-content__image"
+                 src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-21.jpg">
+            <div class="section-21__text">
+                <h3>Addressing equity</h3>
+                <br>
+                <p>
+                    The urgency of addressing inequities, spurred by the murder of George Floyd, has driven the Area
+                    Foundation to provide additional new investments, partnerships, research, and advocacy
+                    supporting the African American and other marginalized communities to ensure that we recognize
+                    various marginalized communities are disproportionately impacted. Our path to achieving more
+                    equitable outcomes began by more intentionally focusing our annual responsive grantmaking on the
+                    city&#8217;s most distressed zip codes and most disproportionately impacted families.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section-21__quoter">
+        <p>&#8220;Where you were born, where you live, and the color of your skin, should not determine your life
+            outcomes.&#8221;</p><span>&mdash; Marjie French, CEO</span>
+    </div>
+</section>
+<section class="section-22">
+    <div class="section-22__pretitle">2020 demanded that we deepen our</div>
+    <div class="section-22__title">community engagement</div>
+    <div class="section-22__main-content">
+        <div class="section-22__main-content-wrapper">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-22.jpg">
+            <div class="section-22__text">
+                <h3>Meaningful decisions need meaningful data: The State of the African American Community in Bexar
+                    County</h3>
+                <br>
+                <p>
+                    A clear understanding of a situation is the only way to achieve clear results. The San Antonio
+                    Area Foundation has partnered with CI:NOW and the San Antonio Area African American Community
+                    Fund to sponsor a first-of-its-kind report for Bexar County detailing key indicators within the
+                    African American community: population, education, employment and income, business and workforce
+                    development, health, housing, justice, and social issues. The report, to be released in autumn
+                    2021, will be used to guide policy and future community investments in the African American
+                    community.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-23">
+    <div class="section-23__pretitle">2020 demanded that we deepen our</div>
+    <div class="section-23__title">community engagement</div>
+    <div class="section-23__sectors">
+        <div class="section-23__sector sector-1">
+            <h3>Social justice fund</h3>
+            <br>
+            <p>We assisted the fund and lead donors Cara and Brian Wright to establish a new charitable fund to
+                provide free legal services for matters involving bail issues, law enforcement excessive use of
+                force, racial discrimination, and voting rights.</p>
+        </div>
+        <div class="section-23__sector sector-2">
+            <h3>Census outreach</h3>
+            <br>
+            <p>We partnered with data analysis organization CI:NOW and the African American Fund to develop outreach
+                strategies and collateral materials to target African American communities historically
+                underrepresented in the U.S. Census. Additionally, we partnered COSA and Bexar County and five other
+                organizations to ensure a complete count.</p>
+        </div>
+        <div class="section-23__sector sector-3">
+            <h3>emergency and rapid response grants</h3>
+            <br>
+            <p>The Area Foundation also provided emergency and rapid response grants to multiple nonprofits who were
+                connected with families disproportionately impacted by COVID-19 to continue to provide critical
+                safety net and recovery services in the wake of a crisis.</p>
+        </div>
+        <div class="button-next-slide button-next-slide-section-23" data-toggle=".section-23, .section-23a"><span>San Antonio equity fellowship program</span>
             <button class="button button-arrow-green">
-                <div class="button-ripple green button-ripple-section-20"></div>
+                <div class="button-ripple green button-ripple-section-23"></div>
                 <div class="icon icon-arrow">
                     <svg>
                         <use href="#icon-arrow-right"></use>
@@ -1117,244 +1339,57 @@
                 </div>
             </button>
         </div>
-    </section>
-    <section class="section-20a">
-        <div class="section-20a__maincontent">
-            <div class="section-20a__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-20a.jpg"
-                        alt=""></div>
-            <div class="section-20a__text-wrapper">
-                <div class="section-20a__text">
-                    <h3>Words from former chairman of the board</h3>
-                    <br>
-                    <p>
-                        I had many friends check in on me in the summer of 2020. Given everything going on at that time
-                        with racial unrest across the country, they just wanted to make sure I was doing OK. I
-                        appreciated their care and concern and let them know as much. But I was also honest with them –
-                        no, I told them. I have not been OK.
-                    </p>
-                    <br>
-                    <p>
-                        Following the deaths of George Floyd, Rayshard Brooks, Breonna Taylor, and a growing list of
-                        African Americans taken away from us far too young and far too soon, I cannot deny feeling
-                        personally impacted. It has taken a heavy emotional toll on me.
-                    </p>
-                    <br>
-                    <p>
-                        As Chairman of the Board of Directors of the San Antonio Area Foundation, I was responsible  — 
-                        along with my fellow board members  —  for overseeing the organization’s various programs and
-                        activities. Taking on societal ills such as racial injustice and inequity is not new for us  — 
-                        but making it an important part of our agenda moving forward is something we have a
-                        responsibility to do.
-                    </p>
-                    <br>
-                    <p>
-                        That is why we sent out an official organizational statement signed by me and Area Foundation
-                        CEO Marjie French delineating our stance against discrimination and injustice.
-                    </p>
-                    <br>
-                    <p>
-                        So, no, I am not OK. I cannot be OK when I reflect on our national climate as our country
-                        continues to grapple with its centuries-old racial reckoning. Institutional and systemic racism
-                        is still here with us, making its presence felt in all areas of society.
-                    </p>
-                    <br>
-                    <p>
-                        Yet this is not about me. It is about my beautiful grandchildren and countless other young
-                        African Americans like them. Will they grow up also fearing they will experience the scourge of
-                        racism we see rear its ugly head?
-                    </p>
-                    <br>
-                    <p>
-                        Can you imagine being afraid to call the police in a time of need? Can you imagine having to
-                        have the talk with your 10-year-old son just to make sure he knows how to properly respond to a
-                        police officer so that he can come home alive? People need to know this is still all too real in
-                        our country.
-                    </p>
-                    <br>
-                    <p>
-                        I cannot be silent at this time. I need to speak up. We simply cannot move forward without
-                        acknowledging the pain and suffering inflicted on the Black community  — indeed, many
-                        communities of color  —  without doing the challenging work to change the systems that have
-                        ushered such palpable inequities.
-                    </p>
-                    <br>
-                    <p>
-                        As Chairman of the Area Foundation Board in 2020, I personally witnessed generous and courageous
-                        leaders who have given of themselves over our organization’s 55-year history to effect change
-                        and to create a community where we can all thrive. There is no better time than now to ask
-                        ourselves what we can do to be part of the solution and how we can take ownership of our role as
-                        a community leader to address institutional racism and advance equity.
-                    </p>
-                    <br>
-                    <p>
-                        Change and improvement will not come overnight nor will it be an easy endeavor. But we have the
-                        brightest minds in the world, and I am confident we can indeed bring about meaningful change.
-                        The only way we can fail is to think we cannot succeed. Yet, we must succeed. Failure is simply
-                        not an option, at least not for me  —  my grandchildren’s lives are at stake.
-                    </p>
-                    <br>
-                    <p><span>Theodore (Theo) Guidry II, CPA</span></p>
-                    <br>
-                    <p>Chairman of the Board, SAAFdn, 2019-2020</p>
-                    <br>
-                    <p>Retired, Former Senior Vice President of Risk Management, Valero Energy Corporation</p>
-                    <br><br>
-                </div>
-                <div class="section-20a__text-shadow-after"></div>
-            </div>
+</section>
+<section class="section-23a">
+    <div class="section-23a__text-wrapper">
+        <div class="section-23a__text">
+            <h3>HOW DO YOU BRING ABOUT JUSTICE AND EQUITY WHILE STRENGTHENING BONDS BETWEEN DIVERSE COMMUNITIES OF
+                COLOR?</h3>
+            <br>
+            <p>
+                <span>The San Antonio Equity Fellowship Program</span> is a pilot transformational leadership
+                program focused on bringing together African American and Latinx participants who are committed to
+                constructively altering societal conditions toward fuller justice and equity for all. The San
+                Antonio Area Foundation is pleased to offer this unique opportunity for personal and professional
+                development as part of the Foundation&#8217;s commitment to equity work, capacity building of our
+                nonprofit sector, and commitment to strengthen the leaders of nonprofit organizations in San
+                Antonio.
+            </p>
+            <br>
+            <p>
+                The San Antonio Equity Fellowship Program will provide a series of leadership workshops to
+                nonprofits in the four SAAFdn impact areas — Cultural Vibrancy, Livable and Resilient Communities,
+                Youth Success, and Successful Aging in San Antonio — who are committed to social change, policy
+                impact, and/or community improvement that serve communities of color throughout San Antonio.
+            </p>
+            <br>
+            <p>
+                The six-month nonprofit leadership program is focused on strengthening relationships from diverse
+                communities of color. Applicants may be executive directors or senior program staff at their
+                sponsoring organization. San Antonio Equity Fellowship Program will result in strengthened
+                leadership for community impact, increased cross-cultural understanding, bolstered community
+                collaboration to address pressing social issues, and a network of diverse leaders who will be able
+                to call upon each other in the future.
+            </p>
+            <br><br>
         </div>
-        <div class="section-20a__quoter">
-            <p>&#8220;I have volunteered in the nonprofit space for more than three decades, and I have never seen such
-                an
-                efficient operation.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief
-          Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>
-        </div>
-        <button class="button button-arrow-green button-prev-green-section-20a" data-toggle=".section-20, .section-20a">
-            <div class="button-ripple green button-ripple-section-20a"></div>
+        <div class="section-23a__text-shadow-after"></div>
+    </div>
+    <div class="section-23a__image"><img
+                src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-23a.jpg">
+    </div>
+    <span class="section-23a__imageshorttext">» American Indians in Texas at the Spanish Colonial Missions</span>
+    <div class="button-back-slide-section-23a">
+        <button class="button button-arrow-green" data-toggle=".section-23, .section-23a">
+            <div class="button-ripple button-ripple-section-23a"></div>
             <div class="icon icon-arrow">
                 <svg>
                     <use href="#icon-arrow-left"></use>
                 </svg>
             </div>
         </button>
-    </section>
-    <section class="section-21">
-        <div class="section-21__pretitle">2020 demanded that we deepen our</div>
-        <div class="section-21__title">community engagement</div>
-        <div class="section-21__main-content">
-            <div class="section-21__main-content-wrapper">
-                <img class="section-21__main-content__image"
-                     src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-21.jpg">
-                <div class="section-21__text">
-                    <h3>Addressing equity</h3>
-                    <br>
-                    <p>
-                        The urgency of addressing inequities, spurred by the murder of George Floyd, has driven the Area
-                        Foundation to provide additional new investments, partnerships, research, and advocacy
-                        supporting the African American and other marginalized communities to ensure that we recognize
-                        various marginalized communities are disproportionately impacted. Our path to achieving more
-                        equitable outcomes began by more intentionally focusing our annual responsive grantmaking on the
-                        city’s most distressed zip codes and most disproportionately impacted families.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="section-21__quoter">
-            <p>&#8220;Where you were born, where you live, and the color of your skin, should not determine your life
-                outcomes.&#8221;</p><span>&mdash; Marjie French, CEO</span>
-        </div>
-    </section>
-    <section class="section-22">
-        <div class="section-22__pretitle">2020 demanded that we deepen our</div>
-        <div class="section-22__title">community engagement</div>
-        <div class="section-22__main-content">
-            <div class="section-22__main-content-wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-22.jpg">
-                <div class="section-22__text">
-                    <h3>Meaningful decisions need meaningful data: The State of the African American Community in Bexar
-                        County</h3>
-                    <br>
-                    <p>
-                        A clear understanding of a situation is the only way to achieve clear results. The San Antonio
-                        Area Foundation has partnered with CI:NOW and the San Antonio Area African American Community
-                        Fund to sponsor a first-of-its-kind report for Bexar County detailing key indicators within the
-                        African American community: population, education, employment and income, business and workforce
-                        development, health, housing, justice, and social issues. The report, to be released in autumn
-                        2021, will be used to guide policy and future community investments in the African American
-                        community.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-23">
-        <div class="section-23__pretitle">2020 demanded that we deepen our</div>
-        <div class="section-23__title">community engagement</div>
-        <div class="section-23__sectors">
-            <div class="section-23__sector sector-1">
-                <h3>Social justice fund</h3>
-                <br>
-                <p>We assisted the fund and lead donors Cara and Brian Wright to establish a new charitable fund to
-                    provide free legal services for matters involving bail issues, law enforcement excessive use of
-                    force, racial discrimination, and voting rights.</p>
-            </div>
-            <div class="section-23__sector sector-2">
-                <h3>Census outreach</h3>
-                <br>
-                <p>We partnered with data analysis organization CI:NOW and the African American Fund to develop outreach
-                    strategies and collateral materials to target African American communities historically
-                    underrepresented in the U.S. Census. Additionally, we partnered COSA and Bexar County and five other
-                    organizations to ensure a complete count.</p>
-            </div>
-            <div class="section-23__sector sector-3">
-                <h3>emergency and rapid response grants</h3>
-                <br>
-                <p>The Area Foundation also provided emergency and rapid response grants to multiple nonprofits who were
-                    connected with families disproportionately impacted by COVID-19 to continue to provide critical
-                    safety net and recovery services in the wake of a crisis.</p>
-            </div>
-            <div class="button-next-slide button-next-slide-section-23" data-toggle=".section-23, .section-23a"><span>San Antonio equity fellowship program</span>
-                <button class="button button-arrow-green">
-                    <div class="button-ripple green button-ripple-section-23"></div>
-                    <div class="icon icon-arrow">
-                        <svg>
-                            <use href="#icon-arrow-right"></use>
-                        </svg>
-                    </div>
-                </button>
-            </div>
-    </section>
-    <section class="section-23a">
-        <div class="section-23a__text-wrapper">
-            <div class="section-23a__text">
-                <h3>HOW DO YOU BRING ABOUT JUSTICE AND EQUITY WHILE STRENGTHENING BONDS BETWEEN DIVERSE COMMUNITIES OF
-                    COLOR?</h3>
-                <br>
-                <p>
-                    <span>The San Antonio Equity Fellowship Program</span> is a pilot transformational leadership
-                    program focused on bringing together African American and Latinx participants who are committed to
-                    constructively altering societal conditions toward fuller justice and equity for all. The San
-                    Antonio Area Foundation is pleased to offer this unique opportunity for personal and professional
-                    development as part of the Foundation’s commitment to equity work, capacity building of our
-                    nonprofit sector, and commitment to strengthen the leaders of nonprofit organizations in San
-                    Antonio.
-                </p>
-                <br>
-                <p>
-                    The San Antonio Equity Fellowship Program will provide a series of leadership workshops to
-                    nonprofits in the four SAAFdn impact areas — Cultural Vibrancy, Livable and Resilient Communities,
-                    Youth Success, and Successful Aging in San Antonio — who are committed to social change, policy
-                    impact, and/or community improvement that serve communities of color throughout San Antonio.
-                </p>
-                <br>
-                <p>
-                    The six-month nonprofit leadership program is focused on strengthening relationships from diverse
-                    communities of color. Applicants may be executive directors or senior program staff at their
-                    sponsoring organization. San Antonio Equity Fellowship Program will result in strengthened
-                    leadership for community impact, increased cross-cultural understanding, bolstered community
-                    collaboration to address pressing social issues, and a network of diverse leaders who will be able
-                    to call upon each other in the future.
-                </p>
-                <br><br>
-            </div>
-            <div class="section-23a__text-shadow-after"></div>
-        </div>
-        <div class="section-23a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-23a.jpg">
-        </div>
-        <span class="section-23a__imageshorttext">» American Indians in Texas at the Spanish Colonial Missions</span>
-        <div class="button-back-slide-section-23a">
-            <button class="button button-arrow-green" data-toggle=".section-23, .section-23a">
-                <div class="button-ripple button-ripple-section-23a"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-left"></use>
-                    </svg>
-                </div>
-            </button>
-    </section>
-    <!-- <div class="section-5b__wrapper">
+</section>
+<!-- <div class="section-5b__wrapper">
         <div class="section-5b__text">
           <h3>Who do you turn to when you are in personal crisis during a larger community crisis?</h3>
           <br>
@@ -1366,128 +1401,126 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
 
         </div>
       </div> -->
-    <section class="section-24">
-        <div class="section-24__background"></div>
-        <div class="section-24__pretitle">with clarity of purpose and a resolve to</div>
-        <div class="section-24__title">find new solutions</div>
-        <div class="section-24__subtitle">to old problems.</div>
+<section class="section-24">
+    <div class="section-24__background"></div>
+    <div class="section-24__pretitle">with clarity of purpose and a resolve to</div>
+    <div class="section-24__title">find new solutions</div>
+    <div class="section-24__subtitle">to old problems.</div>
+</section>
+<section class="section-25">
+    <div class="section-25__background"></div>
+    <div class="section-25__text">
+        As the country embarked on renewed racial reckoning ushered by the horrendous murder of George Floyd in
+        Minneapolis in May 2020, the reverberations of growing social unrest were soon felt here in San Antonio. The
+        community needed bona fide sources of leadership that could help tackle racial injustice and work toward
+        establishing equity. The San Antonio Area African American Community Fund (SAAAACF), a charitable fund of
+        the San Antonio Area Foundation, was repeatedly pointed out by News 4 WOAI, San Antonio Magazine, and
+        national nonprofit circles as a go-to organization in the Alamo City. The organization has quietly but
+        effectively advocated for the Alamo City&#8217;s Black community for more than a decade. &#8220;We want to be a major
+        player,&#8221; said Bobby Blount, Chairman of the SAAAACF Board of Directors and a figure in the local educational
+        scene, serving on the Board of Trustees of the Northside Independent School District. &#8220;People started
+        looking around to see which organizations were willing to step up and we quickly realized that we needed to
+        be more engaged, providing more leadership in the community.&#8221;
+    </div>
+</section>
+<div class="container-courage">
+    <section class="section-26">
+        <div class="section-26__background"></div>
+        <div class="section-26__title"><span class="section-26__title-1">[ Have </span>courage<span
+                    class="section-26__title-2">. ]</span></div>
+        <div class="section-26__subtitle">Scholarships</div>
+        <div class="section-26__icon" data-toggle=".section-26, .section-26a"><span
+                    class="section-26__icon__asterisk">*</span> <span
+                    class="section-26__icon__read-poem">Read Poem</span></div>
     </section>
-    <section class="section-25">
-        <div class="section-25__background"></div>
-        <div class="section-25__text">
-            As the country embarked on renewed racial reckoning ushered by the horrendous murder of George Floyd in
-            Minneapolis in May 2020, the reverberations of growing social unrest were soon felt here in San Antonio. The
-            community needed bona fide sources of leadership that could help tackle racial injustice and work toward
-            establishing equity. The San Antonio Area African American Community Fund (SAAAACF), a charitable fund of
-            the San Antonio Area Foundation, was repeatedly pointed out by News 4 WOAI, San Antonio Magazine, and
-            national nonprofit circles as a go-to organization in the Alamo City. The organization has quietly but
-            effectively advocated for the Alamo City’s Black community for more than a decade. “We want to be a major
-            player,” said Bobby Blount, Chairman of the SAAAACF Board of Directors and a figure in the local educational
-            scene, serving on the Board of Trustees of the Northside Independent School District. “People started
-            looking around to see which organizations were willing to step up and we quickly realized that we needed to
-            be more engaged, providing more leadership in the community.”
+    <section class="section-26a">
+        <div class="section-26a__text-1">
+            <h3>Except this ONE: A free verse poem</h3>
+            <br>
+            <p>
+                I have no other fears<br>
+                Except for this one<br>
+                This strange, twisted thing<br>
+                Isn&#8217;t all so fun<br>
+                So I put it up high<br>
+                Up on a shelf<br>
+                The thing that I fear<br>
+                Is fear itself<br>
+                Why should we be scared <br>
+                when we can feel great?<br>
+                Was it something it did?<br>
+                Maybe something it ate?
+            </p>
+        </div>
+        <div class="section-26a__text-2">
+            <p>
+                But it doesn&#8217;t have eyes<br>
+                Nor a nose or a tongue<br>
+                No body, no ears,<br>
+                Certainly no lungs<br>
+                Well, after all,<br>
+                It doesn&#8217;t exist<br>
+                At least not for me,<br>
+                And it will not be missed<br>
+                <br>
+                <i>— Taylor B.</i>
+            </p>
+        </div>
+        <div class="section-26a__close" data-toggle=".section-26, .section-26a">
+            <div class="icon icon-close">
+                <svg>
+                    <use href="#icon-close-white"></use>
+                </svg>
+            </div>
         </div>
     </section>
-    <div class="container-courage">
-        <section class="section-26">
-            <div class="section-26__background"></div>
-            <div class="section-26__title"><span class="section-26__title-1">[ Have </span>courage<span
-                        class="section-26__title-2">. ]</span></div>
-            <div class="section-26__subtitle">Scholarships</div>
-            <div class="section-26__icon" data-toggle=".section-26, .section-26a"><span
-                        class="section-26__icon__asterisk">*</span> <span
-                        class="section-26__icon__read-poem">Read Poem</span></div>
-        </section>
-        <section class="section-26a">
-            <div class="section-26a__text-1">
-                <h3>Except this ONE: A free verse poem</h3>
-                <br>
-                <p>
-                    I have no other fears<br>
-                    Except for this one<br>
-                    This strange, twisted thing<br>
-                    Isn’t all so fun<br>
-                    So I put it up high<br>
-                    Up on a shelf<br>
-                    The thing that I fear<br>
-                    Is fear itself<br>
-                    Why should we be scared <br>
-                    when we can feel great?<br>
-                    Was it something it did?<br>
-                    Maybe something it ate?
-                </p>
-            </div>
-            <div class="section-26a__text-2">
-                <p>
-                    But it doesn’t have eyes<br>
-                    Nor a nose or a tongue<br>
-                    No body, no ears,<br>
-                    Certainly no lungs<br>
-                    Well, after all,<br>
-                    It doesn’t exist<br>
-                    At least not for me,<br>
-                    And it will not be missed<br>
-                    <br>
-                    <i>— Taylor B.</i>
-                </p>
-            </div>
-            <div class="section-26a__close" data-toggle=".section-26, .section-26a">
-                <div class="icon icon-close">
-                    <svg>
-                        <use href="#icon-close-white"></use>
-                    </svg>
-                </div>
-            </div>
-        </section>
-        <section class="section-27">
-            <div class="section-27__background"></div>
+    <section class="section-27">
+        <div class="section-27__background"></div>
 
 
-            <div class="section-27-wrapper   ">
-                <div class="section-27__pretitle ">Change comes when you have the</div>
-                <div class="section-27__title-1 ">courage <span class="section-27__title-1b ">to <span
-                                class="section-27-28__seize-create">seize</span></span></div>
+        <div class="section-27-wrapper">
+            <div class="section-27__pretitle ">Change comes when you have the</div>
+            <div class="section-27__title-1 ">courage <span class="section-27__title-1b ">to <span
+                            class="section-27-28__seize-create">seize</span></span></div>
 
 
-                <div class="section-27__title-2 col-10 "> an opportunity.</div>
-                <div class="section-27__main-content mt-5 row justify-content-around">
-                    <div class="section-27__main-content-wrapper col-9 ">
-                        <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27.jpg">
-                        <div class="section-27__text">
-                            <h3>Former Scholarship Recipient Says Thanks and Pays It Forward</h3>
-                            <br>
-                            <p>
-                                A conversation with a colleague about recognizing scholarship donors at our school
-                                caused me to
-                                reflect on my own experience  —  first as a scholarship recipient 25 years ago and now
-                                as
-                                someone who funds scholarships.
-                            </p>
-                        </div>
+            <div class="section-27__title-2 "> an opportunity.</div>
+            <div class="section-27__main-content">
+                <div class="section-27__main-content-wrapper">
+                    <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27.jpg">
+                    <div class="section-27__text">
+                        <h3>Former Scholarship Recipient Says Thanks and Pays It Forward</h3>
+                        <br>
+                        <p>
+                            A conversation with a colleague about recognizing scholarship donors at our school
+                            caused me to
+                            reflect on my own experience  —  first as a scholarship recipient 25 years ago and now
+                            as
+                            someone who funds scholarships.
+                        </p>
                     </div>
                 </div>
             </div>
-<div class="button-next-slide button-next-slide-section-27" data-toggle=".section-27, .section-27a"><span>Eric Wilson’s full story</span>
-    <button class="button button-arrow-blue">
-        <div class="button-ripple blue button-ripple-section-27"></div>
-        <div class="icon icon-arrow">
-            <svg>
-                <use href="#icon-arrow-right"></use>
-            </svg>
         </div>
-    </button>
+        <div class="button-next-slide button-next-slide-section-27" data-toggle=".section-27, .section-27a"><span>Eric Wilson&#8217;s full story</span>
+            <button class="button button-arrow-blue">
+                <div class="button-ripple blue button-ripple-section-27"></div>
+                <div class="icon icon-arrow">
+                    <svg>
+                        <use href="#icon-arrow-right"></use>
+                    </svg>
+                </div>
+            </button>
+        </div>
 </div>
-    </div>
 </div>
 </section>
 <section class="section-27a">
     <div class="section-27a__maincontent">
-        <div class="section-27a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-27a.jpg"
-                    alt=""></div>
+        <div class="section-27a__image"><img></div>
         <div class="section-27a__text-wrapper">
             <div class="section-27a__text">
-<!--                <h3>Words from former chairman of the board</h3>-->
+                <!--                <h3>Words from former chairman of the board</h3>-->
                 <br>
                 <p>
                     A conversation with a colleague about recognizing scholarship donors at our school caused me to
@@ -1497,24 +1530,24 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
                 <br>
                 <p>
                     As scholarship donors, my husband and I could choose to bequeath gifts to help future students,
-                    or we could give now so that we have an opportunity to meet the people we’re helping. The
+                    or we could give now so that we have an opportunity to meet the people we&#8217;re helping. The
                     conversation with my coworker along with my shared desire to meet our scholarship recipients
                     made me think that I should reach out to those who helped me along my own academic journey.
                 </p>
                 <br>
                 <p>
                     Much has transpired since graduating from Judson High School in 1995 and then attending Texas
-                    A&M University with the help of a scholarship from the San Antonio Area Foundation. I feel it’s
+                    A&M University with the help of a scholarship from the San Antonio Area Foundation. I feel it&#8217;s
                     important to send an updated note of thanks to the Foundation to express my sincere gratitude
                     for the impact that their gift had on my life and career. The Foundation scholarship helped me
-                    achieve my initial goal of earning my bachelor’s degree in psychology in 1998. The Foundation
+                    achieve my initial goal of earning my bachelor&#8217;s degree in psychology in 1998. The Foundation
                     grant helped me graduate from college without the need for loans.
                 </p>
                 <br>
                 <p>
                     After graduation, I pursued a career in higher education, and I have enjoyed working for the
                     Texas A&M University and Texas State University systems. The highlight of my career was having
-                    the opportunity to work in Qatar at Texas A&M University’s branch campus for eight and a half
+                    the opportunity to work in Qatar at Texas A&M University&#8217;s branch campus for eight and a half
                     years. I was able to support the educational aspirations of Aggie engineers from over 20
                     different countries and travel extensively in my free time.
                 </p>
@@ -1523,12 +1556,12 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
                     My experience of living, working, and traveling abroad has deepened my understanding for the
                     need to embrace diversity and to include perspectives from underrepresented groups. My time
                     abroad afforded me the opportunity to grow personally and professionally, preparing me for my
-                    current role as Assistant Dean for Accountability and Strategic Initiatives at Texas A&M’s
+                    current role as Assistant Dean for Accountability and Strategic Initiatives at Texas A&M&#8217;s
                     School of Public Health.
                 </p>
                 <br>
                 <p>
-                    My professional success began with the Foundation’s early investment in me. In turn, my husband
+                    My professional success began with the Foundation&#8217;s early investment in me. In turn, my husband
                     and I have been able to fund several scholarships for students at Texas A&M, providing financial
                     assistance to the next generation of professionals. None of this would have been possible had it
                     not been in part for the Area Foundation.
@@ -1569,7 +1602,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
     <div class="section-28__title-1">courage to create</div>
     <div class="section-28__title-2"> an opportunity.</div>
     <div class="section-28__main-content">
-        <div class="section-28__main-content-wrapper">
+        <div class="section-28__main-content-wrapper ">
             <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-28.jpg">
             <div class="section-28__text">
                 <h3>Donor generosity</h3>
@@ -1578,9 +1611,12 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
                     Thanks to the generosity of our donors, the Area Foundation awarded <span>$4.6M</span> in
                     support of <span>905 scholarship grants</span> in 2020. The Area Foundation hosts more than 100
                     scholarship funds available for graduating high school students and current college students.
-                    Each fund has its own criteria based on the fund advisor’s interest. Some scholarships fund a
-                    specific area of study, a donor’s alma mater, or scholarships to students from a specific
-                    school.
+                    Each fund has its own criteria based on the fund advisor&#8217;s interest. Some scholarships fund a
+                    specific area of study, a donor&#8217;s alma mater, or scholarships to students from a specific
+                    school.  <br><br>
+                </p>
+                    <p class="caption"><b>- Alexes Salazar </b> <br>
+                    &nbsp;&nbsp; Harvey E. Najim Charitable Foundation Scholarship Fund
                 </p>
             </div>
         </div>
@@ -1598,52 +1634,50 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
 </section>
 <section class="section-28a">
     <div class="section-28a__maincontent">
-        <div class="section-28a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-28a.jpg"
-                    alt=""><span class="section-28a__imageshorttext">» Alexes Salazar
+        <div class="section-28a__image"><span><img>» Alexes Salazar
 Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         <div class="section-28a__text-wrapper">
             <div class="section-28a__text">
                 <h3>Thank You from Our Student Scholars</h3>
                 <br>
                 <p>
-                    “Thank you all so much for believing in me and giving me the opportunity to continue my pursuit
-                    in secondary education! I could not have done it without all of your help!”
+                    &#8220;Thank you all so much for believing in me and giving me the opportunity to continue my pursuit
+                    in secondary education! I could not have done it without all of your help!&#8221;
                 </p>
-                <p><span><b>- Katelyn R. Gudenau</b></span></p>
+                <p><span><b>- Katelyn R. Gudenau</b></span></p>
                 <p><span>Rapier Educational Foundation Scholarship</span></p>
                 <br>
                 <p>
-                    “Being a first-generation student is challenging and overwhelming, but as a recipient of the
+                    &#8220;Being a first-generation student is challenging and overwhelming, but as a recipient of the
                     Whataburger Family Foundation Scholarship, you have given me the hope and confidence to continue
-                    to pursue my career in the healthcare field. More than anything, I am filled with gratitude.”
+                    to pursue my career in the healthcare field. More than anything, I am filled with gratitude.&#8221;
                 </p>
-                <p><span><b>- Diana Herrera</b></span></p>
+                <p><span><b>- Diana Herrera</b></span></p>
                 <p><span>Whataburger Family Foundation Scholarship</span></p>
                 <br>
                 <p>
-                    “The San Antonio Area Foundation has invested in me the same way I plan to invest in my
+                    &#8220;The San Antonio Area Foundation has invested in me the same way I plan to invest in my
                     community for the rest of my life. This scholarship for my education is just the first of many
-                    steps I’ll be taking to become a lawyer. I want to use my education for my people of San Antonio
+                    steps I&#8217;ll be taking to become a lawyer. I want to use my education for my people of San Antonio
                     and my Latino community. I thank you the San Antonio Area Foundation for showing me that my
-                    future is worth investing in.”
+                    future is worth investing in.&#8221;
                 </p>
-                <p><span><b>- Isabella Garcia</b></span></p>
+                <p><span><b>- Isabella Garcia</b></span></p>
                 <p><span>John L. Santikos Charitable Foundation Scholarship</span></p>
                 <br>
                 <p>
-                    “The day I met the head of Women in Engineering at Notre Dame, my future was set. Thanks to the
-                    Brice and Theresa Moczygemba Scholarship, my dreams are now my reality!”
+                    &#8220;The day I met the head of Women in Engineering at Notre Dame, my future was set. Thanks to the
+                    Brice and Theresa Moczygemba Scholarship, my dreams are now my reality!&#8221;
                 </p>
-                <p><span><b>- Eleanor Zinsmeister</b></span></p>
+                <p><span><b>- Eleanor Zinsmeister</b></span></p>
                 <p><span>Brice & Teresa Moczygemba Engineering Scholarship Fund</span></p>
                 <br>
                 <p>
-                    “Thank you for allowing me to pursue my dream of being a nurse and a future nurse practitioner!
-                    Right now, I work on the front line of COVID-19, and I can’t wait to be able to do more to help
-                    people!”
+                    &#8220;Thank you for allowing me to pursue my dream of being a nurse and a future nurse practitioner!
+                    Right now, I work on the front line of COVID-19, and I can&#8217;t wait to be able to do more to help
+                    people!&#8221;
                 </p>
-                <p><span><b>- Eloy Garcia</b></span></p>
+                <p><span><b>- Eloy Garcia</b></span></p>
                 <p><span>Methodist Hospital Stone Oak Employee Scholarship Fund</span></p>
                 <br><br>
             </div>
@@ -1664,10 +1698,10 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
     <div class="section-29__pretitle">Our turning point has made us a</div>
     <div class="section-29__title">stronger catalyst<br>for change,</div>
     <div class="section-29__text">
-<!--                    Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to-->
-<!--                    racial and social justice by implementing a strategic, data-driven approach to serving the community. This-->
-<!--                    “equity-based decision-making” is the targeted investment of money and human capital to equip our most-->
-<!--                    under-served residents to realize a quality of life filled with hope, good health, and opportunity.-->
+        <!--                    Over the past five years, The San Antonio Area Foundation has activated its long-standing commitment to-->
+        <!--                    racial and social justice by implementing a strategic, data-driven approach to serving the community. This-->
+        <!--                    &#8220;equity-based decision-making&#8221; is the targeted investment of money and human capital to equip our most-->
+        <!--                    under-served residents to realize a quality of life filled with hope, good health, and opportunity.-->
     </div>
     <div class="button-next-slide button-next-slide-section-29" data-toggle=".section-29a"><span>the Legacy of Jack and Laura Richmond</span>
         <button class="button button-arrow-blue">
@@ -1683,9 +1717,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 <section class="section-29a">
     <div class="section-29a__maincontent">
         <div class="section-29a__image">
-            <img class="section29a"
-                 src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/section-29a.jpg"
-                 alt=""></div>
+            <img class="section29a"></div>
         <div class="section-29a__text-wrapper">
             <div class="section-29a__text">
                 <h3>A Match Made in Heaven: Remembering and Honoring the Legacy of Jack and Laura Richmond</h3>
@@ -1704,9 +1736,9 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
                 </p>
                 <br>
                 <p>
-                    “My father was always very proud of how generous this city is as a whole,” said their youngest
-                    son, Clay Richmond. “He wanted to contribute. He just wanted to help people and create
-                    opportunities to see them grow.”
+                    &#8220;My father was always very proud of how generous this city is as a whole,&#8221; said their youngest
+                    son, Clay Richmond. &#8220;He wanted to contribute. He just wanted to help people and create
+                    opportunities to see them grow.&#8221;
                 </p>
                 <br>
                 <p>
@@ -1718,32 +1750,32 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
                 </p>
                 <br>
                 <p>
-                    “I think he wanted to more succinctly direct his giving where he thought organizations could
-                    have a positive influence on those they were serving,” Clay Richmond explained. “And the
-                    matching grants could be a launching pad for those organizations.”
+                    &#8220;I think he wanted to more succinctly direct his giving where he thought organizations could
+                    have a positive influence on those they were serving,&#8221; Clay Richmond explained. &#8220;And the
+                    matching grants could be a launching pad for those organizations.&#8221;
                 </p>
                 <br>
                 <p>
                     Indeed, the matching aspect of The Richmond Family Foundation grants are what makes it unique.
-                    One nonprofit each year is selected to be eligible to receive $100,000 — as long as they raise
+                    One nonprofit each year is selected to be eligible to receive $100,000 — as long as they raise
                     the same amount or more on their own. The incentive has proven more than fruitful, given that on
                     average participating nonprofits raise $180,000. In all, the Richmonds thus far have contributed
-                    $1.4 million to 14 San Antonio nonprofits. 2020’s recipient was Jewish Family Service of San
-                    Antonio. Talk about going beyond the minimum requirement — the agency raised $200,000 on its
+                    $1.4 million to 14 San Antonio nonprofits. 2020&#8217;s recipient was Jewish Family Service of San
+                    Antonio. Talk about going beyond the minimum requirement — the agency raised $200,000 on its
                     own, making the combined $300,000 infusion as the largest fundraiser in its history.
                 </p>
                 <br>
                 <p>
-                    “It was a lifesaver as it allowed us to continue our services right as the pandemic hit, as well
+                    &#8220;It was a lifesaver as it allowed us to continue our services right as the pandemic hit, as well
                     as start offering teletherapy for our counseling clients and provide home essentials for our
-                    homebound senior clients,” said Talli Dolge, CEO of Jewish Family Service.
+                    homebound senior clients,&#8221; said Talli Dolge, CEO of Jewish Family Service.
                 </p>
                 <br>
                 <p>
                     Jack and Laura represent the type of quiet, no-nonsense philanthropy that is quintessentially
-                    altruistic — giving with no expected or assumed reciprocity. “They’re humble, not flashy. They
-                    are not in it for themselves. It’s not about them, but about the nonprofits they support,” Board
-                    Member and family friend Brad Parman offered. “It’s truly inspiring to watch.”
+                    altruistic — giving with no expected or assumed reciprocity. &#8220;They&#8217;re humble, not flashy. They
+                    are not in it for themselves. It&#8217;s not about them, but about the nonprofits they support,&#8221; Board
+                    Member and family friend Brad Parman offered. &#8220;It&#8217;s truly inspiring to watch.&#8221;
                 </p>
                 <br><br>
             </div>
@@ -1807,9 +1839,9 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
             </p>
         </div>
         <div class="section-30a__quoter">
-            <p>“The San Antonio Area Foundation’s role is to connect the dots. It’s to be able to see people who
+            <p>&#8220;The San Antonio Area Foundation&#8217;s role is to connect the dots. It&#8217;s to be able to see people who
                 have resources and where their wishes are and then connect those wishes of making our world a better
-                place with the right non-profit.”</p><span>—Janie Barrera</span>
+                place with the right non-profit.&#8221;</p><span>—Janie Barrera</span>
         </div>
         <div class="clear-fix"></div>
     </div>
@@ -1836,12 +1868,12 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
             <p>
                 DAF grantmaking grew 33% in the first and second quarters of 2020 compared to the same time in 2019,
                 with 95% of all giving in response to COVID-19 staying in Bexar County. This sharp increase is
-                directly attributable to independent donors’ urgent concern for nonprofits working on the front
+                directly attributable to independent donors&#8217; urgent concern for nonprofits working on the front
                 lines of the crisis.
             </p>
         </div>
         <div class="section-30b__quoter">
-            <p>“One of the major assets of the Foundation is that what we care about is cared for forever.”</p>
+            <p>&#8220;One of the major assets of the Foundation is that what we care about is cared for forever.&#8221;</p>
             <span>—Aaronetta Pierce</span>
         </div>
         <div class="clear-fix"></div>
@@ -1862,7 +1894,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         Together.
     </div>
     <div class="section-32__donate">
-        <button onclick="window.location.href='https://saafdn.fcsuite.com/erp/donate/';">
+        <button onclick="window.open('https://saafdn.org/giving/giving-options/');">
             <div class="icon icon-heart icon-heart-white">
                 <svg>
                     <use href="#icon-heart"></use>
@@ -2156,7 +2188,6 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/js/main.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
 </body>
 
